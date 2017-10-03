@@ -123,8 +123,8 @@ class Profile extends PureComponent {
 	      <Grid item
 		    className={classes.profileInfo}>
 		<div ><span className={classes.greeting}>Hello</span></div>
-		<h1 className={classes.profileTitle}><span className={classes.profileTitleStart}>I'm</span> Durgaprasad
-													    Budhwani
+		<h1 className={classes.profileTitle}>
+            <span className={classes.profileTitleStart}>I'm</span> Durgaprasad Budhwani
 		</h1>
 		<h2 className={classes.profilePosition}>Full Stack Developer</h2>
 	      </Grid>

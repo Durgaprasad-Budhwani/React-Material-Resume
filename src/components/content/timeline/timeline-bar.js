@@ -2,12 +2,8 @@
  * Created by durgaprasad on 10/3/17.
  */
 import React, { PureComponent } from 'react';
-import Grid from 'material-ui/Grid';
 import { withStyles, createStyleSheet } from 'material-ui/styles';
 import PropTypes from 'prop-types';
-import Event from './event';
-import SectionTitle from './../../common/section-title';
-import { LEFT, RIGHT } from '../../utils/Constants';
 
 const styles = createStyleSheet(theme => ({
   bar: {
