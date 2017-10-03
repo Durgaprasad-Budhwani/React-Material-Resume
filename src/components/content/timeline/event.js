@@ -55,7 +55,8 @@ const styles = createStyleSheet(theme => ({
   },
   boxRight: {
     float: 'right',
-    clear: 'right'
+    clear: 'right',
+    top: 30,
   },
   dot: {
     top: 80,
@@ -167,7 +168,7 @@ class Event extends PureComponent<void, Props, void> {
 	    <h3 className={classes.header3}>{company}</h3>
 	    <h4 className={classes.header4}>{title}</h4>
 	    
-	    <p>{description}</p>
+	    <p style={{wordWrap: 'normal'}}>{description}</p>
 	  </Grid>
 	</Paper>
 	<span className={classNames({

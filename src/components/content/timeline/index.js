@@ -8,23 +8,30 @@ import PropTypes from 'prop-types';
 import Event from './event';
 import SectionTitle from './../../common/section-title';
 import { LEFT, RIGHT } from '../../utils/Constants';
+import TimelineBar from './timeline-bar';
 
 const styles = createStyleSheet(theme => ({
-  root: {
-    flexGrow: 1,
-    padding: theme.spacing.unit * 2,
-    height: '100%',
+  relative: {
+    position: 'relative',
   },
-  button: {
-    marginTop: 15,
-    marginBottom: 15
-  },
-  container: {
-    padding: 10
+  clear: {
+    position: 'relative',
+    '*zoom': 1,
+    
+    '&:before': {
+      content: " ",
+      display: 'table',
+    },
+    
+    '&:after': {
+      content: " ",
+      display: 'table',
+      clear: 'both'
+    }
   }
 }));
 
-class Skilss extends PureComponent {
+class Timeline extends PureComponent {
   render () {
     const classes = this.props.classes;
     return (
@@ -33,27 +40,34 @@ class Skilss extends PureComponent {
 	    direction="column"
 	    justify="center">
 	<SectionTitle title='Work Experience'/>
-	<Event name="CSS"
-	       title="Full Stack Developer"
-	       company="Varian Medical System"
-	       alignment={RIGHT}
-	       description="TBD"
-	       year="2014 - Present"
-	/>
-	<Event name="CSS"
-	       title="Full Stack Developer"
-	       company="Varian Medical System"
-	       alignment={LEFT}
-	       description="TBD"
-	       year="2014 - Present"
-	/>
+	<div style={{ position: 'relative' }}>
+	  <div className={classes.clear}>
+	    <TimelineBar height={40}
+			 top={80}/>
+	    <Event name="CSS"
+		   title="Full Stack Developer"
+		   company="Varian Medical System"
+		   alignment={RIGHT}
+		   description="TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD "
+		   year="2014 - Present"
+	    />
+	    <Event name="CSS"
+		   title="Full Stack Developer"
+		   company="Varian Medical System"
+		   alignment={LEFT}
+		   description="TBD"
+		   year="2014 - Present"
+	    />
+	  </div>
+	</div>
+      
       </Grid>
     )
   }
 }
 
-Skilss.propTypes = {
+Timeline.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Skilss);
+export default withStyles(styles)(Timeline);
