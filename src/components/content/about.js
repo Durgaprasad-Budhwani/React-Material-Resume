@@ -42,12 +42,13 @@ class About extends PureComponent {
                 </Grid>
                 <Grid item
                       xs={12}>
-                    <Blog />
+                    <Timeline />
                 </Grid>
                 <Grid item
                       xs={12}>
-                    <Timeline />
+                    <Blog />
                 </Grid>
+               
                 <Grid item
                       xs={12}>
                     <Skills />

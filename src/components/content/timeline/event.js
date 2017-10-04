@@ -146,11 +146,10 @@ class Event extends PureComponent<void, Props, void> {
         } = this.props;
         return (
             <ScrollAnimation animateIn={alignment === LEFT ? 'fadeInLeft': 'fadeInRight'}
-                             initiallyVisible
-                             duration={1.5}
-                             offset={0}
+                             animateOut={alignment === LEFT ? 'fadeInLeft': 'fadeInRight'}
                              animateOnce
-                             delay={0}
+                             duration={2}
+                             offset={0}
             >
                 <div className={classNames({
                 [classes.box]: true,

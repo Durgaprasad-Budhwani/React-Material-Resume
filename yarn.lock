@@ -5319,6 +5319,10 @@ react-scrollbar-size@^2.0.0:
     prop-types "^15.5.10"
     react-event-listener "^0.4.5"
 
+react-scrollchor:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/react-scrollchor/-/react-scrollchor-4.0.0.tgz#b1aa4783f9f968ef0981a68fbc3854c60918e969"
+
 react-transition-group@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.2.0.tgz#793bf8cb15bfe91b3101b24bce1c1d2891659575"
