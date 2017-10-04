@@ -22,7 +22,7 @@ const styles = createStyleSheet(theme => ({
     },
   },
   headerBar: {
-    backgroundColor: 'transparent'
+    backgroundColor: 'white'
   },
   headerBackground: {
     height: '515px',
@@ -45,7 +45,7 @@ class Header extends Component {
     return (
       <div className={classes.header}>
 	<div className={classes.headerBackground}></div>
-	<AppBar position="static" className={classes.headerBar}>
+	<AppBar position="fixed" className={classes.headerBar}>
 	  <Toolbar>
 	    <IconButton color="contrast"
 			aria-label="Menu">

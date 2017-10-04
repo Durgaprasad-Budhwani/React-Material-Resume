@@ -13,6 +13,7 @@ import { withStyles, createStyleSheet } from 'material-ui/styles';
 import Grid from 'material-ui/Grid';
 import './App.css';
 import Header from './components/header';
+import "animate.css/animate.min.css";
 
 const styleSheet = createStyleSheet(theme => ({
   card: {
