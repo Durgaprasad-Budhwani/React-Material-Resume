@@ -5,6 +5,7 @@ import React, { PureComponent } from 'react';
 import Grid from 'material-ui/Grid';
 import { withStyles, createStyleSheet } from 'material-ui/styles';
 import PropTypes from 'prop-types';
+import EventContainer from '../../common/event-container';
 import Event from './event';
 import SectionTitle from './../../common/section-title';
 import { LEFT, RIGHT } from '../../utils/Constants';
@@ -44,20 +45,26 @@ class Timeline extends PureComponent {
 	  <div className={classes.clear}>
 	    <TimelineBar height={40}
 			 top={80}/>
-	    <Event name="CSS"
-		   title="Full Stack Developer"
-		   company="Varian Medical System"
-		   alignment={RIGHT}
-		   description="TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD "
-		   year="2014 - Present"
-	    />
-	    <Event name="CSS"
-		   title="Full Stack Developer"
-		   company="Varian Medical System"
-		   alignment={LEFT}
-		   description="TBD"
-		   year="2014 - Present"
-	    />
+	    <EventContainer
+	      alignment={RIGHT}
+	    >
+	      <Event name="CSS"
+		     title="Full Stack Developer"
+		     company="Varian Medical System"
+		     description="TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD "
+		     year="2014 - Present"
+	      />
+	    </EventContainer>
+	    <EventContainer
+	      alignment={LEFT}
+	    >
+	      <Event name="CSS"
+		     title="Full Stack Developer"
+		     company="Varian Medical System"
+		     description="TBD"
+		     year="2014 - Present"
+	      />
+	    </EventContainer>
 	  </div>
 	</div>
       

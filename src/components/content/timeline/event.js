@@ -4,12 +4,9 @@
 // @flow
 import React, {PureComponent} from 'react';
 import {withStyles, createStyleSheet} from 'material-ui/styles';
-import Paper from 'material-ui/Paper';
 import Grid from 'material-ui/Grid';
 import PropTypes from 'prop-types';
-import classNames from 'classnames';
 import {LEFT, RIGHT} from '../../utils/Constants';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = createStyleSheet(theme => ({
     sectionTitle: {
@@ -138,53 +135,20 @@ class Event extends PureComponent<void, Props, void> {
     render () {
         const {
             classes,
-            alignment,
             year,
             title,
             company,
             description
         } = this.props;
         return (
-            <ScrollAnimation animateIn={alignment === LEFT ? 'fadeInLeft': 'fadeInRight'}
-                             animateOut={alignment === LEFT ? 'fadeInLeft': 'fadeInRight'}
-                             animateOnce
-                             duration={2}
-                             offset={0}
-            >
-                <div className={classNames({
-                [classes.box]: true,
-                [classes.boxLeft]: alignment === LEFT,
-                [classes.boxRight]: alignment === RIGHT
-                  })}>
-                    <Paper className={(
-                  {
-                    [classes.paper]: true,
-                    [classes.paperLeft]: alignment === LEFT,
-                    [classes.paperRight]: alignment === RIGHT
-                  }
-                )}>
-                  <span className={classNames({
-                    [classes.arrow]: true,
-                    [classes.arrowRight]: alignment === LEFT,
-                    [classes.arrowLeft]: alignment === RIGHT
-                  })}/>
-                        <Grid container
-                              direction="column"
-                              align="center">
-                            <div className={classes.date}>{year}</div>
-                            <h3 className={classes.header3}>{company}</h3>
-                            <h4 className={classes.header4}>{title}</h4>
-                            
-                            <p style={{wordWrap: 'normal'}}>{description}</p>
-                        </Grid>
-                    </Paper>
-                    <span className={classNames({
-                  [classes.dot]: true,
-                  [classes.dotRight]: alignment === LEFT,
-                  [classes.dotLeft]: alignment === RIGHT,
-                })}/>
-                </div>
-            </ScrollAnimation>
+	  <Grid container
+		direction="column"
+		align="center">
+	    <div className={classes.date}>{year}</div>
+	    <h3 className={classes.header3}>{company}</h3>
+	    <h4 className={classes.header4}>{title}</h4>
+	    <p style={{wordWrap: 'normal'}}>{description}</p>
+	  </Grid>
         )
     }
 }
