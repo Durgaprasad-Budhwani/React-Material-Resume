@@ -9,6 +9,7 @@ import Profile from './profile/profile';
 import Skills from './skills';
 import Timeline from './timeline';
 import Blog from './blog';
+import Education from './education';
 
 const styles = createStyleSheet(theme => ({
     about: {
@@ -42,6 +43,10 @@ class About extends PureComponent {
                 </Grid>
                 <Grid item
                       xs={12}>
+                    <Education />
+                </Grid>
+                <Grid item
+                      xs={12}>
                     <Timeline />
                 </Grid>
                 <Grid item
@@ -53,7 +58,6 @@ class About extends PureComponent {
                       xs={12}>
                     <Skills />
                 </Grid>
-            
             </Grid>
         )
     }
@@ -62,7 +66,5 @@ class About extends PureComponent {
 About.propTypes = {
     classes: PropTypes.object.isRequired,
 };
-
-console.log(styles);
 
 export default withStyles(styles)(About);

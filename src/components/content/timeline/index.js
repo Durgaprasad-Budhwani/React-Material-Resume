@@ -37,8 +37,7 @@ class Timeline extends PureComponent {
     const classes = this.props.classes;
     return (
       <Grid container
-	    style={{marginBottom: 30}}
-	    align="center"
+	    align="stretch"
 	    direction="column"
 	    justify="center">
 	<SectionTitle title='Work Experience'/>

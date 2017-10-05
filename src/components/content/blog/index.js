@@ -7,6 +7,8 @@ import {withStyles, createStyleSheet} from 'material-ui/styles';
 import Blog from './blog';
 import PropTypes from 'prop-types';
 import {GetBlogs} from '../../services';
+import SectionTitle from './../../common/section-title';
+
 const styles = createStyleSheet(theme => ({
     blogItemImage: {
         transition: 'opacity 1s, transform 1s',
@@ -58,17 +60,27 @@ class Blogs extends PureComponent<void, Props, void> {
         const {blogs} = this.state;
         return (
             <Grid
-                direction="row"
-                align="stretch"
-                justify="space-between"
-                xs={12}
-                spacing={8}
                 container
+                align="stretch"
+                direction="column"
+                justify="center"
             >
-                {
-                    blogs && blogs.map(this._renderBlog.bind(this))
-                }
+                <SectionTitle title='Articles'/>
+                <Grid
+                    direction="row"
+                    align="stretch"
+                    justify="space-between"
+                    xs={12}
+                    spacing={8}
+                    container
+                >
+                    
+                    {
+                        blogs && blogs.map(this._renderBlog.bind(this))
+                    }
+                </Grid>
             </Grid>
+        
         
         )
     }
