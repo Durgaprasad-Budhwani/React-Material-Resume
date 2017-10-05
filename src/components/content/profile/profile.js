@@ -7,6 +7,7 @@ import Paper from 'material-ui/Paper'
 import { withStyles, createStyleSheet } from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import SocialIcons from './social-icons';
+import Bubble from '../../common/bubble';
 
 const styles = createStyleSheet(theme => ({
   profile: {
@@ -40,8 +41,8 @@ const styles = createStyleSheet(theme => ({
     padding: '7px 12px',
     textTransform: 'uppercase',
     position: 'relative',
-    backgroundColor: theme.palette.primary[500],
-    borderLeftColor: theme.palette.primary[500],
+    backgroundColor: theme.palette.primary[ 500 ],
+    borderLeftColor: theme.palette.primary[ 500 ],
     
     '&:before': {
       content: '""',
@@ -54,7 +55,7 @@ const styles = createStyleSheet(theme => ({
       borderStyle: 'solid',
       borderWidth: '0 0 8px 8px',
       borderColor: 'transparent',
-      borderLeftColor: theme.palette.primary[500],
+      borderLeftColor: theme.palette.primary[ 500 ],
     }
     
   },
@@ -87,7 +88,7 @@ const styles = createStyleSheet(theme => ({
     color: 'inherit'
   },
   profileSocial: {
-    backgroundColor: theme.palette.primary[500],
+    backgroundColor: theme.palette.primary[ 500 ],
   }
   
 }));
@@ -122,9 +123,9 @@ class Profile extends PureComponent {
 		  direction="column">
 	      <Grid item
 		    className={classes.profileInfo}>
-		<div ><span className={classes.greeting}>Hello</span></div>
+		<div ><Bubble content="Hello"/></div>
 		<h1 className={classes.profileTitle}>
-            <span className={classes.profileTitleStart}>I'm</span> Durgaprasad Budhwani
+		  <span className={classes.profileTitleStart}>I'm</span> Durgaprasad Budhwani
 		</h1>
 		<h2 className={classes.profilePosition}>Full Stack Developer</h2>
 	      </Grid>
@@ -196,7 +197,7 @@ class Profile extends PureComponent {
 	  </Grid>
 	  <Grid
 	    className={classes.profileSocial}>
-	  	<SocialIcons />
+	    <SocialIcons />
 	  </Grid>
 	</Grid>
       </Paper>

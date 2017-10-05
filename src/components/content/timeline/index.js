@@ -9,7 +9,7 @@ import EventContainer from '../../common/event-container';
 import Event from './event';
 import SectionTitle from './../../common/section-title';
 import { LEFT, RIGHT } from '../../utils/Constants';
-import TimelineBar from './timeline-bar';
+import TimelineBar from '../../common/timeline-bar';
 
 const styles = createStyleSheet(theme => ({
   relative: {
@@ -37,6 +37,7 @@ class Timeline extends PureComponent {
     const classes = this.props.classes;
     return (
       <Grid container
+	    style={{marginBottom: 30}}
 	    align="center"
 	    direction="column"
 	    justify="center">
