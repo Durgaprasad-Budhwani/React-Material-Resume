@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import About from './about';
 import Contact from './contact';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
     container: {
         marginLeft: '20px',
         marginRight: '20px',
@@ -17,7 +17,7 @@ const styles = createStyleSheet(theme => ({
         zIndex: 2,
         position: 'relative',
     },
-}));
+});
 
 class Content extends PureComponent {
     render () {

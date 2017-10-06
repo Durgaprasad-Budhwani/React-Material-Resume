@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import IconButton from 'material-ui/IconButton';
 import Ionicon from 'react-ionicons';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
   button: {
     margin: theme.spacing.unit,
     marginTop: 15,
@@ -17,7 +17,7 @@ const styles = createStyleSheet(theme => ({
   container: {
     padding: 10
   }
-}));
+});
 
 class SocialIcons extends PureComponent {
   render() {

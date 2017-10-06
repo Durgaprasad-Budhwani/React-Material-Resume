@@ -9,7 +9,7 @@ import classNames from 'classnames';
 import {LEFT, RIGHT} from '../utils/Constants';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
     sectionTitle: {
         color: '#3d4451',
         fontSize: 34,
@@ -116,7 +116,7 @@ const styles = createStyleSheet(theme => ({
         left: 0,
         marginLeft: -4
     }
-}));
+});
 
 type Props = {
     classes: any,

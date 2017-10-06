@@ -5,7 +5,7 @@ import React, { PureComponent } from 'react';
 import { withStyles, createStyleSheet } from 'material-ui/styles';
 import PropTypes from 'prop-types';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
   bar: {
     content: '',
     width: 4,
@@ -17,7 +17,7 @@ const styles = createStyleSheet(theme => ({
     top: 0,
     backgroundColor: theme.palette.primary[ 500 ],
   },
-}));
+});
 
 type Props = {
   height: number,

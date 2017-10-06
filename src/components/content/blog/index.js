@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 import {GetBlogs} from '../../services';
 import SectionTitle from './../../common/section-title';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
     blogItemImage: {
         transition: 'opacity 1s, transform 1s',
         
@@ -20,7 +20,7 @@ const styles = createStyleSheet(theme => ({
     root: {
         flexGrow: 1
     }
-}));
+});
 
 type Props = {
     height: number,

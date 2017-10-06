@@ -8,7 +8,7 @@ import Grid from 'material-ui/Grid';
 import PropTypes from 'prop-types';
 import {LEFT, RIGHT} from '../../utils/Constants';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
     date: {
         fontSize: 16,
         fontWeight: 700,
@@ -36,7 +36,7 @@ const styles = createStyleSheet(theme => ({
         textAlign: 'center',
         marginBottom: 30,
     },
-}));
+});
 
 type Props = {
     classes: any,

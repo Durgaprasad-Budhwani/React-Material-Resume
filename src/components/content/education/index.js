@@ -11,7 +11,7 @@ import SectionTitle from './../../common/section-title';
 import {LEFT, RIGHT} from '../../utils/Constants';
 import TimelineBar from './../../common/timeline-bar';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
     relative: {
         position: 'relative',
     },
@@ -30,7 +30,7 @@ const styles = createStyleSheet(theme => ({
             clear: 'both'
         }
     }
-}));
+});
 
 class Timeline extends PureComponent {
     render () {

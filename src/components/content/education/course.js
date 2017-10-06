@@ -7,7 +7,7 @@ import Grid from 'material-ui/Grid';
 import PropTypes from 'prop-types';
 import Bubble from '../../common/bubble';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
     date: {
         fontSize: 16,
         fontWeight: 700,
@@ -35,7 +35,7 @@ const styles = createStyleSheet(theme => ({
         textAlign: 'left',
         marginBottom: 30,
     },
-}));
+});
 
 type Props = {
     classes: any,

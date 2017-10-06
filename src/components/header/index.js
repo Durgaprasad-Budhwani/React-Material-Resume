@@ -11,7 +11,7 @@ import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import Scrollchor from 'react-scrollchor';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
     header: {
         width: '100%',
         [theme.breakpoints.up('sm')]: {
@@ -44,7 +44,7 @@ const styles = createStyleSheet(theme => ({
         display: 'inline-block',
         textDecoration: 'none'
     }
-}));
+});
 
 class Header extends Component {
     render () {

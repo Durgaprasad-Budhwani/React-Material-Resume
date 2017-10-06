@@ -4,7 +4,7 @@
 import React, { PureComponent } from 'react';
 import { withStyles, createStyleSheet } from 'material-ui/styles';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
   container: {
     color: '#fff',
     fontSize: 14,
@@ -32,7 +32,7 @@ const styles = createStyleSheet(theme => ({
     }
     
   },
-}));
+});
 
 class Bubble extends PureComponent {
   render() {

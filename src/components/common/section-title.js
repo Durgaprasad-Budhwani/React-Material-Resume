@@ -6,7 +6,7 @@ import React, { PureComponent } from 'react';
 import { withStyles, createStyleSheet } from 'material-ui/styles';
 import PropTypes from 'prop-types';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
   sectionTitle: {
     color: '#3d4451',
     fontSize: 34,
@@ -16,7 +16,7 @@ const styles = createStyleSheet(theme => ({
     marginBottom: 20,
     marginTop: 30
   },
-}));
+});
 
 type Props = {
   classes: any,

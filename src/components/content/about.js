@@ -11,7 +11,7 @@ import Timeline from './timeline';
 import Blog from './blog';
 import Education from './education';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
     about: {
         marginTop: 50,
         [theme.breakpoints.up('sm')]: {
@@ -25,7 +25,7 @@ const styles = createStyleSheet(theme => ({
         textAlign: 'center',
         color: theme.palette.text.secondary,
     },
-}));
+});
 
 class About extends PureComponent {
     render () {

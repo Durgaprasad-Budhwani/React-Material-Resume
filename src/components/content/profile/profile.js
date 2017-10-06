@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 import SocialIcons from './social-icons';
 import Bubble from '../../common/bubble';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
   profile: {
     padding: '57px 50px 15px 50px',
     [theme.breakpoints.down('lg')]: {
@@ -91,7 +91,7 @@ const styles = createStyleSheet(theme => ({
     backgroundColor: theme.palette.primary[ 500 ],
   }
   
-}));
+});
 
 class Profile extends PureComponent {
   render () {
