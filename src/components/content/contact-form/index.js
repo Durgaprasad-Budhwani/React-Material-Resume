@@ -28,17 +28,32 @@ class ContactForm extends PureComponent<void, Props, void> {
     name: '',
     email: '',
     subject: '',
-    message: ''
+    message: '',
+    error: {
+      nameError: '',
+      emailError: '',
+      subjectError: '',
+      messageError: ''
+    }
   };
   
-  _handleSubmit(event) {
-    event.preventDefault();
+  _handleSubmit (event) {
+    const { name, email, subject, message, nameError, emailError, subjectError, messageError } = this.props;
+    if (name && email && subject && message) {
     
+    } else {
+      event.preventDefault();
+      if(!name){
+	nameError : "Please enter name";
+      }
+      
+    }
   }
   
-  _handleChange(event){
+  _handleChange (event) {
     this.setState({
       [event.target.name]: event.target.value,
+      
     });
   }
   
