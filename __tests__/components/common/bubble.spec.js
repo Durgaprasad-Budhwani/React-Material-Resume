@@ -6,7 +6,7 @@ import React from 'react';
 import Bubble from '../../../src/components/common/bubble';
 import renderer from 'react-test-renderer';
 
-it('renders bubble without crashing', () => {
+it('renders bubble', () => {
     const tree = renderer.create(<Bubble content="Hello" />).toJSON();
     expect(tree).toMatchSnapshot();
 });

@@ -6,7 +6,12 @@ import React from 'react';
 import EventContainer from '../../../src/components/common/event-container';
 import renderer from 'react-test-renderer';
 
-it('renders bubble without crashing', () => {
+it('renders event container for left', () => {
     const tree = renderer.create(<EventContainer alignment="LEFT" />).toJSON();
+    expect(tree).toMatchSnapshot();
+});
+
+it('renders event container for right', () => {
+    const tree = renderer.create(<EventContainer alignment="RIGHT" />).toJSON();
     expect(tree).toMatchSnapshot();
 });
