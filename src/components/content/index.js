@@ -45,6 +45,4 @@ Content.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-console.log(styles);
-
 export default withStyles(styles)(Content);

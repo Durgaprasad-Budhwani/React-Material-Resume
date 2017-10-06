@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders bubble without crashing 1`] = `
+<span
+  className="Bubble-container-1"
+>
+  Hello
+</span>
+`;

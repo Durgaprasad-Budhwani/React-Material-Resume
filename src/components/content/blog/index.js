@@ -40,7 +40,6 @@ class Blogs extends PureComponent<void, Props, void> {
     
     async componentDidMount () {
         let blogs = await GetBlogs();
-        console.log('blogs', blogs);
         this.setState({blogs});
     }
     

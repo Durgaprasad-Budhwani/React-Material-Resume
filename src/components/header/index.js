@@ -76,7 +76,4 @@ class Header extends Component {
 Header.propTypes = {
     classes: PropTypes.object.isRequired,
 };
-
-console.log(styles);
-
 export default withStyles(styles)(Header);
