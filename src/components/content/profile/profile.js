@@ -4,7 +4,7 @@
 import React, { PureComponent } from 'react';
 import Grid from 'material-ui/Grid';
 import Paper from 'material-ui/Paper'
-import { withStyles, createStyleSheet } from 'material-ui/styles';
+import { withStyles } from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import SocialIcons from './social-icons';
 import Bubble from '../../common/bubble';

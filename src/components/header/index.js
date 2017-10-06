@@ -2,7 +2,7 @@
  * Created by durgaprasad on 8/17/17.
  */
 import React, {Component} from 'react';
-import {withStyles, createStyleSheet} from 'material-ui/styles';
+import {withStyles} from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';

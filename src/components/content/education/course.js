@@ -2,7 +2,7 @@
  * Created by durgaprasad on 10/5/17.
  */
 import React, {PureComponent} from 'react';
-import {withStyles, createStyleSheet} from 'material-ui/styles';
+import {withStyles} from 'material-ui/styles';
 import Grid from 'material-ui/Grid';
 import PropTypes from 'prop-types';
 import Bubble from '../../common/bubble';

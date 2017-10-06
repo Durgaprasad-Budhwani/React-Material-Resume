@@ -1,24 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders bubble without crashing 1`] = `
-<div
-  className="EventContainer-box-5 EventContainer-boxLeft-6"
->
-  <div>
-    <div
-      className="MuiPaper-root-14 MuiPaper-shadow2-18 MuiPaper-rounded-15 EventContainer-paper-1 EventContainer-paperLeft-2"
-    >
-      <span
-        className="EventContainer-arrow-9 EventContainer-arrowRight-10"
-      />
-    </div>
-  </div>
-  <span
-    className="EventContainer-dot-8 EventContainer-dotRight-12"
-  />
-</div>
-`;
-
 exports[`renders event container for left 1`] = `
 <div
   className="EventContainer-box-5 EventContainer-boxLeft-6"

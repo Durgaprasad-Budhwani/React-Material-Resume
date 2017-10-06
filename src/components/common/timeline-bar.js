@@ -2,7 +2,7 @@
  * Created by durgaprasad on 10/3/17.
  */
 import React, { PureComponent } from 'react';
-import { withStyles, createStyleSheet } from 'material-ui/styles';
+import { withStyles } from 'material-ui/styles';
 import PropTypes from 'prop-types';
 
 const styles = theme => ({

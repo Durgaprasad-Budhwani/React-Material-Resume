@@ -3,7 +3,7 @@
  */
 import React, {PureComponent} from 'react';
 import Grid from 'material-ui/Grid';
-import {withStyles, createStyleSheet} from 'material-ui/styles';
+import {withStyles} from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import About from './about';
 import Contact from './contact';

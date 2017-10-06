@@ -3,7 +3,7 @@ import {JssProvider} from 'react-jss';
 import {create} from 'jss';
 import preset from 'jss-preset-default';
 import createGenerateClassName from 'material-ui/styles/createGenerateClassName';
-import {withStyles, MuiThemeProvider, createMuiTheme, createStyleSheet} from 'material-ui/styles';
+import {withStyles, MuiThemeProvider, createMuiTheme} from 'material-ui/styles';
 import cyan from 'material-ui/colors/cyan';
 import Content from './components/content';
 import pink from 'material-ui/colors/blue';
