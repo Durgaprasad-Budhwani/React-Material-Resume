@@ -3,7 +3,7 @@
  */
 import React, {PureComponent} from 'react';
 import Grid from 'material-ui/Grid';
-import {withStyles, createStyleSheet} from 'material-ui/styles';
+import {withStyles} from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import Paper from 'material-ui/Paper';
 import SkillBar from './skill-bar';
@@ -11,7 +11,7 @@ import SectionTitle from './../../common/section-title';
 
 // #56c8d2
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
     root: {
         flexGrow: 1,
         padding: theme.spacing.unit * 2,
@@ -24,7 +24,7 @@ const styles = createStyleSheet(theme => ({
     container: {
         padding: 10
     }
-}));
+});
 
 class Skilss extends PureComponent {
     render () {

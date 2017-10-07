@@ -4,15 +4,15 @@
 
 import React, {PureComponent} from 'react';
 import Grid from 'material-ui/Grid';
-import {withStyles, createStyleSheet} from 'material-ui/styles';
+import {withStyles} from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import ContactForm from './contact-form';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
     container: {
         marginTop: 50,
     },
-}));
+});
 
 class About extends PureComponent {
     render () {

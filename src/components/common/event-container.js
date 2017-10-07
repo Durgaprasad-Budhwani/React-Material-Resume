@@ -1,24 +1,16 @@
 /**
  * Created by durgaprasad on 10/5/17.
  */
+/* globals window */
 import React, {PureComponent} from 'react';
-import {withStyles, createStyleSheet} from 'material-ui/styles';
+import {withStyles} from 'material-ui/styles';
 import Paper from 'material-ui/Paper';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import {LEFT, RIGHT} from '../utils/Constants';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-const styles = createStyleSheet(theme => ({
-    sectionTitle: {
-        color: '#3d4451',
-        fontSize: 34,
-        lineHeight: 1.2,
-        fontWeight: 600,
-        textAlign: 'center',
-        marginBottom: 20,
-        marginTop: 30
-    },
+const styles = theme => ({
     paper: {
         borderColor: theme.palette.primary[ 500 ],
         padding: 20,
@@ -67,24 +59,6 @@ const styles = createStyleSheet(theme => ({
         backgroundColor: theme.palette.primary[ 500 ],
         
     },
-    header3: {
-        color: '#414141',
-        fontSize: 22,
-        fontWeight: 400,
-        lineHeight: 1.1,
-        textAlign: 'center',
-        marginBottom: 0,
-        marginToo: 0
-    },
-    header4: {
-        color: '#878787',
-        fontSize: 13,
-        fontWeight: 400,
-        lineHeight: 1.1,
-        textTransform: 'uppercase',
-        textAlign: 'center',
-        marginBottom: 30,
-    },
     arrow: {
         top: 60,
         display: 'block',
@@ -116,20 +90,16 @@ const styles = createStyleSheet(theme => ({
         left: 0,
         marginLeft: -4
     }
-}));
+});
 
 type Props = {
     classes: any,
-    title: string
+    alignment: string
 }
 
 class EventContainer extends PureComponent<void, Props, void> {
     static propTypes: Props = {
         classes: PropTypes.object.isRequired,
-        year: PropTypes.string.isRequired,
-        company: PropTypes.string.isRequired,
-        title: PropTypes.string.isRequired,
-        description: PropTypes.string.isRequired,
         alignment: PropTypes.oneOf([ LEFT, RIGHT ]).isRequired
     };
     

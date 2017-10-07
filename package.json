@@ -6,26 +6,53 @@
     "animate.css": "^3.5.2",
     "classnames": "^2.2.5",
     "flow-bin": "^0.54.0",
+    "isomorphic-fetch": "^2.2.1",
+    "jest": "^21.2.1",
     "jss": "^9.0.0-pre.1",
     "jss-preset-default": "^3.0.0",
     "material-ui": "next",
     "material-ui-icons": "^1.0.0-beta.5",
     "prop-types": "^15.5.10",
-    "react": "^15.6.1",
+    "react": "^16.0.0",
     "react-animate-on-scroll": "^1.3.2",
-    "react-dom": "^15.6.1",
+    "react-dom": "^16.0.0",
     "react-hot-loader": "^1.3.1",
     "react-ionicons": "^1.5.8",
     "react-jss": "^7.0.2",
-    "react-scrollchor": "^4.0.0"
+    "react-scrollchor": "^4.0.0",
+    "react-test-renderer": "^16.0.0"
   },
   "devDependencies": {
-    "react-scripts": "1.0.11"
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "coveralls": "^3.0.0",
+    "enzyme": "^3.1.0",
+    "jest": "^21.2.1",
+    "react-scripts": "1.0.11",
+    "react-test-renderer": "^16.0.0",
+    "regenerator-runtime": "^0.11.0"
+  },
+  "jest": {
+    "verbose": true,
+    "setupFiles": [
+      "./__mocks__/setup.mock.js"
+    ],
+    "collectCoverageFrom": [
+      "**/src/**/*.{js,jsx}"
+    ],
+    "coverageDirectory": ".tmp/coverage"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
+    "test-coveralls": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "eject": "react-scripts eject",
     "flow": "flow"
   }

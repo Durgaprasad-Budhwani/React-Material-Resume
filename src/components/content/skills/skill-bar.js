@@ -4,11 +4,11 @@
 // @flow
 import React, { PureComponent } from 'react';
 import Grid from 'material-ui/Grid';
-import { withStyles, createStyleSheet } from 'material-ui/styles';
+import { withStyles } from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import { LinearProgress } from 'material-ui/Progress';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
   label: {
     fontSize: 14,
     fontFamily: 'Open Sans'
@@ -22,7 +22,7 @@ const styles = createStyleSheet(theme => ({
     padding: 10
   }
   
-}));
+});
 
 type color = "primary" | "accent";
 

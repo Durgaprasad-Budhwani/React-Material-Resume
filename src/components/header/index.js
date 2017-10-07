@@ -2,7 +2,7 @@
  * Created by durgaprasad on 8/17/17.
  */
 import React, {Component} from 'react';
-import {withStyles, createStyleSheet} from 'material-ui/styles';
+import {withStyles} from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
@@ -11,7 +11,7 @@ import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import Scrollchor from 'react-scrollchor';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
     header: {
         width: '100%',
         [theme.breakpoints.up('sm')]: {
@@ -44,7 +44,7 @@ const styles = createStyleSheet(theme => ({
         display: 'inline-block',
         textDecoration: 'none'
     }
-}));
+});
 
 class Header extends Component {
     render () {
@@ -76,7 +76,4 @@ class Header extends Component {
 Header.propTypes = {
     classes: PropTypes.object.isRequired,
 };
-
-console.log(styles);
-
 export default withStyles(styles)(Header);

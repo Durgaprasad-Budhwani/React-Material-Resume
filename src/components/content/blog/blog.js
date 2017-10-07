@@ -4,9 +4,9 @@
 import React, {PureComponent} from 'react';
 import Paper from 'material-ui/Paper';
 import Grid from 'material-ui/Grid';
-import {withStyles, createStyleSheet} from 'material-ui/styles';
+import {withStyles} from 'material-ui/styles';
 import PropTypes from 'prop-types';
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
     blogItemImage: {
         transition: 'opacity 1s, transform 1s',
         width: '100%',
@@ -80,7 +80,7 @@ const styles = createStyleSheet(theme => ({
         wordWrap: 'normal'
     }
     
-}));
+});
 
 type Props = {
     height: number,

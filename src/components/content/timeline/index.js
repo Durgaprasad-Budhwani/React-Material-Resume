@@ -3,7 +3,7 @@
  */
 import React, { PureComponent } from 'react';
 import Grid from 'material-ui/Grid';
-import { withStyles, createStyleSheet } from 'material-ui/styles';
+import { withStyles } from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import EventContainer from '../../common/event-container';
 import Event from './event';
@@ -11,7 +11,7 @@ import SectionTitle from './../../common/section-title';
 import { LEFT, RIGHT } from '../../utils/Constants';
 import TimelineBar from '../../common/timeline-bar';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
   relative: {
     position: 'relative',
   },
@@ -30,7 +30,7 @@ const styles = createStyleSheet(theme => ({
       clear: 'both'
     }
   }
-}));
+});
 
 class Timeline extends PureComponent {
   render () {

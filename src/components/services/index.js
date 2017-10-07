@@ -1,6 +1,7 @@
 /**
  * Created by durgaprasad on 10/3/17.
  */
+import fetch from 'isomorphic-fetch'
 
 export const GetBlogs = async () => {
   let response = await fetch("blogs.json");
@@ -9,7 +10,6 @@ export const GetBlogs = async () => {
     return data;
   }
   catch(error){
-    console.log(error);
     return [];
   }
 };

@@ -3,13 +3,13 @@
  */
 import React, {PureComponent} from 'react';
 import Grid from 'material-ui/Grid';
-import {withStyles, createStyleSheet} from 'material-ui/styles';
+import {withStyles} from 'material-ui/styles';
 import Blog from './blog';
 import PropTypes from 'prop-types';
 import {GetBlogs} from '../../services';
 import SectionTitle from './../../common/section-title';
 
-const styles = createStyleSheet(theme => ({
+const styles = theme => ({
     blogItemImage: {
         transition: 'opacity 1s, transform 1s',
         
@@ -20,7 +20,7 @@ const styles = createStyleSheet(theme => ({
     root: {
         flexGrow: 1
     }
-}));
+});
 
 type Props = {
     height: number,
@@ -40,7 +40,6 @@ class Blogs extends PureComponent<void, Props, void> {
     
     async componentDidMount () {
         let blogs = await GetBlogs();
-        console.log('blogs', blogs);
         this.setState({blogs});
     }
     
