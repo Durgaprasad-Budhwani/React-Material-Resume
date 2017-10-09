@@ -121,7 +121,7 @@ class EventContainer extends PureComponent<void, Props, void> {
                                  duration={2}
                                  offset={0}
                 >
-                    <Paper className={(
+                    <Paper className={classNames(
 	    {
 	      [classes.paper]: true,
 	      [classes.paperLeft]: alignment === LEFT,
