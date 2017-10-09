@@ -1,7 +1,12 @@
 {
-  "name": "draft",
+  "name": "react-material-resume",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Durgaprasad-Budhwani/React-Material-Resume.git"
+  },
+  "license": "Apache 2.0",
   "dependencies": {
     "animate.css": "^3.5.2",
     "classnames": "^2.2.5",
