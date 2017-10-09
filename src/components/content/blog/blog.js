@@ -106,6 +106,7 @@ class Blog extends PureComponent<void, Props, void> {
             
             <Grid justify="center"
                   direction="column"
+                  item
                   container
                   md={md}
                   sm={sm}

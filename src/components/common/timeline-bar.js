@@ -40,8 +40,4 @@ class TimelineBar extends PureComponent<void, Props, void> {
   }
 }
 
-TimelineBar.propTypes = {
-  classes: PropTypes.object.isRequired,
-};
-
 export default withStyles(styles)(TimelineBar);
