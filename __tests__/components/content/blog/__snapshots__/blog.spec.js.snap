@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders bubble 1`] = `
+<div
+  className="MuiGrid-typeContainer-9 MuiGrid-typeItem-10 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-11 MuiGrid-justify-xs-center-19 MuiGrid-grid-sm-12-52 MuiGrid-grid-md-6-59"
+>
+  <div
+    className="MuiPaper-root-92 MuiPaper-shadow2-96 MuiPaper-rounded-93 Blog-blogItemBox-2"
+  >
+    <div
+      className="Blog-imageContainer-3"
+    >
+      <img
+        alt="title1"
+        className="Blog-blogItemImage-1"
+        src="image1"
+      />
+    </div>
+    <div
+      className="Blog-blogItemContent-4"
+    >
+      <time
+        className="Blog-blogItemTimeContainer-5"
+      >
+        <div
+          class="Blog-blogItemTimeDay-6"
+        >
+          day1
+        </div>
+        <div
+          class="Blog-blogItemTimeMonth-7"
+        >
+          month1
+        </div>
+      </time>
+      <h3
+        className="Blog-blogItemTitle-8"
+      >
+        title1
+      </h3>
+    </div>
+  </div>
+</div>
+`;

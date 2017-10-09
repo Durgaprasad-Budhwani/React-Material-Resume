@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders bubble 1`] = `
+<div
+  className="Header-header-1"
+>
+  <div
+    className="Header-headerBackground-3"
+  />
+  <header
+    className="MuiPaper-root-13 MuiPaper-shadow4-19 MuiAppBar-root-6 MuiAppBar-positionStatic-9 MuiAppBar-colorPrimary-11 Header-headerBar-2"
+  >
+    <div
+      className="MuiToolbar-root-40 MuiToolbar-gutters-41"
+    >
+      <button
+        aria-label="Menu"
+        className="MuiButtonBase-root-51 MuiIconButton-root-42 MuiIconButton-colorContrast-44"
+        disabled={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label-48"
+        >
+          <svg
+            aria-hidden="true"
+            className="MuiSvgIcon-root-53"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+            />
+          </svg>
+        </span>
+        <span
+          className="MuiTouchRipple-root-54"
+        />
+      </button>
+      <h2
+        className="MuiTypography-root-61 MuiTypography-title-67 MuiTypography-colorInherit-80 Header-flex-4"
+      >
+        Title
+      </h2>
+      <a
+        className="Header-scrollChor-5"
+        href="#skills"
+        onClick={[Function]}
+      >
+        Skills 
+      </a>
+    </div>
+  </header>
+</div>
+`;
