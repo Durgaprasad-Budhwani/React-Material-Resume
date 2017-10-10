@@ -5,7 +5,7 @@ import React, {PureComponent} from 'react';
 import Grid from 'material-ui/Grid';
 import {withStyles} from 'material-ui/styles';
 import PropTypes from 'prop-types';
-import Profile from './profile/profile';
+import Profile from './profile';
 import Skills from './skills';
 import Timeline from './timeline';
 import Blog from './blog';
