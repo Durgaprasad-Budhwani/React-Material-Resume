@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders course 1`] = `
+<div
+  className="MuiGrid-typeContainer-4 MuiGrid-spacing-xs-16-19 MuiGrid-direction-xs-column-6"
+  style={
+    Object {
+      "paddingLeft": 20,
+    }
+  }
+>
+  <div>
+    <span
+      className="Bubble-container-87"
+    >
+      name1
+    </span>
+  </div>
+  <h3
+    className="Course-header3-2"
+  >
+    abc
+  </h3>
+  <p
+    className="Course-header4-3"
+  >
+    'abc
+  </p>
+</div>
+`;

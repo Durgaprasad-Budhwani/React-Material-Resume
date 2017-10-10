@@ -106,7 +106,6 @@ class Profile extends PureComponent {
 	  <Grid item
 		className={classes.profile}
 		container
-		align="row"
 	  >
 	    <Grid item
 		  xs={5}>

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders skill bar 1`] = `
+<div
+  className="MuiGrid-typeItem-6 MuiGrid-grid-xs-10-33"
+>
+  <div
+    className="MuiGrid-typeContainer-5 MuiGrid-typeItem-6 MuiGrid-spacing-xs-16-20 MuiGrid-justify-xs-space-between-17 SkillBar-labelContainer-2"
+  >
+    <span
+      className="SkillBar-label-1"
+    >
+      name1
+    </span>
+    <span
+      className="SkillBar-label-1"
+    >
+      60%
+    </span>
+  </div>
+  <div
+    aria-valuenow={60}
+    className="MuiLinearProgress-root-88 MuiLinearProgress-primaryColor-89"
+  >
+    <div
+      className="MuiLinearProgress-bar-95 MuiLinearProgress-primaryColorBar-90 MuiLinearProgress-determinateBar1-102"
+      style={
+        Object {
+          "transform": "scaleX(0.6)",
+        }
+      }
+    />
+  </div>
+</div>
+`;

@@ -57,11 +57,9 @@ class Timeline extends PureComponent {
                         <EventContainer
                             alignment={LEFT}
                         >
-                            <Course name="Varian Medical System"
-                                    title="Full Stack Developer"
-                                    company="Varian Medical System"
-                                    description="TBD"
-                                    year="2014 - Present"
+                            <Course  name="Varian Medical System"
+				     university="Varian Medical System "
+				     year="2014 - Present"
                             />
                         </EventContainer>
                     </div>

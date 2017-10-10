@@ -1,0 +1,456 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders skill bar 1`] = `
+<div
+  className="MuiGrid-typeContainer-4 MuiGrid-spacing-xs-16-19 MuiGrid-direction-xs-column-6 MuiGrid-align-xs-center-10 MuiGrid-justify-xs-center-14"
+  id="skills"
+>
+  <span
+    className="SectionTitle-sectionTitle-87"
+  >
+    Professional Skills
+  </span>
+  <div
+    className="MuiPaper-root-88 MuiPaper-shadow2-92 MuiPaper-rounded-89 Skilss-root-1"
+  >
+    <div
+      className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 MuiGrid-grid-xs-12-34"
+    >
+      <div
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+      >
+        <div
+          className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
+        >
+          <span
+            className="SkillBar-label-115"
+          >
+            JavaScript
+          </span>
+          <span
+            className="SkillBar-label-115"
+          >
+            90%
+          </span>
+        </div>
+        <div
+          aria-valuenow={90}
+          className="MuiLinearProgress-root-119 MuiLinearProgress-primaryColor-120"
+        >
+          <div
+            className="MuiLinearProgress-bar-126 MuiLinearProgress-primaryColorBar-121 MuiLinearProgress-determinateBar1-133"
+            style={
+              Object {
+                "transform": "scaleX(0.9)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+      >
+        <div
+          className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
+        >
+          <span
+            className="SkillBar-label-115"
+          >
+            CSS
+          </span>
+          <span
+            className="SkillBar-label-115"
+          >
+            70%
+          </span>
+        </div>
+        <div
+          aria-valuenow={70}
+          className="MuiLinearProgress-root-119 MuiLinearProgress-primaryColor-120"
+        >
+          <div
+            className="MuiLinearProgress-bar-126 MuiLinearProgress-primaryColorBar-121 MuiLinearProgress-determinateBar1-133"
+            style={
+              Object {
+                "transform": "scaleX(0.7)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+      >
+        <div
+          className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
+        >
+          <span
+            className="SkillBar-label-115"
+          >
+            JavaScript
+          </span>
+          <span
+            className="SkillBar-label-115"
+          >
+            90%
+          </span>
+        </div>
+        <div
+          aria-valuenow={90}
+          className="MuiLinearProgress-root-119 MuiLinearProgress-primaryColor-120"
+        >
+          <div
+            className="MuiLinearProgress-bar-126 MuiLinearProgress-primaryColorBar-121 MuiLinearProgress-determinateBar1-133"
+            style={
+              Object {
+                "transform": "scaleX(0.9)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+      >
+        <div
+          className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
+        >
+          <span
+            className="SkillBar-label-115"
+          >
+            CSS
+          </span>
+          <span
+            className="SkillBar-label-115"
+          >
+            70%
+          </span>
+        </div>
+        <div
+          aria-valuenow={70}
+          className="MuiLinearProgress-root-119 MuiLinearProgress-primaryColor-120"
+        >
+          <div
+            className="MuiLinearProgress-bar-126 MuiLinearProgress-primaryColorBar-121 MuiLinearProgress-determinateBar1-133"
+            style={
+              Object {
+                "transform": "scaleX(0.7)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+      >
+        <div
+          className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
+        >
+          <span
+            className="SkillBar-label-115"
+          >
+            JavaScript
+          </span>
+          <span
+            className="SkillBar-label-115"
+          >
+            90%
+          </span>
+        </div>
+        <div
+          aria-valuenow={90}
+          className="MuiLinearProgress-root-119 MuiLinearProgress-primaryColor-120"
+        >
+          <div
+            className="MuiLinearProgress-bar-126 MuiLinearProgress-primaryColorBar-121 MuiLinearProgress-determinateBar1-133"
+            style={
+              Object {
+                "transform": "scaleX(0.9)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+      >
+        <div
+          className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
+        >
+          <span
+            className="SkillBar-label-115"
+          >
+            CSS
+          </span>
+          <span
+            className="SkillBar-label-115"
+          >
+            70%
+          </span>
+        </div>
+        <div
+          aria-valuenow={70}
+          className="MuiLinearProgress-root-119 MuiLinearProgress-primaryColor-120"
+        >
+          <div
+            className="MuiLinearProgress-bar-126 MuiLinearProgress-primaryColorBar-121 MuiLinearProgress-determinateBar1-133"
+            style={
+              Object {
+                "transform": "scaleX(0.7)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+      >
+        <div
+          className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
+        >
+          <span
+            className="SkillBar-label-115"
+          >
+            JavaScript
+          </span>
+          <span
+            className="SkillBar-label-115"
+          >
+            90%
+          </span>
+        </div>
+        <div
+          aria-valuenow={90}
+          className="MuiLinearProgress-root-119 MuiLinearProgress-primaryColor-120"
+        >
+          <div
+            className="MuiLinearProgress-bar-126 MuiLinearProgress-primaryColorBar-121 MuiLinearProgress-determinateBar1-133"
+            style={
+              Object {
+                "transform": "scaleX(0.9)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+      >
+        <div
+          className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
+        >
+          <span
+            className="SkillBar-label-115"
+          >
+            CSS
+          </span>
+          <span
+            className="SkillBar-label-115"
+          >
+            70%
+          </span>
+        </div>
+        <div
+          aria-valuenow={70}
+          className="MuiLinearProgress-root-119 MuiLinearProgress-primaryColor-120"
+        >
+          <div
+            className="MuiLinearProgress-bar-126 MuiLinearProgress-primaryColorBar-121 MuiLinearProgress-determinateBar1-133"
+            style={
+              Object {
+                "transform": "scaleX(0.7)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+      >
+        <div
+          className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
+        >
+          <span
+            className="SkillBar-label-115"
+          >
+            JavaScript
+          </span>
+          <span
+            className="SkillBar-label-115"
+          >
+            90%
+          </span>
+        </div>
+        <div
+          aria-valuenow={90}
+          className="MuiLinearProgress-root-119 MuiLinearProgress-primaryColor-120"
+        >
+          <div
+            className="MuiLinearProgress-bar-126 MuiLinearProgress-primaryColorBar-121 MuiLinearProgress-determinateBar1-133"
+            style={
+              Object {
+                "transform": "scaleX(0.9)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+      >
+        <div
+          className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
+        >
+          <span
+            className="SkillBar-label-115"
+          >
+            CSS
+          </span>
+          <span
+            className="SkillBar-label-115"
+          >
+            70%
+          </span>
+        </div>
+        <div
+          aria-valuenow={70}
+          className="MuiLinearProgress-root-119 MuiLinearProgress-primaryColor-120"
+        >
+          <div
+            className="MuiLinearProgress-bar-126 MuiLinearProgress-primaryColorBar-121 MuiLinearProgress-determinateBar1-133"
+            style={
+              Object {
+                "transform": "scaleX(0.7)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+      >
+        <div
+          className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
+        >
+          <span
+            className="SkillBar-label-115"
+          >
+            JavaScript
+          </span>
+          <span
+            className="SkillBar-label-115"
+          >
+            90%
+          </span>
+        </div>
+        <div
+          aria-valuenow={90}
+          className="MuiLinearProgress-root-119 MuiLinearProgress-primaryColor-120"
+        >
+          <div
+            className="MuiLinearProgress-bar-126 MuiLinearProgress-primaryColorBar-121 MuiLinearProgress-determinateBar1-133"
+            style={
+              Object {
+                "transform": "scaleX(0.9)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+      >
+        <div
+          className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
+        >
+          <span
+            className="SkillBar-label-115"
+          >
+            CSS
+          </span>
+          <span
+            className="SkillBar-label-115"
+          >
+            70%
+          </span>
+        </div>
+        <div
+          aria-valuenow={70}
+          className="MuiLinearProgress-root-119 MuiLinearProgress-primaryColor-120"
+        >
+          <div
+            className="MuiLinearProgress-bar-126 MuiLinearProgress-primaryColorBar-121 MuiLinearProgress-determinateBar1-133"
+            style={
+              Object {
+                "transform": "scaleX(0.7)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+      >
+        <div
+          className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
+        >
+          <span
+            className="SkillBar-label-115"
+          >
+            JavaScript
+          </span>
+          <span
+            className="SkillBar-label-115"
+          >
+            90%
+          </span>
+        </div>
+        <div
+          aria-valuenow={90}
+          className="MuiLinearProgress-root-119 MuiLinearProgress-primaryColor-120"
+        >
+          <div
+            className="MuiLinearProgress-bar-126 MuiLinearProgress-primaryColorBar-121 MuiLinearProgress-determinateBar1-133"
+            style={
+              Object {
+                "transform": "scaleX(0.9)",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+      >
+        <div
+          className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
+        >
+          <span
+            className="SkillBar-label-115"
+          >
+            CSS
+          </span>
+          <span
+            className="SkillBar-label-115"
+          >
+            70%
+          </span>
+        </div>
+        <div
+          aria-valuenow={70}
+          className="MuiLinearProgress-root-119 MuiLinearProgress-primaryColor-120"
+        >
+          <div
+            className="MuiLinearProgress-bar-126 MuiLinearProgress-primaryColorBar-121 MuiLinearProgress-determinateBar1-133"
+            style={
+              Object {
+                "transform": "scaleX(0.7)",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
