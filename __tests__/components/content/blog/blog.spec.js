@@ -5,9 +5,8 @@
 import React from 'react';
 import Blog from '../../../../src/components/content/blog/blog';
 import renderer from 'react-test-renderer';
-import Grid from 'material-ui/Grid';
 
-it('renders bubble', () => {
+it('renders blog', () => {
     const tree = renderer.create(
         <Blog
             md={6}

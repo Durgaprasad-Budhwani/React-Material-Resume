@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders bubble 1`] = `
+exports[`renders blog 1`] = `
 <div
   className="MuiGrid-typeContainer-9 MuiGrid-typeItem-10 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-11 MuiGrid-justify-xs-center-19 MuiGrid-grid-sm-12-52 MuiGrid-grid-md-6-59"
 >

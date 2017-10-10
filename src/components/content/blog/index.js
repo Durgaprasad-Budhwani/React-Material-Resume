@@ -42,7 +42,7 @@ class Blogs extends PureComponent<void, Props, void> {
         let blogs = await GetBlogs();
         this.setState({blogs});
     }
-    
+
     _renderBlog (blog) {
         return (
             <Blog md={6}
@@ -69,11 +69,11 @@ class Blogs extends PureComponent<void, Props, void> {
                     direction="row"
                     align="stretch"
                     justify="space-between"
+                    item
                     xs={12}
                     spacing={8}
                     container
                 >
-                    
                     {
                         blogs && blogs.map(this._renderBlog.bind(this))
                     }
