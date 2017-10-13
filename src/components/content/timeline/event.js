@@ -6,7 +6,6 @@ import React, { PureComponent } from 'react';
 import { withStyles } from 'material-ui/styles';
 import Grid from 'material-ui/Grid';
 import PropTypes from 'prop-types';
-import { LEFT, RIGHT } from '../../utils/Constants';
 
 const styles = theme => ({
   date: {
