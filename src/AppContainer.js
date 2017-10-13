@@ -2,7 +2,6 @@
  * Created by durgaprasad on 10/13/17.
  */
 import React, {Component} from 'react';
-import {JssProvider} from 'react-jss';
 import {create} from 'jss';
 import preset from 'jss-preset-default';
 import createGenerateClassName from 'material-ui/styles/createGenerateClassName';
