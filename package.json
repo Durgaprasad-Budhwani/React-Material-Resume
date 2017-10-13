@@ -51,6 +51,7 @@
     "setupFiles": [
       "./__mocks__/setup.mock.js"
     ],
+
     "collectCoverageFrom": [
       "**/src/**/*.{js,jsx}"
     ],
