@@ -2,16 +2,16 @@
 
 exports[`renders profile 1`] = `
 <div
-  className="MuiPaper-root-12 MuiPaper-shadow2-16 MuiPaper-rounded-13"
+  className="MuiPaper-root-9 MuiPaper-shadow2-13 MuiPaper-rounded-10"
 >
   <div
-    className="MuiGrid-typeContainer-39 MuiGrid-typeItem-40 MuiGrid-direction-xs-column-41"
+    className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-direction-xs-column-38"
   >
     <div
-      className="MuiGrid-typeContainer-39 MuiGrid-typeItem-40 MuiGrid-spacing-xs-16-54 Profile-profile-1"
+      className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-spacing-xs-16-51 Profile-profile-1"
     >
       <div
-        className="MuiGrid-typeItem-40 MuiGrid-grid-xs-5-62"
+        className="MuiGrid-typeItem-37 MuiGrid-grid-xs-5-59"
       >
         <img
           alt="Durgaprasad Budhwani"
@@ -20,17 +20,17 @@ exports[`renders profile 1`] = `
         />
       </div>
       <div
-        className="MuiGrid-typeItem-40 MuiGrid-grid-xs-1-58"
+        className="MuiGrid-typeItem-37 MuiGrid-grid-xs-1-55"
       />
       <div
-        className="MuiGrid-typeContainer-39 MuiGrid-typeItem-40 MuiGrid-spacing-xs-16-54 MuiGrid-direction-xs-column-41 MuiGrid-align-xs-center-45 MuiGrid-grid-xs-6-63"
+        className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-spacing-xs-16-51 MuiGrid-direction-xs-column-38 MuiGrid-align-xs-center-42 MuiGrid-grid-xs-6-60"
       >
         <div
-          className="MuiGrid-typeItem-40 Profile-profileInfo-3"
+          className="MuiGrid-typeItem-37 Profile-profileInfo-3"
         >
           <div>
             <span
-              className="Bubble-container-122"
+              className="Bubble-container-119"
             >
               Hello
             </span>
@@ -52,35 +52,35 @@ exports[`renders profile 1`] = `
           </h2>
         </div>
         <div
-          className="MuiGrid-typeContainer-39 MuiGrid-typeItem-40 MuiGrid-spacing-xs-24-55 MuiGrid-direction-xs-column-41"
+          className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-spacing-xs-24-52 MuiGrid-direction-xs-column-38"
         >
           <div
-            className="MuiGrid-typeContainer-39 MuiGrid-typeItem-40 MuiGrid-spacing-xs-24-55 MuiGrid-align-xs-center-45 MuiGrid-justify-xs-center-49"
+            className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-spacing-xs-24-52 MuiGrid-align-xs-center-42 MuiGrid-justify-xs-center-46"
           >
             <div
-              className="MuiGrid-typeItem-40 MuiGrid-grid-xs-3-60 Profile-profileListItem-8"
+              className="MuiGrid-typeItem-37 MuiGrid-grid-xs-3-57 ContactInfo-profileListItem-121"
             >
               Address:
             </div>
             <div
-              className="MuiGrid-typeItem-40 MuiGrid-grid-xs-9-66 Profile-profileListItemValue-9"
+              className="MuiGrid-typeItem-37 MuiGrid-grid-xs-9-63 ContactInfo-profileListItemValue-122"
             >
               Pune, India
             </div>
           </div>
           <div
-            className="MuiGrid-typeContainer-39 MuiGrid-typeItem-40 MuiGrid-spacing-xs-24-55 MuiGrid-align-xs-center-45 MuiGrid-justify-xs-center-49"
+            className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-spacing-xs-24-52 MuiGrid-align-xs-center-42 MuiGrid-justify-xs-center-46"
           >
             <div
-              className="MuiGrid-typeItem-40 MuiGrid-grid-xs-3-60 Profile-profileListItem-8"
+              className="MuiGrid-typeItem-37 MuiGrid-grid-xs-3-57 ContactInfo-profileListItem-121"
             >
               Email:
             </div>
             <div
-              className="MuiGrid-typeItem-40 MuiGrid-grid-xs-9-66 Profile-profileListItemValue-9"
+              className="MuiGrid-typeItem-37 MuiGrid-grid-xs-9-63 ContactInfo-profileListItemValue-122"
             >
               <a
-                className="Profile-profileValueAItemValue-10"
+                className="ContactInfo-profileValueAItemValue-123"
                 href="mailto:durgaprasad.budhwani@gmail.com"
               >
                 durgaprasad.budhwani@gmail.com
@@ -88,18 +88,18 @@ exports[`renders profile 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeContainer-39 MuiGrid-typeItem-40 MuiGrid-spacing-xs-24-55 MuiGrid-align-xs-center-45 MuiGrid-justify-xs-center-49"
+            className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-spacing-xs-24-52 MuiGrid-align-xs-center-42 MuiGrid-justify-xs-center-46"
           >
             <div
-              className="MuiGrid-typeItem-40 MuiGrid-grid-xs-3-60 Profile-profileListItem-8"
+              className="MuiGrid-typeItem-37 MuiGrid-grid-xs-3-57 ContactInfo-profileListItem-121"
             >
               Phone:
             </div>
             <div
-              className="MuiGrid-typeItem-40 MuiGrid-grid-xs-9-66 Profile-profileListItemValue-9"
+              className="MuiGrid-typeItem-37 MuiGrid-grid-xs-9-63 ContactInfo-profileListItemValue-122"
             >
               <a
-                className="Profile-profileValueAItemValue-10"
+                className="ContactInfo-profileValueAItemValue-123"
                 href="tel:+91-9545251359"
               >
                 +91-9545251359
@@ -110,14 +110,14 @@ exports[`renders profile 1`] = `
       </div>
     </div>
     <div
-      className="Profile-profileSocial-11"
+      className="Profile-profileSocial-8"
     >
       <div
-        className="MuiGrid-typeContainer-39 MuiGrid-typeItem-40 MuiGrid-spacing-xs-24-55 MuiGrid-align-xs-center-45 MuiGrid-justify-xs-center-49 SocialIcons-container-124"
+        className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-spacing-xs-24-52 MuiGrid-align-xs-center-42 MuiGrid-justify-xs-center-46 SocialIcons-container-125"
       >
         <button
           aria-label="Add an alarm"
-          className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-123"
+          className="MuiButtonBase-root-135 MuiIconButton-root-126 SocialIcons-button-124"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -133,7 +133,7 @@ exports[`renders profile 1`] = `
           type="button"
         >
           <span
-            className="MuiIconButton-label-131"
+            className="MuiIconButton-label-132"
           >
             <svg
               className=""
@@ -149,12 +149,12 @@ exports[`renders profile 1`] = `
             </svg>
           </span>
           <span
-            className="MuiTouchRipple-root-136"
+            className="MuiTouchRipple-root-137"
           />
         </button>
         <button
           aria-label="Add an alarm"
-          className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-123"
+          className="MuiButtonBase-root-135 MuiIconButton-root-126 SocialIcons-button-124"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -170,7 +170,7 @@ exports[`renders profile 1`] = `
           type="button"
         >
           <span
-            className="MuiIconButton-label-131"
+            className="MuiIconButton-label-132"
           >
             <svg
               className=""
@@ -186,12 +186,12 @@ exports[`renders profile 1`] = `
             </svg>
           </span>
           <span
-            className="MuiTouchRipple-root-136"
+            className="MuiTouchRipple-root-137"
           />
         </button>
         <button
           aria-label="Add an alarm"
-          className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-123"
+          className="MuiButtonBase-root-135 MuiIconButton-root-126 SocialIcons-button-124"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -207,7 +207,7 @@ exports[`renders profile 1`] = `
           type="button"
         >
           <span
-            className="MuiIconButton-label-131"
+            className="MuiIconButton-label-132"
           >
             <svg
               className=""
@@ -223,12 +223,12 @@ exports[`renders profile 1`] = `
             </svg>
           </span>
           <span
-            className="MuiTouchRipple-root-136"
+            className="MuiTouchRipple-root-137"
           />
         </button>
         <button
           aria-label="Add an alarm"
-          className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-123"
+          className="MuiButtonBase-root-135 MuiIconButton-root-126 SocialIcons-button-124"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -244,7 +244,7 @@ exports[`renders profile 1`] = `
           type="button"
         >
           <span
-            className="MuiIconButton-label-131"
+            className="MuiIconButton-label-132"
           >
             <svg
               className=""
@@ -260,12 +260,12 @@ exports[`renders profile 1`] = `
             </svg>
           </span>
           <span
-            className="MuiTouchRipple-root-136"
+            className="MuiTouchRipple-root-137"
           />
         </button>
         <button
           aria-label="Add an alarm"
-          className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-123"
+          className="MuiButtonBase-root-135 MuiIconButton-root-126 SocialIcons-button-124"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -281,7 +281,7 @@ exports[`renders profile 1`] = `
           type="button"
         >
           <span
-            className="MuiIconButton-label-131"
+            className="MuiIconButton-label-132"
           >
             <svg
               className=""
@@ -297,7 +297,7 @@ exports[`renders profile 1`] = `
             </svg>
           </span>
           <span
-            className="MuiTouchRipple-root-136"
+            className="MuiTouchRipple-root-137"
           />
         </button>
       </div>

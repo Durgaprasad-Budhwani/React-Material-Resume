@@ -8,6 +8,7 @@ import { withStyles } from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import SocialIcons from './social-icons';
 import Bubble from '../../common/bubble';
+import ContactInfo from '../../common/contact-info';
 
 const styles = theme => ({
   profile: {
@@ -59,6 +60,7 @@ const styles = theme => ({
     }
     
   },
+  
   profileTitle: {
     fontSize: 36,
     lineHeight: 1.1,
@@ -73,19 +75,6 @@ const styles = theme => ({
     fontWeight: 400,
     lineHeight: 1.1,
     marginBottom: 0,
-  },
-  profileListItem: {
-    color: '#333333',
-    fontSize: 12,
-    fontWeight: 700,
-    textTransform: 'uppercase',
-  },
-  profileListItemValue: {
-    color: '#9da0a7',
-    fontSize: 15,
-  },
-  profileValueAItemValue: {
-    color: 'inherit'
   },
   profileSocial: {
     backgroundColor: theme.palette.primary[ 500 ],
@@ -128,70 +117,7 @@ class Profile extends PureComponent {
 		</h1>
 		<h2 className={classes.profilePosition}>Full Stack Developer</h2>
 	      </Grid>
-	      <Grid container
-		    item
-		    spacing={24}
-		    direction="column">
-		<Grid container
-		      item
-		      direction="row"
-		      align="center"
-		      justify="center"
-		      spacing={24}>
-		  <Grid
-		    className={classes.profileListItem}
-		    item
-		    xs={3}>
-		    Address:
-		  </Grid>
-		  <Grid
-		    className={classes.profileListItemValue}
-		    item
-		    xs={9}>
-		    Pune, India
-		  </Grid>
-		</Grid>
-		<Grid container
-		      item
-		      direction="row"
-		      align="center"
-		      justify="center"
-		      spacing={24}>
-		  <Grid
-		    className={classes.profileListItem}
-		    item
-		    xs={3}>
-		    Email:
-		  </Grid>
-		  <Grid
-		    className={classes.profileListItemValue}
-		    item
-		    xs={9}>
-		    <a className={classes.profileValueAItemValue}
-		       href="mailto:durgaprasad.budhwani@gmail.com">durgaprasad.budhwani@gmail.com</a>
-		  </Grid>
-		</Grid>
-		<Grid container
-		      item
-		      align="center"
-		      justify="center"
-		      direction="row"
-		      spacing={24}>
-		  <Grid
-		    className={classes.profileListItem}
-		    item
-		    xs={3}>
-		    Phone:
-		  </Grid>
-		  <Grid
-		    className={classes.profileListItemValue}
-		    item
-		    xs={9}>
-		    <a className={classes.profileValueAItemValue}
-		       href="tel:+91-9545251359">+91-9545251359</a>
-		  </Grid>
-		</Grid>
-	      </Grid>
+	      <ContactInfo />
 	    </Grid>
 	  </Grid>
 	  <Grid

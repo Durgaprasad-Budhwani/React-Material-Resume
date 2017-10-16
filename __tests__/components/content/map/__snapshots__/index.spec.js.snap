@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders map 1`] = `
+<div
+  className="MuiPaper-root-4 MuiPaper-shadow2-8 MuiPaper-rounded-5 MapContainer-container-1"
+>
+  <div
+    className="MuiGrid-typeContainer-31 MuiGrid-direction-xs-column-33"
+  >
+    <div
+      className="MapContainer-contactContainer-2"
+      xs={4}
+    >
+      <div
+        className="MuiGrid-typeContainer-31 MuiGrid-typeItem-32 MuiGrid-spacing-xs-24-47 MuiGrid-direction-xs-column-33"
+      >
+        <div
+          className="MuiGrid-typeContainer-31 MuiGrid-typeItem-32 MuiGrid-spacing-xs-24-47 MuiGrid-align-xs-center-37 MuiGrid-justify-xs-center-41"
+        >
+          <div
+            className="MuiGrid-typeItem-32 MuiGrid-grid-xs-3-52 ContactInfo-profileListItem-115"
+          >
+            Address:
+          </div>
+          <div
+            className="MuiGrid-typeItem-32 MuiGrid-grid-xs-9-58 ContactInfo-profileListItemValue-116"
+          >
+            Pune, India
+          </div>
+        </div>
+        <div
+          className="MuiGrid-typeContainer-31 MuiGrid-typeItem-32 MuiGrid-spacing-xs-24-47 MuiGrid-align-xs-center-37 MuiGrid-justify-xs-center-41"
+        >
+          <div
+            className="MuiGrid-typeItem-32 MuiGrid-grid-xs-3-52 ContactInfo-profileListItem-115"
+          >
+            Email:
+          </div>
+          <div
+            className="MuiGrid-typeItem-32 MuiGrid-grid-xs-9-58 ContactInfo-profileListItemValue-116"
+          >
+            <a
+              className="ContactInfo-profileValueAItemValue-117"
+              href="mailto:durgaprasad.budhwani@gmail.com"
+            >
+              durgaprasad.budhwani@gmail.com
+            </a>
+          </div>
+        </div>
+        <div
+          className="MuiGrid-typeContainer-31 MuiGrid-typeItem-32 MuiGrid-spacing-xs-24-47 MuiGrid-align-xs-center-37 MuiGrid-justify-xs-center-41"
+        >
+          <div
+            className="MuiGrid-typeItem-32 MuiGrid-grid-xs-3-52 ContactInfo-profileListItem-115"
+          >
+            Phone:
+          </div>
+          <div
+            className="MuiGrid-typeItem-32 MuiGrid-grid-xs-9-58 ContactInfo-profileListItemValue-116"
+          >
+            <a
+              className="ContactInfo-profileValueAItemValue-117"
+              href="tel:+91-9545251359"
+            >
+              +91-9545251359
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MapContainer-mapContainer-3"
+      xs={8}
+    />
+  </div>
+</div>
+`;

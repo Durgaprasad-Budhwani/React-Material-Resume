@@ -73,10 +73,10 @@ exports[`renders app 1`] = `
       className="MuiGrid-typeItem-2 MuiGrid-grid-xs-12-31 MuiGrid-grid-sm-10-42 MuiGrid-grid-md-8-53 MuiGrid-grid-lg-6-64 Content-content-169"
     >
       <div
-        className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 About-container-170"
+        className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-around-14 About-container-170"
       >
         <div
-          className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
+          className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-center-11 MuiGrid-grid-xs-6-25"
         >
           <div
             className="MuiPaper-root-96 MuiPaper-shadow2-100 MuiPaper-rounded-97 ContactForm-container-171"
@@ -327,11 +327,85 @@ exports[`renders app 1`] = `
           </div>
         </div>
         <div
-          className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
-        />
+          className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-center-11 MuiGrid-grid-xs-6-25"
+        >
+          <div
+            className="MuiPaper-root-96 MuiPaper-shadow2-100 MuiPaper-rounded-97 MapContainer-container-219"
+          >
+            <div
+              className="MuiGrid-typeContainer-1 MuiGrid-direction-xs-column-3"
+            >
+              <div
+                className="MapContainer-contactContainer-220"
+                xs={4}
+              >
+                <div
+                  className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-direction-xs-column-3"
+                >
+                  <div
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-align-xs-center-7 MuiGrid-justify-xs-center-11"
+                  >
+                    <div
+                      className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 ContactInfo-profileListItem-223"
+                    >
+                      Address:
+                    </div>
+                    <div
+                      className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 ContactInfo-profileListItemValue-224"
+                    >
+                      Pune, India
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-align-xs-center-7 MuiGrid-justify-xs-center-11"
+                  >
+                    <div
+                      className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 ContactInfo-profileListItem-223"
+                    >
+                      Email:
+                    </div>
+                    <div
+                      className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 ContactInfo-profileListItemValue-224"
+                    >
+                      <a
+                        className="ContactInfo-profileValueAItemValue-225"
+                        href="mailto:durgaprasad.budhwani@gmail.com"
+                      >
+                        durgaprasad.budhwani@gmail.com
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-align-xs-center-7 MuiGrid-justify-xs-center-11"
+                  >
+                    <div
+                      className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 ContactInfo-profileListItem-223"
+                    >
+                      Phone:
+                    </div>
+                    <div
+                      className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 ContactInfo-profileListItemValue-224"
+                    >
+                      <a
+                        className="ContactInfo-profileValueAItemValue-225"
+                        href="tel:+91-9545251359"
+                      >
+                        +91-9545251359
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="MapContainer-mapContainer-221"
+                xs={8}
+              />
+            </div>
+          </div>
+        </div>
       </div>
       <div
-        className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-direction-xs-column-3 About-about-219"
+        className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-direction-xs-column-3 About-about-226"
       >
         <div
           className="MuiGrid-typeItem-2 MuiGrid-grid-xs-12-31"
@@ -343,14 +417,14 @@ exports[`renders app 1`] = `
               className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-direction-xs-column-3"
             >
               <div
-                className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 Profile-profile-221"
+                className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 Profile-profile-228"
               >
                 <div
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-5-24"
                 >
                   <img
                     alt="Durgaprasad Budhwani"
-                    className="Profile-profilePhoto-222"
+                    className="Profile-profilePhoto-229"
                     src="profile.jpeg"
                   />
                 </div>
@@ -361,27 +435,27 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-direction-xs-column-3 MuiGrid-align-xs-center-7 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeItem-2 Profile-profileInfo-223"
+                    className="MuiGrid-typeItem-2 Profile-profileInfo-230"
                   >
                     <div>
                       <span
-                        className="Bubble-container-232"
+                        className="Bubble-container-236"
                       >
                         Hello
                       </span>
                     </div>
                     <h1
-                      className="Profile-profileTitle-225"
+                      className="Profile-profileTitle-232"
                     >
                       <span
-                        className="Profile-profileTitleStart-226"
+                        className="Profile-profileTitleStart-233"
                       >
                         I'm
                       </span>
                        Durgaprasad Budhwani
                     </h1>
                     <h2
-                      className="Profile-profilePosition-227"
+                      className="Profile-profilePosition-234"
                     >
                       Full Stack Developer
                     </h2>
@@ -393,12 +467,12 @@ exports[`renders app 1`] = `
                       className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-align-xs-center-7 MuiGrid-justify-xs-center-11"
                     >
                       <div
-                        className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 Profile-profileListItem-228"
+                        className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 ContactInfo-profileListItem-223"
                       >
                         Address:
                       </div>
                       <div
-                        className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 Profile-profileListItemValue-229"
+                        className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 ContactInfo-profileListItemValue-224"
                       >
                         Pune, India
                       </div>
@@ -407,15 +481,15 @@ exports[`renders app 1`] = `
                       className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-align-xs-center-7 MuiGrid-justify-xs-center-11"
                     >
                       <div
-                        className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 Profile-profileListItem-228"
+                        className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 ContactInfo-profileListItem-223"
                       >
                         Email:
                       </div>
                       <div
-                        className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 Profile-profileListItemValue-229"
+                        className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 ContactInfo-profileListItemValue-224"
                       >
                         <a
-                          className="Profile-profileValueAItemValue-230"
+                          className="ContactInfo-profileValueAItemValue-225"
                           href="mailto:durgaprasad.budhwani@gmail.com"
                         >
                           durgaprasad.budhwani@gmail.com
@@ -426,15 +500,15 @@ exports[`renders app 1`] = `
                       className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-align-xs-center-7 MuiGrid-justify-xs-center-11"
                     >
                       <div
-                        className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 Profile-profileListItem-228"
+                        className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 ContactInfo-profileListItem-223"
                       >
                         Phone:
                       </div>
                       <div
-                        className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 Profile-profileListItemValue-229"
+                        className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 ContactInfo-profileListItemValue-224"
                       >
                         <a
-                          className="Profile-profileValueAItemValue-230"
+                          className="ContactInfo-profileValueAItemValue-225"
                           href="tel:+91-9545251359"
                         >
                           +91-9545251359
@@ -445,14 +519,14 @@ exports[`renders app 1`] = `
                 </div>
               </div>
               <div
-                className="Profile-profileSocial-231"
+                className="Profile-profileSocial-235"
               >
                 <div
-                  className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-align-xs-center-7 MuiGrid-justify-xs-center-11 SocialIcons-container-234"
+                  className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-align-xs-center-7 MuiGrid-justify-xs-center-11 SocialIcons-container-238"
                 >
                   <button
                     aria-label="Add an alarm"
-                    className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-233"
+                    className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-237"
                     disabled={false}
                     onBlur={[Function]}
                     onFocus={[Function]}
@@ -489,7 +563,7 @@ exports[`renders app 1`] = `
                   </button>
                   <button
                     aria-label="Add an alarm"
-                    className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-233"
+                    className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-237"
                     disabled={false}
                     onBlur={[Function]}
                     onFocus={[Function]}
@@ -526,7 +600,7 @@ exports[`renders app 1`] = `
                   </button>
                   <button
                     aria-label="Add an alarm"
-                    className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-233"
+                    className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-237"
                     disabled={false}
                     onBlur={[Function]}
                     onFocus={[Function]}
@@ -563,7 +637,7 @@ exports[`renders app 1`] = `
                   </button>
                   <button
                     aria-label="Add an alarm"
-                    className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-233"
+                    className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-237"
                     disabled={false}
                     onBlur={[Function]}
                     onFocus={[Function]}
@@ -600,7 +674,7 @@ exports[`renders app 1`] = `
                   </button>
                   <button
                     aria-label="Add an alarm"
-                    className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-233"
+                    className="MuiButtonBase-root-134 MuiIconButton-root-125 SocialIcons-button-237"
                     disabled={false}
                     onBlur={[Function]}
                     onFocus={[Function]}
@@ -652,7 +726,7 @@ exports[`renders app 1`] = `
             }
           >
             <span
-              className="SectionTitle-sectionTitle-237"
+              className="SectionTitle-sectionTitle-241"
             >
               Education
             </span>
@@ -664,10 +738,10 @@ exports[`renders app 1`] = `
               }
             >
               <div
-                className="Timeline-clear-236"
+                className="Timeline-clear-240"
               >
                 <div
-                  className="TimelineBar-bar-238"
+                  className="TimelineBar-bar-242"
                   style={
                     Object {
                       "height": 40,
@@ -676,14 +750,14 @@ exports[`renders app 1`] = `
                   }
                 />
                 <div
-                  className="EventContainer-box-243 EventContainer-boxRight-245"
+                  className="EventContainer-box-247 EventContainer-boxRight-249"
                 >
                   <div>
                     <div
-                      className="MuiPaper-root-96 MuiPaper-shadow2-100 MuiPaper-rounded-97 EventContainer-paper-239 EventContainer-paperRight-241"
+                      className="MuiPaper-root-96 MuiPaper-shadow2-100 MuiPaper-rounded-97 EventContainer-paper-243 EventContainer-paperRight-245"
                     >
                       <span
-                        className="EventContainer-arrow-247 EventContainer-arrowLeft-249"
+                        className="EventContainer-arrow-251 EventContainer-arrowLeft-253"
                       />
                       <div
                         className="MuiGrid-typeContainer-1 MuiGrid-spacing-xs-16-16 MuiGrid-direction-xs-column-3"
@@ -695,18 +769,18 @@ exports[`renders app 1`] = `
                       >
                         <div>
                           <span
-                            className="Bubble-container-232"
+                            className="Bubble-container-236"
                           >
                             2014 - Present
                           </span>
                         </div>
                         <h3
-                          className="Course-header3-253"
+                          className="Course-header3-257"
                         >
                           Varian Medical System
                         </h3>
                         <p
-                          className="Course-header4-254"
+                          className="Course-header4-258"
                         >
                           Varian Medical System 
                         </p>
@@ -714,18 +788,18 @@ exports[`renders app 1`] = `
                     </div>
                   </div>
                   <span
-                    className="EventContainer-dot-246 EventContainer-dotLeft-251"
+                    className="EventContainer-dot-250 EventContainer-dotLeft-255"
                   />
                 </div>
                 <div
-                  className="EventContainer-box-243 EventContainer-boxLeft-244"
+                  className="EventContainer-box-247 EventContainer-boxLeft-248"
                 >
                   <div>
                     <div
-                      className="MuiPaper-root-96 MuiPaper-shadow2-100 MuiPaper-rounded-97 EventContainer-paper-239 EventContainer-paperLeft-240"
+                      className="MuiPaper-root-96 MuiPaper-shadow2-100 MuiPaper-rounded-97 EventContainer-paper-243 EventContainer-paperLeft-244"
                     >
                       <span
-                        className="EventContainer-arrow-247 EventContainer-arrowRight-248"
+                        className="EventContainer-arrow-251 EventContainer-arrowRight-252"
                       />
                       <div
                         className="MuiGrid-typeContainer-1 MuiGrid-spacing-xs-16-16 MuiGrid-direction-xs-column-3"
@@ -737,18 +811,18 @@ exports[`renders app 1`] = `
                       >
                         <div>
                           <span
-                            className="Bubble-container-232"
+                            className="Bubble-container-236"
                           >
                             2014 - Present
                           </span>
                         </div>
                         <h3
-                          className="Course-header3-253"
+                          className="Course-header3-257"
                         >
                           Varian Medical System
                         </h3>
                         <p
-                          className="Course-header4-254"
+                          className="Course-header4-258"
                         >
                           Varian Medical System 
                         </p>
@@ -756,7 +830,7 @@ exports[`renders app 1`] = `
                     </div>
                   </div>
                   <span
-                    className="EventContainer-dot-246 EventContainer-dotRight-250"
+                    className="EventContainer-dot-250 EventContainer-dotRight-254"
                   />
                 </div>
               </div>
@@ -770,7 +844,7 @@ exports[`renders app 1`] = `
             className="MuiGrid-typeContainer-1 MuiGrid-spacing-xs-16-16 MuiGrid-direction-xs-column-3 MuiGrid-justify-xs-center-11"
           >
             <span
-              className="SectionTitle-sectionTitle-237"
+              className="SectionTitle-sectionTitle-241"
             >
               Work Experience
             </span>
@@ -782,10 +856,10 @@ exports[`renders app 1`] = `
               }
             >
               <div
-                className="Timeline-clear-256"
+                className="Timeline-clear-260"
               >
                 <div
-                  className="TimelineBar-bar-238"
+                  className="TimelineBar-bar-242"
                   style={
                     Object {
                       "height": 40,
@@ -794,30 +868,30 @@ exports[`renders app 1`] = `
                   }
                 />
                 <div
-                  className="EventContainer-box-243 EventContainer-boxRight-245"
+                  className="EventContainer-box-247 EventContainer-boxRight-249"
                 >
                   <div>
                     <div
-                      className="MuiPaper-root-96 MuiPaper-shadow2-100 MuiPaper-rounded-97 EventContainer-paper-239 EventContainer-paperRight-241"
+                      className="MuiPaper-root-96 MuiPaper-shadow2-100 MuiPaper-rounded-97 EventContainer-paper-243 EventContainer-paperRight-245"
                     >
                       <span
-                        className="EventContainer-arrow-247 EventContainer-arrowLeft-249"
+                        className="EventContainer-arrow-251 EventContainer-arrowLeft-253"
                       />
                       <div
                         className="MuiGrid-typeContainer-1 MuiGrid-spacing-xs-16-16 MuiGrid-direction-xs-column-3 MuiGrid-align-xs-center-7"
                       >
                         <div
-                          className="Event-date-257"
+                          className="Event-date-261"
                         >
                           2014 - Present
                         </div>
                         <h3
-                          className="Event-header3-258"
+                          className="Event-header3-262"
                         >
                           Varian Medical System
                         </h3>
                         <h4
-                          className="Event-header4-259"
+                          className="Event-header4-263"
                         >
                           Full Stack Developer
                         </h4>
@@ -834,34 +908,34 @@ exports[`renders app 1`] = `
                     </div>
                   </div>
                   <span
-                    className="EventContainer-dot-246 EventContainer-dotLeft-251"
+                    className="EventContainer-dot-250 EventContainer-dotLeft-255"
                   />
                 </div>
                 <div
-                  className="EventContainer-box-243 EventContainer-boxLeft-244"
+                  className="EventContainer-box-247 EventContainer-boxLeft-248"
                 >
                   <div>
                     <div
-                      className="MuiPaper-root-96 MuiPaper-shadow2-100 MuiPaper-rounded-97 EventContainer-paper-239 EventContainer-paperLeft-240"
+                      className="MuiPaper-root-96 MuiPaper-shadow2-100 MuiPaper-rounded-97 EventContainer-paper-243 EventContainer-paperLeft-244"
                     >
                       <span
-                        className="EventContainer-arrow-247 EventContainer-arrowRight-248"
+                        className="EventContainer-arrow-251 EventContainer-arrowRight-252"
                       />
                       <div
                         className="MuiGrid-typeContainer-1 MuiGrid-spacing-xs-16-16 MuiGrid-direction-xs-column-3 MuiGrid-align-xs-center-7"
                       >
                         <div
-                          className="Event-date-257"
+                          className="Event-date-261"
                         >
                           2014 - Present
                         </div>
                         <h3
-                          className="Event-header3-258"
+                          className="Event-header3-262"
                         >
                           Varian Medical System
                         </h3>
                         <h4
-                          className="Event-header4-259"
+                          className="Event-header4-263"
                         >
                           Full Stack Developer
                         </h4>
@@ -878,7 +952,7 @@ exports[`renders app 1`] = `
                     </div>
                   </div>
                   <span
-                    className="EventContainer-dot-246 EventContainer-dotRight-250"
+                    className="EventContainer-dot-250 EventContainer-dotRight-254"
                   />
                 </div>
               </div>
@@ -892,7 +966,7 @@ exports[`renders app 1`] = `
             className="MuiGrid-typeContainer-1 MuiGrid-spacing-xs-16-16 MuiGrid-direction-xs-column-3 MuiGrid-justify-xs-center-11"
           >
             <span
-              className="SectionTitle-sectionTitle-237"
+              className="SectionTitle-sectionTitle-241"
             >
               Articles
             </span>
@@ -909,12 +983,12 @@ exports[`renders app 1`] = `
             id="skills"
           >
             <span
-              className="SectionTitle-sectionTitle-237"
+              className="SectionTitle-sectionTitle-241"
             >
               Professional Skills
             </span>
             <div
-              className="MuiPaper-root-96 MuiPaper-shadow2-100 MuiPaper-rounded-97 Skilss-root-262"
+              className="MuiPaper-root-96 MuiPaper-shadow2-100 MuiPaper-rounded-97 Skilss-root-266"
             >
               <div
                 className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 MuiGrid-grid-xs-12-31"
@@ -923,25 +997,25 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-266"
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-270"
                   >
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       JavaScript
                     </span>
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       90%
                     </span>
                   </div>
                   <div
                     aria-valuenow={90}
-                    className="MuiLinearProgress-root-269 MuiLinearProgress-primaryColor-270"
+                    className="MuiLinearProgress-root-273 MuiLinearProgress-primaryColor-274"
                   >
                     <div
-                      className="MuiLinearProgress-bar-276 MuiLinearProgress-primaryColorBar-271 MuiLinearProgress-determinateBar1-283"
+                      className="MuiLinearProgress-bar-280 MuiLinearProgress-primaryColorBar-275 MuiLinearProgress-determinateBar1-287"
                       style={
                         Object {
                           "transform": "scaleX(0.9)",
@@ -954,25 +1028,25 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-266"
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-270"
                   >
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       CSS
                     </span>
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       70%
                     </span>
                   </div>
                   <div
                     aria-valuenow={70}
-                    className="MuiLinearProgress-root-269 MuiLinearProgress-primaryColor-270"
+                    className="MuiLinearProgress-root-273 MuiLinearProgress-primaryColor-274"
                   >
                     <div
-                      className="MuiLinearProgress-bar-276 MuiLinearProgress-primaryColorBar-271 MuiLinearProgress-determinateBar1-283"
+                      className="MuiLinearProgress-bar-280 MuiLinearProgress-primaryColorBar-275 MuiLinearProgress-determinateBar1-287"
                       style={
                         Object {
                           "transform": "scaleX(0.7)",
@@ -985,25 +1059,25 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-266"
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-270"
                   >
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       JavaScript
                     </span>
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       90%
                     </span>
                   </div>
                   <div
                     aria-valuenow={90}
-                    className="MuiLinearProgress-root-269 MuiLinearProgress-primaryColor-270"
+                    className="MuiLinearProgress-root-273 MuiLinearProgress-primaryColor-274"
                   >
                     <div
-                      className="MuiLinearProgress-bar-276 MuiLinearProgress-primaryColorBar-271 MuiLinearProgress-determinateBar1-283"
+                      className="MuiLinearProgress-bar-280 MuiLinearProgress-primaryColorBar-275 MuiLinearProgress-determinateBar1-287"
                       style={
                         Object {
                           "transform": "scaleX(0.9)",
@@ -1016,25 +1090,25 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-266"
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-270"
                   >
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       CSS
                     </span>
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       70%
                     </span>
                   </div>
                   <div
                     aria-valuenow={70}
-                    className="MuiLinearProgress-root-269 MuiLinearProgress-primaryColor-270"
+                    className="MuiLinearProgress-root-273 MuiLinearProgress-primaryColor-274"
                   >
                     <div
-                      className="MuiLinearProgress-bar-276 MuiLinearProgress-primaryColorBar-271 MuiLinearProgress-determinateBar1-283"
+                      className="MuiLinearProgress-bar-280 MuiLinearProgress-primaryColorBar-275 MuiLinearProgress-determinateBar1-287"
                       style={
                         Object {
                           "transform": "scaleX(0.7)",
@@ -1047,25 +1121,25 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-266"
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-270"
                   >
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       JavaScript
                     </span>
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       90%
                     </span>
                   </div>
                   <div
                     aria-valuenow={90}
-                    className="MuiLinearProgress-root-269 MuiLinearProgress-primaryColor-270"
+                    className="MuiLinearProgress-root-273 MuiLinearProgress-primaryColor-274"
                   >
                     <div
-                      className="MuiLinearProgress-bar-276 MuiLinearProgress-primaryColorBar-271 MuiLinearProgress-determinateBar1-283"
+                      className="MuiLinearProgress-bar-280 MuiLinearProgress-primaryColorBar-275 MuiLinearProgress-determinateBar1-287"
                       style={
                         Object {
                           "transform": "scaleX(0.9)",
@@ -1078,25 +1152,25 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-266"
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-270"
                   >
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       CSS
                     </span>
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       70%
                     </span>
                   </div>
                   <div
                     aria-valuenow={70}
-                    className="MuiLinearProgress-root-269 MuiLinearProgress-primaryColor-270"
+                    className="MuiLinearProgress-root-273 MuiLinearProgress-primaryColor-274"
                   >
                     <div
-                      className="MuiLinearProgress-bar-276 MuiLinearProgress-primaryColorBar-271 MuiLinearProgress-determinateBar1-283"
+                      className="MuiLinearProgress-bar-280 MuiLinearProgress-primaryColorBar-275 MuiLinearProgress-determinateBar1-287"
                       style={
                         Object {
                           "transform": "scaleX(0.7)",
@@ -1109,25 +1183,25 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-266"
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-270"
                   >
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       JavaScript
                     </span>
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       90%
                     </span>
                   </div>
                   <div
                     aria-valuenow={90}
-                    className="MuiLinearProgress-root-269 MuiLinearProgress-primaryColor-270"
+                    className="MuiLinearProgress-root-273 MuiLinearProgress-primaryColor-274"
                   >
                     <div
-                      className="MuiLinearProgress-bar-276 MuiLinearProgress-primaryColorBar-271 MuiLinearProgress-determinateBar1-283"
+                      className="MuiLinearProgress-bar-280 MuiLinearProgress-primaryColorBar-275 MuiLinearProgress-determinateBar1-287"
                       style={
                         Object {
                           "transform": "scaleX(0.9)",
@@ -1140,25 +1214,25 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-266"
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-270"
                   >
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       CSS
                     </span>
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       70%
                     </span>
                   </div>
                   <div
                     aria-valuenow={70}
-                    className="MuiLinearProgress-root-269 MuiLinearProgress-primaryColor-270"
+                    className="MuiLinearProgress-root-273 MuiLinearProgress-primaryColor-274"
                   >
                     <div
-                      className="MuiLinearProgress-bar-276 MuiLinearProgress-primaryColorBar-271 MuiLinearProgress-determinateBar1-283"
+                      className="MuiLinearProgress-bar-280 MuiLinearProgress-primaryColorBar-275 MuiLinearProgress-determinateBar1-287"
                       style={
                         Object {
                           "transform": "scaleX(0.7)",
@@ -1171,25 +1245,25 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-266"
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-270"
                   >
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       JavaScript
                     </span>
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       90%
                     </span>
                   </div>
                   <div
                     aria-valuenow={90}
-                    className="MuiLinearProgress-root-269 MuiLinearProgress-primaryColor-270"
+                    className="MuiLinearProgress-root-273 MuiLinearProgress-primaryColor-274"
                   >
                     <div
-                      className="MuiLinearProgress-bar-276 MuiLinearProgress-primaryColorBar-271 MuiLinearProgress-determinateBar1-283"
+                      className="MuiLinearProgress-bar-280 MuiLinearProgress-primaryColorBar-275 MuiLinearProgress-determinateBar1-287"
                       style={
                         Object {
                           "transform": "scaleX(0.9)",
@@ -1202,25 +1276,25 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-266"
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-270"
                   >
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       CSS
                     </span>
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       70%
                     </span>
                   </div>
                   <div
                     aria-valuenow={70}
-                    className="MuiLinearProgress-root-269 MuiLinearProgress-primaryColor-270"
+                    className="MuiLinearProgress-root-273 MuiLinearProgress-primaryColor-274"
                   >
                     <div
-                      className="MuiLinearProgress-bar-276 MuiLinearProgress-primaryColorBar-271 MuiLinearProgress-determinateBar1-283"
+                      className="MuiLinearProgress-bar-280 MuiLinearProgress-primaryColorBar-275 MuiLinearProgress-determinateBar1-287"
                       style={
                         Object {
                           "transform": "scaleX(0.7)",
@@ -1233,25 +1307,25 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-266"
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-270"
                   >
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       JavaScript
                     </span>
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       90%
                     </span>
                   </div>
                   <div
                     aria-valuenow={90}
-                    className="MuiLinearProgress-root-269 MuiLinearProgress-primaryColor-270"
+                    className="MuiLinearProgress-root-273 MuiLinearProgress-primaryColor-274"
                   >
                     <div
-                      className="MuiLinearProgress-bar-276 MuiLinearProgress-primaryColorBar-271 MuiLinearProgress-determinateBar1-283"
+                      className="MuiLinearProgress-bar-280 MuiLinearProgress-primaryColorBar-275 MuiLinearProgress-determinateBar1-287"
                       style={
                         Object {
                           "transform": "scaleX(0.9)",
@@ -1264,25 +1338,25 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-266"
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-270"
                   >
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       CSS
                     </span>
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       70%
                     </span>
                   </div>
                   <div
                     aria-valuenow={70}
-                    className="MuiLinearProgress-root-269 MuiLinearProgress-primaryColor-270"
+                    className="MuiLinearProgress-root-273 MuiLinearProgress-primaryColor-274"
                   >
                     <div
-                      className="MuiLinearProgress-bar-276 MuiLinearProgress-primaryColorBar-271 MuiLinearProgress-determinateBar1-283"
+                      className="MuiLinearProgress-bar-280 MuiLinearProgress-primaryColorBar-275 MuiLinearProgress-determinateBar1-287"
                       style={
                         Object {
                           "transform": "scaleX(0.7)",
@@ -1295,25 +1369,25 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-266"
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-270"
                   >
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       JavaScript
                     </span>
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       90%
                     </span>
                   </div>
                   <div
                     aria-valuenow={90}
-                    className="MuiLinearProgress-root-269 MuiLinearProgress-primaryColor-270"
+                    className="MuiLinearProgress-root-273 MuiLinearProgress-primaryColor-274"
                   >
                     <div
-                      className="MuiLinearProgress-bar-276 MuiLinearProgress-primaryColorBar-271 MuiLinearProgress-determinateBar1-283"
+                      className="MuiLinearProgress-bar-280 MuiLinearProgress-primaryColorBar-275 MuiLinearProgress-determinateBar1-287"
                       style={
                         Object {
                           "transform": "scaleX(0.9)",
@@ -1326,25 +1400,25 @@ exports[`renders app 1`] = `
                   className="MuiGrid-typeItem-2 MuiGrid-grid-xs-6-25"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-266"
+                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-space-between-13 SkillBar-labelContainer-270"
                   >
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       CSS
                     </span>
                     <span
-                      className="SkillBar-label-265"
+                      className="SkillBar-label-269"
                     >
                       70%
                     </span>
                   </div>
                   <div
                     aria-valuenow={70}
-                    className="MuiLinearProgress-root-269 MuiLinearProgress-primaryColor-270"
+                    className="MuiLinearProgress-root-273 MuiLinearProgress-primaryColor-274"
                   >
                     <div
-                      className="MuiLinearProgress-bar-276 MuiLinearProgress-primaryColorBar-271 MuiLinearProgress-determinateBar1-283"
+                      className="MuiLinearProgress-bar-280 MuiLinearProgress-primaryColorBar-275 MuiLinearProgress-determinateBar1-287"
                       style={
                         Object {
                           "transform": "scaleX(0.7)",
