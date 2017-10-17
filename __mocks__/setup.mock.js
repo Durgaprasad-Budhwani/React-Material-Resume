@@ -10,3 +10,13 @@ jest.mock('react-animate-on-scroll', () => {
     }
     return ScrollAnimation;
 });
+
+jest.mock('google-map-react', () => {
+  const React = require('react');
+  class GoogleMap extends React.Component {
+    render() {
+      return (<div>{this.props.children}</div>);
+    }
+  }
+  return GoogleMap;
+});
