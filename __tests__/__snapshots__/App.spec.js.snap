@@ -327,79 +327,75 @@ exports[`renders app 1`] = `
           </div>
         </div>
         <div
-          className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-justify-xs-center-11 MuiGrid-grid-xs-6-25"
+          className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-16-16 MuiGrid-grid-xs-6-25"
         >
           <div
-            className="MuiPaper-root-96 MuiPaper-shadow2-100 MuiPaper-rounded-97 MapContainer-container-219"
+            className="MuiGrid-typeContainer-1 MuiGrid-spacing-xs-16-16 MuiGrid-direction-xs-column-3 MapContainer-container-219"
           >
             <div
-              className="MuiGrid-typeContainer-1 MuiGrid-direction-xs-column-3"
+              className="MuiGrid-typeItem-2 MapContainer-contactContainer-220"
             >
               <div
-                className="MapContainer-contactContainer-220"
-                xs={4}
+                className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-direction-xs-column-3"
               >
                 <div
-                  className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-direction-xs-column-3"
+                  className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-align-xs-center-7 MuiGrid-justify-xs-center-11"
                 >
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-align-xs-center-7 MuiGrid-justify-xs-center-11"
+                    className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 ContactInfo-profileListItem-223"
                   >
-                    <div
-                      className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 ContactInfo-profileListItem-223"
-                    >
-                      Address:
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 ContactInfo-profileListItemValue-224"
-                    >
-                      Pune, India
-                    </div>
+                    Address:
                   </div>
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-align-xs-center-7 MuiGrid-justify-xs-center-11"
+                    className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 ContactInfo-profileListItemValue-224"
                   >
-                    <div
-                      className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 ContactInfo-profileListItem-223"
-                    >
-                      Email:
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 ContactInfo-profileListItemValue-224"
-                    >
-                      <a
-                        className="ContactInfo-profileValueAItemValue-225"
-                        href="mailto:durgaprasad.budhwani@gmail.com"
-                      >
-                        durgaprasad.budhwani@gmail.com
-                      </a>
-                    </div>
+                    Pune, India
+                  </div>
+                </div>
+                <div
+                  className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-align-xs-center-7 MuiGrid-justify-xs-center-11"
+                >
+                  <div
+                    className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 ContactInfo-profileListItem-223"
+                  >
+                    Email:
                   </div>
                   <div
-                    className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-align-xs-center-7 MuiGrid-justify-xs-center-11"
+                    className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 ContactInfo-profileListItemValue-224"
                   >
-                    <div
-                      className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 ContactInfo-profileListItem-223"
+                    <a
+                      className="ContactInfo-profileValueAItemValue-225"
+                      href="mailto:durgaprasad.budhwani@gmail.com"
                     >
-                      Phone:
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 ContactInfo-profileListItemValue-224"
+                      durgaprasad.budhwani@gmail.com
+                    </a>
+                  </div>
+                </div>
+                <div
+                  className="MuiGrid-typeContainer-1 MuiGrid-typeItem-2 MuiGrid-spacing-xs-24-17 MuiGrid-align-xs-center-7 MuiGrid-justify-xs-center-11"
+                >
+                  <div
+                    className="MuiGrid-typeItem-2 MuiGrid-grid-xs-3-22 ContactInfo-profileListItem-223"
+                  >
+                    Phone:
+                  </div>
+                  <div
+                    className="MuiGrid-typeItem-2 MuiGrid-grid-xs-9-28 ContactInfo-profileListItemValue-224"
+                  >
+                    <a
+                      className="ContactInfo-profileValueAItemValue-225"
+                      href="tel:+91-9545251359"
                     >
-                      <a
-                        className="ContactInfo-profileValueAItemValue-225"
-                        href="tel:+91-9545251359"
-                      >
-                        +91-9545251359
-                      </a>
-                    </div>
+                      +91-9545251359
+                    </a>
                   </div>
                 </div>
               </div>
-              <div
-                className="MapContainer-mapContainer-221"
-                xs={8}
-              />
+            </div>
+            <div
+              className="MuiGrid-typeItem-2 MuiGrid-grid-xs-19 MapContainer-mapContainer-221"
+            >
+              <div />
             </div>
           </div>
         </div>

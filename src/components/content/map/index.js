@@ -4,46 +4,56 @@
 import React, { PureComponent } from 'react';
 import Grid from 'material-ui/Grid';
 import { withStyles } from 'material-ui/styles';
-import Paper from 'material-ui/Paper';
 import ContactInfo from '../../common/contact-info';
+import GoogleMapReact from 'google-map-react';
 
 const styles = theme => ({
   container: {
     margin: 20,
-    paddingTop: 45,
-    flexGrow: 1
+    padding: 0,
+    paddingTop: 25,
+    backgroundColor: '#FFF',
+    boxShadow: '0 0 4px rgba(0, 0, 0, 0.2)'
   },
   contactContainer: {
-    paddingLeft: 30,
-    paddingRight: 30,
-    paddingBottom: 30,
+    margin: 10,
+
   },
   mapContainer: {
-    backgroundColor: 'red',
-    flexGrow: 1
+    margin: 0,
+    padding: 0
+    
+  },
   
-  }
- 
 });
 
 class MapContainer extends PureComponent<void, Props, void> {
+  static defaultProps = {
+    center: { lat: 18.5204, lng: 73.8567 },
+    zoom: 11
+  };
+  
   render () {
     const { classes } = this.props;
     return (
-      <Paper className={classes.container}>
-	<Grid container
-	      direction="column"
-	      spacing={0}
-	>
-	  <div className={classes.contactContainer} xs={4}>
+      <Grid container
+	    direction="column"
+	    className={classes.container}
+      >
+	  <Grid className={classes.contactContainer}
+		item>
 	    <ContactInfo/>
-	  </div>
-	  <div className={classes.mapContainer} xs={8}>
-	  
-	  </div>
-	</Grid>
-      </Paper>
-    
+	  </Grid>
+	  <Grid className={classes.mapContainer}
+		item
+		xs>
+	    <GoogleMapReact
+	    defaultCenter={this.props.center}
+	    defaultZoom={this.props.zoom}
+	    >
+	    </GoogleMapReact>
+	  </Grid>
+      </Grid>
     )
   }
 }
