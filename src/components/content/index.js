@@ -33,8 +33,8 @@ class Content extends PureComponent {
                       md={8}
                       lg={6}
                       className={classes.content}>
-                    <Contact />
                     <About />
+                    <Contact />
                 </Grid>
             </Grid>
         )

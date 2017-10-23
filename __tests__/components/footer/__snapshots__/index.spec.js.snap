@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders fooer 1`] = `
+<div
+  className="MuiGrid-typeItem-3 Footer-container-1"
+>
+  <div
+    className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-24-18 MuiGrid-align-xs-center-8 MuiGrid-justify-xs-center-12 SocialIcons-container-86"
+  >
+    <button
+      aria-label="Add an alarm"
+      className="MuiButtonBase-root-96 MuiIconButton-root-87 SocialIcons-button-85"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-93"
+      >
+        <svg
+          className=""
+          fill="grey"
+          height="24px"
+          style={Object {}}
+          viewBox="0 0 1024 1024"
+          width="24px"
+        >
+          <path
+            d="M576 384v-76.2c0-34.4 7.6-51.8 61-51.8h67v-128h-111.8c-137 0-182.2 62.8-182.2 170.6v85.4h-90v128h90v384h166v-384h112.8l15.2-128h-128z"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-98"
+      />
+    </button>
+    <button
+      aria-label="Add an alarm"
+      className="MuiButtonBase-root-96 MuiIconButton-root-87 SocialIcons-button-85"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-93"
+      >
+        <svg
+          className=""
+          fill="grey"
+          height="24px"
+          style={Object {}}
+          viewBox="0 0 1024 1024"
+          width="24px"
+        >
+          <path
+            d="M984 219c-34.8 15.4-72 25.8-111.2 30.6 40-24 70.8-62 85.2-107.2-37.4 22.2-78.8 38.4-123 47-35.4-37.8-85.8-61.4-141.4-61.4-107 0-193.6 86.8-193.6 193.8 0 15.2 1.6 30 5 44.2-161-8-303.8-85.2-399.2-202.6-16.6 28.6-26.2 62-26.2 97.4 0 67.2 34.4 126.6 86.4 161.4-32-0.8-62-9.6-88-24.2 0 0.8 0 1.6 0 2.4 0 94 66.8 172.2 155.4 190-16.2 4.4-33.4 6.8-51 6.8-12.4 0-24.6-1.2-36.4-3.6 24.6 77 96.2 133 181 134.6-66.2 52-149.8 83-240.6 83-15.6 0-31-1-46.2-2.8 85.4 55.6 187.2 87.6 296.4 87.6 356.6 0 551.4-295.4 551.4-551.6 0-8.4-0.2-16.8-0.6-25 37.8-27.4 70.6-61.4 96.6-100.4z"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-98"
+      />
+    </button>
+    <button
+      aria-label="Add an alarm"
+      className="MuiButtonBase-root-96 MuiIconButton-root-87 SocialIcons-button-85"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-93"
+      >
+        <svg
+          className=""
+          fill="grey"
+          height="30px"
+          style={Object {}}
+          viewBox="0 0 1024 1024"
+          width="30px"
+        >
+          <path
+            d="M834.4 128h-640.8c-35 0-65.6 25.2-65.6 59.8v642.2c0 34.8 30.6 65.8 65.6 65.8h640.6c35.2 0 61.6-31.2 61.6-65.8v-642.2c0.2-34.6-26.4-59.8-61.4-59.8zM366 768h-110v-342h110v342zM314.8 374h-0.8c-35.2 0-58-26.2-58-59 0-33.4 23.4-59 59.4-59s58 25.4 58.8 59c0 32.8-22.8 59-59.4 59zM768 768h-110v-187c0-44.8-16-75.4-55.8-75.4-30.4 0-48.4 20.6-56.4 40.6-3 7.2-3.8 17-3.8 27v194.8h-110v-342h110v47.6c16-22.8 41-55.6 99.2-55.6 72.2 0 126.8 47.6 126.8 150.2v199.8z"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-98"
+      />
+    </button>
+    <button
+      aria-label="Add an alarm"
+      className="MuiButtonBase-root-96 MuiIconButton-root-87 SocialIcons-button-85"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-93"
+      >
+        <svg
+          className=""
+          fill="grey"
+          height="24px"
+          style={Object {}}
+          viewBox="0 0 1024 1024"
+          width="24px"
+        >
+          <path
+            d="M484.2 551.2l-36.4-27.4-0.2-0.2c-11.6-9.2-20-16.6-20-29.4 0-14 10-23.6 21.8-34.8l1-0.8c40-30.4 89.4-68.6 89.4-149.2 0-53.8-23.8-89.4-46.6-115.4h26l120.8-66h-267c-50.6 0-125.4 6.4-189.2 57.2l-0.2 0.6c-43.6 36-69.6 89-69.6 141.2 0 42.4 17.4 84.4 47.8 114.8 42.8 43.2 96.6 52.2 134.2 52.2 3 0 6 0 9-0.2-1.6 6-2.4 12.6-2.4 20.6 0 21.8 7.2 38.6 16.2 52.4-48 3.8-116.2 13-169.8 44.6-78.8 45.4-85 112-85 131.2 0 76.4 71.4 153.6 231 153.6 183.2 0 279-99.6 279-198 0-74.2-45.6-111.2-89.8-147zM233.4 279.8c0-26.8 6-47 18.6-61.8 13-15.8 36.4-26.2 58-26.2 39.8 0 65.8 30 80.8 55.2 18.4 31 29.8 72.2 29.8 107.2 0 9.8 0 40-20.4 59.6-14 13.4-37.4 22.8-57.2 22.8-41 0-67-29.4-81.4-54-20.8-35.6-28.2-76.4-28.2-102.8zM475.6 736c0 54.8-50.4 89-131.6 89-96.2 0-160.6-41.2-160.6-102.6 0-52.2 43-73.6 75.6-85 37.8-12.2 88.6-14.6 100.2-14.6 7.8 0 12.2 0 17.4 0.4 73.2 50.4 99 72.2 99 112.8z M804 284v-156h-68v156h-160v68h160v162h68v-162h156v-68z"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-98"
+      />
+    </button>
+    <button
+      aria-label="Add an alarm"
+      className="MuiButtonBase-root-96 MuiIconButton-root-87 SocialIcons-button-85"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label-93"
+      >
+        <svg
+          className=""
+          fill="grey"
+          height="24px"
+          style={Object {}}
+          viewBox="0 0 1024 1024"
+          width="24px"
+        >
+          <path
+            d="M512 64c-247.4 0-448 205.8-448 459.4 0 203 128.4 375 306.4 435.8 2.8 0.6 5.2 0.8 7.6 0.8 16.6 0 23-12.2 23-22.8 0-11-0.4-39.8-0.6-78.2-16.8 3.8-31.8 5.4-45.2 5.4-86.2 0-105.8-67-105.8-67-20.4-53-49.8-67.2-49.8-67.2-39-27.4-0.2-28.2 2.8-28.2 0.2 0 0.2 0 0.2 0 45 4 68.6 47.6 68.6 47.6 22.4 39.2 52.4 50.2 79.2 50.2 21 0 40-6.8 51.2-12 4-29.6 15.6-49.8 28.4-61.4-99.4-11.6-204-51-204-227 0-50.2 17.4-91.2 46-123.2-4.6-11.6-20-58.4 4.4-121.6 0 0 3.2-1 10-1 16.2 0 52.8 6.2 113.2 48.2 35.8-10.2 74-15.2 112.2-15.4 38 0.2 76.4 5.2 112.2 15.4 60.4-42 97-48.2 113.2-48.2 6.8 0 10 1 10 1 24.4 63.2 9 110 4.4 121.6 28.6 32.2 46 73.2 46 123.2 0 176.4-104.8 215.2-204.6 226.6 16 14.2 30.4 42.2 30.4 85 0 61.4-0.6 111-0.6 126 0 10.8 6.2 23 22.8 23 2.4 0 5.2-0.2 8-0.8 178.2-60.8 306.4-233 306.4-435.8 0-253.6-200.6-459.4-448-459.4z"
+          />
+        </svg>
+      </span>
+      <span
+        className="MuiTouchRipple-root-98"
+      />
+    </button>
+  </div>
+</div>
+`;

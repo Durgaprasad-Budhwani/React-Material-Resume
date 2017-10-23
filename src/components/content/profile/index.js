@@ -6,7 +6,7 @@ import Grid from 'material-ui/Grid';
 import Paper from 'material-ui/Paper'
 import { withStyles } from 'material-ui/styles';
 import PropTypes from 'prop-types';
-import SocialIcons from './social-icons';
+import SocialIcons from '../../common/social-icons';
 import Bubble from '../../common/bubble';
 import ContactInfo from '../../common/contact-info';
 

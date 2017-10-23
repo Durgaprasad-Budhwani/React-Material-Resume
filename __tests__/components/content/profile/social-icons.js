@@ -3,7 +3,7 @@
  */
 /* global expect,it */
 import React from 'react';
-import SocialIcons from '../../../../src/components/content/profile/social-icons';
+import SocialIcons from '../../../../src/components/common/social-icons';
 import renderer from 'react-test-renderer';
 
 it('renders social icons', () => {

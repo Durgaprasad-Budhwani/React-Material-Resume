@@ -7,7 +7,7 @@ import {withStyles} from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import Profile from './profile';
 import Skills from './skills';
-import Timeline from './timeline';
+import WorkExperience from './timeline';
 import Blog from './blog';
 import Education from './education';
 
@@ -43,20 +43,19 @@ class About extends PureComponent {
                 </Grid>
                 <Grid item
                       xs={12}>
+                    <WorkExperience />
+                </Grid>
+                <Grid item
+                      xs={12}>
+                    <Skills />
+                </Grid>
+                <Grid item
+                      xs={12}>
                     <Education />
                 </Grid>
                 <Grid item
                       xs={12}>
-                    <Timeline />
-                </Grid>
-                <Grid item
-                      xs={12}>
                     <Blog />
-                </Grid>
-               
-                <Grid item
-                      xs={12}>
-                    <Skills />
                 </Grid>
             </Grid>
         )
