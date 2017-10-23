@@ -8,14 +8,14 @@ exports[`renders header 1`] = `
     className="Header-headerBackground-3"
   />
   <header
-    className="MuiPaper-root-13 MuiPaper-shadow4-19 MuiAppBar-root-6 MuiAppBar-positionStatic-9 MuiAppBar-colorPrimary-11 Header-headerBar-2"
+    className="MuiPaper-root-14 MuiPaper-shadow4-20 MuiAppBar-root-7 MuiAppBar-positionFixed-8 MuiAppBar-colorPrimary-12 mui-fixed Header-headerBar-2"
   >
     <div
-      className="MuiToolbar-root-40 MuiToolbar-gutters-41"
+      className="MuiToolbar-root-41 MuiToolbar-gutters-42"
     >
       <button
         aria-label="Menu"
-        className="MuiButtonBase-root-51 MuiIconButton-root-42 MuiIconButton-colorContrast-44"
+        className="MuiButtonBase-root-52 MuiIconButton-root-43 MuiIconButton-colorContrast-45"
         disabled={false}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -31,11 +31,11 @@ exports[`renders header 1`] = `
         type="button"
       >
         <span
-          className="MuiIconButton-label-48"
+          className="MuiIconButton-label-49"
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-53"
+            className="MuiSvgIcon-root-54"
             focusable="false"
             viewBox="0 0 24 24"
           >
@@ -45,21 +45,18 @@ exports[`renders header 1`] = `
           </svg>
         </span>
         <span
-          className="MuiTouchRipple-root-54"
+          className="MuiTouchRipple-root-55"
         />
       </button>
-      <h2
-        className="MuiTypography-root-61 MuiTypography-title-67 MuiTypography-colorInherit-80 Header-flex-4"
-      >
-        Title
-      </h2>
-      <a
-        className="Header-scrollChor-5"
-        href="#skills"
-        onClick={[Function]}
-      >
-        Skills 
-      </a>
+      <div
+        className="Header-flex-4"
+      />
+      <div>
+        Profile 
+      </div>
+      <div>
+        Contact 
+      </div>
     </div>
   </header>
 </div>
