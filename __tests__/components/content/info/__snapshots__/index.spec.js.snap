@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders info 1`] = `
+<div
+  className="Info-container-1"
+>
+  <button
+    className="MuiButtonBase-root-18 MuiButton-root-4 MuiButton-raised-11 MuiButton-raisedContrast-15 Info-button-3"
+    disabled={false}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label-6"
+    >
+      Download Resume
+    </span>
+    <span
+      className="MuiTouchRipple-root-20"
+    />
+  </button>
+  <p
+    className="Info-info-2"
+  >
+    Hello! I am Durgaprasad Budhwani. Full Stack Developer specializing in web, desktop, mobile design and development, I maintain a healthy balance between functionality and visual impact in all my work. I believe every piece of design can be a work of art. 
+  </p>
+</div>
+`;

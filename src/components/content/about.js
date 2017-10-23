@@ -7,6 +7,7 @@ import Scroll from 'react-scroll';
 import { withStyles } from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import Profile from './profile';
+import Info from './info';
 import Skills from './skills';
 import WorkExperience from './timeline';
 import Blog from './blog';
@@ -44,6 +45,12 @@ class About extends PureComponent {
 	      xs={12}>
 	  <Element name="profile">
 	    <Profile />
+	  </Element>
+	</Grid>
+	<Grid item
+	      xs={12}>
+	  <Element name="info">
+	    <Info />
 	  </Element>
 	</Grid>
 	<Grid item
