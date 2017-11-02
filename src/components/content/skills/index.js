@@ -30,7 +30,7 @@ class Skilss extends PureComponent {
     render () {
         const classes = this.props.classes;
         return (
-            <Grid container
+            <Grid
                   id="skills"
                   align="center"
                   direction="column"

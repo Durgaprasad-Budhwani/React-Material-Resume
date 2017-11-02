@@ -23,12 +23,12 @@ exports[`renders blog 1`] = `
         className="Blog-blogItemTimeContainer-5"
       >
         <div
-          class="Blog-blogItemTimeDay-6"
+          className="Blog-blogItemTimeDay-6"
         >
           day1
         </div>
         <div
-          class="Blog-blogItemTimeMonth-7"
+          className="Blog-blogItemTimeMonth-7"
         >
           month1
         </div>

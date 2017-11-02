@@ -20,12 +20,12 @@ const styles = theme => ({
     '*zoom': 1,
     
     '&:before': {
-      content: " ",
+      content: '""',
       display: 'table',
     },
     
     '&:after': {
-      content: " ",
+      content: '""',
       display: 'table',
       clear: 'both'
     }

@@ -68,10 +68,12 @@ class Header extends Component {
     }
     
     handleScroll () {
-        if(ReactDOM.findDOMNode(this).getBoundingClientRect){
+        if (ReactDOM.findDOMNode(this).getBoundingClientRect) {
             let rect = ReactDOM.findDOMNode(this).getBoundingClientRect();
+            console.log('rect',rect);
+            let position = (rect.y || rect.top) < -45 ? 'fixed' :'static';
             this.setState({
-                position: rect.y < -45 ? 'fixed' :'static'
+                position
             })
         }
     }
@@ -88,33 +90,33 @@ class Header extends Component {
                 <div className={classes.headerBackground}></div>
                 <AppBar position="fixed"
                         className={headerClass}>
-                <Toolbar>
-                    <IconButton color="contrast"
-                                aria-label="Menu">
-                        <MenuIcon/>
-                    </IconButton>
-                    <div
-                        className={classes.flex}>
-                    </div>
-                    <Link to="profile"
-                          spy={true}
-                          smooth={true}
-                          duration={500}
-                          offset={-50}
-                          activeClass={classes.scrollChorActive}
-                          className={classes.scrollChor}>Profile </Link>
-                    <Link to="contact"
-                          spy={true}
-                          smooth={true}
-                          duration={500}
-                          offset={-300}
-                          activeClass={classes.scrollChorActive}
-                          className={classes.scrollChor}>Contact </Link>
-                </Toolbar>
-            </AppBar>
-    </div>
-    )
-        ;
+                    <Toolbar>
+                        <IconButton color="contrast"
+                                    aria-label="Menu">
+                            <MenuIcon/>
+                        </IconButton>
+                        <div
+                            className={classes.flex}>
+                        </div>
+                        <Link to="profile"
+                              spy={true}
+                              smooth={true}
+                              duration={500}
+                              offset={-50}
+                              activeClass={classes.scrollChorActive}
+                              className={classes.scrollChor}>Profile </Link>
+                        <Link to="contact"
+                              spy={true}
+                              smooth={true}
+                              duration={500}
+                              offset={-300}
+                              activeClass={classes.scrollChorActive}
+                              className={classes.scrollChor}>Contact </Link>
+                    </Toolbar>
+                </AppBar>
+            </div>
+        )
+            ;
     }
 }
 

@@ -29,12 +29,11 @@ export default class App extends Component {
     
     return (
       <MuiThemeProvider theme={theme}>
-	<Grid justify="center"
-	      container>
-	  <Header />
-	  <Content />
-	  <Footer />
-	</Grid>
+        <div >
+          <Header />
+          <Content />
+          <Footer />
+        </div>
       </MuiThemeProvider>
     );
   }

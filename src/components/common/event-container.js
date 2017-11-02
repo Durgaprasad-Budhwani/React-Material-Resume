@@ -111,37 +111,37 @@ class EventContainer extends PureComponent<void, Props, void> {
         return (
             
             <div className={classNames({
-	  [classes.box]: true,
-	  [classes.boxLeft]: alignment === LEFT,
-	  [classes.boxRight]: alignment === RIGHT
-	})}>
+                [classes.box]: true,
+                [classes.boxLeft]: alignment === LEFT,
+                [classes.boxRight]: alignment === RIGHT
+            })}>
                 <ScrollAnimation animateIn={alignment === LEFT ? 'fadeInLeft' :'fadeInRight'}
                                  animateOut={alignment === LEFT ? 'fadeInLeft' :'fadeInRight'}
                                  animateOnce
-                                 duration={2}
+                                 initiallyVyarnisible={true}
+                                 duration={0}
                                  offset={0}
                 >
                     <Paper className={classNames(
-	    {
-	      [classes.paper]: true,
-	      [classes.paperLeft]: alignment === LEFT,
-	      [classes.paperRight]: alignment === RIGHT
-	    }
-	  )}>
+                        {
+                            [classes.paper]: true,
+                            [classes.paperLeft]: alignment === LEFT,
+                            [classes.paperRight]: alignment === RIGHT
+                        }
+                    )}>
                   <span className={classNames({
-		    [classes.arrow]: true,
-		    [classes.arrowRight]: alignment === LEFT,
-		    [classes.arrowLeft]: alignment === RIGHT
-		  })}/>
+                      [classes.arrow]: true,
+                      [classes.arrowRight]: alignment === LEFT,
+                      [classes.arrowLeft]: alignment === RIGHT
+                  })}/>
                         {this.props.children}
                     </Paper>
                 </ScrollAnimation>
                 <span className={classNames({
-	    [classes.dot]: true,
-	    [classes.dotRight]: alignment === LEFT,
-	    [classes.dotLeft]: alignment === RIGHT,
-	  })}/>
-            
+                    [classes.dot]: true,
+                    [classes.dotRight]: alignment === LEFT,
+                    [classes.dotLeft]: alignment === RIGHT,
+                })}/>
             </div>
         
         )

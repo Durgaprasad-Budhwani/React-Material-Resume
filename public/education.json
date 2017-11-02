@@ -1,5 +1,17 @@
 [
   {
-
+    "year": "2005 - 2008",
+    "college": "University of Pune",
+    "description": "Bachelor Electronics and Communication"
+  },
+  {
+    "year": "2002 - 2005",
+    "college": "Maharashtra State Board of Technical Education",
+    "description": "Diploma in Electronics and Communication"
+  },
+  {
+    "year": "2001 - 2002",
+    "college": "Kela Hindi High School, Khamgaon",
+    "description": "Secondary School Certificate"
   }
 ]

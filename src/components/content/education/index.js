@@ -18,14 +18,14 @@ const styles = theme => ({
     clear: {
         position: 'relative',
         '*zoom': 1,
-        
-        '&:before': {
-            content: " ",
+
+        "&:before": {
+            content: '""',
             display: 'table',
         },
-        
-        '&:after': {
-            content: " ",
+
+        "&:after": {
+            content: '""',
             display: 'table',
             clear: 'both'
         }

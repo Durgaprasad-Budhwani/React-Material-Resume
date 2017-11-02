@@ -2,7 +2,7 @@
 
 exports[`renders blog container 1`] = `
 <div
-  className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-18 MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-13"
+  className="MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-13"
 >
   <span
     className="SectionTitle-sectionTitle-86"
@@ -10,7 +10,7 @@ exports[`renders blog container 1`] = `
     Articles
   </span>
   <div
-    className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-8-17 MuiGrid-justify-xs-space-between-15 MuiGrid-grid-xs-12-33"
+    className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-8-17 MuiGrid-justify-xs-space-between-15 MuiGrid-grid-xs-12-33"
   />
 </div>
 `;

@@ -121,8 +121,8 @@ class Blog extends PureComponent<void, Props, void> {
                     </div>
                     <div className={classes.blogItemContent}>
                         <time className={classes.blogItemTimeContainer}>
-                            <div class={classes.blogItemTimeDay}>{day}</div>
-                            <div class={classes.blogItemTimeMonth}>{month}</div>
+                            <div className={classes.blogItemTimeDay}>{day}</div>
+                            <div className={classes.blogItemTimeMonth}>{month}</div>
                         </time>
                         <h3 className={classes.blogItemTitle}>{title}</h3>
                     </div>
