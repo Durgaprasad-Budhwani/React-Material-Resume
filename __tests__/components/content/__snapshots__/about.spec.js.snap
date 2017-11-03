@@ -2,7 +2,7 @@
 
 exports[`renders about 1`] = `
 <div
-  className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-24-19 MuiGrid-direction-xs-column-5 About-about-1"
+  className="About-about-1"
 >
   <div
     className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33"
@@ -386,7 +386,15 @@ exports[`renders about 1`] = `
           <div
             className="EventContainer-box-171 EventContainer-boxRight-173"
           >
-            <div>
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "0s",
+                  "visibility": "hidden",
+                }
+              }
+            >
               <div
                 className="MuiPaper-root-94 MuiPaper-shadow2-98 MuiPaper-rounded-95 EventContainer-paper-167 EventContainer-paperRight-169"
               >
@@ -430,7 +438,15 @@ exports[`renders about 1`] = `
           <div
             className="EventContainer-box-171 EventContainer-boxLeft-172"
           >
-            <div>
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "0s",
+                  "visibility": "hidden",
+                }
+              }
+            >
               <div
                 className="MuiPaper-root-94 MuiPaper-shadow2-98 MuiPaper-rounded-95 EventContainer-paper-167 EventContainer-paperLeft-168"
               >
@@ -479,7 +495,7 @@ exports[`renders about 1`] = `
     className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33"
   >
     <div
-      className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-18 MuiGrid-direction-xs-column-5 MuiGrid-align-xs-center-9 MuiGrid-justify-xs-center-13"
+      className=""
       id="skills"
     >
       <span
@@ -969,7 +985,15 @@ exports[`renders about 1`] = `
           <div
             className="EventContainer-box-171 EventContainer-boxRight-173"
           >
-            <div>
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "0s",
+                  "visibility": "hidden",
+                }
+              }
+            >
               <div
                 className="MuiPaper-root-94 MuiPaper-shadow2-98 MuiPaper-rounded-95 EventContainer-paper-167 EventContainer-paperRight-169"
               >
@@ -1011,7 +1035,15 @@ exports[`renders about 1`] = `
           <div
             className="EventContainer-box-171 EventContainer-boxLeft-172"
           >
-            <div>
+            <div
+              className="animated"
+              style={
+                Object {
+                  "animationDuration": "0s",
+                  "visibility": "hidden",
+                }
+              }
+            >
               <div
                 className="MuiPaper-root-94 MuiPaper-shadow2-98 MuiPaper-rounded-95 EventContainer-paper-167 EventContainer-paperLeft-168"
               >
@@ -1058,7 +1090,7 @@ exports[`renders about 1`] = `
     className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33"
   >
     <div
-      className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-18 MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-13"
+      className=""
     >
       <span
         className="SectionTitle-sectionTitle-165"

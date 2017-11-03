@@ -8,7 +8,7 @@ import Paper from 'material-ui/Paper';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import {LEFT, RIGHT} from '../utils/Constants';
-import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from '../../lib/scroll-animation';
 
 const styles = theme => ({
     paper: {

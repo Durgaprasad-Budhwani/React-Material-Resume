@@ -36,7 +36,15 @@ exports[`renders education 1`] = `
       <div
         className="EventContainer-box-92 EventContainer-boxRight-94"
       >
-        <div>
+        <div
+          className="animated"
+          style={
+            Object {
+              "animationDuration": "0s",
+              "visibility": "hidden",
+            }
+          }
+        >
           <div
             className="MuiPaper-root-101 MuiPaper-shadow2-105 MuiPaper-rounded-102 EventContainer-paper-88 EventContainer-paperRight-90"
           >
@@ -78,7 +86,15 @@ exports[`renders education 1`] = `
       <div
         className="EventContainer-box-92 EventContainer-boxLeft-93"
       >
-        <div>
+        <div
+          className="animated"
+          style={
+            Object {
+              "animationDuration": "0s",
+              "visibility": "hidden",
+            }
+          }
+        >
           <div
             className="MuiPaper-root-101 MuiPaper-shadow2-105 MuiPaper-rounded-102 EventContainer-paper-88 EventContainer-paperLeft-89"
           >

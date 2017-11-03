@@ -26,16 +26,14 @@ class Content extends PureComponent {
     render () {
         const classes = this.props.classes;
         return (
-            <Grid justify="center"
-                  align='center'
-                  // container
-                  spacing={0}>
+            <Grid>
                 <Grid
-                      xs={12}
-                      sm={10}
-                      md={8}
-                      lg={6}
-                      className={classes.content}>
+                    item
+                    xs={12}
+                    sm={10}
+                    md={8}
+                    lg={6}
+                    className={classes.content}>
                     <Element name="profile">
                         <About/>
                     </Element>

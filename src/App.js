@@ -4,7 +4,6 @@ import cyan from 'material-ui/colors/cyan';
 import Content from './components/content';
 import Footer from './components/footer';
 import pink from 'material-ui/colors/blue';
-import Grid from 'material-ui/Grid';
 import './App.css';
 import Header from './components/header';
 import 'animate.css/animate.min.css';

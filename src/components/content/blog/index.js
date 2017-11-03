@@ -57,9 +57,6 @@ class Blogs extends PureComponent<void, Props, void> {
         const {blogs} = this.state;
         return (
             <Grid
-                align="stretch"
-                direction="column"
-                justify="center"
             >
                 <SectionTitle title='Articles'/>
                 <Grid
@@ -67,6 +64,7 @@ class Blogs extends PureComponent<void, Props, void> {
                     align="stretch"
                     justify="space-between"
                     xs={12}
+                    item
                     spacing={8}
                     container
                 >

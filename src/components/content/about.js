@@ -38,8 +38,6 @@ class About extends PureComponent {
         return (
             <Grid
                   className={classes.about}
-                  direction="column"
-                  spacing={24}
             >
                 <Grid item
                       xs={12}>

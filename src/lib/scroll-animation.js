@@ -30,11 +30,13 @@ export default class ScrollAnimation extends Component {
     }
     
     componentDidMount () {
-        this.setState({
-            elementBottom: this.node.getBoundingClientRect().bottom + ScrollAnimation.posTop(),
-            elementTop: this.node.getBoundingClientRect().top + ScrollAnimation.posTop()
-        }, this.handleScroll);
-        this.handleScroll();
+        if(this.node && this.node.getBoundingClientRect){
+            this.setState({
+                elementBottom: this.node.getBoundingClientRect().bottom + ScrollAnimation.posTop(),
+                elementTop: this.node.getBoundingClientRect().top + ScrollAnimation.posTop()
+            }, this.handleScroll);
+            this.handleScroll();
+        }
     }
     
     componentWillUnmount () {

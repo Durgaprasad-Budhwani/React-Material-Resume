@@ -2,7 +2,7 @@
 
 exports[`renders skill bar 1`] = `
 <div
-  className="MuiGrid-direction-xs-column-6 MuiGrid-align-xs-center-10 MuiGrid-justify-xs-center-14"
+  className=""
   id="skills"
 >
   <span
