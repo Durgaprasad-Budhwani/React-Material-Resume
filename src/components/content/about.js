@@ -8,7 +8,6 @@ import {withStyles} from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import Profile from './profile';
 import Info from './info';
-import Contact from './contact';
 import Skills from './skills';
 import WorkExperience from './timeline';
 import Blog from './blog';

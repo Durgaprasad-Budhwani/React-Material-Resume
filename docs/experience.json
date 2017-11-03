@@ -1,0 +1,26 @@
+[
+  {
+    "year": "Sept 2014 - present",
+    "company": "Varian Medical Systems",
+    "title": "Full Stack .NET/Node Developer",
+    "description": "Responsible for developing high-level component designs, detailed class design, integration with other components and ensuring the code quality through Unit Tests, CI and Code reviews"
+  },
+  {
+    "year": "April 2014 - Sept 2014",
+    "company": "Varian Medical Systems",
+    "title": "Senior Software Engineer",
+    "description": "The design of the overall architecture of IO and high-frequency components for mobile/portable device access"
+  },
+  {
+    "year": "Oct 2010 - April 2014",
+    "company": "Schlumberger",
+    "title": "Senior Software Engineer",
+    "description": "Implement database solution, which will reduce database release cycle from 1 week to 4 hours by end-to-end continuous integration."
+  },
+  {
+    "year": "July 2018 - Oct 2010",
+    "company": "Atos Origin",
+    "title": "Software Engineer",
+    "description": "Responsible for conversion of the client’s website from a legacy ASP to a modern, object-oriented approach using ASP.Net/C# on the.NET Framework"
+  }
+]
