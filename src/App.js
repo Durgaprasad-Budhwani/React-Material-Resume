@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
+import React, {Component} from 'react';
+import {createMuiTheme, MuiThemeProvider} from 'material-ui/styles';
 import cyan from 'material-ui/colors/cyan';
 import Content from './components/content';
 import Footer from './components/footer';
@@ -9,33 +9,32 @@ import Header from './components/header';
 import 'animate.css/animate.min.css';
 
 import Scroll from 'react-scroll';
+
 const {scrollSpy} = Scroll;
 
 
 export default class App extends Component {
-  componentDidMount () {
-    scrollSpy.update();
-  }
-  
-  render () {
-    const theme = createMuiTheme({
-      palette: {
-	primary: cyan,
-	accent: pink,
-	type: 'light',
-      },
-    });
+    componentDidMount () {
+        scrollSpy.update();
+    }
     
-    return (
-      <MuiThemeProvider theme={theme}>
-        <div >
-          <Header />
-          <Content />
-          <Footer />
-        </div>
-      </MuiThemeProvider>
-    );
-  }
+    render () {
+        const theme = createMuiTheme({
+            palette: {
+                primary: cyan,
+                accent: pink,
+                type: 'light',
+            },
+        });
+        
+        return (
+            <MuiThemeProvider theme={theme}>
+                <Header/>
+                <Content/>
+                <Footer/>
+            </MuiThemeProvider>
+        );
+    }
 }
 
 
