@@ -31,9 +31,10 @@ class Content extends PureComponent {
                 justify={'center'}
                 className={classes.content}>
                 <Grid xs={12}
-                      sm={10}
+                      sm={12}
                       md={8}
                       item
+                      style={{position:'relative'}}
                       lg={8}>
                     <Element name="profile">
                         <About/>

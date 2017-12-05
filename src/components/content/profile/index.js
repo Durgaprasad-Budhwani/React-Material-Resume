@@ -43,7 +43,6 @@ const styles = theme => ({
         textTransform: 'uppercase',
         position: 'relative',
         backgroundColor: theme.palette.primary[ 500 ],
-        borderLeftColor: theme.palette.primary[ 500 ],
         
         '&:before': {
             content: '""',
@@ -58,9 +57,7 @@ const styles = theme => ({
             borderColor: 'transparent',
             borderLeftColor: theme.palette.primary[ 500 ],
         }
-        
     },
-    
     profileTitle: {
         fontSize: 36,
         lineHeight: 1.1,
@@ -90,14 +87,14 @@ class Profile extends PureComponent {
                 <Grid item
                       container
                       direction="column"
-                
                       spacing={0}>
                     <Grid item
                           className={classes.profile}
                           container
                     >
                         <Grid item
-                              xs={5}>
+                              lg={5}
+                              xs={12}>
                             <img src="profile.jpeg"
                                  alt="Durgaprasad Budhwani"
                                  className={classes.profilePhoto}/>

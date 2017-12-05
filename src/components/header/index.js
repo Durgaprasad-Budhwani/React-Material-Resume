@@ -70,11 +70,12 @@ class Header extends Component {
     handleScroll () {
         if (ReactDOM.findDOMNode(this).getBoundingClientRect) {
             let rect = ReactDOM.findDOMNode(this).getBoundingClientRect();
-            console.log('rect',rect);
-            let position = (rect.y || rect.top) < -45 ? 'fixed' :'static';
-            this.setState({
-                position
-            })
+            if (rect) {
+                let position = (rect.y || rect.top) < -45 ? 'fixed' :'static';
+                this.setState({
+                    position
+                })
+            }
         }
     }
     

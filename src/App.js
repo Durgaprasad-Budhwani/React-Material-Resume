@@ -29,9 +29,11 @@ export default class App extends Component {
         
         return (
             <MuiThemeProvider theme={theme}>
-                <Header/>
-                <Content/>
-                <Footer/>
+                <div>
+                    <Header/>
+                    <Content/>
+                    <Footer/>
+                </div>
             </MuiThemeProvider>
         );
     }

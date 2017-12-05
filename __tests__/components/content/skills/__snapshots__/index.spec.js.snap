@@ -2,8 +2,13 @@
 
 exports[`renders skill bar 1`] = `
 <div
-  className=""
+  className="MuiGrid-typeContainer-4 MuiGrid-spacing-xs-16-19 MuiGrid-direction-xs-column-6 MuiGrid-justify-xs-center-14"
   id="skills"
+  style={
+    Object {
+      "marginBottom": 50,
+    }
+  }
 >
   <span
     className="SectionTitle-sectionTitle-87"
@@ -17,7 +22,7 @@ exports[`renders skill bar 1`] = `
       className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 MuiGrid-grid-xs-12-34"
     >
       <div
-        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-34 MuiGrid-grid-lg-6-67"
       >
         <div
           className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
@@ -48,7 +53,7 @@ exports[`renders skill bar 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-34 MuiGrid-grid-lg-6-67"
       >
         <div
           className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
@@ -79,7 +84,7 @@ exports[`renders skill bar 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-34 MuiGrid-grid-lg-6-67"
       >
         <div
           className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
@@ -110,7 +115,7 @@ exports[`renders skill bar 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-34 MuiGrid-grid-lg-6-67"
       >
         <div
           className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
@@ -141,7 +146,7 @@ exports[`renders skill bar 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-34 MuiGrid-grid-lg-6-67"
       >
         <div
           className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
@@ -172,7 +177,7 @@ exports[`renders skill bar 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-34 MuiGrid-grid-lg-6-67"
       >
         <div
           className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
@@ -203,7 +208,7 @@ exports[`renders skill bar 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-34 MuiGrid-grid-lg-6-67"
       >
         <div
           className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
@@ -234,7 +239,7 @@ exports[`renders skill bar 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-34 MuiGrid-grid-lg-6-67"
       >
         <div
           className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
@@ -265,7 +270,7 @@ exports[`renders skill bar 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-34 MuiGrid-grid-lg-6-67"
       >
         <div
           className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
@@ -296,7 +301,7 @@ exports[`renders skill bar 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-34 MuiGrid-grid-lg-6-67"
       >
         <div
           className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
@@ -327,7 +332,7 @@ exports[`renders skill bar 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-34 MuiGrid-grid-lg-6-67"
       >
         <div
           className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
@@ -358,7 +363,7 @@ exports[`renders skill bar 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-34 MuiGrid-grid-lg-6-67"
       >
         <div
           className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
@@ -389,7 +394,7 @@ exports[`renders skill bar 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-34 MuiGrid-grid-lg-6-67"
       >
         <div
           className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"
@@ -420,7 +425,7 @@ exports[`renders skill bar 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-6-28"
+        className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-34 MuiGrid-grid-lg-6-67"
       >
         <div
           className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-19 MuiGrid-justify-xs-space-between-16 SkillBar-labelContainer-116"

@@ -38,7 +38,8 @@ class About extends PureComponent {
                       spacing={16}
                 >
                     <Grid item
-                          xs={6}
+                          lg={6}
+                          md={12}
                           container
                           justify="center"
                           align="stretch"
@@ -47,7 +48,8 @@ class About extends PureComponent {
                     </Grid>
                     <Grid item
                           container
-                          xs={6}
+                          lg={6}
+                          md={12}
                           align="stretch"
                     >
                         <Map/>

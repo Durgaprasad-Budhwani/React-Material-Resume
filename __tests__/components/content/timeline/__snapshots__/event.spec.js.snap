@@ -2,7 +2,7 @@
 
 exports[`renders event 1`] = `
 <div
-  className="MuiGrid-typeContainer-4 MuiGrid-spacing-xs-16-19 MuiGrid-direction-xs-column-6 MuiGrid-align-xs-center-10"
+  className="MuiGrid-typeContainer-5 MuiGrid-spacing-xs-16-20 MuiGrid-direction-xs-column-7 MuiGrid-align-xs-center-11"
 >
   <div
     className="Event-date-1"
@@ -20,11 +20,7 @@ exports[`renders event 1`] = `
     abc
   </h4>
   <p
-    style={
-      Object {
-        "wordWrap": "normal",
-      }
-    }
+    className="Event-description-4"
   >
     red
   </p>

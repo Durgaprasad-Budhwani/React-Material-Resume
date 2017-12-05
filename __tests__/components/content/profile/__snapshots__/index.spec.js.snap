@@ -11,7 +11,7 @@ exports[`renders profile 1`] = `
       className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-spacing-xs-16-51 Profile-profile-1"
     >
       <div
-        className="MuiGrid-typeItem-37 MuiGrid-grid-xs-5-59"
+        className="MuiGrid-typeItem-37 MuiGrid-grid-xs-12-66 MuiGrid-grid-lg-5-98"
       >
         <img
           alt="Durgaprasad Budhwani"

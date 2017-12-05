@@ -18,7 +18,7 @@ exports[`renders about 1`] = `
             className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 Profile-profile-86"
           >
             <div
-              className="MuiGrid-typeItem-4 MuiGrid-grid-xs-5-26"
+              className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-5-65"
             >
               <img
                 alt="Durgaprasad Budhwani"
@@ -420,11 +420,7 @@ exports[`renders about 1`] = `
                     Full Stack Developer
                   </h4>
                   <p
-                    style={
-                      Object {
-                        "wordWrap": "normal",
-                      }
-                    }
+                    className="Event-description-183"
                   >
                     TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD 
                   </p>
@@ -472,11 +468,7 @@ exports[`renders about 1`] = `
                     Full Stack Developer
                   </h4>
                   <p
-                    style={
-                      Object {
-                        "wordWrap": "normal",
-                      }
-                    }
+                    className="Event-description-183"
                   >
                     TBD
                   </p>
@@ -495,8 +487,13 @@ exports[`renders about 1`] = `
     className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33"
   >
     <div
-      className=""
+      className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-18 MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-13"
       id="skills"
+      style={
+        Object {
+          "marginBottom": 50,
+        }
+      }
     >
       <span
         className="SectionTitle-sectionTitle-165"
@@ -504,34 +501,34 @@ exports[`renders about 1`] = `
         Professional Skills
       </span>
       <div
-        className="MuiPaper-root-94 MuiPaper-shadow2-98 MuiPaper-rounded-95 Skilss-root-183"
+        className="MuiPaper-root-94 MuiPaper-shadow2-98 MuiPaper-rounded-95 Skilss-root-184"
       >
         <div
           className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 MuiGrid-grid-xs-12-33"
         >
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-6-27"
+            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-6-66"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-187"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-188"
             >
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 JavaScript
               </span>
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 90%
               </span>
             </div>
             <div
               aria-valuenow={90}
-              className="MuiLinearProgress-root-190 MuiLinearProgress-primaryColor-191"
+              className="MuiLinearProgress-root-191 MuiLinearProgress-primaryColor-192"
             >
               <div
-                className="MuiLinearProgress-bar-197 MuiLinearProgress-primaryColorBar-192 MuiLinearProgress-determinateBar1-204"
+                className="MuiLinearProgress-bar-198 MuiLinearProgress-primaryColorBar-193 MuiLinearProgress-determinateBar1-205"
                 style={
                   Object {
                     "transform": "scaleX(0.9)",
@@ -541,28 +538,28 @@ exports[`renders about 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-6-27"
+            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-6-66"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-187"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-188"
             >
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 CSS
               </span>
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 70%
               </span>
             </div>
             <div
               aria-valuenow={70}
-              className="MuiLinearProgress-root-190 MuiLinearProgress-primaryColor-191"
+              className="MuiLinearProgress-root-191 MuiLinearProgress-primaryColor-192"
             >
               <div
-                className="MuiLinearProgress-bar-197 MuiLinearProgress-primaryColorBar-192 MuiLinearProgress-determinateBar1-204"
+                className="MuiLinearProgress-bar-198 MuiLinearProgress-primaryColorBar-193 MuiLinearProgress-determinateBar1-205"
                 style={
                   Object {
                     "transform": "scaleX(0.7)",
@@ -572,28 +569,28 @@ exports[`renders about 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-6-27"
+            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-6-66"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-187"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-188"
             >
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 JavaScript
               </span>
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 90%
               </span>
             </div>
             <div
               aria-valuenow={90}
-              className="MuiLinearProgress-root-190 MuiLinearProgress-primaryColor-191"
+              className="MuiLinearProgress-root-191 MuiLinearProgress-primaryColor-192"
             >
               <div
-                className="MuiLinearProgress-bar-197 MuiLinearProgress-primaryColorBar-192 MuiLinearProgress-determinateBar1-204"
+                className="MuiLinearProgress-bar-198 MuiLinearProgress-primaryColorBar-193 MuiLinearProgress-determinateBar1-205"
                 style={
                   Object {
                     "transform": "scaleX(0.9)",
@@ -603,28 +600,28 @@ exports[`renders about 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-6-27"
+            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-6-66"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-187"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-188"
             >
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 CSS
               </span>
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 70%
               </span>
             </div>
             <div
               aria-valuenow={70}
-              className="MuiLinearProgress-root-190 MuiLinearProgress-primaryColor-191"
+              className="MuiLinearProgress-root-191 MuiLinearProgress-primaryColor-192"
             >
               <div
-                className="MuiLinearProgress-bar-197 MuiLinearProgress-primaryColorBar-192 MuiLinearProgress-determinateBar1-204"
+                className="MuiLinearProgress-bar-198 MuiLinearProgress-primaryColorBar-193 MuiLinearProgress-determinateBar1-205"
                 style={
                   Object {
                     "transform": "scaleX(0.7)",
@@ -634,28 +631,28 @@ exports[`renders about 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-6-27"
+            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-6-66"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-187"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-188"
             >
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 JavaScript
               </span>
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 90%
               </span>
             </div>
             <div
               aria-valuenow={90}
-              className="MuiLinearProgress-root-190 MuiLinearProgress-primaryColor-191"
+              className="MuiLinearProgress-root-191 MuiLinearProgress-primaryColor-192"
             >
               <div
-                className="MuiLinearProgress-bar-197 MuiLinearProgress-primaryColorBar-192 MuiLinearProgress-determinateBar1-204"
+                className="MuiLinearProgress-bar-198 MuiLinearProgress-primaryColorBar-193 MuiLinearProgress-determinateBar1-205"
                 style={
                   Object {
                     "transform": "scaleX(0.9)",
@@ -665,28 +662,28 @@ exports[`renders about 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-6-27"
+            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-6-66"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-187"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-188"
             >
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 CSS
               </span>
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 70%
               </span>
             </div>
             <div
               aria-valuenow={70}
-              className="MuiLinearProgress-root-190 MuiLinearProgress-primaryColor-191"
+              className="MuiLinearProgress-root-191 MuiLinearProgress-primaryColor-192"
             >
               <div
-                className="MuiLinearProgress-bar-197 MuiLinearProgress-primaryColorBar-192 MuiLinearProgress-determinateBar1-204"
+                className="MuiLinearProgress-bar-198 MuiLinearProgress-primaryColorBar-193 MuiLinearProgress-determinateBar1-205"
                 style={
                   Object {
                     "transform": "scaleX(0.7)",
@@ -696,28 +693,28 @@ exports[`renders about 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-6-27"
+            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-6-66"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-187"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-188"
             >
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 JavaScript
               </span>
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 90%
               </span>
             </div>
             <div
               aria-valuenow={90}
-              className="MuiLinearProgress-root-190 MuiLinearProgress-primaryColor-191"
+              className="MuiLinearProgress-root-191 MuiLinearProgress-primaryColor-192"
             >
               <div
-                className="MuiLinearProgress-bar-197 MuiLinearProgress-primaryColorBar-192 MuiLinearProgress-determinateBar1-204"
+                className="MuiLinearProgress-bar-198 MuiLinearProgress-primaryColorBar-193 MuiLinearProgress-determinateBar1-205"
                 style={
                   Object {
                     "transform": "scaleX(0.9)",
@@ -727,28 +724,28 @@ exports[`renders about 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-6-27"
+            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-6-66"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-187"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-188"
             >
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 CSS
               </span>
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 70%
               </span>
             </div>
             <div
               aria-valuenow={70}
-              className="MuiLinearProgress-root-190 MuiLinearProgress-primaryColor-191"
+              className="MuiLinearProgress-root-191 MuiLinearProgress-primaryColor-192"
             >
               <div
-                className="MuiLinearProgress-bar-197 MuiLinearProgress-primaryColorBar-192 MuiLinearProgress-determinateBar1-204"
+                className="MuiLinearProgress-bar-198 MuiLinearProgress-primaryColorBar-193 MuiLinearProgress-determinateBar1-205"
                 style={
                   Object {
                     "transform": "scaleX(0.7)",
@@ -758,28 +755,28 @@ exports[`renders about 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-6-27"
+            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-6-66"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-187"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-188"
             >
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 JavaScript
               </span>
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 90%
               </span>
             </div>
             <div
               aria-valuenow={90}
-              className="MuiLinearProgress-root-190 MuiLinearProgress-primaryColor-191"
+              className="MuiLinearProgress-root-191 MuiLinearProgress-primaryColor-192"
             >
               <div
-                className="MuiLinearProgress-bar-197 MuiLinearProgress-primaryColorBar-192 MuiLinearProgress-determinateBar1-204"
+                className="MuiLinearProgress-bar-198 MuiLinearProgress-primaryColorBar-193 MuiLinearProgress-determinateBar1-205"
                 style={
                   Object {
                     "transform": "scaleX(0.9)",
@@ -789,28 +786,28 @@ exports[`renders about 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-6-27"
+            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-6-66"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-187"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-188"
             >
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 CSS
               </span>
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 70%
               </span>
             </div>
             <div
               aria-valuenow={70}
-              className="MuiLinearProgress-root-190 MuiLinearProgress-primaryColor-191"
+              className="MuiLinearProgress-root-191 MuiLinearProgress-primaryColor-192"
             >
               <div
-                className="MuiLinearProgress-bar-197 MuiLinearProgress-primaryColorBar-192 MuiLinearProgress-determinateBar1-204"
+                className="MuiLinearProgress-bar-198 MuiLinearProgress-primaryColorBar-193 MuiLinearProgress-determinateBar1-205"
                 style={
                   Object {
                     "transform": "scaleX(0.7)",
@@ -820,28 +817,28 @@ exports[`renders about 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-6-27"
+            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-6-66"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-187"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-188"
             >
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 JavaScript
               </span>
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 90%
               </span>
             </div>
             <div
               aria-valuenow={90}
-              className="MuiLinearProgress-root-190 MuiLinearProgress-primaryColor-191"
+              className="MuiLinearProgress-root-191 MuiLinearProgress-primaryColor-192"
             >
               <div
-                className="MuiLinearProgress-bar-197 MuiLinearProgress-primaryColorBar-192 MuiLinearProgress-determinateBar1-204"
+                className="MuiLinearProgress-bar-198 MuiLinearProgress-primaryColorBar-193 MuiLinearProgress-determinateBar1-205"
                 style={
                   Object {
                     "transform": "scaleX(0.9)",
@@ -851,28 +848,28 @@ exports[`renders about 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-6-27"
+            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-6-66"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-187"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-188"
             >
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 CSS
               </span>
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 70%
               </span>
             </div>
             <div
               aria-valuenow={70}
-              className="MuiLinearProgress-root-190 MuiLinearProgress-primaryColor-191"
+              className="MuiLinearProgress-root-191 MuiLinearProgress-primaryColor-192"
             >
               <div
-                className="MuiLinearProgress-bar-197 MuiLinearProgress-primaryColorBar-192 MuiLinearProgress-determinateBar1-204"
+                className="MuiLinearProgress-bar-198 MuiLinearProgress-primaryColorBar-193 MuiLinearProgress-determinateBar1-205"
                 style={
                   Object {
                     "transform": "scaleX(0.7)",
@@ -882,28 +879,28 @@ exports[`renders about 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-6-27"
+            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-6-66"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-187"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-188"
             >
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 JavaScript
               </span>
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 90%
               </span>
             </div>
             <div
               aria-valuenow={90}
-              className="MuiLinearProgress-root-190 MuiLinearProgress-primaryColor-191"
+              className="MuiLinearProgress-root-191 MuiLinearProgress-primaryColor-192"
             >
               <div
-                className="MuiLinearProgress-bar-197 MuiLinearProgress-primaryColorBar-192 MuiLinearProgress-determinateBar1-204"
+                className="MuiLinearProgress-bar-198 MuiLinearProgress-primaryColorBar-193 MuiLinearProgress-determinateBar1-205"
                 style={
                   Object {
                     "transform": "scaleX(0.9)",
@@ -913,28 +910,28 @@ exports[`renders about 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-6-27"
+            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-33 MuiGrid-grid-lg-6-66"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-187"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-18 MuiGrid-justify-xs-space-between-15 SkillBar-labelContainer-188"
             >
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 CSS
               </span>
               <span
-                className="SkillBar-label-186"
+                className="SkillBar-label-187"
               >
                 70%
               </span>
             </div>
             <div
               aria-valuenow={70}
-              className="MuiLinearProgress-root-190 MuiLinearProgress-primaryColor-191"
+              className="MuiLinearProgress-root-191 MuiLinearProgress-primaryColor-192"
             >
               <div
-                className="MuiLinearProgress-bar-197 MuiLinearProgress-primaryColorBar-192 MuiLinearProgress-determinateBar1-204"
+                className="MuiLinearProgress-bar-198 MuiLinearProgress-primaryColorBar-193 MuiLinearProgress-determinateBar1-205"
                 style={
                   Object {
                     "transform": "scaleX(0.7)",
@@ -971,7 +968,7 @@ exports[`renders about 1`] = `
         }
       >
         <div
-          className="Timeline-clear-209"
+          className="Timeline-clear-210"
         >
           <div
             className="TimelineBar-bar-166"
@@ -1016,12 +1013,12 @@ exports[`renders about 1`] = `
                     </span>
                   </div>
                   <h3
-                    className="Course-header3-211"
+                    className="Course-header3-212"
                   >
                     Varian Medical System
                   </h3>
                   <p
-                    className="Course-header4-212"
+                    className="Course-header4-213"
                   >
                     Varian Medical System 
                   </p>
@@ -1066,12 +1063,12 @@ exports[`renders about 1`] = `
                     </span>
                   </div>
                   <h3
-                    className="Course-header3-211"
+                    className="Course-header3-212"
                   >
                     Varian Medical System
                   </h3>
                   <p
-                    className="Course-header4-212"
+                    className="Course-header4-213"
                   >
                     Varian Medical System 
                   </p>

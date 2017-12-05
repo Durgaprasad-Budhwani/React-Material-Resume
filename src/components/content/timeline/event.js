@@ -35,6 +35,10 @@ const styles = theme => ({
     textAlign: 'center',
     marginBottom: 30,
   },
+  description: {
+    wordWrap: 'break-word',
+    width: '100%'
+  }
 });
 
 type Props = {
@@ -66,10 +70,10 @@ class Event extends PureComponent<void, Props, void> {
       <Grid container
 	    direction="column"
 	    align="center">
-	<div className={classes.date}>{year}</div>
-	<h3 className={classes.header3}>{company}</h3>
-	<h4 className={classes.header4}>{title}</h4>
-	<p style={{ wordWrap: 'normal' }}>{description}</p>
+            <div className={classes.date}>{year}</div>
+            <h3 className={classes.header3}>{company}</h3>
+            <h4 className={classes.header4}>{title}</h4>
+            <p className={classes.description}>{description}</p>
       </Grid>
     )
   }

@@ -13,7 +13,7 @@ exports[`renders contact 1`] = `
     className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-16-17 MuiGrid-justify-xs-space-around-15"
   >
     <div
-      className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-16-17 MuiGrid-justify-xs-center-12 MuiGrid-grid-xs-6-26"
+      className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-16-17 MuiGrid-justify-xs-center-12 MuiGrid-grid-md-12-58 MuiGrid-grid-lg-6-65"
     >
       <div
         className="MuiPaper-root-88 MuiPaper-shadow2-92 MuiPaper-rounded-89 ContactForm-container-86"
@@ -264,7 +264,7 @@ exports[`renders contact 1`] = `
       </div>
     </div>
     <div
-      className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-16-17 MuiGrid-grid-xs-6-26"
+      className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-16-17 MuiGrid-grid-md-12-58 MuiGrid-grid-lg-6-65"
     >
       <div
         className="MuiGrid-typeContainer-2 MuiGrid-spacing-xs-16-17 MuiGrid-direction-xs-column-4 MapContainer-container-170"

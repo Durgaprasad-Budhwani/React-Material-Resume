@@ -65,11 +65,7 @@ exports[`renders timeline 1`] = `
                 Full Stack Developer
               </h4>
               <p
-                style={
-                  Object {
-                    "wordWrap": "normal",
-                  }
-                }
+                className="Event-description-131"
               >
                 TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD 
               </p>
@@ -117,11 +113,7 @@ exports[`renders timeline 1`] = `
                 Full Stack Developer
               </h4>
               <p
-                style={
-                  Object {
-                    "wordWrap": "normal",
-                  }
-                }
+                className="Event-description-131"
               >
                 TBD
               </p>

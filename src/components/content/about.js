@@ -64,7 +64,7 @@ class About extends PureComponent {
                 </Grid>
                 <Grid item
                       xs={12}>
-                    <Blog/>
+                    <Blog />
                 </Grid>
             </Grid>
         )
