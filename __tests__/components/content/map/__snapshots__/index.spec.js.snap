@@ -2,41 +2,43 @@
 
 exports[`renders map 1`] = `
 <div
-  className="MuiGrid-typeContainer-4 MuiGrid-spacing-xs-16-19 MuiGrid-direction-xs-column-6 MapContainer-container-1"
+  className="MuiGrid-typeContainer-4 MuiGrid-spacing-xs-16-25 MuiGrid-direction-xs-column-6 MapContainer-container-1"
 >
   <div
     className="MuiGrid-typeItem-5 MapContainer-contactContainer-2"
   >
     <div
-      className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-20 MuiGrid-direction-xs-column-6"
+      className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-26 MuiGrid-direction-xs-column-6"
     >
       <div
-        className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-20 MuiGrid-align-xs-center-10 MuiGrid-justify-xs-center-14"
+        align="center"
+        className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-26 MuiGrid-justify-xs-center-20"
       >
         <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-3-25 ContactInfo-profileListItem-88"
+          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-3-31 ContactInfo-profileListItem-94"
         >
           Address:
         </div>
         <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-9-31 ContactInfo-profileListItemValue-89"
+          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-9-37 ContactInfo-profileListItemValue-95"
         >
           Pune, India
         </div>
       </div>
       <div
-        className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-20 MuiGrid-align-xs-center-10 MuiGrid-justify-xs-center-14"
+        align="center"
+        className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-26 MuiGrid-justify-xs-center-20"
       >
         <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-3-25 ContactInfo-profileListItem-88"
+          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-3-31 ContactInfo-profileListItem-94"
         >
           Email:
         </div>
         <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-9-31 ContactInfo-profileListItemValue-89"
+          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-9-37 ContactInfo-profileListItemValue-95"
         >
           <a
-            className="ContactInfo-profileValueAItemValue-90"
+            className="ContactInfo-profileValueAItemValue-96"
             href="mailto:durgaprasad.budhwani@gmail.com"
           >
             durgaprasad.budhwani@gmail.com
@@ -44,18 +46,19 @@ exports[`renders map 1`] = `
         </div>
       </div>
       <div
-        className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-20 MuiGrid-align-xs-center-10 MuiGrid-justify-xs-center-14"
+        align="center"
+        className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-26 MuiGrid-justify-xs-center-20"
       >
         <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-3-25 ContactInfo-profileListItem-88"
+          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-3-31 ContactInfo-profileListItem-94"
         >
           Phone:
         </div>
         <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-9-31 ContactInfo-profileListItemValue-89"
+          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-9-37 ContactInfo-profileListItemValue-95"
         >
           <a
-            className="ContactInfo-profileValueAItemValue-90"
+            className="ContactInfo-profileValueAItemValue-96"
             href="tel:+91-9545251359"
           >
             +91-9545251359
@@ -65,7 +68,7 @@ exports[`renders map 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-typeItem-5 MuiGrid-grid-xs-22 MapContainer-mapContainer-3"
+    className="MuiGrid-typeItem-5 MuiGrid-grid-xs-28 MapContainer-mapContainer-3"
   >
     <div />
   </div>

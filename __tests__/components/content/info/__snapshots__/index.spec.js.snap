@@ -15,6 +15,7 @@ exports[`renders info 1`] = `
     onMouseLeave={[Function]}
     onMouseUp={[Function]}
     onTouchEnd={[Function]}
+    onTouchMove={[Function]}
     onTouchStart={[Function]}
     role="button"
     tabIndex={0}

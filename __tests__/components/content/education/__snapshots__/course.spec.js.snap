@@ -2,7 +2,8 @@
 
 exports[`renders course 1`] = `
 <div
-  className="MuiGrid-typeContainer-4 MuiGrid-spacing-xs-16-19 MuiGrid-direction-xs-column-6"
+  align="stretch"
+  className="MuiGrid-typeContainer-4 MuiGrid-spacing-xs-16-25 MuiGrid-direction-xs-column-6"
   style={
     Object {
       "paddingLeft": 20,
@@ -11,7 +12,7 @@ exports[`renders course 1`] = `
 >
   <div>
     <span
-      className="Bubble-container-87"
+      className="Bubble-container-93"
     >
       name1
     </span>

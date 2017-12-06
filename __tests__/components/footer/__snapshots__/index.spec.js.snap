@@ -5,11 +5,12 @@ exports[`renders fooer 1`] = `
   className="MuiGrid-typeItem-3 Footer-container-1"
 >
   <div
-    className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-24-18 MuiGrid-align-xs-center-8 MuiGrid-justify-xs-center-12 SocialIcons-container-86"
+    align="center"
+    className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-24-24 MuiGrid-justify-xs-center-18 SocialIcons-container-92"
   >
     <button
       aria-label="Add an alarm"
-      className="MuiButtonBase-root-96 MuiIconButton-root-87 SocialIcons-button-85"
+      className="MuiButtonBase-root-102 MuiIconButton-root-93 SocialIcons-button-91"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -19,13 +20,14 @@ exports[`renders fooer 1`] = `
       onMouseLeave={[Function]}
       onMouseUp={[Function]}
       onTouchEnd={[Function]}
+      onTouchMove={[Function]}
       onTouchStart={[Function]}
       role="button"
       tabIndex={0}
       type="button"
     >
       <span
-        className="MuiIconButton-label-93"
+        className="MuiIconButton-label-99"
       >
         <svg
           className=""
@@ -41,12 +43,12 @@ exports[`renders fooer 1`] = `
         </svg>
       </span>
       <span
-        className="MuiTouchRipple-root-98"
+        className="MuiTouchRipple-root-104"
       />
     </button>
     <button
       aria-label="Add an alarm"
-      className="MuiButtonBase-root-96 MuiIconButton-root-87 SocialIcons-button-85"
+      className="MuiButtonBase-root-102 MuiIconButton-root-93 SocialIcons-button-91"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -56,13 +58,14 @@ exports[`renders fooer 1`] = `
       onMouseLeave={[Function]}
       onMouseUp={[Function]}
       onTouchEnd={[Function]}
+      onTouchMove={[Function]}
       onTouchStart={[Function]}
       role="button"
       tabIndex={0}
       type="button"
     >
       <span
-        className="MuiIconButton-label-93"
+        className="MuiIconButton-label-99"
       >
         <svg
           className=""
@@ -78,12 +81,12 @@ exports[`renders fooer 1`] = `
         </svg>
       </span>
       <span
-        className="MuiTouchRipple-root-98"
+        className="MuiTouchRipple-root-104"
       />
     </button>
     <button
       aria-label="Add an alarm"
-      className="MuiButtonBase-root-96 MuiIconButton-root-87 SocialIcons-button-85"
+      className="MuiButtonBase-root-102 MuiIconButton-root-93 SocialIcons-button-91"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -93,13 +96,14 @@ exports[`renders fooer 1`] = `
       onMouseLeave={[Function]}
       onMouseUp={[Function]}
       onTouchEnd={[Function]}
+      onTouchMove={[Function]}
       onTouchStart={[Function]}
       role="button"
       tabIndex={0}
       type="button"
     >
       <span
-        className="MuiIconButton-label-93"
+        className="MuiIconButton-label-99"
       >
         <svg
           className=""
@@ -115,12 +119,12 @@ exports[`renders fooer 1`] = `
         </svg>
       </span>
       <span
-        className="MuiTouchRipple-root-98"
+        className="MuiTouchRipple-root-104"
       />
     </button>
     <button
       aria-label="Add an alarm"
-      className="MuiButtonBase-root-96 MuiIconButton-root-87 SocialIcons-button-85"
+      className="MuiButtonBase-root-102 MuiIconButton-root-93 SocialIcons-button-91"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -130,13 +134,14 @@ exports[`renders fooer 1`] = `
       onMouseLeave={[Function]}
       onMouseUp={[Function]}
       onTouchEnd={[Function]}
+      onTouchMove={[Function]}
       onTouchStart={[Function]}
       role="button"
       tabIndex={0}
       type="button"
     >
       <span
-        className="MuiIconButton-label-93"
+        className="MuiIconButton-label-99"
       >
         <svg
           className=""
@@ -152,12 +157,12 @@ exports[`renders fooer 1`] = `
         </svg>
       </span>
       <span
-        className="MuiTouchRipple-root-98"
+        className="MuiTouchRipple-root-104"
       />
     </button>
     <button
       aria-label="Add an alarm"
-      className="MuiButtonBase-root-96 MuiIconButton-root-87 SocialIcons-button-85"
+      className="MuiButtonBase-root-102 MuiIconButton-root-93 SocialIcons-button-91"
       disabled={false}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -167,13 +172,14 @@ exports[`renders fooer 1`] = `
       onMouseLeave={[Function]}
       onMouseUp={[Function]}
       onTouchEnd={[Function]}
+      onTouchMove={[Function]}
       onTouchStart={[Function]}
       role="button"
       tabIndex={0}
       type="button"
     >
       <span
-        className="MuiIconButton-label-93"
+        className="MuiIconButton-label-99"
       >
         <svg
           className=""
@@ -189,7 +195,7 @@ exports[`renders fooer 1`] = `
         </svg>
       </span>
       <span
-        className="MuiTouchRipple-root-98"
+        className="MuiTouchRipple-root-104"
       />
     </button>
   </div>

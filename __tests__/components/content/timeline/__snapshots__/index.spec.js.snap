@@ -2,10 +2,11 @@
 
 exports[`renders timeline 1`] = `
 <div
-  className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-18 MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-13"
+  align="stretch"
+  className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-19 MuiGrid-grid-xs-12-39"
 >
   <span
-    className="SectionTitle-sectionTitle-86"
+    className="SectionTitle-sectionTitle-92"
   >
     Work Experience
   </span>
@@ -20,7 +21,7 @@ exports[`renders timeline 1`] = `
       className="Timeline-clear-2"
     >
       <div
-        className="TimelineBar-bar-87"
+        className="TimelineBar-bar-93"
         style={
           Object {
             "height": 40,
@@ -29,7 +30,7 @@ exports[`renders timeline 1`] = `
         }
       />
       <div
-        className="EventContainer-box-92 EventContainer-boxRight-94"
+        className="EventContainer-box-98 EventContainer-boxRight-100"
       >
         <div
           className="animated"
@@ -41,43 +42,44 @@ exports[`renders timeline 1`] = `
           }
         >
           <div
-            className="MuiPaper-root-101 MuiPaper-shadow2-105 MuiPaper-rounded-102 EventContainer-paper-88 EventContainer-paperRight-90"
+            className="MuiPaper-root-107 MuiPaper-shadow2-111 MuiPaper-rounded-108 EventContainer-paper-94 EventContainer-paperRight-96"
           >
             <span
-              className="EventContainer-arrow-96 EventContainer-arrowLeft-98"
+              className="EventContainer-arrow-102 EventContainer-arrowLeft-104"
             />
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-18 MuiGrid-direction-xs-column-5 MuiGrid-align-xs-center-9"
+              align="center"
+              className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5"
             >
               <div
-                className="Event-date-128"
+                className="Event-date-134"
               >
                 2014 - Present
               </div>
               <h3
-                className="Event-header3-129"
+                className="Event-header3-135"
               >
                 Varian Medical System
               </h3>
               <h4
-                className="Event-header4-130"
+                className="Event-header4-136"
               >
                 Full Stack Developer
               </h4>
               <p
-                className="Event-description-131"
+                className="Event-description-137"
               >
-                TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD TBD 
+                TBD TBD TBD TBD TBD TBD
               </p>
             </div>
           </div>
         </div>
         <span
-          className="EventContainer-dot-95 EventContainer-dotLeft-100"
+          className="EventContainer-dot-101 EventContainer-dotLeft-106"
         />
       </div>
       <div
-        className="EventContainer-box-92 EventContainer-boxLeft-93"
+        className="EventContainer-box-98 EventContainer-boxLeft-99"
       >
         <div
           className="animated"
@@ -89,31 +91,32 @@ exports[`renders timeline 1`] = `
           }
         >
           <div
-            className="MuiPaper-root-101 MuiPaper-shadow2-105 MuiPaper-rounded-102 EventContainer-paper-88 EventContainer-paperLeft-89"
+            className="MuiPaper-root-107 MuiPaper-shadow2-111 MuiPaper-rounded-108 EventContainer-paper-94 EventContainer-paperLeft-95"
           >
             <span
-              className="EventContainer-arrow-96 EventContainer-arrowRight-97"
+              className="EventContainer-arrow-102 EventContainer-arrowRight-103"
             />
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-18 MuiGrid-direction-xs-column-5 MuiGrid-align-xs-center-9"
+              align="center"
+              className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5"
             >
               <div
-                className="Event-date-128"
+                className="Event-date-134"
               >
                 2014 - Present
               </div>
               <h3
-                className="Event-header3-129"
+                className="Event-header3-135"
               >
                 Varian Medical System
               </h3>
               <h4
-                className="Event-header4-130"
+                className="Event-header4-136"
               >
                 Full Stack Developer
               </h4>
               <p
-                className="Event-description-131"
+                className="Event-description-137"
               >
                 TBD
               </p>
@@ -121,7 +124,7 @@ exports[`renders timeline 1`] = `
           </div>
         </div>
         <span
-          className="EventContainer-dot-95 EventContainer-dotRight-99"
+          className="EventContainer-dot-101 EventContainer-dotRight-105"
         />
       </div>
     </div>

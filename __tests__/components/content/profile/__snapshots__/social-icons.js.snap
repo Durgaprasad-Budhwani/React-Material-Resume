@@ -2,11 +2,12 @@
 
 exports[`renders social icons 1`] = `
 <div
-  className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-24-19 MuiGrid-align-xs-center-9 MuiGrid-justify-xs-center-13 SocialIcons-container-2"
+  align="center"
+  className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-24-25 MuiGrid-justify-xs-center-19 SocialIcons-container-2"
 >
   <button
     aria-label="Add an alarm"
-    className="MuiButtonBase-root-95 MuiIconButton-root-86 SocialIcons-button-1"
+    className="MuiButtonBase-root-101 MuiIconButton-root-92 SocialIcons-button-1"
     disabled={false}
     onBlur={[Function]}
     onFocus={[Function]}
@@ -16,13 +17,14 @@ exports[`renders social icons 1`] = `
     onMouseLeave={[Function]}
     onMouseUp={[Function]}
     onTouchEnd={[Function]}
+    onTouchMove={[Function]}
     onTouchStart={[Function]}
     role="button"
     tabIndex={0}
     type="button"
   >
     <span
-      className="MuiIconButton-label-92"
+      className="MuiIconButton-label-98"
     >
       <svg
         className=""
@@ -38,12 +40,12 @@ exports[`renders social icons 1`] = `
       </svg>
     </span>
     <span
-      className="MuiTouchRipple-root-97"
+      className="MuiTouchRipple-root-103"
     />
   </button>
   <button
     aria-label="Add an alarm"
-    className="MuiButtonBase-root-95 MuiIconButton-root-86 SocialIcons-button-1"
+    className="MuiButtonBase-root-101 MuiIconButton-root-92 SocialIcons-button-1"
     disabled={false}
     onBlur={[Function]}
     onFocus={[Function]}
@@ -53,13 +55,14 @@ exports[`renders social icons 1`] = `
     onMouseLeave={[Function]}
     onMouseUp={[Function]}
     onTouchEnd={[Function]}
+    onTouchMove={[Function]}
     onTouchStart={[Function]}
     role="button"
     tabIndex={0}
     type="button"
   >
     <span
-      className="MuiIconButton-label-92"
+      className="MuiIconButton-label-98"
     >
       <svg
         className=""
@@ -75,12 +78,12 @@ exports[`renders social icons 1`] = `
       </svg>
     </span>
     <span
-      className="MuiTouchRipple-root-97"
+      className="MuiTouchRipple-root-103"
     />
   </button>
   <button
     aria-label="Add an alarm"
-    className="MuiButtonBase-root-95 MuiIconButton-root-86 SocialIcons-button-1"
+    className="MuiButtonBase-root-101 MuiIconButton-root-92 SocialIcons-button-1"
     disabled={false}
     onBlur={[Function]}
     onFocus={[Function]}
@@ -90,13 +93,14 @@ exports[`renders social icons 1`] = `
     onMouseLeave={[Function]}
     onMouseUp={[Function]}
     onTouchEnd={[Function]}
+    onTouchMove={[Function]}
     onTouchStart={[Function]}
     role="button"
     tabIndex={0}
     type="button"
   >
     <span
-      className="MuiIconButton-label-92"
+      className="MuiIconButton-label-98"
     >
       <svg
         className=""
@@ -112,12 +116,12 @@ exports[`renders social icons 1`] = `
       </svg>
     </span>
     <span
-      className="MuiTouchRipple-root-97"
+      className="MuiTouchRipple-root-103"
     />
   </button>
   <button
     aria-label="Add an alarm"
-    className="MuiButtonBase-root-95 MuiIconButton-root-86 SocialIcons-button-1"
+    className="MuiButtonBase-root-101 MuiIconButton-root-92 SocialIcons-button-1"
     disabled={false}
     onBlur={[Function]}
     onFocus={[Function]}
@@ -127,13 +131,14 @@ exports[`renders social icons 1`] = `
     onMouseLeave={[Function]}
     onMouseUp={[Function]}
     onTouchEnd={[Function]}
+    onTouchMove={[Function]}
     onTouchStart={[Function]}
     role="button"
     tabIndex={0}
     type="button"
   >
     <span
-      className="MuiIconButton-label-92"
+      className="MuiIconButton-label-98"
     >
       <svg
         className=""
@@ -149,12 +154,12 @@ exports[`renders social icons 1`] = `
       </svg>
     </span>
     <span
-      className="MuiTouchRipple-root-97"
+      className="MuiTouchRipple-root-103"
     />
   </button>
   <button
     aria-label="Add an alarm"
-    className="MuiButtonBase-root-95 MuiIconButton-root-86 SocialIcons-button-1"
+    className="MuiButtonBase-root-101 MuiIconButton-root-92 SocialIcons-button-1"
     disabled={false}
     onBlur={[Function]}
     onFocus={[Function]}
@@ -164,13 +169,14 @@ exports[`renders social icons 1`] = `
     onMouseLeave={[Function]}
     onMouseUp={[Function]}
     onTouchEnd={[Function]}
+    onTouchMove={[Function]}
     onTouchStart={[Function]}
     role="button"
     tabIndex={0}
     type="button"
   >
     <span
-      className="MuiIconButton-label-92"
+      className="MuiIconButton-label-98"
     >
       <svg
         className=""
@@ -186,7 +192,7 @@ exports[`renders social icons 1`] = `
       </svg>
     </span>
     <span
-      className="MuiTouchRipple-root-97"
+      className="MuiTouchRipple-root-103"
     />
   </button>
 </div>

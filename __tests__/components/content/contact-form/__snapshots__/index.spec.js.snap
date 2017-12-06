@@ -9,7 +9,7 @@ exports[`renders contact form 1`] = `
     method="post"
   >
     <div
-      className="MuiGrid-typeContainer-30 MuiGrid-direction-xs-column-32 MuiGrid-justify-xs-center-40"
+      className="MuiGrid-typeContainer-30 MuiGrid-direction-xs-column-32 MuiGrid-justify-xs-center-46"
     >
       <h2
         style={
@@ -21,13 +21,13 @@ exports[`renders contact form 1`] = `
         Feel free to contact me
       </h2>
       <div
-        className="MuiFormControl-root-113 MuiFormControl-marginNormal-114"
+        className="MuiFormControl-root-119 MuiFormControl-marginNormal-120"
         onBlur={[Function]}
         onFocus={[Function]}
         required={true}
       >
         <label
-          className="MuiFormLabel-root-123 MuiInputLabel-root-117 MuiInputLabel-formControl-118 MuiInputLabel-animated-121"
+          className="MuiFormLabel-root-129 MuiInputLabel-root-123 MuiInputLabel-formControl-124 MuiInputLabel-animated-127"
           data-shrink={false}
           htmlFor="name"
         >
@@ -39,14 +39,14 @@ exports[`renders contact form 1`] = `
           </span>
         </label>
         <div
-          className="MuiInput-root-127 MuiInput-formControl-128 MuiInput-inkbar-129 MuiInput-underline-135"
+          className="MuiInput-root-133 MuiInput-formControl-134 MuiInput-inkbar-135 MuiInput-underline-139"
           onBlur={[Function]}
           onFocus={[Function]}
         >
           <input
             autoComplete={undefined}
             autoFocus={undefined}
-            className="MuiInput-input-131 MuiInput-inputSingleline-138"
+            className="MuiInput-input-142 MuiInput-inputSingleline-145"
             defaultValue={undefined}
             disabled={false}
             id="name"
@@ -64,13 +64,13 @@ exports[`renders contact form 1`] = `
         </div>
       </div>
       <div
-        className="MuiFormControl-root-113 MuiFormControl-marginNormal-114"
+        className="MuiFormControl-root-119 MuiFormControl-marginNormal-120"
         onBlur={[Function]}
         onFocus={[Function]}
         required={true}
       >
         <label
-          className="MuiFormLabel-root-123 MuiInputLabel-root-117 MuiInputLabel-formControl-118 MuiInputLabel-animated-121"
+          className="MuiFormLabel-root-129 MuiInputLabel-root-123 MuiInputLabel-formControl-124 MuiInputLabel-animated-127"
           data-shrink={false}
           htmlFor="email"
         >
@@ -82,14 +82,14 @@ exports[`renders contact form 1`] = `
           </span>
         </label>
         <div
-          className="MuiInput-root-127 MuiInput-formControl-128 MuiInput-inkbar-129 MuiInput-underline-135"
+          className="MuiInput-root-133 MuiInput-formControl-134 MuiInput-inkbar-135 MuiInput-underline-139"
           onBlur={[Function]}
           onFocus={[Function]}
         >
           <input
             autoComplete={undefined}
             autoFocus={undefined}
-            className="MuiInput-input-131 MuiInput-inputSingleline-138"
+            className="MuiInput-input-142 MuiInput-inputSingleline-145"
             defaultValue={undefined}
             disabled={false}
             id="email"
@@ -107,13 +107,13 @@ exports[`renders contact form 1`] = `
         </div>
       </div>
       <div
-        className="MuiFormControl-root-113 MuiFormControl-marginNormal-114"
+        className="MuiFormControl-root-119 MuiFormControl-marginNormal-120"
         onBlur={[Function]}
         onFocus={[Function]}
         required={true}
       >
         <label
-          className="MuiFormLabel-root-123 MuiInputLabel-root-117 MuiInputLabel-formControl-118 MuiInputLabel-animated-121"
+          className="MuiFormLabel-root-129 MuiInputLabel-root-123 MuiInputLabel-formControl-124 MuiInputLabel-animated-127"
           data-shrink={false}
           htmlFor="subject"
         >
@@ -125,14 +125,14 @@ exports[`renders contact form 1`] = `
           </span>
         </label>
         <div
-          className="MuiInput-root-127 MuiInput-formControl-128 MuiInput-inkbar-129 MuiInput-underline-135"
+          className="MuiInput-root-133 MuiInput-formControl-134 MuiInput-inkbar-135 MuiInput-underline-139"
           onBlur={[Function]}
           onFocus={[Function]}
         >
           <input
             autoComplete={undefined}
             autoFocus={undefined}
-            className="MuiInput-input-131 MuiInput-inputSingleline-138"
+            className="MuiInput-input-142 MuiInput-inputSingleline-145"
             defaultValue={undefined}
             disabled={false}
             id="subject"
@@ -150,13 +150,13 @@ exports[`renders contact form 1`] = `
         </div>
       </div>
       <div
-        className="MuiFormControl-root-113 MuiFormControl-marginNormal-114"
+        className="MuiFormControl-root-119 MuiFormControl-marginNormal-120"
         onBlur={[Function]}
         onFocus={[Function]}
         required={true}
       >
         <label
-          className="MuiFormLabel-root-123 MuiInputLabel-root-117 MuiInputLabel-formControl-118 MuiInputLabel-animated-121"
+          className="MuiFormLabel-root-129 MuiInputLabel-root-123 MuiInputLabel-formControl-124 MuiInputLabel-animated-127"
           data-shrink={false}
           htmlFor="message"
         >
@@ -168,12 +168,12 @@ exports[`renders contact form 1`] = `
           </span>
         </label>
         <div
-          className="MuiInput-root-127 MuiInput-formControl-128 MuiInput-inkbar-129 MuiInput-multiline-136 MuiInput-underline-135"
+          className="MuiInput-root-133 MuiInput-formControl-134 MuiInput-inkbar-135 MuiInput-multiline-140 MuiInput-underline-139"
           onBlur={[Function]}
           onFocus={[Function]}
         >
           <div
-            className="MuiTextarea-root-142"
+            className="MuiTextarea-root-148"
             style={
               Object {
                 "height": 24,
@@ -182,7 +182,7 @@ exports[`renders contact form 1`] = `
           >
             <textarea
               aria-hidden="true"
-              className="MuiTextarea-shadow-144 MuiTextarea-textarea-143"
+              className="MuiTextarea-shadow-150 MuiTextarea-textarea-149"
               readOnly={true}
               rows="1"
               tabIndex={-1}
@@ -190,7 +190,7 @@ exports[`renders contact form 1`] = `
             />
             <textarea
               aria-hidden="true"
-              className="MuiTextarea-shadow-144 MuiTextarea-textarea-143"
+              className="MuiTextarea-shadow-150 MuiTextarea-textarea-149"
               defaultValue={undefined}
               readOnly={true}
               rows={1}
@@ -200,7 +200,7 @@ exports[`renders contact form 1`] = `
             <textarea
               autoComplete={undefined}
               autoFocus={undefined}
-              className="MuiTextarea-textarea-143 MuiInput-input-131 MuiInput-inputMultiline-140"
+              className="MuiTextarea-textarea-149 MuiInput-input-142 MuiInput-inputMultiline-146"
               defaultValue={undefined}
               disabled={false}
               id="message"
@@ -220,7 +220,7 @@ exports[`renders contact form 1`] = `
       </div>
       <div>
         <button
-          className="MuiButtonBase-root-159 MuiButton-root-145 MuiButton-raised-152 MuiButton-raisedPrimary-154 ContactForm-button-2"
+          className="MuiButtonBase-root-165 MuiButton-root-151 MuiButton-raised-158 MuiButton-raisedPrimary-160 ContactForm-button-2"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -230,18 +230,19 @@ exports[`renders contact form 1`] = `
           onMouseLeave={[Function]}
           onMouseUp={[Function]}
           onTouchEnd={[Function]}
+          onTouchMove={[Function]}
           onTouchStart={[Function]}
           role="button"
           tabIndex={0}
           type="submit"
         >
           <span
-            className="MuiButton-label-147"
+            className="MuiButton-label-153"
           >
             SEND
           </span>
           <span
-            className="MuiTouchRipple-root-161"
+            className="MuiTouchRipple-root-167"
           />
         </button>
       </div>

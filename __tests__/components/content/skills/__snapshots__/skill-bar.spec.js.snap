@@ -2,10 +2,10 @@
 
 exports[`renders skill bar 1`] = `
 <div
-  className="MuiGrid-typeItem-6 MuiGrid-grid-xs-12-35 MuiGrid-grid-lg-6-68"
+  className="MuiGrid-typeItem-6 MuiGrid-grid-xs-12-41 MuiGrid-grid-lg-6-74"
 >
   <div
-    className="MuiGrid-typeContainer-5 MuiGrid-typeItem-6 MuiGrid-spacing-xs-16-20 MuiGrid-justify-xs-space-between-17 SkillBar-labelContainer-2"
+    className="MuiGrid-typeContainer-5 MuiGrid-typeItem-6 MuiGrid-spacing-xs-16-26 MuiGrid-justify-xs-space-between-23 SkillBar-labelContainer-2"
   >
     <span
       className="SkillBar-label-1"
@@ -20,10 +20,10 @@ exports[`renders skill bar 1`] = `
   </div>
   <div
     aria-valuenow={60}
-    className="MuiLinearProgress-root-88 MuiLinearProgress-primaryColor-89"
+    className="MuiLinearProgress-root-94 MuiLinearProgress-primaryColor-95"
   >
     <div
-      className="MuiLinearProgress-bar-95 MuiLinearProgress-primaryColorBar-90 MuiLinearProgress-determinateBar1-102"
+      className="MuiLinearProgress-bar-101 MuiLinearProgress-primaryColorBar-96 MuiLinearProgress-determinateBar1-108"
       style={
         Object {
           "transform": "scaleX(0.6)",

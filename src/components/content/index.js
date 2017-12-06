@@ -7,7 +7,9 @@ import {withStyles} from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import About from './about';
 import Contact from './contact';
-import Scroll from 'react-scroll';
+import * as Scroll from 'react-scroll';
+
+const {Element} = Scroll;
 
 const styles = theme => ({
     container: {
@@ -19,8 +21,6 @@ const styles = theme => ({
         position: 'relative',
     },
 });
-
-const {Element} = Scroll;
 
 class Content extends PureComponent {
     render () {
@@ -34,14 +34,15 @@ class Content extends PureComponent {
                       sm={12}
                       md={8}
                       item
+                      container
                       style={{position:'relative'}}
                       lg={8}>
                     <Element name="profile">
                         <About/>
                     </Element>
-                    <Element name="contact">
-                        <Contact/>
-                    </Element>
+                    {/*<Element name="contact">*/}
+                        {/*<Contact/>*/}
+                    {/*</Element>*/}
                 </Grid>
             </Grid>
         )

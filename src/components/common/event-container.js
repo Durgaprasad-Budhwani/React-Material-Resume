@@ -8,7 +8,7 @@ import Paper from 'material-ui/Paper';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import {LEFT, RIGHT} from '../utils/Constants';
-import ScrollAnimation from '../../lib/scroll-animation';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = theme => ({
     paper: {
@@ -34,6 +34,8 @@ const styles = theme => ({
     },
     box: {
         width: '50%',
+        maxWidth: '50%',
+        minWidth: '50%',
         color: '#757575',
         fontSize: 16,
         lineHeight: 1.5,

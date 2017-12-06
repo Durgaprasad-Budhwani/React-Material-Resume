@@ -2,28 +2,31 @@
 
 exports[`renders contact 1`] = `
 <div
-  className="MuiGrid-typeContainer-2 MuiGrid-spacing-xs-16-17 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-12 About-container-1"
+  align="stretch"
+  className="MuiGrid-typeContainer-2 MuiGrid-spacing-xs-16-23 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-18 About-container-1"
 >
   <span
-    className="SectionTitle-sectionTitle-85"
+    className="SectionTitle-sectionTitle-91"
   >
     Contact Me
   </span>
   <div
-    className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-16-17 MuiGrid-justify-xs-space-around-15"
+    align="stretch"
+    className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-16-23 MuiGrid-justify-xs-space-around-21"
   >
     <div
-      className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-16-17 MuiGrid-justify-xs-center-12 MuiGrid-grid-md-12-58 MuiGrid-grid-lg-6-65"
+      align="stretch"
+      className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-16-23 MuiGrid-justify-xs-center-18 MuiGrid-grid-md-12-64 MuiGrid-grid-lg-6-71"
     >
       <div
-        className="MuiPaper-root-88 MuiPaper-shadow2-92 MuiPaper-rounded-89 ContactForm-container-86"
+        className="MuiPaper-root-94 MuiPaper-shadow2-98 MuiPaper-rounded-95 ContactForm-container-92"
       >
         <form
           action="http://formspree.io/durgaprasad.budhwani@gmail.com"
           method="post"
         >
           <div
-            className="MuiGrid-typeContainer-2 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-12"
+            className="MuiGrid-typeContainer-2 MuiGrid-direction-xs-column-4 MuiGrid-justify-xs-center-18"
           >
             <h2
               style={
@@ -35,13 +38,13 @@ exports[`renders contact 1`] = `
               Feel free to contact me
             </h2>
             <div
-              className="MuiFormControl-root-115 MuiFormControl-marginNormal-116"
+              className="MuiFormControl-root-121 MuiFormControl-marginNormal-122"
               onBlur={[Function]}
               onFocus={[Function]}
               required={true}
             >
               <label
-                className="MuiFormLabel-root-125 MuiInputLabel-root-119 MuiInputLabel-formControl-120 MuiInputLabel-animated-123"
+                className="MuiFormLabel-root-131 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
                 data-shrink={false}
                 htmlFor="name"
               >
@@ -53,14 +56,14 @@ exports[`renders contact 1`] = `
                 </span>
               </label>
               <div
-                className="MuiInput-root-129 MuiInput-formControl-130 MuiInput-inkbar-131 MuiInput-underline-137"
+                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-inkbar-137 MuiInput-underline-141"
                 onBlur={[Function]}
                 onFocus={[Function]}
               >
                 <input
                   autoComplete={undefined}
                   autoFocus={undefined}
-                  className="MuiInput-input-133 MuiInput-inputSingleline-140"
+                  className="MuiInput-input-144 MuiInput-inputSingleline-147"
                   defaultValue={undefined}
                   disabled={false}
                   id="name"
@@ -78,13 +81,13 @@ exports[`renders contact 1`] = `
               </div>
             </div>
             <div
-              className="MuiFormControl-root-115 MuiFormControl-marginNormal-116"
+              className="MuiFormControl-root-121 MuiFormControl-marginNormal-122"
               onBlur={[Function]}
               onFocus={[Function]}
               required={true}
             >
               <label
-                className="MuiFormLabel-root-125 MuiInputLabel-root-119 MuiInputLabel-formControl-120 MuiInputLabel-animated-123"
+                className="MuiFormLabel-root-131 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
                 data-shrink={false}
                 htmlFor="email"
               >
@@ -96,14 +99,14 @@ exports[`renders contact 1`] = `
                 </span>
               </label>
               <div
-                className="MuiInput-root-129 MuiInput-formControl-130 MuiInput-inkbar-131 MuiInput-underline-137"
+                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-inkbar-137 MuiInput-underline-141"
                 onBlur={[Function]}
                 onFocus={[Function]}
               >
                 <input
                   autoComplete={undefined}
                   autoFocus={undefined}
-                  className="MuiInput-input-133 MuiInput-inputSingleline-140"
+                  className="MuiInput-input-144 MuiInput-inputSingleline-147"
                   defaultValue={undefined}
                   disabled={false}
                   id="email"
@@ -121,13 +124,13 @@ exports[`renders contact 1`] = `
               </div>
             </div>
             <div
-              className="MuiFormControl-root-115 MuiFormControl-marginNormal-116"
+              className="MuiFormControl-root-121 MuiFormControl-marginNormal-122"
               onBlur={[Function]}
               onFocus={[Function]}
               required={true}
             >
               <label
-                className="MuiFormLabel-root-125 MuiInputLabel-root-119 MuiInputLabel-formControl-120 MuiInputLabel-animated-123"
+                className="MuiFormLabel-root-131 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
                 data-shrink={false}
                 htmlFor="subject"
               >
@@ -139,14 +142,14 @@ exports[`renders contact 1`] = `
                 </span>
               </label>
               <div
-                className="MuiInput-root-129 MuiInput-formControl-130 MuiInput-inkbar-131 MuiInput-underline-137"
+                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-inkbar-137 MuiInput-underline-141"
                 onBlur={[Function]}
                 onFocus={[Function]}
               >
                 <input
                   autoComplete={undefined}
                   autoFocus={undefined}
-                  className="MuiInput-input-133 MuiInput-inputSingleline-140"
+                  className="MuiInput-input-144 MuiInput-inputSingleline-147"
                   defaultValue={undefined}
                   disabled={false}
                   id="subject"
@@ -164,13 +167,13 @@ exports[`renders contact 1`] = `
               </div>
             </div>
             <div
-              className="MuiFormControl-root-115 MuiFormControl-marginNormal-116"
+              className="MuiFormControl-root-121 MuiFormControl-marginNormal-122"
               onBlur={[Function]}
               onFocus={[Function]}
               required={true}
             >
               <label
-                className="MuiFormLabel-root-125 MuiInputLabel-root-119 MuiInputLabel-formControl-120 MuiInputLabel-animated-123"
+                className="MuiFormLabel-root-131 MuiInputLabel-root-125 MuiInputLabel-formControl-126 MuiInputLabel-animated-129"
                 data-shrink={false}
                 htmlFor="message"
               >
@@ -182,12 +185,12 @@ exports[`renders contact 1`] = `
                 </span>
               </label>
               <div
-                className="MuiInput-root-129 MuiInput-formControl-130 MuiInput-inkbar-131 MuiInput-multiline-138 MuiInput-underline-137"
+                className="MuiInput-root-135 MuiInput-formControl-136 MuiInput-inkbar-137 MuiInput-multiline-142 MuiInput-underline-141"
                 onBlur={[Function]}
                 onFocus={[Function]}
               >
                 <div
-                  className="MuiTextarea-root-144"
+                  className="MuiTextarea-root-150"
                   style={
                     Object {
                       "height": 24,
@@ -196,7 +199,7 @@ exports[`renders contact 1`] = `
                 >
                   <textarea
                     aria-hidden="true"
-                    className="MuiTextarea-shadow-146 MuiTextarea-textarea-145"
+                    className="MuiTextarea-shadow-152 MuiTextarea-textarea-151"
                     readOnly={true}
                     rows="1"
                     tabIndex={-1}
@@ -204,7 +207,7 @@ exports[`renders contact 1`] = `
                   />
                   <textarea
                     aria-hidden="true"
-                    className="MuiTextarea-shadow-146 MuiTextarea-textarea-145"
+                    className="MuiTextarea-shadow-152 MuiTextarea-textarea-151"
                     defaultValue={undefined}
                     readOnly={true}
                     rows={1}
@@ -214,7 +217,7 @@ exports[`renders contact 1`] = `
                   <textarea
                     autoComplete={undefined}
                     autoFocus={undefined}
-                    className="MuiTextarea-textarea-145 MuiInput-input-133 MuiInput-inputMultiline-142"
+                    className="MuiTextarea-textarea-151 MuiInput-input-144 MuiInput-inputMultiline-148"
                     defaultValue={undefined}
                     disabled={false}
                     id="message"
@@ -234,7 +237,7 @@ exports[`renders contact 1`] = `
             </div>
             <div>
               <button
-                className="MuiButtonBase-root-161 MuiButton-root-147 MuiButton-raised-154 MuiButton-raisedPrimary-156 ContactForm-button-87"
+                className="MuiButtonBase-root-167 MuiButton-root-153 MuiButton-raised-160 MuiButton-raisedPrimary-162 ContactForm-button-93"
                 disabled={false}
                 onBlur={[Function]}
                 onFocus={[Function]}
@@ -244,18 +247,19 @@ exports[`renders contact 1`] = `
                 onMouseLeave={[Function]}
                 onMouseUp={[Function]}
                 onTouchEnd={[Function]}
+                onTouchMove={[Function]}
                 onTouchStart={[Function]}
                 role="button"
                 tabIndex={0}
                 type="submit"
               >
                 <span
-                  className="MuiButton-label-149"
+                  className="MuiButton-label-155"
                 >
                   SEND
                 </span>
                 <span
-                  className="MuiTouchRipple-root-163"
+                  className="MuiTouchRipple-root-169"
                 />
               </button>
             </div>
@@ -264,44 +268,47 @@ exports[`renders contact 1`] = `
       </div>
     </div>
     <div
-      className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-16-17 MuiGrid-grid-md-12-58 MuiGrid-grid-lg-6-65"
+      align="stretch"
+      className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-16-23 MuiGrid-grid-md-12-64 MuiGrid-grid-lg-6-71"
     >
       <div
-        className="MuiGrid-typeContainer-2 MuiGrid-spacing-xs-16-17 MuiGrid-direction-xs-column-4 MapContainer-container-170"
+        className="MuiGrid-typeContainer-2 MuiGrid-spacing-xs-16-23 MuiGrid-direction-xs-column-4 MapContainer-container-176"
       >
         <div
-          className="MuiGrid-typeItem-3 MapContainer-contactContainer-171"
+          className="MuiGrid-typeItem-3 MapContainer-contactContainer-177"
         >
           <div
-            className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-24-18 MuiGrid-direction-xs-column-4"
+            className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-24-24 MuiGrid-direction-xs-column-4"
           >
             <div
-              className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-24-18 MuiGrid-align-xs-center-8 MuiGrid-justify-xs-center-12"
+              align="center"
+              className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-24-24 MuiGrid-justify-xs-center-18"
             >
               <div
-                className="MuiGrid-typeItem-3 MuiGrid-grid-xs-3-23 ContactInfo-profileListItem-174"
+                className="MuiGrid-typeItem-3 MuiGrid-grid-xs-3-29 ContactInfo-profileListItem-180"
               >
                 Address:
               </div>
               <div
-                className="MuiGrid-typeItem-3 MuiGrid-grid-xs-9-29 ContactInfo-profileListItemValue-175"
+                className="MuiGrid-typeItem-3 MuiGrid-grid-xs-9-35 ContactInfo-profileListItemValue-181"
               >
                 Pune, India
               </div>
             </div>
             <div
-              className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-24-18 MuiGrid-align-xs-center-8 MuiGrid-justify-xs-center-12"
+              align="center"
+              className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-24-24 MuiGrid-justify-xs-center-18"
             >
               <div
-                className="MuiGrid-typeItem-3 MuiGrid-grid-xs-3-23 ContactInfo-profileListItem-174"
+                className="MuiGrid-typeItem-3 MuiGrid-grid-xs-3-29 ContactInfo-profileListItem-180"
               >
                 Email:
               </div>
               <div
-                className="MuiGrid-typeItem-3 MuiGrid-grid-xs-9-29 ContactInfo-profileListItemValue-175"
+                className="MuiGrid-typeItem-3 MuiGrid-grid-xs-9-35 ContactInfo-profileListItemValue-181"
               >
                 <a
-                  className="ContactInfo-profileValueAItemValue-176"
+                  className="ContactInfo-profileValueAItemValue-182"
                   href="mailto:durgaprasad.budhwani@gmail.com"
                 >
                   durgaprasad.budhwani@gmail.com
@@ -309,18 +316,19 @@ exports[`renders contact 1`] = `
               </div>
             </div>
             <div
-              className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-24-18 MuiGrid-align-xs-center-8 MuiGrid-justify-xs-center-12"
+              align="center"
+              className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-24-24 MuiGrid-justify-xs-center-18"
             >
               <div
-                className="MuiGrid-typeItem-3 MuiGrid-grid-xs-3-23 ContactInfo-profileListItem-174"
+                className="MuiGrid-typeItem-3 MuiGrid-grid-xs-3-29 ContactInfo-profileListItem-180"
               >
                 Phone:
               </div>
               <div
-                className="MuiGrid-typeItem-3 MuiGrid-grid-xs-9-29 ContactInfo-profileListItemValue-175"
+                className="MuiGrid-typeItem-3 MuiGrid-grid-xs-9-35 ContactInfo-profileListItemValue-181"
               >
                 <a
-                  className="ContactInfo-profileValueAItemValue-176"
+                  className="ContactInfo-profileValueAItemValue-182"
                   href="tel:+91-9545251359"
                 >
                   +91-9545251359
@@ -330,7 +338,7 @@ exports[`renders contact 1`] = `
           </div>
         </div>
         <div
-          className="MuiGrid-typeItem-3 MuiGrid-grid-xs-20 MapContainer-mapContainer-172"
+          className="MuiGrid-typeItem-3 MuiGrid-grid-xs-26 MapContainer-mapContainer-178"
         >
           <div />
         </div>

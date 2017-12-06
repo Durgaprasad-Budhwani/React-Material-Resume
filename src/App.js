@@ -8,10 +8,8 @@ import './App.css';
 import Header from './components/header';
 import 'animate.css/animate.min.css';
 
-import Scroll from 'react-scroll';
-
+import * as Scroll from 'react-scroll';
 const {scrollSpy} = Scroll;
-
 
 export default class App extends Component {
     componentDidMount () {

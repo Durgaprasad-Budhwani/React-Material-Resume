@@ -2,7 +2,8 @@
 
 exports[`renders education 1`] = `
 <div
-  className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-18 MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-13"
+  align="stretch"
+  className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-19"
   style={
     Object {
       "marginBottom": 30,
@@ -10,7 +11,7 @@ exports[`renders education 1`] = `
   }
 >
   <span
-    className="SectionTitle-sectionTitle-86"
+    className="SectionTitle-sectionTitle-92"
   >
     Education
   </span>
@@ -25,7 +26,7 @@ exports[`renders education 1`] = `
       className="Timeline-clear-2"
     >
       <div
-        className="TimelineBar-bar-87"
+        className="TimelineBar-bar-93"
         style={
           Object {
             "height": 40,
@@ -34,7 +35,7 @@ exports[`renders education 1`] = `
         }
       />
       <div
-        className="EventContainer-box-92 EventContainer-boxRight-94"
+        className="EventContainer-box-98 EventContainer-boxRight-100"
       >
         <div
           className="animated"
@@ -46,13 +47,14 @@ exports[`renders education 1`] = `
           }
         >
           <div
-            className="MuiPaper-root-101 MuiPaper-shadow2-105 MuiPaper-rounded-102 EventContainer-paper-88 EventContainer-paperRight-90"
+            className="MuiPaper-root-107 MuiPaper-shadow2-111 MuiPaper-rounded-108 EventContainer-paper-94 EventContainer-paperRight-96"
           >
             <span
-              className="EventContainer-arrow-96 EventContainer-arrowLeft-98"
+              className="EventContainer-arrow-102 EventContainer-arrowLeft-104"
             />
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-18 MuiGrid-direction-xs-column-5"
+              align="stretch"
+              className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5"
               style={
                 Object {
                   "paddingLeft": 20,
@@ -61,18 +63,18 @@ exports[`renders education 1`] = `
             >
               <div>
                 <span
-                  className="Bubble-container-131"
+                  className="Bubble-container-137"
                 >
                   2014 - Present
                 </span>
               </div>
               <h3
-                className="Course-header3-129"
+                className="Course-header3-135"
               >
                 Varian Medical System
               </h3>
               <p
-                className="Course-header4-130"
+                className="Course-header4-136"
               >
                 Varian Medical System 
               </p>
@@ -80,11 +82,11 @@ exports[`renders education 1`] = `
           </div>
         </div>
         <span
-          className="EventContainer-dot-95 EventContainer-dotLeft-100"
+          className="EventContainer-dot-101 EventContainer-dotLeft-106"
         />
       </div>
       <div
-        className="EventContainer-box-92 EventContainer-boxLeft-93"
+        className="EventContainer-box-98 EventContainer-boxLeft-99"
       >
         <div
           className="animated"
@@ -96,13 +98,14 @@ exports[`renders education 1`] = `
           }
         >
           <div
-            className="MuiPaper-root-101 MuiPaper-shadow2-105 MuiPaper-rounded-102 EventContainer-paper-88 EventContainer-paperLeft-89"
+            className="MuiPaper-root-107 MuiPaper-shadow2-111 MuiPaper-rounded-108 EventContainer-paper-94 EventContainer-paperLeft-95"
           >
             <span
-              className="EventContainer-arrow-96 EventContainer-arrowRight-97"
+              className="EventContainer-arrow-102 EventContainer-arrowRight-103"
             />
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-18 MuiGrid-direction-xs-column-5"
+              align="stretch"
+              className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5"
               style={
                 Object {
                   "paddingLeft": 20,
@@ -111,18 +114,18 @@ exports[`renders education 1`] = `
             >
               <div>
                 <span
-                  className="Bubble-container-131"
+                  className="Bubble-container-137"
                 >
                   2014 - Present
                 </span>
               </div>
               <h3
-                className="Course-header3-129"
+                className="Course-header3-135"
               >
                 Varian Medical System
               </h3>
               <p
-                className="Course-header4-130"
+                className="Course-header4-136"
               >
                 Varian Medical System 
               </p>
@@ -130,7 +133,7 @@ exports[`renders education 1`] = `
           </div>
         </div>
         <span
-          className="EventContainer-dot-95 EventContainer-dotRight-99"
+          className="EventContainer-dot-101 EventContainer-dotRight-105"
         />
       </div>
     </div>

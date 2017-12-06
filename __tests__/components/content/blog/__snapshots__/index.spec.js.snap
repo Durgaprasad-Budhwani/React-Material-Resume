@@ -5,12 +5,13 @@ exports[`renders blog container 1`] = `
   className=""
 >
   <span
-    className="SectionTitle-sectionTitle-86"
+    className="SectionTitle-sectionTitle-92"
   >
     Articles
   </span>
   <div
-    className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-8-17 MuiGrid-justify-xs-space-between-15 MuiGrid-grid-xs-12-33"
+    align="stretch"
+    className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-8-23 MuiGrid-justify-xs-space-between-21 MuiGrid-grid-xs-12-39"
   />
 </div>
 `;

@@ -10,9 +10,7 @@ import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
-import Scroll from 'react-scroll';
-
-const {Link} = Scroll;
+import {Link} from 'react-scroll';
 
 const styles = theme => ({
     header: {

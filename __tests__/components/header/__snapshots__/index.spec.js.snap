@@ -25,6 +25,7 @@ exports[`renders header 1`] = `
         onMouseLeave={[Function]}
         onMouseUp={[Function]}
         onTouchEnd={[Function]}
+        onTouchMove={[Function]}
         onTouchStart={[Function]}
         role="button"
         tabIndex={0}
@@ -35,7 +36,7 @@ exports[`renders header 1`] = `
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-55"
+            className="MuiSvgIcon-root-55 MuiIconButton-icon-51"
             focusable="false"
             viewBox="0 0 24 24"
           >

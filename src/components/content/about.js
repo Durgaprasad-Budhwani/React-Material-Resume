@@ -3,7 +3,7 @@
  */
 import React, {PureComponent} from 'react';
 import Grid from 'material-ui/Grid';
-import Scroll from 'react-scroll';
+import * as Scroll from 'react-scroll';
 import {withStyles} from 'material-ui/styles';
 import PropTypes from 'prop-types';
 import Profile from './profile';
@@ -14,6 +14,7 @@ import Blog from './blog';
 import Education from './education';
 
 const {Element} = Scroll;
+
 
 const styles = theme => ({
     about: {
@@ -36,7 +37,7 @@ class About extends PureComponent {
         const classes = this.props.classes;
         return (
             <Grid
-                  className={classes.about}
+                className={classes.about}
             >
                 <Grid item
                       xs={12}>
@@ -64,7 +65,7 @@ class About extends PureComponent {
                 </Grid>
                 <Grid item
                       xs={12}>
-                    <Blog />
+                    <Blog/>
                 </Grid>
             </Grid>
         )
