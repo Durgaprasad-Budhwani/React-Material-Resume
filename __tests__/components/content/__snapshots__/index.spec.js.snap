@@ -5,7 +5,7 @@ exports[`renders content 1`] = `
   className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-justify-xs-center-19 Content-content-2"
 >
   <div
-    className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-24 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-12-52 MuiGrid-grid-md-8-61 MuiGrid-grid-lg-8-74"
+    className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-12-52 MuiGrid-grid-md-8-61 MuiGrid-grid-lg-8-74"
     style={
       Object {
         "position": "relative",
@@ -1128,6 +1128,356 @@ exports[`renders content 1`] = `
               align="stretch"
               className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-8-23 MuiGrid-justify-xs-space-between-21 MuiGrid-grid-xs-12-39"
             />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="About-container-224"
+      >
+        <div
+          className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-justify-xs-center-19"
+        >
+          <span
+            className="SectionTitle-sectionTitle-173"
+          >
+            Contact Me
+          </span>
+          <div
+            align="stretch"
+            className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-24 MuiGrid-justify-xs-space-around-22 MuiGrid-grid-xs-12-39"
+          >
+            <div
+              align="stretch"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-24 MuiGrid-justify-xs-center-19 MuiGrid-grid-md-12-65 MuiGrid-grid-lg-6-72"
+            >
+              <div
+                className="MuiPaper-root-102 MuiPaper-shadow2-106 MuiPaper-rounded-103 ContactForm-container-225"
+              >
+                <form
+                  action="http://formspree.io/durgaprasad.budhwani@gmail.com"
+                  method="post"
+                >
+                  <div
+                    className="MuiGrid-typeContainer-3 MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-19"
+                  >
+                    <h2
+                      style={
+                        Object {
+                          "marginBottom": 0,
+                        }
+                      }
+                    >
+                      Feel free to contact me
+                    </h2>
+                    <div
+                      className="MuiFormControl-root-227 MuiFormControl-marginNormal-228"
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      required={true}
+                    >
+                      <label
+                        className="MuiFormLabel-root-237 MuiInputLabel-root-231 MuiInputLabel-formControl-232 MuiInputLabel-animated-235"
+                        data-shrink={false}
+                        htmlFor="name"
+                      >
+                        NAME
+                        <span
+                          className=""
+                        >
+                           *
+                        </span>
+                      </label>
+                      <div
+                        className="MuiInput-root-241 MuiInput-formControl-242 MuiInput-inkbar-243 MuiInput-underline-247"
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <input
+                          autoComplete={undefined}
+                          autoFocus={undefined}
+                          className="MuiInput-input-250 MuiInput-inputSingleline-253"
+                          defaultValue={undefined}
+                          disabled={false}
+                          id="name"
+                          name="name"
+                          onChange={[Function]}
+                          onKeyDown={undefined}
+                          onKeyUp={undefined}
+                          placeholder={undefined}
+                          readOnly={undefined}
+                          required={true}
+                          rows={undefined}
+                          type="text"
+                          value={undefined}
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="MuiFormControl-root-227 MuiFormControl-marginNormal-228"
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      required={true}
+                    >
+                      <label
+                        className="MuiFormLabel-root-237 MuiInputLabel-root-231 MuiInputLabel-formControl-232 MuiInputLabel-animated-235"
+                        data-shrink={false}
+                        htmlFor="email"
+                      >
+                        EMAIL
+                        <span
+                          className=""
+                        >
+                           *
+                        </span>
+                      </label>
+                      <div
+                        className="MuiInput-root-241 MuiInput-formControl-242 MuiInput-inkbar-243 MuiInput-underline-247"
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <input
+                          autoComplete={undefined}
+                          autoFocus={undefined}
+                          className="MuiInput-input-250 MuiInput-inputSingleline-253"
+                          defaultValue={undefined}
+                          disabled={false}
+                          id="email"
+                          name="email"
+                          onChange={[Function]}
+                          onKeyDown={undefined}
+                          onKeyUp={undefined}
+                          placeholder={undefined}
+                          readOnly={undefined}
+                          required={true}
+                          rows={undefined}
+                          type="email"
+                          value={undefined}
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="MuiFormControl-root-227 MuiFormControl-marginNormal-228"
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      required={true}
+                    >
+                      <label
+                        className="MuiFormLabel-root-237 MuiInputLabel-root-231 MuiInputLabel-formControl-232 MuiInputLabel-animated-235"
+                        data-shrink={false}
+                        htmlFor="subject"
+                      >
+                        SUBJECT
+                        <span
+                          className=""
+                        >
+                           *
+                        </span>
+                      </label>
+                      <div
+                        className="MuiInput-root-241 MuiInput-formControl-242 MuiInput-inkbar-243 MuiInput-underline-247"
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <input
+                          autoComplete={undefined}
+                          autoFocus={undefined}
+                          className="MuiInput-input-250 MuiInput-inputSingleline-253"
+                          defaultValue={undefined}
+                          disabled={false}
+                          id="subject"
+                          name="subject"
+                          onChange={[Function]}
+                          onKeyDown={undefined}
+                          onKeyUp={undefined}
+                          placeholder={undefined}
+                          readOnly={undefined}
+                          required={true}
+                          rows={undefined}
+                          type="text"
+                          value={undefined}
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="MuiFormControl-root-227 MuiFormControl-marginNormal-228"
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      required={true}
+                    >
+                      <label
+                        className="MuiFormLabel-root-237 MuiInputLabel-root-231 MuiInputLabel-formControl-232 MuiInputLabel-animated-235"
+                        data-shrink={false}
+                        htmlFor="message"
+                      >
+                        MESSAGE
+                        <span
+                          className=""
+                        >
+                           *
+                        </span>
+                      </label>
+                      <div
+                        className="MuiInput-root-241 MuiInput-formControl-242 MuiInput-inkbar-243 MuiInput-multiline-248 MuiInput-underline-247"
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <div
+                          className="MuiTextarea-root-256"
+                          style={
+                            Object {
+                              "height": 24,
+                            }
+                          }
+                        >
+                          <textarea
+                            aria-hidden="true"
+                            className="MuiTextarea-shadow-258 MuiTextarea-textarea-257"
+                            readOnly={true}
+                            rows="1"
+                            tabIndex={-1}
+                            value=""
+                          />
+                          <textarea
+                            aria-hidden="true"
+                            className="MuiTextarea-shadow-258 MuiTextarea-textarea-257"
+                            defaultValue={undefined}
+                            readOnly={true}
+                            rows={1}
+                            tabIndex={-1}
+                            value={undefined}
+                          />
+                          <textarea
+                            autoComplete={undefined}
+                            autoFocus={undefined}
+                            className="MuiTextarea-textarea-257 MuiInput-input-250 MuiInput-inputMultiline-254"
+                            defaultValue={undefined}
+                            disabled={false}
+                            id="message"
+                            name="message"
+                            onChange={[Function]}
+                            onKeyDown={undefined}
+                            onKeyUp={undefined}
+                            placeholder={undefined}
+                            readOnly={undefined}
+                            required={true}
+                            rows={1}
+                            type="text"
+                            value={undefined}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <button
+                        className="MuiButtonBase-root-145 MuiButton-root-157 MuiButton-raised-164 MuiButton-raisedPrimary-166 ContactForm-button-226"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        role="button"
+                        tabIndex={0}
+                        type="submit"
+                      >
+                        <span
+                          className="MuiButton-label-159"
+                        >
+                          SEND
+                        </span>
+                        <span
+                          className="MuiTouchRipple-root-147"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div
+              align="stretch"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-24 MuiGrid-grid-md-12-65 MuiGrid-grid-lg-6-72"
+            >
+              <div
+                className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5 MapContainer-container-259"
+              >
+                <div
+                  className="MuiGrid-typeItem-4 MapContainer-contactContainer-260"
+                >
+                  <div
+                    className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-24-25 MuiGrid-direction-xs-column-5"
+                  >
+                    <div
+                      align="center"
+                      className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-24-25 MuiGrid-justify-xs-center-19"
+                    >
+                      <div
+                        className="MuiGrid-typeItem-4 MuiGrid-grid-xs-3-30 ContactInfo-profileListItem-131"
+                      >
+                        Address:
+                      </div>
+                      <div
+                        className="MuiGrid-typeItem-4 MuiGrid-grid-xs-9-36 ContactInfo-profileListItemValue-132"
+                      >
+                        Pune, India
+                      </div>
+                    </div>
+                    <div
+                      align="center"
+                      className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-24-25 MuiGrid-justify-xs-center-19"
+                    >
+                      <div
+                        className="MuiGrid-typeItem-4 MuiGrid-grid-xs-3-30 ContactInfo-profileListItem-131"
+                      >
+                        Email:
+                      </div>
+                      <div
+                        className="MuiGrid-typeItem-4 MuiGrid-grid-xs-9-36 ContactInfo-profileListItemValue-132"
+                      >
+                        <a
+                          className="ContactInfo-profileValueAItemValue-133"
+                          href="mailto:durgaprasad.budhwani@gmail.com"
+                        >
+                          durgaprasad.budhwani@gmail.com
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      align="center"
+                      className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-24-25 MuiGrid-justify-xs-center-19"
+                    >
+                      <div
+                        className="MuiGrid-typeItem-4 MuiGrid-grid-xs-3-30 ContactInfo-profileListItem-131"
+                      >
+                        Phone:
+                      </div>
+                      <div
+                        className="MuiGrid-typeItem-4 MuiGrid-grid-xs-9-36 ContactInfo-profileListItemValue-132"
+                      >
+                        <a
+                          className="ContactInfo-profileValueAItemValue-133"
+                          href="tel:+91-9545251359"
+                        >
+                          +91-9545251359
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="MuiGrid-typeItem-4 MuiGrid-grid-xs-27 MapContainer-mapContainer-261"
+                >
+                  <div />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
