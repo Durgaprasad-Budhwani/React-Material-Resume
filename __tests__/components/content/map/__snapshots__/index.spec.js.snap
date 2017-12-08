@@ -11,16 +11,16 @@ exports[`renders map 1`] = `
       className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-26 MuiGrid-direction-xs-column-6"
     >
       <div
-        align="center"
-        className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-26 MuiGrid-justify-xs-center-20"
+        align="stretch"
+        className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-26"
       >
         <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-3-31 ContactInfo-profileListItem-94"
+          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-40 MuiGrid-grid-md-3-57 ContactInfo-profileListItem-94"
         >
           Address:
         </div>
         <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-9-37 ContactInfo-profileListItemValue-95"
+          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-40 MuiGrid-grid-md-9-63 ContactInfo-profileListItemValue-95"
         >
           Pune, India
         </div>
@@ -30,12 +30,12 @@ exports[`renders map 1`] = `
         className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-26 MuiGrid-justify-xs-center-20"
       >
         <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-3-31 ContactInfo-profileListItem-94"
+          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-40 MuiGrid-grid-md-3-57 ContactInfo-profileListItem-94"
         >
           Email:
         </div>
         <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-9-37 ContactInfo-profileListItemValue-95"
+          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-40 MuiGrid-grid-md-9-63 ContactInfo-profileListItemValue-95"
         >
           <a
             className="ContactInfo-profileValueAItemValue-96"
@@ -50,12 +50,12 @@ exports[`renders map 1`] = `
         className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-26 MuiGrid-justify-xs-center-20"
       >
         <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-3-31 ContactInfo-profileListItem-94"
+          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-40 MuiGrid-grid-md-3-57 ContactInfo-profileListItem-94"
         >
           Phone:
         </div>
         <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-9-37 ContactInfo-profileListItemValue-95"
+          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-40 MuiGrid-grid-md-9-63 ContactInfo-profileListItemValue-95"
         >
           <a
             className="ContactInfo-profileValueAItemValue-96"

@@ -32,6 +32,9 @@ const styles = theme => ({
         paddingBottom: 25,
         marginBottom: 25,
         borderBottom: '1px solid #dedede',
+        [theme.breakpoints.down('md')]: {
+            borderBottom: '0px'
+        },
     },
     greeting: {
         color: '#fff',
@@ -59,16 +62,22 @@ const styles = theme => ({
         }
     },
     profileTitle: {
-        fontSize: 36,
+        fontSize: 32,
         lineHeight: 1.1,
         fontWeight: 700,
         marginBottom: 5,
+        [theme.breakpoints.down('md')]: {
+            fontSize: 20
+        },
     },
     profileTitleStart: {
-        fontWeight: 300
+        fontWeight: 200,
     },
     profilePosition: {
         fontSize: 18,
+        [theme.breakpoints.down('md')]: {
+            fontSize: 16
+        },
         fontWeight: 400,
         lineHeight: 1.1,
         marginBottom: 0,
@@ -102,9 +111,10 @@ class Profile extends PureComponent {
                         <Grid item
                               xs={1}/>
                         <Grid item
-                              xs={6}
+                              lg={6}
+                              xs={12}
                               container
-                              align="center"
+                              align="flex-start"
                               direction="column">
                             <Grid item
                                   className={classes.profileInfo}>

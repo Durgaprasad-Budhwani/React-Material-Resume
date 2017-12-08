@@ -12,6 +12,14 @@ import {LEFT, RIGHT} from '../../../utils/Constants';
 import TimelineBar from './../../common/timeline-bar';
 
 const styles = theme => ({
+    container: {
+        alignItems: 'stretch',
+        justifyItems: 'center',
+        [theme.breakpoints.down('md')]: {
+            alignItems: 'stretch',
+            justifyItems: 'stretch',
+        },
+    },
     relative: {
         position: 'relative',
     },
@@ -29,7 +37,16 @@ const styles = theme => ({
             display: 'table',
             clear: 'both'
         }
-    }
+    },
+    barClass: {
+        height: 40,
+        top: 80,
+        [theme.breakpoints.down('md')]: {
+            height: 200,
+            top: 20,
+            zIndex: -1
+        },
+    },
 });
 
 class Timeline extends PureComponent {
@@ -38,14 +55,12 @@ class Timeline extends PureComponent {
         return (
             <Grid container
                   style={{marginBottom: 30}}
-                  align="stretch"
-                  direction="column"
-                  justify="center">
+                  className={classes.container}
+                  direction="column">
                 <SectionTitle title='Education'/>
                 <div style={{ position: 'relative' }}>
                     <div className={classes.clear}>
-                        <TimelineBar height={40}
-                                     top={80}/>
+                        <TimelineBar barClass={classes.barClass}/>
                         <EventContainer
                             alignment={RIGHT}
                         >

@@ -2,11 +2,10 @@
 
 exports[`renders timeline 1`] = `
 <div
-  align="stretch"
-  className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-19 MuiGrid-grid-xs-12-39"
+  className="MuiGrid-typeContainer-5 MuiGrid-typeItem-6 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7 MuiGrid-justify-xs-center-21 MuiGrid-grid-xs-12-41 Timeline-container-1"
 >
   <span
-    className="SectionTitle-sectionTitle-92"
+    className="SectionTitle-sectionTitle-94"
   >
     Work Experience
   </span>
@@ -18,114 +17,170 @@ exports[`renders timeline 1`] = `
     }
   >
     <div
-      className="Timeline-clear-2"
+      className="Timeline-clear-4"
     >
       <div
-        className="TimelineBar-bar-93"
-        style={
-          Object {
-            "height": 40,
-            "top": 80,
-          }
-        }
+        className="TimelineBar-bar-95 Timeline-barClass-2"
       />
-      <div
-        className="EventContainer-box-98 EventContainer-boxRight-100"
-      >
+      <div>
         <div
-          className="animated"
-          style={
-            Object {
-              "animationDuration": "0s",
-              "visibility": "hidden",
-            }
-          }
+          className="EventContainer-bigScreenBox-101 EventContainer-boxRight-103"
         >
           <div
-            className="MuiPaper-root-107 MuiPaper-shadow2-111 MuiPaper-rounded-108 EventContainer-paper-94 EventContainer-paperRight-96"
+            className="animated"
+            style={
+              Object {
+                "animationDuration": "0s",
+                "visibility": "hidden",
+              }
+            }
           >
-            <span
-              className="EventContainer-arrow-102 EventContainer-arrowLeft-104"
-            />
             <div
-              align="center"
-              className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5"
+              className="MuiPaper-root-110 MuiPaper-shadow2-114 MuiPaper-rounded-111 EventContainer-paper-97 EventContainer-paperRight-99"
             >
+              <span
+                className="EventContainer-arrow-105 EventContainer-arrowLeft-107"
+              />
               <div
-                className="Event-date-134"
+                align="center"
+                className="MuiGrid-typeContainer-5 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7"
               >
-                2014 - Present
+                <div
+                  className="Event-date-137"
+                >
+                  2014 - Present
+                </div>
+                <h3
+                  className="Event-header3-138"
+                >
+                  Varian Medical System
+                </h3>
+                <h4
+                  className="Event-header4-139"
+                >
+                  Full Stack Developer
+                </h4>
+                <p
+                  className="Event-description-140"
+                >
+                  TBD TBD TBD TBD TBD TBD
+                </p>
               </div>
-              <h3
-                className="Event-header3-135"
-              >
-                Varian Medical System
-              </h3>
-              <h4
-                className="Event-header4-136"
-              >
-                Full Stack Developer
-              </h4>
-              <p
-                className="Event-description-137"
-              >
-                TBD TBD TBD TBD TBD TBD
-              </p>
             </div>
           </div>
+          <span
+            className="EventContainer-dot-104 EventContainer-dotLeft-109"
+          />
         </div>
-        <span
-          className="EventContainer-dot-101 EventContainer-dotLeft-106"
-        />
+        <div
+          className="MuiPaper-root-110 MuiPaper-shadow2-114 MuiPaper-rounded-111 EventContainer-smallScreenBox-96"
+        >
+          <div
+            align="center"
+            className="MuiGrid-typeContainer-5 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7"
+          >
+            <div
+              className="Event-date-137"
+            >
+              2014 - Present
+            </div>
+            <h3
+              className="Event-header3-138"
+            >
+              Varian Medical System
+            </h3>
+            <h4
+              className="Event-header4-139"
+            >
+              Full Stack Developer
+            </h4>
+            <p
+              className="Event-description-140"
+            >
+              TBD TBD TBD TBD TBD TBD
+            </p>
+          </div>
+        </div>
       </div>
-      <div
-        className="EventContainer-box-98 EventContainer-boxLeft-99"
-      >
+      <div>
         <div
-          className="animated"
-          style={
-            Object {
-              "animationDuration": "0s",
-              "visibility": "hidden",
-            }
-          }
+          className="EventContainer-bigScreenBox-101 EventContainer-boxLeft-102"
         >
           <div
-            className="MuiPaper-root-107 MuiPaper-shadow2-111 MuiPaper-rounded-108 EventContainer-paper-94 EventContainer-paperLeft-95"
+            className="animated"
+            style={
+              Object {
+                "animationDuration": "0s",
+                "visibility": "hidden",
+              }
+            }
           >
-            <span
-              className="EventContainer-arrow-102 EventContainer-arrowRight-103"
-            />
             <div
-              align="center"
-              className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5"
+              className="MuiPaper-root-110 MuiPaper-shadow2-114 MuiPaper-rounded-111 EventContainer-paper-97 EventContainer-paperLeft-98"
             >
+              <span
+                className="EventContainer-arrow-105 EventContainer-arrowRight-106"
+              />
               <div
-                className="Event-date-134"
+                align="center"
+                className="MuiGrid-typeContainer-5 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7"
               >
-                2014 - Present
+                <div
+                  className="Event-date-137"
+                >
+                  2014 - Present
+                </div>
+                <h3
+                  className="Event-header3-138"
+                >
+                  Varian Medical System
+                </h3>
+                <h4
+                  className="Event-header4-139"
+                >
+                  Full Stack Developer
+                </h4>
+                <p
+                  className="Event-description-140"
+                >
+                  TBD
+                </p>
               </div>
-              <h3
-                className="Event-header3-135"
-              >
-                Varian Medical System
-              </h3>
-              <h4
-                className="Event-header4-136"
-              >
-                Full Stack Developer
-              </h4>
-              <p
-                className="Event-description-137"
-              >
-                TBD
-              </p>
             </div>
           </div>
+          <span
+            className="EventContainer-dot-104 EventContainer-dotRight-108"
+          />
         </div>
-        <span
-          className="EventContainer-dot-101 EventContainer-dotRight-105"
-        />
+        <div
+          className="MuiPaper-root-110 MuiPaper-shadow2-114 MuiPaper-rounded-111 EventContainer-smallScreenBox-96"
+        >
+          <div
+            align="center"
+            className="MuiGrid-typeContainer-5 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7"
+          >
+            <div
+              className="Event-date-137"
+            >
+              2014 - Present
+            </div>
+            <h3
+              className="Event-header3-138"
+            >
+              Varian Medical System
+            </h3>
+            <h4
+              className="Event-header4-139"
+            >
+              Full Stack Developer
+            </h4>
+            <p
+              className="Event-description-140"
+            >
+              TBD
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

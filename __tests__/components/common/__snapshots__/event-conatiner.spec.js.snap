@@ -1,55 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders event container for left 1`] = `
-<div
-  className="EventContainer-box-5 EventContainer-boxLeft-6"
->
+<div>
   <div
-    className="animated"
-    style={
-      Object {
-        "animationDuration": "0s",
-        "visibility": "hidden",
-      }
-    }
+    className="EventContainer-bigScreenBox-6 EventContainer-boxLeft-7"
   >
     <div
-      className="MuiPaper-root-14 MuiPaper-shadow2-18 MuiPaper-rounded-15 EventContainer-paper-1 EventContainer-paperLeft-2"
+      className="animated"
+      style={
+        Object {
+          "animationDuration": "0s",
+          "visibility": "hidden",
+        }
+      }
     >
-      <span
-        className="EventContainer-arrow-9 EventContainer-arrowRight-10"
-      />
+      <div
+        className="MuiPaper-root-15 MuiPaper-shadow2-19 MuiPaper-rounded-16 EventContainer-paper-2 EventContainer-paperLeft-3"
+      >
+        <span
+          className="EventContainer-arrow-10 EventContainer-arrowRight-11"
+        />
+      </div>
     </div>
+    <span
+      className="EventContainer-dot-9 EventContainer-dotRight-13"
+    />
   </div>
-  <span
-    className="EventContainer-dot-8 EventContainer-dotRight-12"
+  <div
+    className="MuiPaper-root-15 MuiPaper-shadow2-19 MuiPaper-rounded-16 EventContainer-smallScreenBox-1"
   />
 </div>
 `;
 
 exports[`renders event container for right 1`] = `
-<div
-  className="EventContainer-box-5 EventContainer-boxRight-7"
->
+<div>
   <div
-    className="animated"
-    style={
-      Object {
-        "animationDuration": "0s",
-        "visibility": "hidden",
-      }
-    }
+    className="EventContainer-bigScreenBox-6 EventContainer-boxRight-8"
   >
     <div
-      className="MuiPaper-root-14 MuiPaper-shadow2-18 MuiPaper-rounded-15 EventContainer-paper-1 EventContainer-paperRight-3"
+      className="animated"
+      style={
+        Object {
+          "animationDuration": "0s",
+          "visibility": "hidden",
+        }
+      }
     >
-      <span
-        className="EventContainer-arrow-9 EventContainer-arrowLeft-11"
-      />
+      <div
+        className="MuiPaper-root-15 MuiPaper-shadow2-19 MuiPaper-rounded-16 EventContainer-paper-2 EventContainer-paperRight-4"
+      >
+        <span
+          className="EventContainer-arrow-10 EventContainer-arrowLeft-12"
+        />
+      </div>
     </div>
+    <span
+      className="EventContainer-dot-9 EventContainer-dotLeft-14"
+    />
   </div>
-  <span
-    className="EventContainer-dot-8 EventContainer-dotLeft-13"
+  <div
+    className="MuiPaper-root-15 MuiPaper-shadow2-19 MuiPaper-rounded-16 EventContainer-smallScreenBox-1"
   />
 </div>
 `;

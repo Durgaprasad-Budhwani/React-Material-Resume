@@ -11,6 +11,18 @@ import {LEFT, RIGHT} from '../../utils/Constants';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = theme => ({
+    smallScreenBox: {
+        display: 'none',
+        borderColor: theme.palette.primary[ 500 ],
+        padding: 20,
+        borderTopWidth: 5,
+        borderTopStyle: 'solid',
+        marginBottom: 35,
+        zIndex: 10,
+        [theme.breakpoints.down('md')]: {
+            display: 'block'
+        },
+    },
     paper: {
         borderColor: theme.palette.primary[ 500 ],
         padding: 20,
@@ -32,15 +44,19 @@ const styles = theme => ({
         color: theme.palette.primary[ 500 ],
         marginTop: 10
     },
-    box: {
+    bigScreenBox: {
         width: '50%',
         maxWidth: '50%',
         minWidth: '50%',
+        [theme.breakpoints.down('md')]: {
+            display: 'none'
+        },
         color: '#757575',
         fontSize: 16,
         lineHeight: 1.5,
         marginBottom: 25,
         position: 'relative',
+        zIndex: 10
     },
     boxLeft: {
         float: 'left',
@@ -59,6 +75,9 @@ const styles = theme => ({
         position: 'absolute',
         borderRadius: '50%',
         backgroundColor: theme.palette.primary[ 500 ],
+        [theme.breakpoints.down('md')]: {
+            display: 'none'
+        },
         
     },
     arrow: {
@@ -78,19 +97,31 @@ const styles = theme => ({
         right: 4,
         top: 105,
         transform: 'rotate(-135deg)',
+        [theme.breakpoints.down('md')]: {
+            display: 'none'
+        },
     },
     arrowLeft: {
         left: 35,
         top: 60,
         transform: 'rotate(45deg)',
+        [theme.breakpoints.down('md')]: {
+            display: 'none'
+        },
     },
     dotRight: {
         right: 0,
-        marginRight: -4
+        marginRight: -4,
+        [theme.breakpoints.down('md')]: {
+            display: 'none'
+        },
     },
     dotLeft: {
         left: 0,
-        marginLeft: -4
+        marginLeft: -4,
+        [theme.breakpoints.down('md')]: {
+            display: 'none'
+        },
     }
 });
 
@@ -111,39 +142,44 @@ class EventContainer extends PureComponent<void, Props, void> {
             alignment,
         } = this.props;
         return (
-            
-            <div className={classNames({
-                [classes.box]: true,
-                [classes.boxLeft]: alignment === LEFT,
-                [classes.boxRight]: alignment === RIGHT
-            })}>
-                <ScrollAnimation animateIn={alignment === LEFT ? 'fadeInLeft' :'fadeInRight'}
-                                 animateOut={alignment === LEFT ? 'fadeInLeft' :'fadeInRight'}
-                                 animateOnce
-                                 initiallyVyarnisible={true}
-                                 duration={0}
-                                 offset={0}
-                >
-                    <Paper className={classNames(
-                        {
-                            [classes.paper]: true,
-                            [classes.paperLeft]: alignment === LEFT,
-                            [classes.paperRight]: alignment === RIGHT
-                        }
-                    )}>
+            <div>
+                <div className={classNames({
+                    [classes.bigScreenBox]: true,
+                    [classes.boxLeft]: alignment === LEFT,
+                    [classes.boxRight]: alignment === RIGHT
+                })}>
+                    <ScrollAnimation animateIn={alignment === LEFT ? 'fadeInLeft' :'fadeInRight'}
+                                     animateOut={alignment === LEFT ? 'fadeInLeft' :'fadeInRight'}
+                                     animateOnce
+                                     initiallyVyarnisible={true}
+                                     duration={0}
+                                     offset={0}
+                    
+                    >
+                        <Paper className={classNames(
+                            {
+                                [classes.paper]: true,
+                                [classes.paperLeft]: alignment === LEFT,
+                                [classes.paperRight]: alignment === RIGHT
+                            }
+                        )}>
                   <span className={classNames({
                       [classes.arrow]: true,
                       [classes.arrowRight]: alignment === LEFT,
                       [classes.arrowLeft]: alignment === RIGHT
                   })}/>
-                        {this.props.children}
-                    </Paper>
-                </ScrollAnimation>
-                <span className={classNames({
-                    [classes.dot]: true,
-                    [classes.dotRight]: alignment === LEFT,
-                    [classes.dotLeft]: alignment === RIGHT,
-                })}/>
+                            {this.props.children}
+                        </Paper>
+                    </ScrollAnimation>
+                    <span className={classNames({
+                        [classes.dot]: true,
+                        [classes.dotRight]: alignment === LEFT,
+                        [classes.dotLeft]: alignment === RIGHT,
+                    })}/>
+                </div>
+                <Paper className={classes.smallScreenBox}>
+                    {this.props.children}
+                </Paper>
             </div>
         
         )

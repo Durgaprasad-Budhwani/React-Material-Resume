@@ -4,6 +4,7 @@
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {withStyles} from 'material-ui/styles';
+import classNames from 'classnames';
 
 const styles = theme => ({
     bar: {
@@ -13,29 +14,29 @@ const styles = theme => ({
         marginLeft: -2,
         position: 'absolute',
         left: '50%',
-        height: '100%',
-        top: 0,
         backgroundColor: theme.palette.primary[ 500 ],
     },
 });
 
 type Props = {
-    height: number,
-    top: number
+    barClass: string
 }
 
 class TimelineBar extends PureComponent<void, Props, void>{
     static propTypes = {
         classes: PropTypes.object.isRequired,
-        top: PropTypes.number.isRequired,
-        height: PropTypes.number.isRequired,
+        barClass: PropTypes.string.isRequired,
     };
     
     render () {
-        const {classes, height, top} = this.props;
+        const {classes, barClass} = this.props;
         return (
-            <div className={classes.bar}
-                 style={{height, top}}/>
+            <div className={classNames(
+                {
+                    [classes.bar]: true,
+                    [barClass]: true,
+                }
+            )}/>
         )
     }
 }

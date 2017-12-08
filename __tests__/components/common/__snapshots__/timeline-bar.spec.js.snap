@@ -2,12 +2,6 @@
 
 exports[`renders bubble 1`] = `
 <div
-  className="TimelineBar-bar-1"
-  style={
-    Object {
-      "height": 10,
-      "top": 10,
-    }
-  }
+  className="TimelineBar-bar-1 undefined"
 />
 `;
