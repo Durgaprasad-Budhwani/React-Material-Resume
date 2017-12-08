@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 import EventContainer from '../../common/event-container';
 import Course from './course';
 import SectionTitle from './../../common/section-title';
-import {LEFT, RIGHT} from '../../utils/Constants';
+import {LEFT, RIGHT} from '../../../utils/Constants';
 import TimelineBar from './../../common/timeline-bar';
 
 const styles = theme => ({

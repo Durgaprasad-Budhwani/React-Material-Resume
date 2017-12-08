@@ -6,7 +6,7 @@ import Grid from 'material-ui/Grid';
 import {withStyles} from 'material-ui/styles';
 import Blog from './blog';
 import PropTypes from 'prop-types';
-import {GetBlogs} from '../../services';
+import {GetBlogs} from '../../../services';
 import SectionTitle from './../../common/section-title';
 
 const styles = theme => ({
