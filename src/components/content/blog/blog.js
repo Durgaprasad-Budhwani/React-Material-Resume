@@ -24,11 +24,9 @@ const styles = theme => ({
         margin: 10,
         marginBottom: 50, // TODO
         [theme.breakpoints.down('xl')]: {
-            margin: 0,
             marginBottom: 30,
         },
         [theme.breakpoints.down('md')]: {
-            margin: 0,
             marginBottom: 250
         },
         [theme.breakpoints.down('sm')]: {
