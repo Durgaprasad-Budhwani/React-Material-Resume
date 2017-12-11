@@ -8,14 +8,14 @@ exports[`renders header 1`] = `
     className="Header-headerBackground-4"
   />
   <header
-    className="MuiPaper-root-16 MuiPaper-shadow4-22 MuiAppBar-root-9 MuiAppBar-positionFixed-10 MuiAppBar-colorPrimary-14 mui-fixed Header-headerBar-2"
+    className="MuiPaper-root-13 MuiPaper-shadow4-19 MuiAppBar-root-6 MuiAppBar-positionFixed-7 MuiAppBar-colorPrimary-11 mui-fixed Header-headerBar-2"
   >
     <div
-      className="MuiToolbar-root-43 MuiToolbar-gutters-44"
+      className="MuiToolbar-root-40 MuiToolbar-gutters-41"
     >
       <button
         aria-label="Menu"
-        className="MuiButtonBase-root-54 MuiIconButton-root-45 MuiIconButton-colorContrast-47"
+        className="MuiButtonBase-root-51 MuiIconButton-root-42 MuiIconButton-colorContrast-44"
         disabled={false}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -32,11 +32,11 @@ exports[`renders header 1`] = `
         type="button"
       >
         <span
-          className="MuiIconButton-label-51"
+          className="MuiIconButton-label-48"
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-56 MuiIconButton-icon-52"
+            className="MuiSvgIcon-root-53 MuiIconButton-icon-49"
             focusable="false"
             viewBox="0 0 24 24"
           >
@@ -46,17 +46,51 @@ exports[`renders header 1`] = `
           </svg>
         </span>
         <span
-          className="MuiTouchRipple-root-57"
+          className="MuiTouchRipple-root-54"
         />
       </button>
       <div
         className="Header-flex-5"
       />
-      <div>
-        About
-      </div>
-      <div>
-        Contact 
+      <div
+        className="MuiGrid-typeContainer-61 Header-flex-5"
+      >
+        <div>
+          About
+          <span
+            className="LinkTo-spanClass-152"
+          />
+        </div>
+        <div>
+          Experience
+          <span
+            className="LinkTo-spanClass-152"
+          />
+        </div>
+        <div>
+          Skills
+          <span
+            className="LinkTo-spanClass-152"
+          />
+        </div>
+        <div>
+          Education
+          <span
+            className="LinkTo-spanClass-152"
+          />
+        </div>
+        <div>
+          Blog
+          <span
+            className="LinkTo-spanClass-152"
+          />
+        </div>
+        <div>
+          Contact
+          <span
+            className="LinkTo-spanClass-152"
+          />
+        </div>
       </div>
     </div>
   </header>

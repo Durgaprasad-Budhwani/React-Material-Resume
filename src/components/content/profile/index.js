@@ -11,6 +11,14 @@ import Bubble from '../../common/bubble';
 import ContactInfo from '../../common/contact-info';
 
 const styles = theme => ({
+    container: {
+        [theme.breakpoints.up('sm')]: {
+            marginTop: 20
+        },
+        [theme.breakpoints.down('md')]: {
+            marginTop: 150
+        },
+    },
     profile: {
         padding: '57px 50px 15px 50px',
         [theme.breakpoints.down('lg')]: {
@@ -92,7 +100,7 @@ class Profile extends PureComponent {
     render () {
         const classes = this.props.classes;
         return (
-            <Paper>
+            <Paper className={classes.container}>
                 <Grid item
                       container
                       direction="column"

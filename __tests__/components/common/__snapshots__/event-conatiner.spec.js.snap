@@ -9,7 +9,7 @@ exports[`renders event container for left 1`] = `
       className="animated"
       style={
         Object {
-          "animationDuration": "0s",
+          "animationDuration": "1s",
           "visibility": "hidden",
         }
       }
@@ -41,7 +41,7 @@ exports[`renders event container for right 1`] = `
       className="animated"
       style={
         Object {
-          "animationDuration": "0s",
+          "animationDuration": "1s",
           "visibility": "hidden",
         }
       }

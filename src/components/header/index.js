@@ -10,7 +10,8 @@ import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
-import {Link} from 'react-scroll';
+import LinkTo from '../common/link-to';
+import Grid from 'material-ui/Grid';
 
 const styles = theme => ({
     header: {
@@ -19,11 +20,11 @@ const styles = theme => ({
             minHeight: 0,
         },
         [theme.breakpoints.down('sm')]: {
-            minHeight: '35px',
+            minHeight: '30px',
         },
     },
     headerBar: {
-        backgroundColor: 'transparent',
+        backgroundColor: 'rgba(0,0,0,0.5)',
         boxShadow: 'none',
     },
     headerBarFixed: {
@@ -37,32 +38,21 @@ const styles = theme => ({
         bottom: 0,
         left: 0,
         right: 0,
-        backgroundColor: 'gray'
+        backgroundImage: 'url(cover.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: '50% 0',
+        backgroundRepeat: 'no-repeat'
     },
     flex: {
         flex: 1,
     },
-    scrollChor: {
-        color: '#fff',
-        fontSize: '14',
-        fontFamily: '"Open Sans", sans-serif',
-        lineHeight: 1,
-        display: 'inline-block',
-        textDecoration: 'none',
-        marginRight: 10
-    },
-    navigationItem:{
-        color: 'black'
-    },
-    scrollChorActive: {
-        color: 'red',
-    }
+    
 });
 
 class Header extends Component {
     state = {
         position: 'static',
-        navigationItemClass: false
+        navigationItemClass: true
     };
     
     componentDidMount () {
@@ -108,29 +98,36 @@ class Header extends Component {
                         <div
                             className={classes.flex}>
                         </div>
-                        <Link to="profile"
-                              spy={true}
-                              smooth={true}
-                              duration={500}
-                              offset={-50}
-                              activeClass={classes.scrollChorActive}
-                              className={classNames({
-                                  [classes.navigationItem]: navigationItemClass
-                              })}>About</Link>
-                        <Link to="contact"
-                              spy={true}
-                              smooth={true}
-                              duration={500}
-                              offset={-300}
-                              activeClass={classes.scrollChorActive}
-                              className={classNames({
-                                  [classes.navigationItem]: navigationItemClass
-                              })}>Contact </Link>
+                        <Grid
+                            className={classes.flex}
+                            container
+                            spacing={0}
+                            direction="row"
+                        >
+                            <LinkTo to="profile"
+                                    title="About"
+                                    enableNavigationItemClass={navigationItemClass}/>
+                            <LinkTo to="experience"
+                                    title="Experience"
+                                    enableNavigationItemClass={navigationItemClass}/>
+                            <LinkTo to="skills"
+                                    title="Skills"
+                                    enableNavigationItemClass={navigationItemClass}/>
+                            <LinkTo to="education"
+                                    title="Education"
+                                    enableNavigationItemClass={navigationItemClass}/>
+                            <LinkTo to="blog"
+                                    title="Blog"
+                                    enableNavigationItemClass={navigationItemClass}/>
+                            <LinkTo to="contact"
+                                    title="Contact"
+                                    offset={-400}
+                                    enableNavigationItemClass={navigationItemClass}/>
+                        </Grid>
                     </Toolbar>
                 </AppBar>
             </div>
-        )
-            ;
+        );
     }
 }
 

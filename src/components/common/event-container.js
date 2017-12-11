@@ -152,8 +152,8 @@ class EventContainer extends PureComponent<void, Props, void> {
                                      animateOut={alignment === LEFT ? 'fadeInLeft' :'fadeInRight'}
                                      animateOnce
                                      initiallyVyarnisible={true}
-                                     duration={0}
-                                     offset={0}
+                                     duration={1}
+                                     offset={-100}
                     
                     >
                         <Paper className={classNames(
@@ -163,11 +163,11 @@ class EventContainer extends PureComponent<void, Props, void> {
                                 [classes.paperRight]: alignment === RIGHT
                             }
                         )}>
-                  <span className={classNames({
-                      [classes.arrow]: true,
-                      [classes.arrowRight]: alignment === LEFT,
-                      [classes.arrowLeft]: alignment === RIGHT
-                  })}/>
+                              <span className={classNames({
+                                  [classes.arrow]: true,
+                                  [classes.arrowRight]: alignment === LEFT,
+                                  [classes.arrowLeft]: alignment === RIGHT
+                              })}/>
                             {this.props.children}
                         </Paper>
                     </ScrollAnimation>

@@ -30,7 +30,7 @@ exports[`renders timeline 1`] = `
             className="animated"
             style={
               Object {
-                "animationDuration": "0s",
+                "animationDuration": "1s",
                 "visibility": "hidden",
               }
             }
@@ -110,7 +110,7 @@ exports[`renders timeline 1`] = `
             className="animated"
             style={
               Object {
-                "animationDuration": "0s",
+                "animationDuration": "1s",
                 "visibility": "hidden",
               }
             }
