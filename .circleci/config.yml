@@ -29,9 +29,9 @@ jobs:
       - run: npm install
 
       # run tests!
-      - run: npm build
-      - run: npm run test-coveralls
-      - run: npm run codecov
+      - run: yarn build
+      - run: yarn run test-coveralls
+      - run: yarn run codecov
 
       - setup_remote_docker
 
