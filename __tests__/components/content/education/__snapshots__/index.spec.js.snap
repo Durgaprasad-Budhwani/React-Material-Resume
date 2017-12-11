@@ -2,12 +2,7 @@
 
 exports[`renders education 1`] = `
 <div
-  className="MuiGrid-typeContainer-5 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7 Timeline-container-1"
-  style={
-    Object {
-      "marginBottom": 30,
-    }
-  }
+  className="MuiGrid-typeContainer-5 MuiGrid-direction-xs-column-7 Timeline-container-1"
 >
   <span
     className="SectionTitle-sectionTitle-94"

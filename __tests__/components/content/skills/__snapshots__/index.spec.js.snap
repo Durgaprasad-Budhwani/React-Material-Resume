@@ -3,13 +3,8 @@
 exports[`renders skill bar 1`] = `
 <div
   align="stretch"
-  className="MuiGrid-typeContainer-4 MuiGrid-spacing-xs-16-25 MuiGrid-direction-xs-column-6 MuiGrid-justify-xs-center-20"
+  className="MuiGrid-typeContainer-4 MuiGrid-direction-xs-column-6 MuiGrid-justify-xs-center-20"
   id="skills"
-  style={
-    Object {
-      "marginBottom": 50,
-    }
-  }
 >
   <span
     className="SectionTitle-sectionTitle-93"

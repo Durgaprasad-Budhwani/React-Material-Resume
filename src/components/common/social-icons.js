@@ -39,7 +39,7 @@ class SocialIcons extends PureComponent {
                   container
                   align="center"
                   justify="center"
-                  spacing={24}
+                  spacing={0}
                   className={classes.container}>
                 <IconButton className={classes.button}
                             aria-label="Add an alarm">

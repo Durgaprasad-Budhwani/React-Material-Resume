@@ -6,7 +6,7 @@ exports[`renders fooer 1`] = `
 >
   <div
     align="center"
-    className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-spacing-xs-24-24 MuiGrid-justify-xs-center-18 SocialIcons-container-92"
+    className="MuiGrid-typeContainer-2 MuiGrid-typeItem-3 MuiGrid-justify-xs-center-18 SocialIcons-container-92"
   >
     <button
       aria-label="Add an alarm"

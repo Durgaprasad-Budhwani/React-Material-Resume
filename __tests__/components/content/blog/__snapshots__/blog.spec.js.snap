@@ -2,7 +2,7 @@
 
 exports[`renders blog 1`] = `
 <div
-  className="MuiGrid-typeContainer-9 MuiGrid-typeItem-10 MuiGrid-spacing-xs-16-30 MuiGrid-direction-xs-column-11 MuiGrid-justify-xs-center-25 MuiGrid-grid-sm-12-58 MuiGrid-grid-md-6-65"
+  className="MuiGrid-typeContainer-9 MuiGrid-typeItem-10 MuiGrid-direction-xs-column-11 MuiGrid-justify-xs-center-25 MuiGrid-grid-sm-12-58 MuiGrid-grid-md-6-65"
 >
   <div
     className="MuiPaper-root-98 MuiPaper-shadow2-102 MuiPaper-rounded-99 Blog-blogItemBox-2"

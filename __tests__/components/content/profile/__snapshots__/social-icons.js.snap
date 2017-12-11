@@ -3,7 +3,7 @@
 exports[`renders social icons 1`] = `
 <div
   align="center"
-  className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-24-25 MuiGrid-justify-xs-center-19 SocialIcons-container-2"
+  className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-justify-xs-center-19 SocialIcons-container-2"
 >
   <button
     aria-label="Add an alarm"

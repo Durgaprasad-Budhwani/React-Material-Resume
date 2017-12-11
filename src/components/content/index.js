@@ -17,7 +17,12 @@ const styles = theme => ({
     content: {
         zIndex: 2,
         position: 'relative',
+        paddingRight: 10,
+        paddingLeft: 20
     },
+    padding0: {
+        padding: '0 !important'
+    }
 });
 
 class Content extends PureComponent {
@@ -34,7 +39,7 @@ class Content extends PureComponent {
                       item
                       container
                       direction={"column"}
-                      style={{position:'relative'}}
+                      className={classes.padding0}
                       lg={8}>
                     <Element name="profile">
                         <About/>

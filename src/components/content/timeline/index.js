@@ -57,6 +57,7 @@ class Timeline extends PureComponent {
                 container
                 item
                 xs={12}
+                spacing={0}
                 className={classes.container}
                 direction="column"
                 justify="center">

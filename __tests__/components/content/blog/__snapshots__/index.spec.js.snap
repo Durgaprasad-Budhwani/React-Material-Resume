@@ -11,7 +11,7 @@ exports[`Blog Render renders blog container 1`] = `
   </span>
   <div
     align="stretch"
-    className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-8-23 MuiGrid-justify-xs-space-between-21 MuiGrid-grid-xs-12-39"
+    className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-justify-xs-space-between-21 MuiGrid-grid-xs-12-39"
   />
 </div>
 `;

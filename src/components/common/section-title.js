@@ -14,7 +14,7 @@ const styles = theme => ({
     fontWeight: 600,
     textAlign: 'center',
     marginBottom: 20,
-    marginTop: 30
+    marginTop: 30,
   },
 });
 

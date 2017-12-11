@@ -8,14 +8,14 @@ exports[`renders header 1`] = `
     className="Header-headerBackground-4"
   />
   <header
-    className="MuiPaper-root-15 MuiPaper-shadow4-21 MuiAppBar-root-8 MuiAppBar-positionFixed-9 MuiAppBar-colorPrimary-13 mui-fixed Header-headerBar-2"
+    className="MuiPaper-root-16 MuiPaper-shadow4-22 MuiAppBar-root-9 MuiAppBar-positionFixed-10 MuiAppBar-colorPrimary-14 mui-fixed Header-headerBar-2"
   >
     <div
-      className="MuiToolbar-root-42 MuiToolbar-gutters-43"
+      className="MuiToolbar-root-43 MuiToolbar-gutters-44"
     >
       <button
         aria-label="Menu"
-        className="MuiButtonBase-root-53 MuiIconButton-root-44 MuiIconButton-colorContrast-46"
+        className="MuiButtonBase-root-54 MuiIconButton-root-45 MuiIconButton-colorContrast-47"
         disabled={false}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -32,11 +32,11 @@ exports[`renders header 1`] = `
         type="button"
       >
         <span
-          className="MuiIconButton-label-50"
+          className="MuiIconButton-label-51"
         >
           <svg
             aria-hidden="true"
-            className="MuiSvgIcon-root-55 MuiIconButton-icon-51"
+            className="MuiSvgIcon-root-56 MuiIconButton-icon-52"
             focusable="false"
             viewBox="0 0 24 24"
           >
@@ -46,14 +46,14 @@ exports[`renders header 1`] = `
           </svg>
         </span>
         <span
-          className="MuiTouchRipple-root-56"
+          className="MuiTouchRipple-root-57"
         />
       </button>
       <div
         className="Header-flex-5"
       />
       <div>
-        Profile 
+        About
       </div>
       <div>
         Contact 

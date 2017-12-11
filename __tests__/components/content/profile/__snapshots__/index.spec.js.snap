@@ -8,7 +8,7 @@ exports[`renders profile 1`] = `
     className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-direction-xs-column-38"
   >
     <div
-      className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-spacing-xs-16-57 Profile-profile-1"
+      className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 Profile-profile-1"
     >
       <div
         className="MuiGrid-typeItem-37 MuiGrid-grid-xs-12-72 MuiGrid-grid-lg-5-104"
@@ -24,7 +24,7 @@ exports[`renders profile 1`] = `
       />
       <div
         align="flex-start"
-        className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-spacing-xs-16-57 MuiGrid-direction-xs-column-38 MuiGrid-grid-xs-12-72 MuiGrid-grid-lg-6-105"
+        className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-direction-xs-column-38 MuiGrid-grid-xs-12-72 MuiGrid-grid-lg-6-105"
       >
         <div
           className="MuiGrid-typeItem-37 Profile-profileInfo-3"
@@ -118,7 +118,7 @@ exports[`renders profile 1`] = `
     >
       <div
         align="center"
-        className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-spacing-xs-24-58 MuiGrid-justify-xs-center-52 SocialIcons-container-131"
+        className="MuiGrid-typeContainer-36 MuiGrid-typeItem-37 MuiGrid-justify-xs-center-52 SocialIcons-container-131"
       >
         <button
           aria-label="Add an alarm"

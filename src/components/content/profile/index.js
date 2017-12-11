@@ -100,24 +100,29 @@ class Profile extends PureComponent {
                     <Grid item
                           className={classes.profile}
                           container
+                          spacing={0}
                     >
                         <Grid item
                               lg={5}
-                              xs={12}>
+                              xs={12}
+                        >
                             <img src="profile.jpeg"
                                  alt="Durgaprasad Budhwani"
                                  className={classes.profilePhoto}/>
                         </Grid>
                         <Grid item
-                              xs={1}/>
+                              xs={1}
+                        />
                         <Grid item
                               lg={6}
                               xs={12}
                               container
+                              spacing={0}
                               align="flex-start"
                               direction="column">
                             <Grid item
-                                  className={classes.profileInfo}>
+                                  className={classes.profileInfo}
+                            >
                                 <div><Bubble content="Hello"/></div>
                                 <h1 className={classes.profileTitle}>
                                     <span className={classes.profileTitleStart}>I'm</span> Durgaprasad Budhwani
@@ -128,7 +133,8 @@ class Profile extends PureComponent {
                         </Grid>
                     </Grid>
                     <Grid
-                        className={classes.profileSocial}>
+                        className={classes.profileSocial}
+                    >
                         <SocialIcons/>
                     </Grid>
                 </Grid>

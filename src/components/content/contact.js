@@ -13,46 +13,50 @@ import SectionTitle from './../common/section-title';
 
 const styles = theme => ({
     container: {
-        marginTop: 30,
-        marginBottom: 0
+        margin: 0,
+        padding: 0
     },
+    itemContainer: {
+        padding: 10,
+        [theme.breakpoints.down('md')]: {
+            padding: 0,
+        },
+    }
 });
 
 class About extends PureComponent {
     render () {
         const classes = this.props.classes;
         return (
-            <Grid className={classes.container}>
-                <Grid
-                    container
-                    justify={"center"}
+            <Grid
+                alignItems="center"
+                direction="column"
+                container
+                className={classes.container}
+                spacing={0}
+            >
+                <SectionTitle title='Contact Me'/>
+                <Grid container
+                      direction="row"
+                      alignItems="stretch"
+                      justify="space-between"
+                      spacing={0}
                 >
-                    <SectionTitle title='Contact Me'/>
-                    <Grid item
-                          container
-                          direction="row"
-                          align="stretch"
-                          justify="space-around"
-                          spacing={16}
-                          xs={12}
+                    <Grid
+                        item
+                        lg={6}
+                        xs={12}
+                        className={classes.itemContainer}
                     >
-                        <Grid item
-                              lg={6}
-                              md={12}
-                              container
-                              justify="center"
-                              align="stretch"
-                        >
-                            <ContactForm/>
-                        </Grid>
-                        <Grid item
-                              container
-                              lg={6}
-                              md={12}
-                              align="stretch"
-                        >
-                            <Map/>
-                        </Grid>
+                        <ContactForm/>
+                    </Grid>
+                    <Grid
+                        item
+                        lg={6}
+                        xs={12}
+                        className={classes.itemContainer}
+                    >
+                        <Map/>
                     </Grid>
                 </Grid>
             </Grid>

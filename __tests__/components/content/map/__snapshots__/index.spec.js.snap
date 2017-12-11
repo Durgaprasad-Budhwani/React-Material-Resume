@@ -2,75 +2,79 @@
 
 exports[`renders map 1`] = `
 <div
-  className="MuiGrid-typeContainer-4 MuiGrid-spacing-xs-16-25 MuiGrid-direction-xs-column-6 MapContainer-container-1"
+  className="MuiPaper-root-5 MuiPaper-shadow2-9 MuiPaper-rounded-6 MapContainer-container-1"
 >
   <div
-    className="MuiGrid-typeItem-5 MapContainer-contactContainer-2"
+    className="MuiGrid-typeContainer-32 MuiGrid-direction-xs-column-34 MapContainer-gridContainer-3"
   >
     <div
-      className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-26 MuiGrid-direction-xs-column-6"
+      className="MuiGrid-typeItem-33 MapContainer-contactContainer-2"
     >
       <div
-        align="stretch"
-        className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-26"
+        className="MuiGrid-typeContainer-32 MuiGrid-typeItem-33 MuiGrid-spacing-xs-24-54 MuiGrid-direction-xs-column-34"
       >
         <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-40 MuiGrid-grid-md-3-57 ContactInfo-profileListItem-94"
+          align="stretch"
+          className="MuiGrid-typeContainer-32 MuiGrid-typeItem-33 MuiGrid-spacing-xs-24-54"
         >
-          Address:
-        </div>
-        <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-40 MuiGrid-grid-md-9-63 ContactInfo-profileListItemValue-95"
-        >
-          Pune, India
-        </div>
-      </div>
-      <div
-        align="center"
-        className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-26 MuiGrid-justify-xs-center-20"
-      >
-        <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-40 MuiGrid-grid-md-3-57 ContactInfo-profileListItem-94"
-        >
-          Email:
-        </div>
-        <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-40 MuiGrid-grid-md-9-63 ContactInfo-profileListItemValue-95"
-        >
-          <a
-            className="ContactInfo-profileValueAItemValue-96"
-            href="mailto:durgaprasad.budhwani@gmail.com"
+          <div
+            className="MuiGrid-typeItem-33 MuiGrid-grid-xs-12-68 MuiGrid-grid-md-3-85 ContactInfo-profileListItem-122"
           >
-            durgaprasad.budhwani@gmail.com
-          </a>
-        </div>
-      </div>
-      <div
-        align="center"
-        className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-24-26 MuiGrid-justify-xs-center-20"
-      >
-        <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-40 MuiGrid-grid-md-3-57 ContactInfo-profileListItem-94"
-        >
-          Phone:
-        </div>
-        <div
-          className="MuiGrid-typeItem-5 MuiGrid-grid-xs-12-40 MuiGrid-grid-md-9-63 ContactInfo-profileListItemValue-95"
-        >
-          <a
-            className="ContactInfo-profileValueAItemValue-96"
-            href="tel:+91-9545251359"
+            Address:
+          </div>
+          <div
+            className="MuiGrid-typeItem-33 MuiGrid-grid-xs-12-68 MuiGrid-grid-md-9-91 ContactInfo-profileListItemValue-123"
           >
-            +91-9545251359
-          </a>
+            Pune, India
+          </div>
+        </div>
+        <div
+          align="center"
+          className="MuiGrid-typeContainer-32 MuiGrid-typeItem-33 MuiGrid-spacing-xs-24-54 MuiGrid-justify-xs-center-48"
+        >
+          <div
+            className="MuiGrid-typeItem-33 MuiGrid-grid-xs-12-68 MuiGrid-grid-md-3-85 ContactInfo-profileListItem-122"
+          >
+            Email:
+          </div>
+          <div
+            className="MuiGrid-typeItem-33 MuiGrid-grid-xs-12-68 MuiGrid-grid-md-9-91 ContactInfo-profileListItemValue-123"
+          >
+            <a
+              className="ContactInfo-profileValueAItemValue-124"
+              href="mailto:durgaprasad.budhwani@gmail.com"
+            >
+              durgaprasad.budhwani@gmail.com
+            </a>
+          </div>
+        </div>
+        <div
+          align="center"
+          className="MuiGrid-typeContainer-32 MuiGrid-typeItem-33 MuiGrid-spacing-xs-24-54 MuiGrid-justify-xs-center-48"
+        >
+          <div
+            className="MuiGrid-typeItem-33 MuiGrid-grid-xs-12-68 MuiGrid-grid-md-3-85 ContactInfo-profileListItem-122"
+          >
+            Phone:
+          </div>
+          <div
+            className="MuiGrid-typeItem-33 MuiGrid-grid-xs-12-68 MuiGrid-grid-md-9-91 ContactInfo-profileListItemValue-123"
+          >
+            <a
+              className="ContactInfo-profileValueAItemValue-124"
+              href="tel:+91-9545251359"
+            >
+              +91-9545251359
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div
-    className="MuiGrid-typeItem-5 MuiGrid-grid-xs-28 MapContainer-mapContainer-3"
-  >
-    <div />
+    <div
+      className="MuiGrid-typeItem-33 MuiGrid-grid-xs-12-68 MapContainer-mapContainer-4"
+    >
+      <div />
+    </div>
   </div>
 </div>
 `;

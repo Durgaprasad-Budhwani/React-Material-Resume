@@ -37,6 +37,8 @@ class About extends PureComponent {
         const classes = this.props.classes;
         return (
             <Grid
+                container
+                spacing={0}
                 className={classes.about}
             >
                 <Grid item

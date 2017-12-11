@@ -2,7 +2,7 @@
 
 exports[`renders about 1`] = `
 <div
-  className="About-about-1"
+  className="MuiGrid-typeContainer-3 About-about-1"
 >
   <div
     className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39"
@@ -15,7 +15,7 @@ exports[`renders about 1`] = `
           className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-direction-xs-column-5"
         >
           <div
-            className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-24 Profile-profile-92"
+            className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 Profile-profile-92"
           >
             <div
               className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-5-71"
@@ -31,7 +31,7 @@ exports[`renders about 1`] = `
             />
             <div
               align="flex-start"
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-6-72"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-direction-xs-column-5 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-6-72"
             >
               <div
                 className="MuiGrid-typeItem-4 Profile-profileInfo-94"
@@ -125,7 +125,7 @@ exports[`renders about 1`] = `
           >
             <div
               align="center"
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-24-25 MuiGrid-justify-xs-center-19 SocialIcons-container-133"
+              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-justify-xs-center-19 SocialIcons-container-133"
             >
               <button
                 aria-label="Add an alarm"
@@ -368,7 +368,7 @@ exports[`renders about 1`] = `
     className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39"
   >
     <div
-      className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-19 MuiGrid-grid-xs-12-39 Timeline-container-169"
+      className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-19 MuiGrid-grid-xs-12-39 Timeline-container-169"
     >
       <span
         className="SectionTitle-sectionTitle-173"
@@ -409,7 +409,7 @@ exports[`renders about 1`] = `
                   />
                   <div
                     align="center"
-                    className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5"
+                    className="MuiGrid-typeContainer-3 MuiGrid-direction-xs-column-5"
                   >
                     <div
                       className="Event-date-189"
@@ -443,7 +443,7 @@ exports[`renders about 1`] = `
             >
               <div
                 align="center"
-                className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5"
+                className="MuiGrid-typeContainer-3 MuiGrid-direction-xs-column-5"
               >
                 <div
                   className="Event-date-189"
@@ -489,7 +489,7 @@ exports[`renders about 1`] = `
                   />
                   <div
                     align="center"
-                    className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5"
+                    className="MuiGrid-typeContainer-3 MuiGrid-direction-xs-column-5"
                   >
                     <div
                       className="Event-date-189"
@@ -523,7 +523,7 @@ exports[`renders about 1`] = `
             >
               <div
                 align="center"
-                className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5"
+                className="MuiGrid-typeContainer-3 MuiGrid-direction-xs-column-5"
               >
                 <div
                   className="Event-date-189"
@@ -557,13 +557,8 @@ exports[`renders about 1`] = `
   >
     <div
       align="stretch"
-      className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-19"
+      className="MuiGrid-typeContainer-3 MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-19"
       id="skills"
-      style={
-        Object {
-          "marginBottom": 50,
-        }
-      }
     >
       <span
         className="SectionTitle-sectionTitle-173"
@@ -1018,12 +1013,7 @@ exports[`renders about 1`] = `
     className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39"
   >
     <div
-      className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24 MuiGrid-direction-xs-column-5 Timeline-container-218"
-      style={
-        Object {
-          "marginBottom": 30,
-        }
-      }
+      className="MuiGrid-typeContainer-3 MuiGrid-direction-xs-column-5 Timeline-container-218"
     >
       <span
         className="SectionTitle-sectionTitle-173"
@@ -1228,7 +1218,7 @@ exports[`renders about 1`] = `
       </span>
       <div
         align="stretch"
-        className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-8-23 MuiGrid-justify-xs-space-between-21 MuiGrid-grid-xs-12-39"
+        className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-justify-xs-space-between-21 MuiGrid-grid-xs-12-39"
       />
     </div>
   </div>

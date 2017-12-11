@@ -21,17 +21,22 @@ const styles = theme => ({
         backgroundColor: '#fff',
         transition: 'box-shadow 0.15s linear 0s',
         backfaceVisibility: 'hidden',
+        margin: 10,
         marginBottom: 50, // TODO
         [theme.breakpoints.down('xl')]: {
+            margin: 0,
             marginBottom: 30,
         },
         [theme.breakpoints.down('md')]: {
+            margin: 0,
             marginBottom: 250
         },
         [theme.breakpoints.down('sm')]: {
-            marginBottom: 110
+            margin: 0,
+            marginBottom: 30
         },
         [theme.breakpoints.down('xs')]: {
+            margin: 0,
             marginBottom: 30
         },
         '&:hover': {
@@ -108,6 +113,7 @@ class Blog extends PureComponent<void, Props, void> {
                   direction="column"
                   item
                   container
+                  spacing={0}
                   md={md}
                   sm={sm}
             >

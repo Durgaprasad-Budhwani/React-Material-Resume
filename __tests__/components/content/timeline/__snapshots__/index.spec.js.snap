@@ -2,7 +2,7 @@
 
 exports[`renders timeline 1`] = `
 <div
-  className="MuiGrid-typeContainer-5 MuiGrid-typeItem-6 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7 MuiGrid-justify-xs-center-21 MuiGrid-grid-xs-12-41 Timeline-container-1"
+  className="MuiGrid-typeContainer-5 MuiGrid-typeItem-6 MuiGrid-direction-xs-column-7 MuiGrid-justify-xs-center-21 MuiGrid-grid-xs-12-41 Timeline-container-1"
 >
   <span
     className="SectionTitle-sectionTitle-94"
@@ -43,7 +43,7 @@ exports[`renders timeline 1`] = `
               />
               <div
                 align="center"
-                className="MuiGrid-typeContainer-5 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7"
+                className="MuiGrid-typeContainer-5 MuiGrid-direction-xs-column-7"
               >
                 <div
                   className="Event-date-137"
@@ -77,7 +77,7 @@ exports[`renders timeline 1`] = `
         >
           <div
             align="center"
-            className="MuiGrid-typeContainer-5 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7"
+            className="MuiGrid-typeContainer-5 MuiGrid-direction-xs-column-7"
           >
             <div
               className="Event-date-137"
@@ -123,7 +123,7 @@ exports[`renders timeline 1`] = `
               />
               <div
                 align="center"
-                className="MuiGrid-typeContainer-5 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7"
+                className="MuiGrid-typeContainer-5 MuiGrid-direction-xs-column-7"
               >
                 <div
                   className="Event-date-137"
@@ -157,7 +157,7 @@ exports[`renders timeline 1`] = `
         >
           <div
             align="center"
-            className="MuiGrid-typeContainer-5 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7"
+            className="MuiGrid-typeContainer-5 MuiGrid-direction-xs-column-7"
           >
             <div
               className="Event-date-137"

@@ -33,10 +33,10 @@ class Skilss extends PureComponent {
             <Grid
                   id="skills"
                   container
-                  style={{marginBottom: 50}}
                   align="stretch"
                   direction="column"
                   justify="center"
+                  spacing={0}
                  >
                 <SectionTitle title='Professional Skills'/>
                 <Paper className={classes.root}>

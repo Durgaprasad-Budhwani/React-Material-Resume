@@ -11,6 +11,7 @@ import SocialIcons from '../common/social-icons';
 
 const styles = theme => ({
     container: {
+        marginTop: 50
     },
     
 });

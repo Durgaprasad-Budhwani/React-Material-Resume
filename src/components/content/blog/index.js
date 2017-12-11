@@ -44,7 +44,7 @@ class Blogs extends PureComponent<void, Props, void> {
         return (
             <Blog md={6}
                   key={index}
-                  sm={12}
+                  xs={12}
                   image={blog.image}
                   title={blog.title}
                   day={blog.day}
@@ -65,7 +65,7 @@ class Blogs extends PureComponent<void, Props, void> {
                     justify="space-between"
                     xs={12}
                     item
-                    spacing={8}
+                    spacing={0}
                     container
                 >
                     {

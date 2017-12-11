@@ -48,7 +48,11 @@ const styles = theme => ({
         fontFamily: '"Open Sans", sans-serif',
         lineHeight: 1,
         display: 'inline-block',
-        textDecoration: 'none'
+        textDecoration: 'none',
+        marginRight: 10
+    },
+    navigationItem:{
+        color: 'black'
     },
     scrollChorActive: {
         color: 'red',
@@ -57,7 +61,8 @@ const styles = theme => ({
 
 class Header extends Component {
     state = {
-        position: 'static'
+        position: 'static',
+        navigationItemClass: false
     };
     
     componentDidMount () {
@@ -68,10 +73,16 @@ class Header extends Component {
     handleScroll () {
         if (ReactDOM.findDOMNode(this).getBoundingClientRect) {
             let rect = ReactDOM.findDOMNode(this).getBoundingClientRect();
+            let position = 'static';
+            let navigationItemClass = false;
             if (rect) {
-                let position = (rect.y || rect.top) < -45 ? 'fixed' :'static';
+                if ((rect.y || rect.top) < -45) {
+                    position = 'fixed';
+                    navigationItemClass = true
+                }
                 this.setState({
-                    position
+                    position,
+                    navigationItemClass
                 })
             }
         }
@@ -79,14 +90,14 @@ class Header extends Component {
     
     render () {
         const classes = this.props.classes;
-        const position = this.state.position;
+        const {position, navigationItemClass} = this.state;
         const headerClass = classNames({
             [classes.headerBar]: true,
-            [classes.headerBarFixed]: position === 'fixed'
+            [classes.headerBarFixed]: position === 'fixed',
         });
         return (
             <div className={classes.header}>
-                <div className={classes.headerBackground}></div>
+                <div className={classes.headerBackground}/>
                 <AppBar position="fixed"
                         className={headerClass}>
                     <Toolbar>
@@ -103,14 +114,18 @@ class Header extends Component {
                               duration={500}
                               offset={-50}
                               activeClass={classes.scrollChorActive}
-                              className={classes.scrollChor}>Profile </Link>
+                              className={classNames({
+                                  [classes.navigationItem]: navigationItemClass
+                              })}>About</Link>
                         <Link to="contact"
                               spy={true}
                               smooth={true}
                               duration={500}
                               offset={-300}
                               activeClass={classes.scrollChorActive}
-                              className={classes.scrollChor}>Contact </Link>
+                              className={classNames({
+                                  [classes.navigationItem]: navigationItemClass
+                              })}>Contact </Link>
                     </Toolbar>
                 </AppBar>
             </div>

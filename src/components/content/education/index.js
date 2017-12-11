@@ -16,7 +16,6 @@ const styles = theme => ({
         alignItems: 'stretch',
         justifyItems: 'center',
         [theme.breakpoints.down('md')]: {
-            alignItems: 'stretch',
             justifyItems: 'stretch',
         },
     },
@@ -54,8 +53,8 @@ class Timeline extends PureComponent {
         const classes = this.props.classes;
         return (
             <Grid container
-                  style={{marginBottom: 30}}
                   className={classes.container}
+                  spacing={0}
                   direction="column">
                 <SectionTitle title='Education'/>
                 <div style={{ position: 'relative' }}>
