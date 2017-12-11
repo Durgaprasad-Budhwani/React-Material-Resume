@@ -7,6 +7,6 @@ import TimelineBar from '../../../src/components/common/timeline-bar';
 import renderer from 'react-test-renderer';
 
 it('renders bubble', () => {
-    const tree = renderer.create(<TimelineBar top={10} height={10} />).toJSON();
+    const tree = renderer.create(<TimelineBar barClass="abc" />).toJSON();
     expect(tree).toMatchSnapshot();
 });
