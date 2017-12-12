@@ -10,6 +10,7 @@ import Event from './event';
 import SectionTitle from './../../common/section-title';
 import {LEFT, RIGHT} from '../../../utils/Constants';
 import TimelineBar from '../../common/timeline-bar';
+import {GetExperience} from '../../../services/index';
 
 const styles = theme => ({
     container: {
@@ -21,10 +22,10 @@ const styles = theme => ({
         },
     },
     barClass: {
-        height: 40,
+        height: 360,
         top: 80,
         [theme.breakpoints.down('md')]: {
-            height: 200,
+            height: 1040,
             top: 20,
             zIndex: -1
         },
@@ -49,9 +50,45 @@ const styles = theme => ({
     }
 });
 
-class Timeline extends PureComponent {
+type Experience = {
+    year: string,
+    company: string,
+    title: string,
+    description: string,
+}
+
+type State = {
+    experiences: Array<Experience>
+}
+
+class Experiences extends PureComponent<void, void, State> {
+    state: State = {
+        experiences: []
+    };
+    
+    async componentDidMount () {
+        let experiences = await GetExperience();
+        this.setState({experiences});
+    }
+    
+    _renderExperience (experience: Experience, index) {
+        return (
+            <EventContainer
+                key={index}
+                alignment={index % 2 === 0 ? LEFT :RIGHT}
+            >
+                <Event title={experience.title}
+                       company={experience.company}
+                       description={experience.description}
+                       year={experience.year}
+                />
+            </EventContainer>
+        );
+    }
+    
     render () {
-        const classes = this.props.classes;
+        const {classes} = this.props;
+        const {experiences} = this.state;
         return (
             <Grid
                 container
@@ -65,26 +102,9 @@ class Timeline extends PureComponent {
                 <div style={{position: 'relative'}}>
                     <div className={classes.clear}>
                         <TimelineBar barClass={classes.barClass}/>
-                        <EventContainer
-                            alignment={RIGHT}
-                        >
-                            <Event name="CSS"
-                                   title="Full Stack Developer"
-                                   company="Varian Medical System"
-                                   description="TBD TBD TBD TBD TBD TBD"
-                                   year="2014 - Present"
-                            />
-                        </EventContainer>
-                        <EventContainer
-                            alignment={LEFT}
-                        >
-                            <Event name="CSS"
-                                   title="Full Stack Developer"
-                                   company="Varian Medical System"
-                                   description="TBD"
-                                   year="2014 - Present"
-                            />
-                        </EventContainer>
+                        {
+                            experiences && experiences.map(this._renderExperience.bind(this))
+                        }
                     </div>
                 </div>
             
@@ -93,8 +113,8 @@ class Timeline extends PureComponent {
     }
 }
 
-Timeline.propTypes = {
+Experiences.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Timeline);
+export default withStyles(styles)(Experiences);

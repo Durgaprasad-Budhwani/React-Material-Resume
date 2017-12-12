@@ -12,3 +12,24 @@ export const GetBlogs = async () => {
   }
 };
 
+export const GetExperience = async () => {
+    let response = await fetch("experience.json");
+    try{
+        return await response.json();
+    }
+    catch(error){
+        return [];
+    }
+};
+
+
+export const GetEducation = async () => {
+    let response = await fetch("education.json");
+    try{
+        return await response.json();
+    }
+    catch(error){
+        return [];
+    }
+};
+

@@ -94,7 +94,6 @@ class Blog extends PureComponent<void, Props, void> {
     static propTypes: Props = {
         classes: PropTypes.object.isRequired,
         md: PropTypes.number.isRequired,
-        sm: PropTypes.number.isRequired,
         image: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
         day: PropTypes.string.isRequired,
@@ -103,7 +102,7 @@ class Blog extends PureComponent<void, Props, void> {
     
     render () {
         const {
-            classes, md, sm, title, image, day, month
+            classes, md, title, image, day, month
         } = this.props;
         return (
             
@@ -113,7 +112,6 @@ class Blog extends PureComponent<void, Props, void> {
                   container
                   spacing={0}
                   md={md}
-                  sm={sm}
             >
                 <Paper
                     className={classes.blogItemBox}

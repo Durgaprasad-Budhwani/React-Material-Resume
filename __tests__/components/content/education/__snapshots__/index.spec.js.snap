@@ -2,7 +2,7 @@
 
 exports[`renders education 1`] = `
 <div
-  className="MuiGrid-typeContainer-5 MuiGrid-direction-xs-column-7 Timeline-container-1"
+  className="MuiGrid-typeContainer-5 MuiGrid-direction-xs-column-7 Educations-container-1"
 >
   <span
     className="SectionTitle-sectionTitle-94"
@@ -17,179 +17,11 @@ exports[`renders education 1`] = `
     }
   >
     <div
-      className="Timeline-clear-3"
+      className="Educations-clear-3"
     >
       <div
-        className="TimelineBar-bar-95 Timeline-barClass-4"
+        className="TimelineBar-bar-95 Educations-barClass-4"
       />
-      <div>
-        <div
-          className="EventContainer-bigScreenBox-101 EventContainer-boxRight-103"
-        >
-          <div
-            className="animated"
-            style={
-              Object {
-                "animationDuration": "1s",
-                "visibility": "hidden",
-              }
-            }
-          >
-            <div
-              className="MuiPaper-root-110 MuiPaper-shadow2-114 MuiPaper-rounded-111 EventContainer-paper-97 EventContainer-paperRight-99"
-            >
-              <span
-                className="EventContainer-arrow-105 EventContainer-arrowLeft-107"
-              />
-              <div
-                align="stretch"
-                className="MuiGrid-typeContainer-5 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7"
-                style={
-                  Object {
-                    "paddingLeft": 20,
-                  }
-                }
-              >
-                <div>
-                  <span
-                    className="Bubble-container-140"
-                  >
-                    2014 - Present
-                  </span>
-                </div>
-                <h3
-                  className="Course-header3-138"
-                >
-                  Varian Medical System
-                </h3>
-                <p
-                  className="Course-header4-139"
-                >
-                  Varian Medical System 
-                </p>
-              </div>
-            </div>
-          </div>
-          <span
-            className="EventContainer-dot-104 EventContainer-dotLeft-109"
-          />
-        </div>
-        <div
-          className="MuiPaper-root-110 MuiPaper-shadow2-114 MuiPaper-rounded-111 EventContainer-smallScreenBox-96"
-        >
-          <div
-            align="stretch"
-            className="MuiGrid-typeContainer-5 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7"
-            style={
-              Object {
-                "paddingLeft": 20,
-              }
-            }
-          >
-            <div>
-              <span
-                className="Bubble-container-140"
-              >
-                2014 - Present
-              </span>
-            </div>
-            <h3
-              className="Course-header3-138"
-            >
-              Varian Medical System
-            </h3>
-            <p
-              className="Course-header4-139"
-            >
-              Varian Medical System 
-            </p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div
-          className="EventContainer-bigScreenBox-101 EventContainer-boxLeft-102"
-        >
-          <div
-            className="animated"
-            style={
-              Object {
-                "animationDuration": "1s",
-                "visibility": "hidden",
-              }
-            }
-          >
-            <div
-              className="MuiPaper-root-110 MuiPaper-shadow2-114 MuiPaper-rounded-111 EventContainer-paper-97 EventContainer-paperLeft-98"
-            >
-              <span
-                className="EventContainer-arrow-105 EventContainer-arrowRight-106"
-              />
-              <div
-                align="stretch"
-                className="MuiGrid-typeContainer-5 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7"
-                style={
-                  Object {
-                    "paddingLeft": 20,
-                  }
-                }
-              >
-                <div>
-                  <span
-                    className="Bubble-container-140"
-                  >
-                    2014 - Present
-                  </span>
-                </div>
-                <h3
-                  className="Course-header3-138"
-                >
-                  Varian Medical System
-                </h3>
-                <p
-                  className="Course-header4-139"
-                >
-                  Varian Medical System 
-                </p>
-              </div>
-            </div>
-          </div>
-          <span
-            className="EventContainer-dot-104 EventContainer-dotRight-108"
-          />
-        </div>
-        <div
-          className="MuiPaper-root-110 MuiPaper-shadow2-114 MuiPaper-rounded-111 EventContainer-smallScreenBox-96"
-        >
-          <div
-            align="stretch"
-            className="MuiGrid-typeContainer-5 MuiGrid-spacing-xs-16-26 MuiGrid-direction-xs-column-7"
-            style={
-              Object {
-                "paddingLeft": 20,
-              }
-            }
-          >
-            <div>
-              <span
-                className="Bubble-container-140"
-              >
-                2014 - Present
-              </span>
-            </div>
-            <h3
-              className="Course-header3-138"
-            >
-              Varian Medical System
-            </h3>
-            <p
-              className="Course-header4-139"
-            >
-              Varian Medical System 
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </div>

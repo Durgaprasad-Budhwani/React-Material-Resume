@@ -10,6 +10,7 @@ import Course from './course';
 import SectionTitle from './../../common/section-title';
 import {LEFT, RIGHT} from '../../../utils/Constants';
 import TimelineBar from './../../common/timeline-bar';
+import {GetEducation} from '../../../services';
 
 const styles = theme => ({
     container: {
@@ -25,12 +26,12 @@ const styles = theme => ({
     clear: {
         position: 'relative',
         '*zoom': 1,
-
+        
         "&:before": {
             content: '""',
             display: 'table',
         },
-
+        
         "&:after": {
             content: '""',
             display: 'table',
@@ -38,44 +39,65 @@ const styles = theme => ({
         }
     },
     barClass: {
-        height: 40,
+        height: 220,
         top: 80,
         [theme.breakpoints.down('md')]: {
-            height: 200,
+            height: 500,
             top: 20,
             zIndex: -1
         },
     },
 });
 
-class Timeline extends PureComponent {
+type Education = {
+    year: string,
+    college: string,
+    description: string,
+}
+
+type State = {
+    educations: Array<Education>
+}
+
+class Educations extends PureComponent<void, void, State> {
+    state: State = {
+        educations: []
+    };
+    
+    async componentDidMount () {
+        let educations = await GetEducation();
+        this.setState({educations});
+    }
+    
+    _renderEducation (education: Education, index) {
+        return (
+            <EventContainer
+                key={index}
+                alignment={index % 2 === 0 ? LEFT :RIGHT}
+            >
+                <Course name={education.description}
+                        university={education.college}
+                        year={education.year}
+                />
+            </EventContainer>
+        );
+    }
+    
     render () {
-        const classes = this.props.classes;
+        const {classes} = this.props;
+        const {educations} = this.state;
         return (
             <Grid container
                   className={classes.container}
                   spacing={0}
                   direction="column">
                 <SectionTitle title='Education'/>
-                <div style={{ position: 'relative' }}>
+                <div style={{position: 'relative'}}>
                     <div className={classes.clear}>
                         <TimelineBar barClass={classes.barClass}/>
-                        <EventContainer
-                            alignment={RIGHT}
-                        >
-                            <Course name="Varian Medical System"
-                                    university="Varian Medical System "
-                                    year="2014 - Present"
-                            />
-                        </EventContainer>
-                        <EventContainer
-                            alignment={LEFT}
-                        >
-                            <Course  name="Varian Medical System"
-				     university="Varian Medical System "
-				     year="2014 - Present"
-                            />
-                        </EventContainer>
+                        {
+                            educations && educations.map(this._renderEducation.bind(this))
+                        }
                     </div>
                 </div>
             
@@ -84,8 +106,8 @@ class Timeline extends PureComponent {
     }
 }
 
-Timeline.propTypes = {
+Educations.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Timeline);
+export default withStyles(styles)(Educations);
