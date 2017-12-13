@@ -9,14 +9,28 @@ import Header from './components/header';
 import 'animate.css/animate.min.css';
 
 import * as Scroll from 'react-scroll';
+
 const {scrollSpy} = Scroll;
 
 export default class App extends Component {
+    state = {
+        loading: true
+    };
+    
     componentDidMount () {
-        scrollSpy.update();
+        setTimeout(() => {
+            this.setState({loading: false});
+            scrollSpy.update();
+        }, 0);
     }
     
     render () {
+        const {loading} = this.state;
+        
+        if (loading) { // if your component doesn't have to wait for async data, remove this block
+            return null; // render null when app is not ready
+        }
+        
         const theme = createMuiTheme({
             palette: {
                 primary: cyan,

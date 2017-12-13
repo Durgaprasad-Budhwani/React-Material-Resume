@@ -1,6 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders app 1`] = `
+exports[`renders app with loading 1`] = `null`;
+
+exports[`renders app without loading 1`] = `
 <div>
   <div
     className="Header-header-1"

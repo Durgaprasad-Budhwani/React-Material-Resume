@@ -1,6 +1,7 @@
 /**
  * Created by durgaprasad on 10/13/17.
  */
+/* global expect,it */
 import React from 'react';
 import About from '../../../src/components/content/about';
 import renderer from 'react-test-renderer';
@@ -12,3 +13,5 @@ it('renders about', () => {
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
+
+
