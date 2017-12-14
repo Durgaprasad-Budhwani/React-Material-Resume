@@ -59,7 +59,7 @@ class LinkTo extends PureComponent<void, Props, void> {
     
     static defaultProps: Props = {
         enableNavigationItemClass: false,
-        offset: -50,
+        offset: -120,
     };
     
     _handleSetActive () {
