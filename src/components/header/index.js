@@ -12,6 +12,7 @@ import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import LinkTo from '../common/link-to';
 import Grid from 'material-ui/Grid';
+import Drawer from 'material-ui/Drawer';
 
 const styles = theme => ({
     header: {
@@ -46,13 +47,30 @@ const styles = theme => ({
     flex: {
         flex: 1,
     },
+    horizontalNavigation: {
+        flex: 1,
+        [theme.breakpoints.down('md')]: {
+            display: 'none',
+        },
+    },
+    verticalNavigation: {
+        flex: 1,
+        minWidth: 300,
+        backgroundColor: theme.palette.primary[ 500 ],
+    },
+    hamburger: {
+        [theme.breakpoints.up('md')]: {
+            display: 'none',
+        },
+    }
     
 });
 
 class Header extends Component {
     state = {
         position: 'static',
-        navigationItemClass: true
+        navigationItemClass: true,
+        isDrawerVisible: false,
     };
     
     componentDidMount () {
@@ -78,6 +96,18 @@ class Header extends Component {
         }
     }
     
+    _showDrawer () {
+        this.setState({
+            isDrawerVisible: true
+        })
+    }
+    
+    _hideDrawer () {
+        this.setState({
+            isDrawerVisible: false
+        })
+    }
+    
     render () {
         const classes = this.props.classes;
         const {position, navigationItemClass} = this.state;
@@ -92,6 +122,8 @@ class Header extends Component {
                         className={headerClass}>
                     <Toolbar>
                         <IconButton color="contrast"
+                                    className={classes.hamburger}
+                                    onClick={() => this._showDrawer()}
                                     aria-label="Menu">
                             <MenuIcon/>
                         </IconButton>
@@ -99,7 +131,7 @@ class Header extends Component {
                             className={classes.flex}>
                         </div>
                         <Grid
-                            className={classes.flex}
+                            className={classes.horizontalNavigation}
                             container
                             spacing={0}
                             direction="row"
@@ -124,8 +156,42 @@ class Header extends Component {
                                     offset={-400}
                                     enableNavigationItemClass={navigationItemClass}/>
                         </Grid>
+                       
                     </Toolbar>
                 </AppBar>
+                <Drawer
+                    anchor="left"
+                    open={this.state.isDrawerVisible}
+                    onRequestClose={() => this._hideDrawer()}>
+                    <Grid
+                        className={classes.verticalNavigation}
+                        container
+                        alignItems="center"
+                        justify="center"
+                        spacing={0}
+                        direction="column"
+                    >
+                        <LinkTo to="profile"
+                                title="About"
+                                enableNavigationItemClass={navigationItemClass}/>
+                        <LinkTo to="experience"
+                                title="Experience"
+                                enableNavigationItemClass={navigationItemClass}/>
+                        <LinkTo to="skills"
+                                title="Skills"
+                                enableNavigationItemClass={navigationItemClass}/>
+                        <LinkTo to="education"
+                                title="Education"
+                                enableNavigationItemClass={navigationItemClass}/>
+                        <LinkTo to="blog"
+                                title="Blog"
+                                enableNavigationItemClass={navigationItemClass}/>
+                        <LinkTo to="contact"
+                                title="Contact"
+                                offset={-400}
+                                enableNavigationItemClass={navigationItemClass}/>
+                    </Grid>
+                </Drawer>
             </div>
         );
     }

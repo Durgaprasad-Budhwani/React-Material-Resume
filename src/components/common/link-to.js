@@ -29,9 +29,17 @@ const styles = theme => ({
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'stretch',
+        [theme.breakpoints.down('md')]: {
+            marginRight: 0,
+            marginBottom: 30,
+            color: 'white',
+        }
     },
     navigationItem: {
-        color: 'black'
+        color: 'black',
+        [theme.breakpoints.down('md')]: {
+            color: 'white'
+        }
     },
     spanClass: {
         height: 3,
@@ -41,6 +49,16 @@ const styles = theme => ({
     },
     activeSpanClass: {
         backgroundColor: theme.palette.primary[ 500 ],
+        [theme.breakpoints.down('md')]: {
+            backgroundColor: 'transparent'
+        }
+    },
+    activeTitle: {
+        [theme.breakpoints.down('md')]: {
+            fontStyle: 'italic',
+            fontSize: '16',
+            fontWeight: 'bold',
+        }
     }
 });
 
@@ -88,7 +106,11 @@ class LinkTo extends PureComponent<void, Props, void> {
                       [classes.scrollChor]: true,
                       [classes.navigationItem]: enableNavigationItemClass,
                   })}>
-                {title}
+                <span
+                    className={classNames({
+                        [classes.activeTitle]: this.state.isLinkActive,
+                    })}
+                >{title}</span>
                 <span className={classNames({
                     [classes.spanClass]: true,
                     [classes.activeSpanClass]: this.state.isLinkActive,

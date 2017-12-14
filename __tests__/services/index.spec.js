@@ -2,7 +2,7 @@
  * Created by Durgaprasad Budhwani on 12/8/2017.
  */
 /* global expect,it, describe, afterEach */
-import {GetBlogs, GetExperience, GetEducation} from '../../src/services';
+import {GetBlogs, GetExperience, GetEducation, GetSkills} from '../../src/services';
 import fetchMock from 'fetch-mock'
 
 describe("Services", () => {
@@ -50,5 +50,19 @@ describe("Services", () => {
         let educations = await GetEducation();
         expect.arrayContaining(educations);
         expect(educations).toHaveLength(0);
+    });
+    
+    it('GetSkills should return list of skill', async () => {
+        fetchMock.mock('skills.json', [{id: 1}, {id:2}]);
+        let skills = await GetSkills();
+        expect.arrayContaining(skills);
+        expect(skills).toHaveLength(2);
+    });
+    
+    it('GetSkills should return empty list if services return error code', async () => {
+        fetchMock.mock('skills.json', 301);
+        let skills = await GetSkills();
+        expect.arrayContaining(skills);
+        expect(skills).toHaveLength(0);
     });
 });
