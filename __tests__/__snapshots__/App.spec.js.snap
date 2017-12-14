@@ -236,6 +236,7 @@ exports[`renders app without loading 1`] = `
                         className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
                         disabled={false}
                         onBlur={[Function]}
+                        onClick={[Function]}
                         onFocus={[Function]}
                         onKeyDown={[Function]}
                         onKeyUp={[Function]}
@@ -274,6 +275,7 @@ exports[`renders app without loading 1`] = `
                         className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
                         disabled={false}
                         onBlur={[Function]}
+                        onClick={[Function]}
                         onFocus={[Function]}
                         onKeyDown={[Function]}
                         onKeyUp={[Function]}
@@ -312,6 +314,7 @@ exports[`renders app without loading 1`] = `
                         className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
                         disabled={false}
                         onBlur={[Function]}
+                        onClick={[Function]}
                         onFocus={[Function]}
                         onKeyDown={[Function]}
                         onKeyUp={[Function]}
@@ -350,6 +353,7 @@ exports[`renders app without loading 1`] = `
                         className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
                         disabled={false}
                         onBlur={[Function]}
+                        onClick={[Function]}
                         onFocus={[Function]}
                         onKeyDown={[Function]}
                         onKeyUp={[Function]}
@@ -388,6 +392,7 @@ exports[`renders app without loading 1`] = `
                         className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
                         disabled={false}
                         onBlur={[Function]}
+                        onClick={[Function]}
                         onFocus={[Function]}
                         onKeyDown={[Function]}
                         onKeyUp={[Function]}
@@ -517,442 +522,7 @@ exports[`renders app without loading 1`] = `
                 >
                   <div
                     className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 MuiGrid-grid-xs-12-97"
-                  >
-                    <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
-                    >
-                      <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 SkillBar-labelContainer-202"
-                      >
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          JavaScript
-                        </span>
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          90%
-                        </span>
-                      </div>
-                      <div
-                        aria-valuenow={90}
-                        className="MuiLinearProgress-root-205 MuiLinearProgress-primaryColor-206"
-                      >
-                        <div
-                          className="MuiLinearProgress-bar-212 MuiLinearProgress-primaryColorBar-207 MuiLinearProgress-determinateBar1-219"
-                          style={
-                            Object {
-                              "transform": "scaleX(0.9)",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
-                    >
-                      <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 SkillBar-labelContainer-202"
-                      >
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          CSS
-                        </span>
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          70%
-                        </span>
-                      </div>
-                      <div
-                        aria-valuenow={70}
-                        className="MuiLinearProgress-root-205 MuiLinearProgress-primaryColor-206"
-                      >
-                        <div
-                          className="MuiLinearProgress-bar-212 MuiLinearProgress-primaryColorBar-207 MuiLinearProgress-determinateBar1-219"
-                          style={
-                            Object {
-                              "transform": "scaleX(0.7)",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
-                    >
-                      <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 SkillBar-labelContainer-202"
-                      >
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          JavaScript
-                        </span>
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          90%
-                        </span>
-                      </div>
-                      <div
-                        aria-valuenow={90}
-                        className="MuiLinearProgress-root-205 MuiLinearProgress-primaryColor-206"
-                      >
-                        <div
-                          className="MuiLinearProgress-bar-212 MuiLinearProgress-primaryColorBar-207 MuiLinearProgress-determinateBar1-219"
-                          style={
-                            Object {
-                              "transform": "scaleX(0.9)",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
-                    >
-                      <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 SkillBar-labelContainer-202"
-                      >
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          CSS
-                        </span>
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          70%
-                        </span>
-                      </div>
-                      <div
-                        aria-valuenow={70}
-                        className="MuiLinearProgress-root-205 MuiLinearProgress-primaryColor-206"
-                      >
-                        <div
-                          className="MuiLinearProgress-bar-212 MuiLinearProgress-primaryColorBar-207 MuiLinearProgress-determinateBar1-219"
-                          style={
-                            Object {
-                              "transform": "scaleX(0.7)",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
-                    >
-                      <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 SkillBar-labelContainer-202"
-                      >
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          JavaScript
-                        </span>
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          90%
-                        </span>
-                      </div>
-                      <div
-                        aria-valuenow={90}
-                        className="MuiLinearProgress-root-205 MuiLinearProgress-primaryColor-206"
-                      >
-                        <div
-                          className="MuiLinearProgress-bar-212 MuiLinearProgress-primaryColorBar-207 MuiLinearProgress-determinateBar1-219"
-                          style={
-                            Object {
-                              "transform": "scaleX(0.9)",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
-                    >
-                      <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 SkillBar-labelContainer-202"
-                      >
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          CSS
-                        </span>
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          70%
-                        </span>
-                      </div>
-                      <div
-                        aria-valuenow={70}
-                        className="MuiLinearProgress-root-205 MuiLinearProgress-primaryColor-206"
-                      >
-                        <div
-                          className="MuiLinearProgress-bar-212 MuiLinearProgress-primaryColorBar-207 MuiLinearProgress-determinateBar1-219"
-                          style={
-                            Object {
-                              "transform": "scaleX(0.7)",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
-                    >
-                      <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 SkillBar-labelContainer-202"
-                      >
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          JavaScript
-                        </span>
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          90%
-                        </span>
-                      </div>
-                      <div
-                        aria-valuenow={90}
-                        className="MuiLinearProgress-root-205 MuiLinearProgress-primaryColor-206"
-                      >
-                        <div
-                          className="MuiLinearProgress-bar-212 MuiLinearProgress-primaryColorBar-207 MuiLinearProgress-determinateBar1-219"
-                          style={
-                            Object {
-                              "transform": "scaleX(0.9)",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
-                    >
-                      <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 SkillBar-labelContainer-202"
-                      >
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          CSS
-                        </span>
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          70%
-                        </span>
-                      </div>
-                      <div
-                        aria-valuenow={70}
-                        className="MuiLinearProgress-root-205 MuiLinearProgress-primaryColor-206"
-                      >
-                        <div
-                          className="MuiLinearProgress-bar-212 MuiLinearProgress-primaryColorBar-207 MuiLinearProgress-determinateBar1-219"
-                          style={
-                            Object {
-                              "transform": "scaleX(0.7)",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
-                    >
-                      <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 SkillBar-labelContainer-202"
-                      >
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          JavaScript
-                        </span>
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          90%
-                        </span>
-                      </div>
-                      <div
-                        aria-valuenow={90}
-                        className="MuiLinearProgress-root-205 MuiLinearProgress-primaryColor-206"
-                      >
-                        <div
-                          className="MuiLinearProgress-bar-212 MuiLinearProgress-primaryColorBar-207 MuiLinearProgress-determinateBar1-219"
-                          style={
-                            Object {
-                              "transform": "scaleX(0.9)",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
-                    >
-                      <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 SkillBar-labelContainer-202"
-                      >
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          CSS
-                        </span>
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          70%
-                        </span>
-                      </div>
-                      <div
-                        aria-valuenow={70}
-                        className="MuiLinearProgress-root-205 MuiLinearProgress-primaryColor-206"
-                      >
-                        <div
-                          className="MuiLinearProgress-bar-212 MuiLinearProgress-primaryColorBar-207 MuiLinearProgress-determinateBar1-219"
-                          style={
-                            Object {
-                              "transform": "scaleX(0.7)",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
-                    >
-                      <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 SkillBar-labelContainer-202"
-                      >
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          JavaScript
-                        </span>
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          90%
-                        </span>
-                      </div>
-                      <div
-                        aria-valuenow={90}
-                        className="MuiLinearProgress-root-205 MuiLinearProgress-primaryColor-206"
-                      >
-                        <div
-                          className="MuiLinearProgress-bar-212 MuiLinearProgress-primaryColorBar-207 MuiLinearProgress-determinateBar1-219"
-                          style={
-                            Object {
-                              "transform": "scaleX(0.9)",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
-                    >
-                      <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 SkillBar-labelContainer-202"
-                      >
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          CSS
-                        </span>
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          70%
-                        </span>
-                      </div>
-                      <div
-                        aria-valuenow={70}
-                        className="MuiLinearProgress-root-205 MuiLinearProgress-primaryColor-206"
-                      >
-                        <div
-                          className="MuiLinearProgress-bar-212 MuiLinearProgress-primaryColorBar-207 MuiLinearProgress-determinateBar1-219"
-                          style={
-                            Object {
-                              "transform": "scaleX(0.7)",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
-                    >
-                      <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 SkillBar-labelContainer-202"
-                      >
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          JavaScript
-                        </span>
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          90%
-                        </span>
-                      </div>
-                      <div
-                        aria-valuenow={90}
-                        className="MuiLinearProgress-root-205 MuiLinearProgress-primaryColor-206"
-                      >
-                        <div
-                          className="MuiLinearProgress-bar-212 MuiLinearProgress-primaryColorBar-207 MuiLinearProgress-determinateBar1-219"
-                          style={
-                            Object {
-                              "transform": "scaleX(0.9)",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                    <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
-                    >
-                      <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 SkillBar-labelContainer-202"
-                      >
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          CSS
-                        </span>
-                        <span
-                          className="SkillBar-label-201"
-                        >
-                          70%
-                        </span>
-                      </div>
-                      <div
-                        aria-valuenow={70}
-                        className="MuiLinearProgress-root-205 MuiLinearProgress-primaryColor-206"
-                      >
-                        <div
-                          className="MuiLinearProgress-bar-212 MuiLinearProgress-primaryColorBar-207 MuiLinearProgress-determinateBar1-219"
-                          style={
-                            Object {
-                              "transform": "scaleX(0.7)",
-                            }
-                          }
-                        />
-                      </div>
-                    </div>
-                  </div>
+                  />
                 </div>
               </div>
             </div>
@@ -962,7 +532,7 @@ exports[`renders app without loading 1`] = `
           >
             <div>
               <div
-                className="MuiGrid-typeContainer-61 MuiGrid-direction-xs-column-63 Educations-container-223"
+                className="MuiGrid-typeContainer-61 MuiGrid-direction-xs-column-63 Educations-container-201"
               >
                 <span
                   className="SectionTitle-sectionTitle-196"
@@ -977,10 +547,10 @@ exports[`renders app without loading 1`] = `
                   }
                 >
                   <div
-                    className="Educations-clear-225"
+                    className="Educations-clear-203"
                   >
                     <div
-                      className="TimelineBar-bar-197 Educations-barClass-226"
+                      className="TimelineBar-bar-197 Educations-barClass-204"
                     />
                   </div>
                 </div>
@@ -1010,7 +580,7 @@ exports[`renders app without loading 1`] = `
       </div>
       <div>
         <div
-          className="MuiGrid-typeContainer-61 MuiGrid-direction-xs-column-63 MuiGrid-align-items-xs-center-68 About-container-229"
+          className="MuiGrid-typeContainer-61 MuiGrid-direction-xs-column-63 MuiGrid-align-items-xs-center-68 About-container-207"
         >
           <span
             className="SectionTitle-sectionTitle-196"
@@ -1021,10 +591,10 @@ exports[`renders app without loading 1`] = `
             className="MuiGrid-typeContainer-61 MuiGrid-justify-xs-space-between-79"
           >
             <div
-              className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130 About-itemContainer-230"
+              className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130 About-itemContainer-208"
             >
               <div
-                className="MuiPaper-root-13 MuiPaper-shadow2-17 MuiPaper-rounded-14 ContactForm-container-231"
+                className="MuiPaper-root-13 MuiPaper-shadow2-17 MuiPaper-rounded-14 ContactForm-container-209"
               >
                 <form
                   action="http://formspree.io/durgaprasad.budhwani@gmail.com"
@@ -1043,13 +613,13 @@ exports[`renders app without loading 1`] = `
                       Feel free to contact me
                     </h2>
                     <div
-                      className="MuiFormControl-root-233 MuiFormControl-marginNormal-234"
+                      className="MuiFormControl-root-211 MuiFormControl-marginNormal-212"
                       onBlur={[Function]}
                       onFocus={[Function]}
                       required={true}
                     >
                       <label
-                        className="MuiFormLabel-root-243 MuiInputLabel-root-237 MuiInputLabel-formControl-238 MuiInputLabel-animated-241"
+                        className="MuiFormLabel-root-221 MuiInputLabel-root-215 MuiInputLabel-formControl-216 MuiInputLabel-animated-219"
                         data-shrink={false}
                         htmlFor="name"
                       >
@@ -1061,14 +631,14 @@ exports[`renders app without loading 1`] = `
                         </span>
                       </label>
                       <div
-                        className="MuiInput-root-247 MuiInput-formControl-248 MuiInput-inkbar-249 MuiInput-underline-253"
+                        className="MuiInput-root-225 MuiInput-formControl-226 MuiInput-inkbar-227 MuiInput-underline-231"
                         onBlur={[Function]}
                         onFocus={[Function]}
                       >
                         <input
                           autoComplete={undefined}
                           autoFocus={undefined}
-                          className="MuiInput-input-256 MuiInput-inputSingleline-259"
+                          className="MuiInput-input-234 MuiInput-inputSingleline-237"
                           defaultValue={undefined}
                           disabled={false}
                           id="name"
@@ -1086,13 +656,13 @@ exports[`renders app without loading 1`] = `
                       </div>
                     </div>
                     <div
-                      className="MuiFormControl-root-233 MuiFormControl-marginNormal-234"
+                      className="MuiFormControl-root-211 MuiFormControl-marginNormal-212"
                       onBlur={[Function]}
                       onFocus={[Function]}
                       required={true}
                     >
                       <label
-                        className="MuiFormLabel-root-243 MuiInputLabel-root-237 MuiInputLabel-formControl-238 MuiInputLabel-animated-241"
+                        className="MuiFormLabel-root-221 MuiInputLabel-root-215 MuiInputLabel-formControl-216 MuiInputLabel-animated-219"
                         data-shrink={false}
                         htmlFor="email"
                       >
@@ -1104,14 +674,14 @@ exports[`renders app without loading 1`] = `
                         </span>
                       </label>
                       <div
-                        className="MuiInput-root-247 MuiInput-formControl-248 MuiInput-inkbar-249 MuiInput-underline-253"
+                        className="MuiInput-root-225 MuiInput-formControl-226 MuiInput-inkbar-227 MuiInput-underline-231"
                         onBlur={[Function]}
                         onFocus={[Function]}
                       >
                         <input
                           autoComplete={undefined}
                           autoFocus={undefined}
-                          className="MuiInput-input-256 MuiInput-inputSingleline-259"
+                          className="MuiInput-input-234 MuiInput-inputSingleline-237"
                           defaultValue={undefined}
                           disabled={false}
                           id="email"
@@ -1129,13 +699,13 @@ exports[`renders app without loading 1`] = `
                       </div>
                     </div>
                     <div
-                      className="MuiFormControl-root-233 MuiFormControl-marginNormal-234"
+                      className="MuiFormControl-root-211 MuiFormControl-marginNormal-212"
                       onBlur={[Function]}
                       onFocus={[Function]}
                       required={true}
                     >
                       <label
-                        className="MuiFormLabel-root-243 MuiInputLabel-root-237 MuiInputLabel-formControl-238 MuiInputLabel-animated-241"
+                        className="MuiFormLabel-root-221 MuiInputLabel-root-215 MuiInputLabel-formControl-216 MuiInputLabel-animated-219"
                         data-shrink={false}
                         htmlFor="subject"
                       >
@@ -1147,14 +717,14 @@ exports[`renders app without loading 1`] = `
                         </span>
                       </label>
                       <div
-                        className="MuiInput-root-247 MuiInput-formControl-248 MuiInput-inkbar-249 MuiInput-underline-253"
+                        className="MuiInput-root-225 MuiInput-formControl-226 MuiInput-inkbar-227 MuiInput-underline-231"
                         onBlur={[Function]}
                         onFocus={[Function]}
                       >
                         <input
                           autoComplete={undefined}
                           autoFocus={undefined}
-                          className="MuiInput-input-256 MuiInput-inputSingleline-259"
+                          className="MuiInput-input-234 MuiInput-inputSingleline-237"
                           defaultValue={undefined}
                           disabled={false}
                           id="subject"
@@ -1172,13 +742,13 @@ exports[`renders app without loading 1`] = `
                       </div>
                     </div>
                     <div
-                      className="MuiFormControl-root-233 MuiFormControl-marginNormal-234"
+                      className="MuiFormControl-root-211 MuiFormControl-marginNormal-212"
                       onBlur={[Function]}
                       onFocus={[Function]}
                       required={true}
                     >
                       <label
-                        className="MuiFormLabel-root-243 MuiInputLabel-root-237 MuiInputLabel-formControl-238 MuiInputLabel-animated-241"
+                        className="MuiFormLabel-root-221 MuiInputLabel-root-215 MuiInputLabel-formControl-216 MuiInputLabel-animated-219"
                         data-shrink={false}
                         htmlFor="message"
                       >
@@ -1190,12 +760,12 @@ exports[`renders app without loading 1`] = `
                         </span>
                       </label>
                       <div
-                        className="MuiInput-root-247 MuiInput-formControl-248 MuiInput-inkbar-249 MuiInput-multiline-254 MuiInput-underline-253"
+                        className="MuiInput-root-225 MuiInput-formControl-226 MuiInput-inkbar-227 MuiInput-multiline-232 MuiInput-underline-231"
                         onBlur={[Function]}
                         onFocus={[Function]}
                       >
                         <div
-                          className="MuiTextarea-root-262"
+                          className="MuiTextarea-root-240"
                           style={
                             Object {
                               "height": 24,
@@ -1204,7 +774,7 @@ exports[`renders app without loading 1`] = `
                         >
                           <textarea
                             aria-hidden="true"
-                            className="MuiTextarea-shadow-264 MuiTextarea-textarea-263"
+                            className="MuiTextarea-shadow-242 MuiTextarea-textarea-241"
                             readOnly={true}
                             rows="1"
                             tabIndex={-1}
@@ -1212,7 +782,7 @@ exports[`renders app without loading 1`] = `
                           />
                           <textarea
                             aria-hidden="true"
-                            className="MuiTextarea-shadow-264 MuiTextarea-textarea-263"
+                            className="MuiTextarea-shadow-242 MuiTextarea-textarea-241"
                             defaultValue={undefined}
                             readOnly={true}
                             rows={1}
@@ -1222,7 +792,7 @@ exports[`renders app without loading 1`] = `
                           <textarea
                             autoComplete={undefined}
                             autoFocus={undefined}
-                            className="MuiTextarea-textarea-263 MuiInput-input-256 MuiInput-inputMultiline-260"
+                            className="MuiTextarea-textarea-241 MuiInput-input-234 MuiInput-inputMultiline-238"
                             defaultValue={undefined}
                             disabled={false}
                             id="message"
@@ -1242,7 +812,7 @@ exports[`renders app without loading 1`] = `
                     </div>
                     <div>
                       <button
-                        className="MuiButtonBase-root-51 MuiButton-root-178 MuiButton-raised-185 MuiButton-raisedPrimary-187 ContactForm-button-232"
+                        className="MuiButtonBase-root-51 MuiButton-root-178 MuiButton-raised-185 MuiButton-raisedPrimary-187 ContactForm-button-210"
                         disabled={false}
                         onBlur={[Function]}
                         onFocus={[Function]}
@@ -1273,16 +843,16 @@ exports[`renders app without loading 1`] = `
               </div>
             </div>
             <div
-              className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130 About-itemContainer-230"
+              className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130 About-itemContainer-208"
             >
               <div
-                className="MuiPaper-root-13 MuiPaper-shadow2-17 MuiPaper-rounded-14 MapContainer-container-265"
+                className="MuiPaper-root-13 MuiPaper-shadow2-17 MuiPaper-rounded-14 MapContainer-container-243"
               >
                 <div
-                  className="MuiGrid-typeContainer-61 MuiGrid-direction-xs-column-63 MapContainer-gridContainer-267"
+                  className="MuiGrid-typeContainer-61 MuiGrid-direction-xs-column-63 MapContainer-gridContainer-245"
                 >
                   <div
-                    className="MuiGrid-typeItem-62 MapContainer-contactContainer-266"
+                    className="MuiGrid-typeItem-62 MapContainer-contactContainer-244"
                   >
                     <div
                       className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-24-83 MuiGrid-direction-xs-column-63"
@@ -1345,7 +915,7 @@ exports[`renders app without loading 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MapContainer-mapContainer-268"
+                    className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MapContainer-mapContainer-246"
                   >
                     <div />
                   </div>
@@ -1358,7 +928,7 @@ exports[`renders app without loading 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-typeItem-62 Footer-container-269"
+    className="MuiGrid-typeItem-62 Footer-container-247"
   >
     <div
       align="center"
@@ -1369,6 +939,7 @@ exports[`renders app without loading 1`] = `
         className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
         disabled={false}
         onBlur={[Function]}
+        onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
@@ -1407,6 +978,7 @@ exports[`renders app without loading 1`] = `
         className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
         disabled={false}
         onBlur={[Function]}
+        onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
@@ -1445,6 +1017,7 @@ exports[`renders app without loading 1`] = `
         className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
         disabled={false}
         onBlur={[Function]}
+        onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
@@ -1483,6 +1056,7 @@ exports[`renders app without loading 1`] = `
         className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
         disabled={false}
         onBlur={[Function]}
+        onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
@@ -1521,6 +1095,7 @@ exports[`renders app without loading 1`] = `
         className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
         disabled={false}
         onBlur={[Function]}
+        onClick={[Function]}
         onFocus={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}

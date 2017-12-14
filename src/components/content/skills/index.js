@@ -8,6 +8,7 @@ import PropTypes from 'prop-types';
 import Paper from 'material-ui/Paper';
 import SkillBar from './skill-bar';
 import SectionTitle from './../../common/section-title';
+import {GetSkills} from '../../../services';
 
 // #56c8d2
 
@@ -27,17 +28,37 @@ const styles = theme => ({
 });
 
 class Skilss extends PureComponent {
+    state = {
+        skills: []
+    };
+    
+    async componentDidMount () {
+        let skills = await GetSkills();
+        this.setState({skills});
+    }
+    
+    _renderSkill (skill, index) {
+        return (
+            <SkillBar
+                key={index}
+                name={skill.name}
+                completed={skill.completed}
+            />
+        );
+    }
+    
     render () {
         const classes = this.props.classes;
+        const {skills} = this.state;
         return (
             <Grid
-                  id="skills"
-                  container
-                  align="stretch"
-                  direction="column"
-                  justify="center"
-                  spacing={0}
-                 >
+                id="skills"
+                container
+                align="stretch"
+                direction="column"
+                justify="center"
+                spacing={0}
+            >
                 <SectionTitle title='Professional Skills'/>
                 <Paper className={classes.root}>
                     <Grid item
@@ -46,34 +67,9 @@ class Skilss extends PureComponent {
                           justify="space-between"
                           xs={12}
                     >
-                        <SkillBar name="JavaScript"
-                                  completed={90}/>
-                        <SkillBar name="CSS"
-                                  completed={70}/>
-                        <SkillBar name="JavaScript"
-                                  completed={90}/>
-                        <SkillBar name="CSS"
-                                  completed={70}/>
-                        <SkillBar name="JavaScript"
-                                  completed={90}/>
-                        <SkillBar name="CSS"
-                                  completed={70}/>
-                        <SkillBar name="JavaScript"
-                                  completed={90}/>
-                        <SkillBar name="CSS"
-                                  completed={70}/>
-                        <SkillBar name="JavaScript"
-                                  completed={90}/>
-                        <SkillBar name="CSS"
-                                  completed={70}/>
-                        <SkillBar name="JavaScript"
-                                  completed={90}/>
-                        <SkillBar name="CSS"
-                                  completed={70}/>
-                        <SkillBar name="JavaScript"
-                                  completed={90}/>
-                        <SkillBar name="CSS"
-                                  completed={70}/>
+                        {
+                            skills && skills.map(this._renderSkill.bind(this))
+                        }
                     </Grid>
                 </Paper>
             </Grid>

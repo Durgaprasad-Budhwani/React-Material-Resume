@@ -33,3 +33,13 @@ export const GetEducation = async () => {
     }
 };
 
+export const GetSkills = async () => {
+    let response = await fetch("skills.json");
+    try{
+        return await response.json();
+    }
+    catch(error){
+        return [];
+    }
+};
+

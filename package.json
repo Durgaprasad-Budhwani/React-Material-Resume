@@ -7,7 +7,7 @@
     "url": "https://github.com/Durgaprasad-Budhwani/React-Material-Resume.git"
   },
   "license": "Apache 2.0",
-  "homepage": "https://durgaprasad-budhwani.github.io/React-Material-Resume/",
+  "homepage": "http://durgaprasad-budhwani.com",
   "dependencies": {
     "animate.css": "^3.5.2",
     "babel-core": "^6.26.0",

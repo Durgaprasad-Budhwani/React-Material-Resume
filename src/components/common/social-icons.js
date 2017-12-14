@@ -29,6 +29,10 @@ class SocialIcons extends PureComponent {
         color: 'white'
     };
     
+    _openTab (url) {
+        window.open(url,'_blank');
+    }
+    
     render () {
         const {
             classes,
@@ -42,30 +46,36 @@ class SocialIcons extends PureComponent {
                   spacing={0}
                   className={classes.container}>
                 <IconButton className={classes.button}
+                            onClick={() => this._openTab("https://www.facebook.com/durgaprasad.budhwani")}
                             aria-label="Add an alarm">
                     <Ionicon icon="ion-social-facebook"
                              fontSize="24px"
-                             color={color}/>
+                             color={color}>
+                    </Ionicon>
                 </IconButton>
                 <IconButton className={classes.button}
+                            onClick={() => this._openTab("https://twitter.com/DurgaprasadDP")}
                             aria-label="Add an alarm">
                     <Ionicon icon="ion-social-twitter"
                              fontSize="24px"
                              color={color}/>
                 </IconButton>
                 <IconButton className={classes.button}
+                            onClick={() => this._openTab("https://www.linkedin.com/in/durgaprasad-budhwani")}
                             aria-label="Add an alarm">
                     <Ionicon icon="ion-social-linkedin"
                              fontSize="30px"
                              color={color}/>
                 </IconButton>
                 <IconButton className={classes.button}
+                            onClick={() => this._openTab("https://plus.google.com/+DurgaprasadBudhwani")}
                             aria-label="Add an alarm">
                     <Ionicon icon="ion-social-googleplus"
                              fontSize="24px"
                              color={color}/>
                 </IconButton>
                 <IconButton className={classes.button}
+                            onClick={() => this._openTab("https://github.com/Durgaprasad-Budhwani")}
                             aria-label="Add an alarm">
                     <Ionicon icon="ion-social-github"
                              fontSize="24px"
