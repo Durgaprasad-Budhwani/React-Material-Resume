@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders education 1`] = `
+exports[`<Educations /> renders <EducationContainer /> 1`] = `
 <div
   className="MuiGrid-typeContainer-5 MuiGrid-direction-xs-column-7 Educations-container-1"
 >
@@ -25,4 +25,34 @@ exports[`renders education 1`] = `
     </div>
   </div>
 </div>
+`;
+
+exports[`<Educations /> renders <Educations /> 1`] = `
+<EventContainer
+  alignment="RIGHT"
+  classes={
+    Object {
+      "arrow": "EventContainer-arrow-105",
+      "arrowLeft": "EventContainer-arrowLeft-107",
+      "arrowRight": "EventContainer-arrowRight-106",
+      "bigScreenBox": "EventContainer-bigScreenBox-101",
+      "boxLeft": "EventContainer-boxLeft-102",
+      "boxRight": "EventContainer-boxRight-103",
+      "date": "EventContainer-date-100",
+      "dot": "EventContainer-dot-104",
+      "dotLeft": "EventContainer-dotLeft-109",
+      "dotRight": "EventContainer-dotRight-108",
+      "paper": "EventContainer-paper-97",
+      "paperLeft": "EventContainer-paperLeft-98",
+      "paperRight": "EventContainer-paperRight-99",
+      "smallScreenBox": "EventContainer-smallScreenBox-96",
+    }
+  }
+>
+  <withStyles(Course)
+    name="description"
+    university="college"
+    year="year"
+  />
+</EventContainer>
 `;

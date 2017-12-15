@@ -45,9 +45,12 @@
     "codecov": "^2.3.0",
     "coveralls": "^3.0.0",
     "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "enzyme-to-json": "^3.3.0",
     "fetch-mock": "^5.13.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^21.2.1",
+    "jest-enzyme": "^4.0.1",
     "react-scripts": "1.0.11",
     "react-test-renderer": "^16.0.0",
     "regenerator-runtime": "^0.11.0"
@@ -70,6 +73,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "docs": "process.env.PUBLIC_URL='https://durgaprasad-budhwani.github.io/React-Material-Resume/' && react-scripts build",
     "test": "jest",
     "test-coveralls": "jest --coverage -u && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "eject": "react-scripts eject",

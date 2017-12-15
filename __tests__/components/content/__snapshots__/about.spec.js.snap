@@ -128,7 +128,6 @@ exports[`renders about 1`] = `
               className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-justify-xs-center-19 SocialIcons-container-134"
             >
               <button
-                aria-label="Add an alarm"
                 className="MuiButtonBase-root-144 MuiIconButton-root-135 SocialIcons-button-133"
                 disabled={false}
                 onBlur={[Function]}
@@ -167,7 +166,6 @@ exports[`renders about 1`] = `
                 />
               </button>
               <button
-                aria-label="Add an alarm"
                 className="MuiButtonBase-root-144 MuiIconButton-root-135 SocialIcons-button-133"
                 disabled={false}
                 onBlur={[Function]}
@@ -206,7 +204,6 @@ exports[`renders about 1`] = `
                 />
               </button>
               <button
-                aria-label="Add an alarm"
                 className="MuiButtonBase-root-144 MuiIconButton-root-135 SocialIcons-button-133"
                 disabled={false}
                 onBlur={[Function]}
@@ -245,7 +242,6 @@ exports[`renders about 1`] = `
                 />
               </button>
               <button
-                aria-label="Add an alarm"
                 className="MuiButtonBase-root-144 MuiIconButton-root-135 SocialIcons-button-133"
                 disabled={false}
                 onBlur={[Function]}
@@ -284,7 +280,6 @@ exports[`renders about 1`] = `
                 />
               </button>
               <button
-                aria-label="Add an alarm"
                 className="MuiButtonBase-root-144 MuiIconButton-root-135 SocialIcons-button-133"
                 disabled={false}
                 onBlur={[Function]}
@@ -414,7 +409,7 @@ exports[`renders about 1`] = `
           Professional Skills
         </span>
         <div
-          className="MuiPaper-root-101 MuiPaper-shadow2-105 MuiPaper-rounded-102 Skilss-root-176"
+          className="MuiPaper-root-101 MuiPaper-shadow2-105 MuiPaper-rounded-102 Skills-root-176"
         >
           <div
             className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-16-24 MuiGrid-justify-xs-space-between-21 MuiGrid-grid-xs-12-39"

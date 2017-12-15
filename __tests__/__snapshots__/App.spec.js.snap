@@ -11,16 +11,17 @@ exports[`renders app without loading 1`] = `
       className="Header-headerBackground-4"
     />
     <header
-      className="MuiPaper-root-13 MuiPaper-shadow4-19 MuiAppBar-root-6 MuiAppBar-positionFixed-7 MuiAppBar-colorPrimary-11 mui-fixed Header-headerBar-2"
+      className="MuiPaper-root-16 MuiPaper-shadow4-22 MuiAppBar-root-9 MuiAppBar-positionFixed-10 MuiAppBar-colorPrimary-14 mui-fixed Header-headerBar-2"
     >
       <div
-        className="MuiToolbar-root-40 MuiToolbar-gutters-41"
+        className="MuiToolbar-root-43 MuiToolbar-gutters-44"
       >
         <button
           aria-label="Menu"
-          className="MuiButtonBase-root-51 MuiIconButton-root-42 MuiIconButton-colorContrast-44"
+          className="MuiButtonBase-root-54 MuiIconButton-root-45 MuiIconButton-colorContrast-47 Header-hamburger-8"
           disabled={false}
           onBlur={[Function]}
+          onClick={[Function]}
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
@@ -35,11 +36,11 @@ exports[`renders app without loading 1`] = `
           type="button"
         >
           <span
-            className="MuiIconButton-label-48"
+            className="MuiIconButton-label-51"
           >
             <svg
               aria-hidden="true"
-              className="MuiSvgIcon-root-53 MuiIconButton-icon-49"
+              className="MuiSvgIcon-root-56 MuiIconButton-icon-52"
               focusable="false"
               viewBox="0 0 24 24"
             >
@@ -49,49 +50,73 @@ exports[`renders app without loading 1`] = `
             </svg>
           </span>
           <span
-            className="MuiTouchRipple-root-54"
+            className="MuiTouchRipple-root-57"
           />
         </button>
         <div
           className="Header-flex-5"
         />
         <div
-          className="MuiGrid-typeContainer-61 Header-flex-5"
+          className="MuiGrid-typeContainer-64 Header-horizontalNavigation-6"
         >
           <div>
-            About
             <span
-              className="LinkTo-spanClass-152"
+              className=""
+            >
+              About
+            </span>
+            <span
+              className="LinkTo-spanClass-155"
             />
           </div>
           <div>
-            Experience
             <span
-              className="LinkTo-spanClass-152"
+              className=""
+            >
+              Experience
+            </span>
+            <span
+              className="LinkTo-spanClass-155"
             />
           </div>
           <div>
-            Skills
             <span
-              className="LinkTo-spanClass-152"
+              className=""
+            >
+              Skills
+            </span>
+            <span
+              className="LinkTo-spanClass-155"
             />
           </div>
           <div>
-            Education
             <span
-              className="LinkTo-spanClass-152"
+              className=""
+            >
+              Education
+            </span>
+            <span
+              className="LinkTo-spanClass-155"
             />
           </div>
           <div>
-            Blog
             <span
-              className="LinkTo-spanClass-152"
+              className=""
+            >
+              Blog
+            </span>
+            <span
+              className="LinkTo-spanClass-155"
             />
           </div>
           <div>
-            Contact
             <span
-              className="LinkTo-spanClass-152"
+              className=""
+            >
+              Contact
+            </span>
+            <span
+              className="LinkTo-spanClass-155"
             />
           </div>
         </div>
@@ -99,102 +124,102 @@ exports[`renders app without loading 1`] = `
     </header>
   </div>
   <div
-    className="MuiGrid-typeContainer-61 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-center-77 Content-content-155"
+    className="MuiGrid-typeContainer-64 MuiGrid-spacing-xs-16-85 MuiGrid-justify-xs-center-80 Content-content-172"
   >
     <div
-      className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-direction-xs-column-63 MuiGrid-grid-xs-12-97 MuiGrid-grid-sm-12-110 MuiGrid-grid-md-8-119 MuiGrid-grid-lg-8-132 Content-padding0-156"
+      className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-spacing-xs-16-85 MuiGrid-direction-xs-column-66 MuiGrid-grid-xs-12-100 MuiGrid-grid-sm-12-113 MuiGrid-grid-md-8-122 MuiGrid-grid-lg-8-135 Content-padding0-173"
     >
       <div>
         <div
-          className="MuiGrid-typeContainer-61 About-about-157"
+          className="MuiGrid-typeContainer-64 About-about-174"
         >
           <div
-            className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97"
+            className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100"
           >
             <div>
               <div
-                className="MuiPaper-root-13 MuiPaper-shadow2-17 MuiPaper-rounded-14 Profile-container-159"
+                className="MuiPaper-root-16 MuiPaper-shadow2-20 MuiPaper-rounded-17 Profile-container-176"
               >
                 <div
-                  className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-direction-xs-column-63"
+                  className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-direction-xs-column-66"
                 >
                   <div
-                    className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 Profile-profile-160"
+                    className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 Profile-profile-177"
                   >
                     <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-5-129"
+                      className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-lg-5-132"
                     >
                       <img
                         alt="Durgaprasad Budhwani"
-                        className="Profile-profilePhoto-161"
+                        className="Profile-profilePhoto-178"
                         src="profile.jpeg"
                       />
                     </div>
                     <div
-                      className="MuiGrid-typeItem-62 MuiGrid-grid-xs-1-86"
+                      className="MuiGrid-typeItem-65 MuiGrid-grid-xs-1-89"
                     />
                     <div
                       align="flex-start"
-                      className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-direction-xs-column-63 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130"
+                      className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-direction-xs-column-66 MuiGrid-grid-xs-12-100 MuiGrid-grid-lg-6-133"
                     >
                       <div
-                        className="MuiGrid-typeItem-62 Profile-profileInfo-162"
+                        className="MuiGrid-typeItem-65 Profile-profileInfo-179"
                       >
                         <div>
                           <span
-                            className="Bubble-container-168"
+                            className="Bubble-container-185"
                           >
                             Hello
                           </span>
                         </div>
                         <h1
-                          className="Profile-profileTitle-164"
+                          className="Profile-profileTitle-181"
                         >
                           <span
-                            className="Profile-profileTitleStart-165"
+                            className="Profile-profileTitleStart-182"
                           >
                             I'm
                           </span>
                            Durgaprasad Budhwani
                         </h1>
                         <h2
-                          className="Profile-profilePosition-166"
+                          className="Profile-profilePosition-183"
                         >
                           Full Stack Developer
                         </h2>
                       </div>
                       <div
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-24-83 MuiGrid-direction-xs-column-63"
+                        className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-spacing-xs-24-86 MuiGrid-direction-xs-column-66"
                       >
                         <div
                           align="stretch"
-                          className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-24-83"
+                          className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-spacing-xs-24-86"
                         >
                           <div
-                            className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-md-3-114 ContactInfo-profileListItem-170"
+                            className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-md-3-117 ContactInfo-profileListItem-187"
                           >
                             Address:
                           </div>
                           <div
-                            className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-md-9-120 ContactInfo-profileListItemValue-171"
+                            className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-md-9-123 ContactInfo-profileListItemValue-188"
                           >
                             Pune, India
                           </div>
                         </div>
                         <div
                           align="center"
-                          className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-24-83 MuiGrid-justify-xs-center-77"
+                          className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-spacing-xs-24-86 MuiGrid-justify-xs-center-80"
                         >
                           <div
-                            className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-md-3-114 ContactInfo-profileListItem-170"
+                            className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-md-3-117 ContactInfo-profileListItem-187"
                           >
                             Email:
                           </div>
                           <div
-                            className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-md-9-120 ContactInfo-profileListItemValue-171"
+                            className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-md-9-123 ContactInfo-profileListItemValue-188"
                           >
                             <a
-                              className="ContactInfo-profileValueAItemValue-172"
+                              className="ContactInfo-profileValueAItemValue-189"
                               href="mailto:durgaprasad.budhwani@gmail.com"
                             >
                               durgaprasad.budhwani@gmail.com
@@ -203,18 +228,18 @@ exports[`renders app without loading 1`] = `
                         </div>
                         <div
                           align="center"
-                          className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-24-83 MuiGrid-justify-xs-center-77"
+                          className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-spacing-xs-24-86 MuiGrid-justify-xs-center-80"
                         >
                           <div
-                            className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-md-3-114 ContactInfo-profileListItem-170"
+                            className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-md-3-117 ContactInfo-profileListItem-187"
                           >
                             Phone:
                           </div>
                           <div
-                            className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-md-9-120 ContactInfo-profileListItemValue-171"
+                            className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-md-9-123 ContactInfo-profileListItemValue-188"
                           >
                             <a
-                              className="ContactInfo-profileValueAItemValue-172"
+                              className="ContactInfo-profileValueAItemValue-189"
                               href="tel:+91-9545251359"
                             >
                               +91-9545251359
@@ -225,15 +250,14 @@ exports[`renders app without loading 1`] = `
                     </div>
                   </div>
                   <div
-                    className="Profile-profileSocial-167"
+                    className="Profile-profileSocial-184"
                   >
                     <div
                       align="center"
-                      className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-justify-xs-center-77 SocialIcons-container-174"
+                      className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-justify-xs-center-80 SocialIcons-container-191"
                     >
                       <button
-                        aria-label="Add an alarm"
-                        className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
+                        className="MuiButtonBase-root-54 MuiIconButton-root-45 SocialIcons-button-190"
                         disabled={false}
                         onBlur={[Function]}
                         onClick={[Function]}
@@ -251,7 +275,7 @@ exports[`renders app without loading 1`] = `
                         type="button"
                       >
                         <span
-                          className="MuiIconButton-label-48"
+                          className="MuiIconButton-label-51"
                         >
                           <svg
                             className=""
@@ -267,12 +291,11 @@ exports[`renders app without loading 1`] = `
                           </svg>
                         </span>
                         <span
-                          className="MuiTouchRipple-root-54"
+                          className="MuiTouchRipple-root-57"
                         />
                       </button>
                       <button
-                        aria-label="Add an alarm"
-                        className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
+                        className="MuiButtonBase-root-54 MuiIconButton-root-45 SocialIcons-button-190"
                         disabled={false}
                         onBlur={[Function]}
                         onClick={[Function]}
@@ -290,7 +313,7 @@ exports[`renders app without loading 1`] = `
                         type="button"
                       >
                         <span
-                          className="MuiIconButton-label-48"
+                          className="MuiIconButton-label-51"
                         >
                           <svg
                             className=""
@@ -306,12 +329,11 @@ exports[`renders app without loading 1`] = `
                           </svg>
                         </span>
                         <span
-                          className="MuiTouchRipple-root-54"
+                          className="MuiTouchRipple-root-57"
                         />
                       </button>
                       <button
-                        aria-label="Add an alarm"
-                        className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
+                        className="MuiButtonBase-root-54 MuiIconButton-root-45 SocialIcons-button-190"
                         disabled={false}
                         onBlur={[Function]}
                         onClick={[Function]}
@@ -329,7 +351,7 @@ exports[`renders app without loading 1`] = `
                         type="button"
                       >
                         <span
-                          className="MuiIconButton-label-48"
+                          className="MuiIconButton-label-51"
                         >
                           <svg
                             className=""
@@ -345,12 +367,11 @@ exports[`renders app without loading 1`] = `
                           </svg>
                         </span>
                         <span
-                          className="MuiTouchRipple-root-54"
+                          className="MuiTouchRipple-root-57"
                         />
                       </button>
                       <button
-                        aria-label="Add an alarm"
-                        className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
+                        className="MuiButtonBase-root-54 MuiIconButton-root-45 SocialIcons-button-190"
                         disabled={false}
                         onBlur={[Function]}
                         onClick={[Function]}
@@ -368,7 +389,7 @@ exports[`renders app without loading 1`] = `
                         type="button"
                       >
                         <span
-                          className="MuiIconButton-label-48"
+                          className="MuiIconButton-label-51"
                         >
                           <svg
                             className=""
@@ -384,12 +405,11 @@ exports[`renders app without loading 1`] = `
                           </svg>
                         </span>
                         <span
-                          className="MuiTouchRipple-root-54"
+                          className="MuiTouchRipple-root-57"
                         />
                       </button>
                       <button
-                        aria-label="Add an alarm"
-                        className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
+                        className="MuiButtonBase-root-54 MuiIconButton-root-45 SocialIcons-button-190"
                         disabled={false}
                         onBlur={[Function]}
                         onClick={[Function]}
@@ -407,7 +427,7 @@ exports[`renders app without loading 1`] = `
                         type="button"
                       >
                         <span
-                          className="MuiIconButton-label-48"
+                          className="MuiIconButton-label-51"
                         >
                           <svg
                             className=""
@@ -423,7 +443,7 @@ exports[`renders app without loading 1`] = `
                           </svg>
                         </span>
                         <span
-                          className="MuiTouchRipple-root-54"
+                          className="MuiTouchRipple-root-57"
                         />
                       </button>
                     </div>
@@ -433,14 +453,14 @@ exports[`renders app without loading 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97"
+            className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100"
           >
             <div>
               <div
-                className="Info-container-175"
+                className="Info-container-192"
               >
                 <button
-                  className="MuiButtonBase-root-51 MuiButton-root-178 MuiButton-raised-185 MuiButton-raisedContrast-189 Info-button-177"
+                  className="MuiButtonBase-root-54 MuiButton-root-195 MuiButton-raised-202 MuiButton-raisedContrast-206 Info-button-194"
                   disabled={false}
                   onBlur={[Function]}
                   onFocus={[Function]}
@@ -457,16 +477,16 @@ exports[`renders app without loading 1`] = `
                   type="button"
                 >
                   <span
-                    className="MuiButton-label-180"
+                    className="MuiButton-label-197"
                   >
                     Download Resume
                   </span>
                   <span
-                    className="MuiTouchRipple-root-54"
+                    className="MuiTouchRipple-root-57"
                   />
                 </button>
                 <p
-                  className="Info-info-176"
+                  className="Info-info-193"
                 >
                   Hello! I am Durgaprasad Budhwani. Full Stack Developer specializing in web, desktop, mobile design and development, I maintain a healthy balance between functionality and visual impact in all my work. I believe every piece of design can be a work of art. 
                 </p>
@@ -474,14 +494,14 @@ exports[`renders app without loading 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97"
+            className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100"
           >
             <div>
               <div
-                className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-direction-xs-column-63 MuiGrid-justify-xs-center-77 MuiGrid-grid-xs-12-97 Experiences-container-192"
+                className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-direction-xs-column-66 MuiGrid-justify-xs-center-80 MuiGrid-grid-xs-12-100 Experiences-container-209"
               >
                 <span
-                  className="SectionTitle-sectionTitle-196"
+                  className="SectionTitle-sectionTitle-213"
                 >
                   Work Experience
                 </span>
@@ -493,10 +513,10 @@ exports[`renders app without loading 1`] = `
                   }
                 >
                   <div
-                    className="Experiences-clear-195"
+                    className="Experiences-clear-212"
                   >
                     <div
-                      className="TimelineBar-bar-197 Experiences-barClass-193"
+                      className="TimelineBar-bar-214 Experiences-barClass-210"
                     />
                   </div>
                 </div>
@@ -504,38 +524,38 @@ exports[`renders app without loading 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97"
+            className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100"
           >
             <div>
               <div
                 align="stretch"
-                className="MuiGrid-typeContainer-61 MuiGrid-direction-xs-column-63 MuiGrid-justify-xs-center-77"
+                className="MuiGrid-typeContainer-64 MuiGrid-direction-xs-column-66 MuiGrid-justify-xs-center-80"
                 id="skills"
               >
                 <span
-                  className="SectionTitle-sectionTitle-196"
+                  className="SectionTitle-sectionTitle-213"
                 >
                   Professional Skills
                 </span>
                 <div
-                  className="MuiPaper-root-13 MuiPaper-shadow2-17 MuiPaper-rounded-14 Skilss-root-198"
+                  className="MuiPaper-root-16 MuiPaper-shadow2-20 MuiPaper-rounded-17 Skills-root-215"
                 >
                   <div
-                    className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-16-82 MuiGrid-justify-xs-space-between-79 MuiGrid-grid-xs-12-97"
+                    className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-spacing-xs-16-85 MuiGrid-justify-xs-space-between-82 MuiGrid-grid-xs-12-100"
                   />
                 </div>
               </div>
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97"
+            className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100"
           >
             <div>
               <div
-                className="MuiGrid-typeContainer-61 MuiGrid-direction-xs-column-63 Educations-container-201"
+                className="MuiGrid-typeContainer-64 MuiGrid-direction-xs-column-66 Educations-container-218"
               >
                 <span
-                  className="SectionTitle-sectionTitle-196"
+                  className="SectionTitle-sectionTitle-213"
                 >
                   Education
                 </span>
@@ -547,10 +567,10 @@ exports[`renders app without loading 1`] = `
                   }
                 >
                   <div
-                    className="Educations-clear-203"
+                    className="Educations-clear-220"
                   >
                     <div
-                      className="TimelineBar-bar-197 Educations-barClass-204"
+                      className="TimelineBar-bar-214 Educations-barClass-221"
                     />
                   </div>
                 </div>
@@ -558,20 +578,20 @@ exports[`renders app without loading 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97"
+            className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100"
           >
             <div>
               <div
                 className=""
               >
                 <span
-                  className="SectionTitle-sectionTitle-196"
+                  className="SectionTitle-sectionTitle-213"
                 >
                   Articles
                 </span>
                 <div
                   align="stretch"
-                  className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-justify-xs-space-between-79 MuiGrid-grid-xs-12-97"
+                  className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-justify-xs-space-between-82 MuiGrid-grid-xs-12-100"
                 />
               </div>
             </div>
@@ -580,28 +600,28 @@ exports[`renders app without loading 1`] = `
       </div>
       <div>
         <div
-          className="MuiGrid-typeContainer-61 MuiGrid-direction-xs-column-63 MuiGrid-align-items-xs-center-68 About-container-207"
+          className="MuiGrid-typeContainer-64 MuiGrid-direction-xs-column-66 MuiGrid-align-items-xs-center-71 About-container-224"
         >
           <span
-            className="SectionTitle-sectionTitle-196"
+            className="SectionTitle-sectionTitle-213"
           >
             Contact Me
           </span>
           <div
-            className="MuiGrid-typeContainer-61 MuiGrid-justify-xs-space-between-79"
+            className="MuiGrid-typeContainer-64 MuiGrid-justify-xs-space-between-82"
           >
             <div
-              className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130 About-itemContainer-208"
+              className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-lg-6-133 About-itemContainer-225"
             >
               <div
-                className="MuiPaper-root-13 MuiPaper-shadow2-17 MuiPaper-rounded-14 ContactForm-container-209"
+                className="MuiPaper-root-16 MuiPaper-shadow2-20 MuiPaper-rounded-17 ContactForm-container-226"
               >
                 <form
                   action="http://formspree.io/durgaprasad.budhwani@gmail.com"
                   method="post"
                 >
                   <div
-                    className="MuiGrid-typeContainer-61 MuiGrid-direction-xs-column-63 MuiGrid-justify-xs-center-77"
+                    className="MuiGrid-typeContainer-64 MuiGrid-direction-xs-column-66 MuiGrid-justify-xs-center-80"
                   >
                     <h2
                       style={
@@ -613,13 +633,13 @@ exports[`renders app without loading 1`] = `
                       Feel free to contact me
                     </h2>
                     <div
-                      className="MuiFormControl-root-211 MuiFormControl-marginNormal-212"
+                      className="MuiFormControl-root-228 MuiFormControl-marginNormal-229"
                       onBlur={[Function]}
                       onFocus={[Function]}
                       required={true}
                     >
                       <label
-                        className="MuiFormLabel-root-221 MuiInputLabel-root-215 MuiInputLabel-formControl-216 MuiInputLabel-animated-219"
+                        className="MuiFormLabel-root-238 MuiInputLabel-root-232 MuiInputLabel-formControl-233 MuiInputLabel-animated-236"
                         data-shrink={false}
                         htmlFor="name"
                       >
@@ -631,14 +651,14 @@ exports[`renders app without loading 1`] = `
                         </span>
                       </label>
                       <div
-                        className="MuiInput-root-225 MuiInput-formControl-226 MuiInput-inkbar-227 MuiInput-underline-231"
+                        className="MuiInput-root-242 MuiInput-formControl-243 MuiInput-inkbar-244 MuiInput-underline-248"
                         onBlur={[Function]}
                         onFocus={[Function]}
                       >
                         <input
                           autoComplete={undefined}
                           autoFocus={undefined}
-                          className="MuiInput-input-234 MuiInput-inputSingleline-237"
+                          className="MuiInput-input-251 MuiInput-inputSingleline-254"
                           defaultValue={undefined}
                           disabled={false}
                           id="name"
@@ -656,13 +676,13 @@ exports[`renders app without loading 1`] = `
                       </div>
                     </div>
                     <div
-                      className="MuiFormControl-root-211 MuiFormControl-marginNormal-212"
+                      className="MuiFormControl-root-228 MuiFormControl-marginNormal-229"
                       onBlur={[Function]}
                       onFocus={[Function]}
                       required={true}
                     >
                       <label
-                        className="MuiFormLabel-root-221 MuiInputLabel-root-215 MuiInputLabel-formControl-216 MuiInputLabel-animated-219"
+                        className="MuiFormLabel-root-238 MuiInputLabel-root-232 MuiInputLabel-formControl-233 MuiInputLabel-animated-236"
                         data-shrink={false}
                         htmlFor="email"
                       >
@@ -674,14 +694,14 @@ exports[`renders app without loading 1`] = `
                         </span>
                       </label>
                       <div
-                        className="MuiInput-root-225 MuiInput-formControl-226 MuiInput-inkbar-227 MuiInput-underline-231"
+                        className="MuiInput-root-242 MuiInput-formControl-243 MuiInput-inkbar-244 MuiInput-underline-248"
                         onBlur={[Function]}
                         onFocus={[Function]}
                       >
                         <input
                           autoComplete={undefined}
                           autoFocus={undefined}
-                          className="MuiInput-input-234 MuiInput-inputSingleline-237"
+                          className="MuiInput-input-251 MuiInput-inputSingleline-254"
                           defaultValue={undefined}
                           disabled={false}
                           id="email"
@@ -699,13 +719,13 @@ exports[`renders app without loading 1`] = `
                       </div>
                     </div>
                     <div
-                      className="MuiFormControl-root-211 MuiFormControl-marginNormal-212"
+                      className="MuiFormControl-root-228 MuiFormControl-marginNormal-229"
                       onBlur={[Function]}
                       onFocus={[Function]}
                       required={true}
                     >
                       <label
-                        className="MuiFormLabel-root-221 MuiInputLabel-root-215 MuiInputLabel-formControl-216 MuiInputLabel-animated-219"
+                        className="MuiFormLabel-root-238 MuiInputLabel-root-232 MuiInputLabel-formControl-233 MuiInputLabel-animated-236"
                         data-shrink={false}
                         htmlFor="subject"
                       >
@@ -717,14 +737,14 @@ exports[`renders app without loading 1`] = `
                         </span>
                       </label>
                       <div
-                        className="MuiInput-root-225 MuiInput-formControl-226 MuiInput-inkbar-227 MuiInput-underline-231"
+                        className="MuiInput-root-242 MuiInput-formControl-243 MuiInput-inkbar-244 MuiInput-underline-248"
                         onBlur={[Function]}
                         onFocus={[Function]}
                       >
                         <input
                           autoComplete={undefined}
                           autoFocus={undefined}
-                          className="MuiInput-input-234 MuiInput-inputSingleline-237"
+                          className="MuiInput-input-251 MuiInput-inputSingleline-254"
                           defaultValue={undefined}
                           disabled={false}
                           id="subject"
@@ -742,13 +762,13 @@ exports[`renders app without loading 1`] = `
                       </div>
                     </div>
                     <div
-                      className="MuiFormControl-root-211 MuiFormControl-marginNormal-212"
+                      className="MuiFormControl-root-228 MuiFormControl-marginNormal-229"
                       onBlur={[Function]}
                       onFocus={[Function]}
                       required={true}
                     >
                       <label
-                        className="MuiFormLabel-root-221 MuiInputLabel-root-215 MuiInputLabel-formControl-216 MuiInputLabel-animated-219"
+                        className="MuiFormLabel-root-238 MuiInputLabel-root-232 MuiInputLabel-formControl-233 MuiInputLabel-animated-236"
                         data-shrink={false}
                         htmlFor="message"
                       >
@@ -760,12 +780,12 @@ exports[`renders app without loading 1`] = `
                         </span>
                       </label>
                       <div
-                        className="MuiInput-root-225 MuiInput-formControl-226 MuiInput-inkbar-227 MuiInput-multiline-232 MuiInput-underline-231"
+                        className="MuiInput-root-242 MuiInput-formControl-243 MuiInput-inkbar-244 MuiInput-multiline-249 MuiInput-underline-248"
                         onBlur={[Function]}
                         onFocus={[Function]}
                       >
                         <div
-                          className="MuiTextarea-root-240"
+                          className="MuiTextarea-root-257"
                           style={
                             Object {
                               "height": 24,
@@ -774,7 +794,7 @@ exports[`renders app without loading 1`] = `
                         >
                           <textarea
                             aria-hidden="true"
-                            className="MuiTextarea-shadow-242 MuiTextarea-textarea-241"
+                            className="MuiTextarea-shadow-259 MuiTextarea-textarea-258"
                             readOnly={true}
                             rows="1"
                             tabIndex={-1}
@@ -782,7 +802,7 @@ exports[`renders app without loading 1`] = `
                           />
                           <textarea
                             aria-hidden="true"
-                            className="MuiTextarea-shadow-242 MuiTextarea-textarea-241"
+                            className="MuiTextarea-shadow-259 MuiTextarea-textarea-258"
                             defaultValue={undefined}
                             readOnly={true}
                             rows={1}
@@ -792,7 +812,7 @@ exports[`renders app without loading 1`] = `
                           <textarea
                             autoComplete={undefined}
                             autoFocus={undefined}
-                            className="MuiTextarea-textarea-241 MuiInput-input-234 MuiInput-inputMultiline-238"
+                            className="MuiTextarea-textarea-258 MuiInput-input-251 MuiInput-inputMultiline-255"
                             defaultValue={undefined}
                             disabled={false}
                             id="message"
@@ -812,7 +832,7 @@ exports[`renders app without loading 1`] = `
                     </div>
                     <div>
                       <button
-                        className="MuiButtonBase-root-51 MuiButton-root-178 MuiButton-raised-185 MuiButton-raisedPrimary-187 ContactForm-button-210"
+                        className="MuiButtonBase-root-54 MuiButton-root-195 MuiButton-raised-202 MuiButton-raisedPrimary-204 ContactForm-button-227"
                         disabled={false}
                         onBlur={[Function]}
                         onFocus={[Function]}
@@ -829,12 +849,12 @@ exports[`renders app without loading 1`] = `
                         type="submit"
                       >
                         <span
-                          className="MuiButton-label-180"
+                          className="MuiButton-label-197"
                         >
                           SEND
                         </span>
                         <span
-                          className="MuiTouchRipple-root-54"
+                          className="MuiTouchRipple-root-57"
                         />
                       </button>
                     </div>
@@ -843,49 +863,49 @@ exports[`renders app without loading 1`] = `
               </div>
             </div>
             <div
-              className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-lg-6-130 About-itemContainer-208"
+              className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-lg-6-133 About-itemContainer-225"
             >
               <div
-                className="MuiPaper-root-13 MuiPaper-shadow2-17 MuiPaper-rounded-14 MapContainer-container-243"
+                className="MuiPaper-root-16 MuiPaper-shadow2-20 MuiPaper-rounded-17 MapContainer-container-260"
               >
                 <div
-                  className="MuiGrid-typeContainer-61 MuiGrid-direction-xs-column-63 MapContainer-gridContainer-245"
+                  className="MuiGrid-typeContainer-64 MuiGrid-direction-xs-column-66 MapContainer-gridContainer-262"
                 >
                   <div
-                    className="MuiGrid-typeItem-62 MapContainer-contactContainer-244"
+                    className="MuiGrid-typeItem-65 MapContainer-contactContainer-261"
                   >
                     <div
-                      className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-24-83 MuiGrid-direction-xs-column-63"
+                      className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-spacing-xs-24-86 MuiGrid-direction-xs-column-66"
                     >
                       <div
                         align="stretch"
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-24-83"
+                        className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-spacing-xs-24-86"
                       >
                         <div
-                          className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-md-3-114 ContactInfo-profileListItem-170"
+                          className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-md-3-117 ContactInfo-profileListItem-187"
                         >
                           Address:
                         </div>
                         <div
-                          className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-md-9-120 ContactInfo-profileListItemValue-171"
+                          className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-md-9-123 ContactInfo-profileListItemValue-188"
                         >
                           Pune, India
                         </div>
                       </div>
                       <div
                         align="center"
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-24-83 MuiGrid-justify-xs-center-77"
+                        className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-spacing-xs-24-86 MuiGrid-justify-xs-center-80"
                       >
                         <div
-                          className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-md-3-114 ContactInfo-profileListItem-170"
+                          className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-md-3-117 ContactInfo-profileListItem-187"
                         >
                           Email:
                         </div>
                         <div
-                          className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-md-9-120 ContactInfo-profileListItemValue-171"
+                          className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-md-9-123 ContactInfo-profileListItemValue-188"
                         >
                           <a
-                            className="ContactInfo-profileValueAItemValue-172"
+                            className="ContactInfo-profileValueAItemValue-189"
                             href="mailto:durgaprasad.budhwani@gmail.com"
                           >
                             durgaprasad.budhwani@gmail.com
@@ -894,18 +914,18 @@ exports[`renders app without loading 1`] = `
                       </div>
                       <div
                         align="center"
-                        className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-spacing-xs-24-83 MuiGrid-justify-xs-center-77"
+                        className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-spacing-xs-24-86 MuiGrid-justify-xs-center-80"
                       >
                         <div
-                          className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-md-3-114 ContactInfo-profileListItem-170"
+                          className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-md-3-117 ContactInfo-profileListItem-187"
                         >
                           Phone:
                         </div>
                         <div
-                          className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MuiGrid-grid-md-9-120 ContactInfo-profileListItemValue-171"
+                          className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MuiGrid-grid-md-9-123 ContactInfo-profileListItemValue-188"
                         >
                           <a
-                            className="ContactInfo-profileValueAItemValue-172"
+                            className="ContactInfo-profileValueAItemValue-189"
                             href="tel:+91-9545251359"
                           >
                             +91-9545251359
@@ -915,7 +935,7 @@ exports[`renders app without loading 1`] = `
                     </div>
                   </div>
                   <div
-                    className="MuiGrid-typeItem-62 MuiGrid-grid-xs-12-97 MapContainer-mapContainer-246"
+                    className="MuiGrid-typeItem-65 MuiGrid-grid-xs-12-100 MapContainer-mapContainer-263"
                   >
                     <div />
                   </div>
@@ -928,15 +948,14 @@ exports[`renders app without loading 1`] = `
     </div>
   </div>
   <div
-    className="MuiGrid-typeItem-62 Footer-container-247"
+    className="MuiGrid-typeItem-65 Footer-container-264"
   >
     <div
       align="center"
-      className="MuiGrid-typeContainer-61 MuiGrid-typeItem-62 MuiGrid-justify-xs-center-77 SocialIcons-container-174"
+      className="MuiGrid-typeContainer-64 MuiGrid-typeItem-65 MuiGrid-justify-xs-center-80 SocialIcons-container-191"
     >
       <button
-        aria-label="Add an alarm"
-        className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
+        className="MuiButtonBase-root-54 MuiIconButton-root-45 SocialIcons-button-190"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -954,7 +973,7 @@ exports[`renders app without loading 1`] = `
         type="button"
       >
         <span
-          className="MuiIconButton-label-48"
+          className="MuiIconButton-label-51"
         >
           <svg
             className=""
@@ -970,12 +989,11 @@ exports[`renders app without loading 1`] = `
           </svg>
         </span>
         <span
-          className="MuiTouchRipple-root-54"
+          className="MuiTouchRipple-root-57"
         />
       </button>
       <button
-        aria-label="Add an alarm"
-        className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
+        className="MuiButtonBase-root-54 MuiIconButton-root-45 SocialIcons-button-190"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -993,7 +1011,7 @@ exports[`renders app without loading 1`] = `
         type="button"
       >
         <span
-          className="MuiIconButton-label-48"
+          className="MuiIconButton-label-51"
         >
           <svg
             className=""
@@ -1009,12 +1027,11 @@ exports[`renders app without loading 1`] = `
           </svg>
         </span>
         <span
-          className="MuiTouchRipple-root-54"
+          className="MuiTouchRipple-root-57"
         />
       </button>
       <button
-        aria-label="Add an alarm"
-        className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
+        className="MuiButtonBase-root-54 MuiIconButton-root-45 SocialIcons-button-190"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -1032,7 +1049,7 @@ exports[`renders app without loading 1`] = `
         type="button"
       >
         <span
-          className="MuiIconButton-label-48"
+          className="MuiIconButton-label-51"
         >
           <svg
             className=""
@@ -1048,12 +1065,11 @@ exports[`renders app without loading 1`] = `
           </svg>
         </span>
         <span
-          className="MuiTouchRipple-root-54"
+          className="MuiTouchRipple-root-57"
         />
       </button>
       <button
-        aria-label="Add an alarm"
-        className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
+        className="MuiButtonBase-root-54 MuiIconButton-root-45 SocialIcons-button-190"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -1071,7 +1087,7 @@ exports[`renders app without loading 1`] = `
         type="button"
       >
         <span
-          className="MuiIconButton-label-48"
+          className="MuiIconButton-label-51"
         >
           <svg
             className=""
@@ -1087,12 +1103,11 @@ exports[`renders app without loading 1`] = `
           </svg>
         </span>
         <span
-          className="MuiTouchRipple-root-54"
+          className="MuiTouchRipple-root-57"
         />
       </button>
       <button
-        aria-label="Add an alarm"
-        className="MuiButtonBase-root-51 MuiIconButton-root-42 SocialIcons-button-173"
+        className="MuiButtonBase-root-54 MuiIconButton-root-45 SocialIcons-button-190"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -1110,7 +1125,7 @@ exports[`renders app without loading 1`] = `
         type="button"
       >
         <span
-          className="MuiIconButton-label-48"
+          className="MuiIconButton-label-51"
         >
           <svg
             className=""
@@ -1126,7 +1141,7 @@ exports[`renders app without loading 1`] = `
           </svg>
         </span>
         <span
-          className="MuiTouchRipple-root-54"
+          className="MuiTouchRipple-root-57"
         />
       </button>
     </div>

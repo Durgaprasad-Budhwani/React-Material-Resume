@@ -19,7 +19,7 @@ const styles = theme => ({
     }
 });
 
-class SocialIcons extends PureComponent {
+export class SocialIcons extends PureComponent {
     static propTypes: Props = {
         classes: PropTypes.object.isRequired,
         color: PropTypes.string.isRequired
@@ -30,7 +30,7 @@ class SocialIcons extends PureComponent {
     };
     
     _openTab (url) {
-        window.open(url,'_blank');
+        window.open(url, '_blank');
     }
     
     render () {
@@ -46,37 +46,37 @@ class SocialIcons extends PureComponent {
                   spacing={0}
                   className={classes.container}>
                 <IconButton className={classes.button}
-                            onClick={() => this._openTab("https://www.facebook.com/durgaprasad.budhwani")}
-                            aria-label="Add an alarm">
+                            onClick={this._openTab.bind(this, "https://www.facebook.com/durgaprasad.budhwani")}
+                >
                     <Ionicon icon="ion-social-facebook"
                              fontSize="24px"
                              color={color}>
                     </Ionicon>
                 </IconButton>
                 <IconButton className={classes.button}
-                            onClick={() => this._openTab("https://twitter.com/DurgaprasadDP")}
-                            aria-label="Add an alarm">
+                            onClick={this._openTab.bind(this, "https://twitter.com/DurgaprasadDP")}
+                >
                     <Ionicon icon="ion-social-twitter"
                              fontSize="24px"
                              color={color}/>
                 </IconButton>
                 <IconButton className={classes.button}
-                            onClick={() => this._openTab("https://www.linkedin.com/in/durgaprasad-budhwani")}
-                            aria-label="Add an alarm">
+                            onClick={this._openTab.bind(this, "https://www.linkedin.com/in/durgaprasad-budhwani")}
+                >
                     <Ionicon icon="ion-social-linkedin"
                              fontSize="30px"
                              color={color}/>
                 </IconButton>
                 <IconButton className={classes.button}
-                            onClick={() => this._openTab("https://plus.google.com/+DurgaprasadBudhwani")}
-                            aria-label="Add an alarm">
+                            onClick={this._openTab.bind(this, "https://plus.google.com/+DurgaprasadBudhwani")}
+                >
                     <Ionicon icon="ion-social-googleplus"
                              fontSize="24px"
                              color={color}/>
                 </IconButton>
                 <IconButton className={classes.button}
-                            onClick={() => this._openTab("https://github.com/Durgaprasad-Budhwani")}
-                            aria-label="Add an alarm">
+                            onClick={this._openTab.bind(this, "https://github.com/Durgaprasad-Budhwani")}
+                >
                     <Ionicon icon="ion-social-github"
                              fontSize="24px"
                              color={color}/>

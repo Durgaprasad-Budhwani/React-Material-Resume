@@ -62,7 +62,7 @@ const styles = theme => ({
     }
 });
 
-class LinkTo extends PureComponent<void, Props, void> {
+export class LinkTo extends PureComponent<void, Props, void> {
     state = {
         isLinkActive: false
     };

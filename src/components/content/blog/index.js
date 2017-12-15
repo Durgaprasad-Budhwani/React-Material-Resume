@@ -26,7 +26,7 @@ type Props = {
     classes: any,
 }
 
-class Blogs extends PureComponent<void, Props, void> {
+export class Blogs extends PureComponent<void, Props, void> {
     static propTypes: Props = {
         classes: PropTypes.object.isRequired,
     };

@@ -121,7 +121,6 @@ exports[`renders profile 1`] = `
         className="MuiGrid-typeContainer-37 MuiGrid-typeItem-38 MuiGrid-justify-xs-center-53 SocialIcons-container-132"
       >
         <button
-          aria-label="Add an alarm"
           className="MuiButtonBase-root-142 MuiIconButton-root-133 SocialIcons-button-131"
           disabled={false}
           onBlur={[Function]}
@@ -160,7 +159,6 @@ exports[`renders profile 1`] = `
           />
         </button>
         <button
-          aria-label="Add an alarm"
           className="MuiButtonBase-root-142 MuiIconButton-root-133 SocialIcons-button-131"
           disabled={false}
           onBlur={[Function]}
@@ -199,7 +197,6 @@ exports[`renders profile 1`] = `
           />
         </button>
         <button
-          aria-label="Add an alarm"
           className="MuiButtonBase-root-142 MuiIconButton-root-133 SocialIcons-button-131"
           disabled={false}
           onBlur={[Function]}
@@ -238,7 +235,6 @@ exports[`renders profile 1`] = `
           />
         </button>
         <button
-          aria-label="Add an alarm"
           className="MuiButtonBase-root-142 MuiIconButton-root-133 SocialIcons-button-131"
           disabled={false}
           onBlur={[Function]}
@@ -277,7 +273,6 @@ exports[`renders profile 1`] = `
           />
         </button>
         <button
-          aria-label="Add an alarm"
           className="MuiButtonBase-root-142 MuiIconButton-root-133 SocialIcons-button-131"
           disabled={false}
           onBlur={[Function]}

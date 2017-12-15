@@ -3,18 +3,27 @@
  */
 /* global expect,it, describe, afterEach */
 import React from 'react';
-import BlogContainer from '../../../../src/components/content/blog';
+import BlogContainer, {Blogs} from '../../../../src/components/content/blog';
 import renderer from 'react-test-renderer';
-import {mount} from 'enzyme'
-import fetchMock from 'fetch-mock'
+import fetchMock from 'fetch-mock';
+import {mount, shallow} from 'enzyme'
+import toJson from 'enzyme-to-json';
+import '../../../../setupTests';
 
-describe("Blog Render", () => {
+describe("<Blogs />", () => {
+    const classes = {
+        blogItemImage: {},
+        root: {}
+    };
+    
+    const blog = {image: 'image', title: "title", day: "day", month: "month"};
+    
     afterEach(() => {
         fetchMock.restore();
     });
     
-    it('renders blog container', () => {
-        let blogs = [{image: 'image', title: "title", day: "day", month: "month"}];
+    it('renders <BlogContainer />', () => {
+        let blogs = [ blog ];
         fetchMock.mock('blogs.json', blogs);
         const tree = renderer.create(
             <BlogContainer
@@ -24,6 +33,21 @@ describe("Blog Render", () => {
         );
         let instance = tree.getInstance();
         expect(tree.toJSON()).toMatchSnapshot();
-        expect.arrayContaining(instance.state);
+        expect.arrayContaining(instance.state.blogs);
+    });
+    
+    it('renders <Blogs />', () => {
+        let blogs = [  ];
+        fetchMock.mock('blogs.json', blogs);
+        const wrapper = mount(
+            <Blogs
+                top={10}
+                height={120}
+                classes={classes}
+            />
+        );
+        let instance = wrapper.instance();
+        let blogWrapper = shallow(instance._renderBlog(blog, 1));
+        expect(toJson(blogWrapper)).toMatchSnapshot();
     });
 });

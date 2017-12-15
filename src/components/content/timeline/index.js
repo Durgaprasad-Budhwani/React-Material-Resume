@@ -61,7 +61,7 @@ type State = {
     experiences: Array<Experience>
 }
 
-class Experiences extends PureComponent<void, void, State> {
+export class Experiences extends PureComponent<void, void, State> {
     state: State = {
         experiences: []
     };

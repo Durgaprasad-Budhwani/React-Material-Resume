@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Blog Render renders blog container 1`] = `
+exports[`<Blogs /> renders <BlogContainer /> 1`] = `
 <div
   className=""
 >
@@ -14,4 +14,27 @@ exports[`Blog Render renders blog container 1`] = `
     className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-justify-xs-space-between-21 MuiGrid-grid-xs-12-39"
   />
 </div>
+`;
+
+exports[`<Blogs /> renders <Blogs /> 1`] = `
+<Blog
+  classes={
+    Object {
+      "blogItemBox": "Blog-blogItemBox-94",
+      "blogItemContent": "Blog-blogItemContent-96",
+      "blogItemImage": "Blog-blogItemImage-93",
+      "blogItemTimeContainer": "Blog-blogItemTimeContainer-97",
+      "blogItemTimeDay": "Blog-blogItemTimeDay-98",
+      "blogItemTimeMonth": "Blog-blogItemTimeMonth-99",
+      "blogItemTitle": "Blog-blogItemTitle-100",
+      "imageContainer": "Blog-imageContainer-95",
+    }
+  }
+  day="day"
+  image="image"
+  md={6}
+  month="month"
+  title="title"
+  xs={12}
+/>
 `;

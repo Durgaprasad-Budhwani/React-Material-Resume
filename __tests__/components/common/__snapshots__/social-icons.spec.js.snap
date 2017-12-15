@@ -1,0 +1,1283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SocialIcons /> <SocialIcons /> handle _openTab 1`] = `
+<SocialIcons
+  classes={
+    Object {
+      "button": Object {},
+      "container": Object {},
+    }
+  }
+  color="white"
+>
+  <withStyles(GridWrapper)
+    align="center"
+    className={Object {}}
+    container={true}
+    item={true}
+    justify="center"
+    spacing={0}
+  >
+    <GridWrapper
+      align="center"
+      className={Object {}}
+      classes={
+        Object {
+          "align-content-xs-center": "MuiGrid-align-content-xs-center-14",
+          "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-16",
+          "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-15",
+          "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-18",
+          "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-17",
+          "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-13",
+          "align-items-xs-center": "MuiGrid-align-items-xs-center-10",
+          "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-12",
+          "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-11",
+          "direction-xs-column": "MuiGrid-direction-xs-column-5",
+          "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-6",
+          "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-7",
+          "grid-lg": "MuiGrid-grid-lg-66",
+          "grid-lg-1": "MuiGrid-grid-lg-1-67",
+          "grid-lg-10": "MuiGrid-grid-lg-10-76",
+          "grid-lg-11": "MuiGrid-grid-lg-11-77",
+          "grid-lg-12": "MuiGrid-grid-lg-12-78",
+          "grid-lg-2": "MuiGrid-grid-lg-2-68",
+          "grid-lg-3": "MuiGrid-grid-lg-3-69",
+          "grid-lg-4": "MuiGrid-grid-lg-4-70",
+          "grid-lg-5": "MuiGrid-grid-lg-5-71",
+          "grid-lg-6": "MuiGrid-grid-lg-6-72",
+          "grid-lg-7": "MuiGrid-grid-lg-7-73",
+          "grid-lg-8": "MuiGrid-grid-lg-8-74",
+          "grid-lg-9": "MuiGrid-grid-lg-9-75",
+          "grid-md": "MuiGrid-grid-md-53",
+          "grid-md-1": "MuiGrid-grid-md-1-54",
+          "grid-md-10": "MuiGrid-grid-md-10-63",
+          "grid-md-11": "MuiGrid-grid-md-11-64",
+          "grid-md-12": "MuiGrid-grid-md-12-65",
+          "grid-md-2": "MuiGrid-grid-md-2-55",
+          "grid-md-3": "MuiGrid-grid-md-3-56",
+          "grid-md-4": "MuiGrid-grid-md-4-57",
+          "grid-md-5": "MuiGrid-grid-md-5-58",
+          "grid-md-6": "MuiGrid-grid-md-6-59",
+          "grid-md-7": "MuiGrid-grid-md-7-60",
+          "grid-md-8": "MuiGrid-grid-md-8-61",
+          "grid-md-9": "MuiGrid-grid-md-9-62",
+          "grid-sm": "MuiGrid-grid-sm-40",
+          "grid-sm-1": "MuiGrid-grid-sm-1-41",
+          "grid-sm-10": "MuiGrid-grid-sm-10-50",
+          "grid-sm-11": "MuiGrid-grid-sm-11-51",
+          "grid-sm-12": "MuiGrid-grid-sm-12-52",
+          "grid-sm-2": "MuiGrid-grid-sm-2-42",
+          "grid-sm-3": "MuiGrid-grid-sm-3-43",
+          "grid-sm-4": "MuiGrid-grid-sm-4-44",
+          "grid-sm-5": "MuiGrid-grid-sm-5-45",
+          "grid-sm-6": "MuiGrid-grid-sm-6-46",
+          "grid-sm-7": "MuiGrid-grid-sm-7-47",
+          "grid-sm-8": "MuiGrid-grid-sm-8-48",
+          "grid-sm-9": "MuiGrid-grid-sm-9-49",
+          "grid-xl": "MuiGrid-grid-xl-79",
+          "grid-xl-1": "MuiGrid-grid-xl-1-80",
+          "grid-xl-10": "MuiGrid-grid-xl-10-89",
+          "grid-xl-11": "MuiGrid-grid-xl-11-90",
+          "grid-xl-12": "MuiGrid-grid-xl-12-91",
+          "grid-xl-2": "MuiGrid-grid-xl-2-81",
+          "grid-xl-3": "MuiGrid-grid-xl-3-82",
+          "grid-xl-4": "MuiGrid-grid-xl-4-83",
+          "grid-xl-5": "MuiGrid-grid-xl-5-84",
+          "grid-xl-6": "MuiGrid-grid-xl-6-85",
+          "grid-xl-7": "MuiGrid-grid-xl-7-86",
+          "grid-xl-8": "MuiGrid-grid-xl-8-87",
+          "grid-xl-9": "MuiGrid-grid-xl-9-88",
+          "grid-xs": "MuiGrid-grid-xs-27",
+          "grid-xs-1": "MuiGrid-grid-xs-1-28",
+          "grid-xs-10": "MuiGrid-grid-xs-10-37",
+          "grid-xs-11": "MuiGrid-grid-xs-11-38",
+          "grid-xs-12": "MuiGrid-grid-xs-12-39",
+          "grid-xs-2": "MuiGrid-grid-xs-2-29",
+          "grid-xs-3": "MuiGrid-grid-xs-3-30",
+          "grid-xs-4": "MuiGrid-grid-xs-4-31",
+          "grid-xs-5": "MuiGrid-grid-xs-5-32",
+          "grid-xs-6": "MuiGrid-grid-xs-6-33",
+          "grid-xs-7": "MuiGrid-grid-xs-7-34",
+          "grid-xs-8": "MuiGrid-grid-xs-8-35",
+          "grid-xs-9": "MuiGrid-grid-xs-9-36",
+          "justify-xs-center": "MuiGrid-justify-xs-center-19",
+          "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-20",
+          "justify-xs-space-around": "MuiGrid-justify-xs-space-around-22",
+          "justify-xs-space-between": "MuiGrid-justify-xs-space-between-21",
+          "spacing-xs-16": "MuiGrid-spacing-xs-16-24",
+          "spacing-xs-24": "MuiGrid-spacing-xs-24-25",
+          "spacing-xs-40": "MuiGrid-spacing-xs-40-26",
+          "spacing-xs-8": "MuiGrid-spacing-xs-8-23",
+          "typeContainer": "MuiGrid-typeContainer-3",
+          "typeItem": "MuiGrid-typeItem-4",
+          "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-8",
+          "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-9",
+        }
+      }
+      container={true}
+      item={true}
+      justify="center"
+      spacing={0}
+    >
+      <Grid
+        align="center"
+        alignContent="stretch"
+        alignItems="stretch"
+        className={Object {}}
+        classes={
+          Object {
+            "align-content-xs-center": "MuiGrid-align-content-xs-center-14",
+            "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-16",
+            "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-15",
+            "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-18",
+            "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-17",
+            "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-13",
+            "align-items-xs-center": "MuiGrid-align-items-xs-center-10",
+            "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-12",
+            "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-11",
+            "direction-xs-column": "MuiGrid-direction-xs-column-5",
+            "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-6",
+            "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-7",
+            "grid-lg": "MuiGrid-grid-lg-66",
+            "grid-lg-1": "MuiGrid-grid-lg-1-67",
+            "grid-lg-10": "MuiGrid-grid-lg-10-76",
+            "grid-lg-11": "MuiGrid-grid-lg-11-77",
+            "grid-lg-12": "MuiGrid-grid-lg-12-78",
+            "grid-lg-2": "MuiGrid-grid-lg-2-68",
+            "grid-lg-3": "MuiGrid-grid-lg-3-69",
+            "grid-lg-4": "MuiGrid-grid-lg-4-70",
+            "grid-lg-5": "MuiGrid-grid-lg-5-71",
+            "grid-lg-6": "MuiGrid-grid-lg-6-72",
+            "grid-lg-7": "MuiGrid-grid-lg-7-73",
+            "grid-lg-8": "MuiGrid-grid-lg-8-74",
+            "grid-lg-9": "MuiGrid-grid-lg-9-75",
+            "grid-md": "MuiGrid-grid-md-53",
+            "grid-md-1": "MuiGrid-grid-md-1-54",
+            "grid-md-10": "MuiGrid-grid-md-10-63",
+            "grid-md-11": "MuiGrid-grid-md-11-64",
+            "grid-md-12": "MuiGrid-grid-md-12-65",
+            "grid-md-2": "MuiGrid-grid-md-2-55",
+            "grid-md-3": "MuiGrid-grid-md-3-56",
+            "grid-md-4": "MuiGrid-grid-md-4-57",
+            "grid-md-5": "MuiGrid-grid-md-5-58",
+            "grid-md-6": "MuiGrid-grid-md-6-59",
+            "grid-md-7": "MuiGrid-grid-md-7-60",
+            "grid-md-8": "MuiGrid-grid-md-8-61",
+            "grid-md-9": "MuiGrid-grid-md-9-62",
+            "grid-sm": "MuiGrid-grid-sm-40",
+            "grid-sm-1": "MuiGrid-grid-sm-1-41",
+            "grid-sm-10": "MuiGrid-grid-sm-10-50",
+            "grid-sm-11": "MuiGrid-grid-sm-11-51",
+            "grid-sm-12": "MuiGrid-grid-sm-12-52",
+            "grid-sm-2": "MuiGrid-grid-sm-2-42",
+            "grid-sm-3": "MuiGrid-grid-sm-3-43",
+            "grid-sm-4": "MuiGrid-grid-sm-4-44",
+            "grid-sm-5": "MuiGrid-grid-sm-5-45",
+            "grid-sm-6": "MuiGrid-grid-sm-6-46",
+            "grid-sm-7": "MuiGrid-grid-sm-7-47",
+            "grid-sm-8": "MuiGrid-grid-sm-8-48",
+            "grid-sm-9": "MuiGrid-grid-sm-9-49",
+            "grid-xl": "MuiGrid-grid-xl-79",
+            "grid-xl-1": "MuiGrid-grid-xl-1-80",
+            "grid-xl-10": "MuiGrid-grid-xl-10-89",
+            "grid-xl-11": "MuiGrid-grid-xl-11-90",
+            "grid-xl-12": "MuiGrid-grid-xl-12-91",
+            "grid-xl-2": "MuiGrid-grid-xl-2-81",
+            "grid-xl-3": "MuiGrid-grid-xl-3-82",
+            "grid-xl-4": "MuiGrid-grid-xl-4-83",
+            "grid-xl-5": "MuiGrid-grid-xl-5-84",
+            "grid-xl-6": "MuiGrid-grid-xl-6-85",
+            "grid-xl-7": "MuiGrid-grid-xl-7-86",
+            "grid-xl-8": "MuiGrid-grid-xl-8-87",
+            "grid-xl-9": "MuiGrid-grid-xl-9-88",
+            "grid-xs": "MuiGrid-grid-xs-27",
+            "grid-xs-1": "MuiGrid-grid-xs-1-28",
+            "grid-xs-10": "MuiGrid-grid-xs-10-37",
+            "grid-xs-11": "MuiGrid-grid-xs-11-38",
+            "grid-xs-12": "MuiGrid-grid-xs-12-39",
+            "grid-xs-2": "MuiGrid-grid-xs-2-29",
+            "grid-xs-3": "MuiGrid-grid-xs-3-30",
+            "grid-xs-4": "MuiGrid-grid-xs-4-31",
+            "grid-xs-5": "MuiGrid-grid-xs-5-32",
+            "grid-xs-6": "MuiGrid-grid-xs-6-33",
+            "grid-xs-7": "MuiGrid-grid-xs-7-34",
+            "grid-xs-8": "MuiGrid-grid-xs-8-35",
+            "grid-xs-9": "MuiGrid-grid-xs-9-36",
+            "justify-xs-center": "MuiGrid-justify-xs-center-19",
+            "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-20",
+            "justify-xs-space-around": "MuiGrid-justify-xs-space-around-22",
+            "justify-xs-space-between": "MuiGrid-justify-xs-space-between-21",
+            "spacing-xs-16": "MuiGrid-spacing-xs-16-24",
+            "spacing-xs-24": "MuiGrid-spacing-xs-24-25",
+            "spacing-xs-40": "MuiGrid-spacing-xs-40-26",
+            "spacing-xs-8": "MuiGrid-spacing-xs-8-23",
+            "typeContainer": "MuiGrid-typeContainer-3",
+            "typeItem": "MuiGrid-typeItem-4",
+            "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-8",
+            "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-9",
+          }
+        }
+        component="div"
+        container={true}
+        direction="row"
+        item={true}
+        justify="center"
+        spacing={0}
+        wrap="wrap"
+      >
+        <div
+          align="center"
+          className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-justify-xs-center-19"
+        >
+          <withStyles(IconButton)
+            className={Object {}}
+            onClick={[Function]}
+          >
+            <IconButton
+              className={Object {}}
+              classes={
+                Object {
+                  "colorAccent": "MuiIconButton-colorAccent-93",
+                  "colorContrast": "MuiIconButton-colorContrast-94",
+                  "colorInherit": "MuiIconButton-colorInherit-96",
+                  "colorPrimary": "MuiIconButton-colorPrimary-95",
+                  "disabled": "MuiIconButton-disabled-97",
+                  "icon": "MuiIconButton-icon-99",
+                  "keyboardFocused": "MuiIconButton-keyboardFocused-100",
+                  "label": "MuiIconButton-label-98",
+                  "root": "MuiIconButton-root-92",
+                }
+              }
+              color="default"
+              disableRipple={false}
+              disabled={false}
+              onClick={[Function]}
+            >
+              <withStyles(ButtonBase)
+                centerRipple={true}
+                className="MuiIconButton-root-92"
+                disableRipple={false}
+                disabled={false}
+                keyboardFocusedClassName="MuiIconButton-keyboardFocused-100"
+                onClick={[Function]}
+              >
+                <ButtonBase
+                  centerRipple={true}
+                  className="MuiIconButton-root-92"
+                  classes={
+                    Object {
+                      "disabled": "MuiButtonBase-disabled-102",
+                      "root": "MuiButtonBase-root-101",
+                    }
+                  }
+                  disableRipple={false}
+                  disabled={false}
+                  focusRipple={false}
+                  keyboardFocusedClassName="MuiIconButton-keyboardFocused-100"
+                  onClick={[Function]}
+                  tabIndex={0}
+                  type="button"
+                >
+                  <button
+                    className="MuiButtonBase-root-101 MuiIconButton-root-92"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    role="button"
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      className="MuiIconButton-label-98"
+                    >
+                      <Ionicon
+                        beat={false}
+                        color="white"
+                        fontSize="24px"
+                        icon="ion-social-facebook"
+                        key=".0"
+                        rotate={false}
+                        shake={false}
+                        style={Object {}}
+                      >
+                        <svg
+                          className=""
+                          fill="white"
+                          height="24px"
+                          style={Object {}}
+                          viewBox="0 0 1024 1024"
+                          width="24px"
+                        >
+                          <path
+                            d="M576 384v-76.2c0-34.4 7.6-51.8 61-51.8h67v-128h-111.8c-137 0-182.2 62.8-182.2 170.6v85.4h-90v128h90v384h166v-384h112.8l15.2-128h-128z"
+                          />
+                        </svg>
+                      </Ionicon>
+                    </span>
+                    <withStyles(TouchRipple)
+                      center={true}
+                      innerRef={[Function]}
+                    >
+                      <TouchRipple
+                        center={true}
+                        classes={
+                          Object {
+                            "ripple": "MuiTouchRipple-ripple-107",
+                            "rippleFast": "MuiTouchRipple-rippleFast-109",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible-108",
+                            "root": "MuiTouchRipple-root-103",
+                            "wrapper": "MuiTouchRipple-wrapper-104",
+                            "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-105",
+                            "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-106",
+                          }
+                        }
+                      >
+                        <TransitionGroup
+                          childFactory={[Function]}
+                          className="MuiTouchRipple-root-103"
+                          component="span"
+                          enter={true}
+                          exit={true}
+                        >
+                          <span
+                            className="MuiTouchRipple-root-103"
+                          />
+                        </TransitionGroup>
+                      </TouchRipple>
+                    </withStyles(TouchRipple)>
+                  </button>
+                </ButtonBase>
+              </withStyles(ButtonBase)>
+            </IconButton>
+          </withStyles(IconButton)>
+          <withStyles(IconButton)
+            className={Object {}}
+            onClick={[Function]}
+          >
+            <IconButton
+              className={Object {}}
+              classes={
+                Object {
+                  "colorAccent": "MuiIconButton-colorAccent-93",
+                  "colorContrast": "MuiIconButton-colorContrast-94",
+                  "colorInherit": "MuiIconButton-colorInherit-96",
+                  "colorPrimary": "MuiIconButton-colorPrimary-95",
+                  "disabled": "MuiIconButton-disabled-97",
+                  "icon": "MuiIconButton-icon-99",
+                  "keyboardFocused": "MuiIconButton-keyboardFocused-100",
+                  "label": "MuiIconButton-label-98",
+                  "root": "MuiIconButton-root-92",
+                }
+              }
+              color="default"
+              disableRipple={false}
+              disabled={false}
+              onClick={[Function]}
+            >
+              <withStyles(ButtonBase)
+                centerRipple={true}
+                className="MuiIconButton-root-92"
+                disableRipple={false}
+                disabled={false}
+                keyboardFocusedClassName="MuiIconButton-keyboardFocused-100"
+                onClick={[Function]}
+              >
+                <ButtonBase
+                  centerRipple={true}
+                  className="MuiIconButton-root-92"
+                  classes={
+                    Object {
+                      "disabled": "MuiButtonBase-disabled-102",
+                      "root": "MuiButtonBase-root-101",
+                    }
+                  }
+                  disableRipple={false}
+                  disabled={false}
+                  focusRipple={false}
+                  keyboardFocusedClassName="MuiIconButton-keyboardFocused-100"
+                  onClick={[Function]}
+                  tabIndex={0}
+                  type="button"
+                >
+                  <button
+                    className="MuiButtonBase-root-101 MuiIconButton-root-92"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    role="button"
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      className="MuiIconButton-label-98"
+                    >
+                      <Ionicon
+                        beat={false}
+                        color="white"
+                        fontSize="24px"
+                        icon="ion-social-twitter"
+                        key=".0"
+                        rotate={false}
+                        shake={false}
+                        style={Object {}}
+                      >
+                        <svg
+                          className=""
+                          fill="white"
+                          height="24px"
+                          style={Object {}}
+                          viewBox="0 0 1024 1024"
+                          width="24px"
+                        >
+                          <path
+                            d="M984 219c-34.8 15.4-72 25.8-111.2 30.6 40-24 70.8-62 85.2-107.2-37.4 22.2-78.8 38.4-123 47-35.4-37.8-85.8-61.4-141.4-61.4-107 0-193.6 86.8-193.6 193.8 0 15.2 1.6 30 5 44.2-161-8-303.8-85.2-399.2-202.6-16.6 28.6-26.2 62-26.2 97.4 0 67.2 34.4 126.6 86.4 161.4-32-0.8-62-9.6-88-24.2 0 0.8 0 1.6 0 2.4 0 94 66.8 172.2 155.4 190-16.2 4.4-33.4 6.8-51 6.8-12.4 0-24.6-1.2-36.4-3.6 24.6 77 96.2 133 181 134.6-66.2 52-149.8 83-240.6 83-15.6 0-31-1-46.2-2.8 85.4 55.6 187.2 87.6 296.4 87.6 356.6 0 551.4-295.4 551.4-551.6 0-8.4-0.2-16.8-0.6-25 37.8-27.4 70.6-61.4 96.6-100.4z"
+                          />
+                        </svg>
+                      </Ionicon>
+                    </span>
+                    <withStyles(TouchRipple)
+                      center={true}
+                      innerRef={[Function]}
+                    >
+                      <TouchRipple
+                        center={true}
+                        classes={
+                          Object {
+                            "ripple": "MuiTouchRipple-ripple-107",
+                            "rippleFast": "MuiTouchRipple-rippleFast-109",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible-108",
+                            "root": "MuiTouchRipple-root-103",
+                            "wrapper": "MuiTouchRipple-wrapper-104",
+                            "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-105",
+                            "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-106",
+                          }
+                        }
+                      >
+                        <TransitionGroup
+                          childFactory={[Function]}
+                          className="MuiTouchRipple-root-103"
+                          component="span"
+                          enter={true}
+                          exit={true}
+                        >
+                          <span
+                            className="MuiTouchRipple-root-103"
+                          />
+                        </TransitionGroup>
+                      </TouchRipple>
+                    </withStyles(TouchRipple)>
+                  </button>
+                </ButtonBase>
+              </withStyles(ButtonBase)>
+            </IconButton>
+          </withStyles(IconButton)>
+          <withStyles(IconButton)
+            className={Object {}}
+            onClick={[Function]}
+          >
+            <IconButton
+              className={Object {}}
+              classes={
+                Object {
+                  "colorAccent": "MuiIconButton-colorAccent-93",
+                  "colorContrast": "MuiIconButton-colorContrast-94",
+                  "colorInherit": "MuiIconButton-colorInherit-96",
+                  "colorPrimary": "MuiIconButton-colorPrimary-95",
+                  "disabled": "MuiIconButton-disabled-97",
+                  "icon": "MuiIconButton-icon-99",
+                  "keyboardFocused": "MuiIconButton-keyboardFocused-100",
+                  "label": "MuiIconButton-label-98",
+                  "root": "MuiIconButton-root-92",
+                }
+              }
+              color="default"
+              disableRipple={false}
+              disabled={false}
+              onClick={[Function]}
+            >
+              <withStyles(ButtonBase)
+                centerRipple={true}
+                className="MuiIconButton-root-92"
+                disableRipple={false}
+                disabled={false}
+                keyboardFocusedClassName="MuiIconButton-keyboardFocused-100"
+                onClick={[Function]}
+              >
+                <ButtonBase
+                  centerRipple={true}
+                  className="MuiIconButton-root-92"
+                  classes={
+                    Object {
+                      "disabled": "MuiButtonBase-disabled-102",
+                      "root": "MuiButtonBase-root-101",
+                    }
+                  }
+                  disableRipple={false}
+                  disabled={false}
+                  focusRipple={false}
+                  keyboardFocusedClassName="MuiIconButton-keyboardFocused-100"
+                  onClick={[Function]}
+                  tabIndex={0}
+                  type="button"
+                >
+                  <button
+                    className="MuiButtonBase-root-101 MuiIconButton-root-92"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    role="button"
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      className="MuiIconButton-label-98"
+                    >
+                      <Ionicon
+                        beat={false}
+                        color="white"
+                        fontSize="30px"
+                        icon="ion-social-linkedin"
+                        key=".0"
+                        rotate={false}
+                        shake={false}
+                        style={Object {}}
+                      >
+                        <svg
+                          className=""
+                          fill="white"
+                          height="30px"
+                          style={Object {}}
+                          viewBox="0 0 1024 1024"
+                          width="30px"
+                        >
+                          <path
+                            d="M834.4 128h-640.8c-35 0-65.6 25.2-65.6 59.8v642.2c0 34.8 30.6 65.8 65.6 65.8h640.6c35.2 0 61.6-31.2 61.6-65.8v-642.2c0.2-34.6-26.4-59.8-61.4-59.8zM366 768h-110v-342h110v342zM314.8 374h-0.8c-35.2 0-58-26.2-58-59 0-33.4 23.4-59 59.4-59s58 25.4 58.8 59c0 32.8-22.8 59-59.4 59zM768 768h-110v-187c0-44.8-16-75.4-55.8-75.4-30.4 0-48.4 20.6-56.4 40.6-3 7.2-3.8 17-3.8 27v194.8h-110v-342h110v47.6c16-22.8 41-55.6 99.2-55.6 72.2 0 126.8 47.6 126.8 150.2v199.8z"
+                          />
+                        </svg>
+                      </Ionicon>
+                    </span>
+                    <withStyles(TouchRipple)
+                      center={true}
+                      innerRef={[Function]}
+                    >
+                      <TouchRipple
+                        center={true}
+                        classes={
+                          Object {
+                            "ripple": "MuiTouchRipple-ripple-107",
+                            "rippleFast": "MuiTouchRipple-rippleFast-109",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible-108",
+                            "root": "MuiTouchRipple-root-103",
+                            "wrapper": "MuiTouchRipple-wrapper-104",
+                            "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-105",
+                            "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-106",
+                          }
+                        }
+                      >
+                        <TransitionGroup
+                          childFactory={[Function]}
+                          className="MuiTouchRipple-root-103"
+                          component="span"
+                          enter={true}
+                          exit={true}
+                        >
+                          <span
+                            className="MuiTouchRipple-root-103"
+                          />
+                        </TransitionGroup>
+                      </TouchRipple>
+                    </withStyles(TouchRipple)>
+                  </button>
+                </ButtonBase>
+              </withStyles(ButtonBase)>
+            </IconButton>
+          </withStyles(IconButton)>
+          <withStyles(IconButton)
+            className={Object {}}
+            onClick={[Function]}
+          >
+            <IconButton
+              className={Object {}}
+              classes={
+                Object {
+                  "colorAccent": "MuiIconButton-colorAccent-93",
+                  "colorContrast": "MuiIconButton-colorContrast-94",
+                  "colorInherit": "MuiIconButton-colorInherit-96",
+                  "colorPrimary": "MuiIconButton-colorPrimary-95",
+                  "disabled": "MuiIconButton-disabled-97",
+                  "icon": "MuiIconButton-icon-99",
+                  "keyboardFocused": "MuiIconButton-keyboardFocused-100",
+                  "label": "MuiIconButton-label-98",
+                  "root": "MuiIconButton-root-92",
+                }
+              }
+              color="default"
+              disableRipple={false}
+              disabled={false}
+              onClick={[Function]}
+            >
+              <withStyles(ButtonBase)
+                centerRipple={true}
+                className="MuiIconButton-root-92"
+                disableRipple={false}
+                disabled={false}
+                keyboardFocusedClassName="MuiIconButton-keyboardFocused-100"
+                onClick={[Function]}
+              >
+                <ButtonBase
+                  centerRipple={true}
+                  className="MuiIconButton-root-92"
+                  classes={
+                    Object {
+                      "disabled": "MuiButtonBase-disabled-102",
+                      "root": "MuiButtonBase-root-101",
+                    }
+                  }
+                  disableRipple={false}
+                  disabled={false}
+                  focusRipple={false}
+                  keyboardFocusedClassName="MuiIconButton-keyboardFocused-100"
+                  onClick={[Function]}
+                  tabIndex={0}
+                  type="button"
+                >
+                  <button
+                    className="MuiButtonBase-root-101 MuiIconButton-root-92"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    role="button"
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      className="MuiIconButton-label-98"
+                    >
+                      <Ionicon
+                        beat={false}
+                        color="white"
+                        fontSize="24px"
+                        icon="ion-social-googleplus"
+                        key=".0"
+                        rotate={false}
+                        shake={false}
+                        style={Object {}}
+                      >
+                        <svg
+                          className=""
+                          fill="white"
+                          height="24px"
+                          style={Object {}}
+                          viewBox="0 0 1024 1024"
+                          width="24px"
+                        >
+                          <path
+                            d="M484.2 551.2l-36.4-27.4-0.2-0.2c-11.6-9.2-20-16.6-20-29.4 0-14 10-23.6 21.8-34.8l1-0.8c40-30.4 89.4-68.6 89.4-149.2 0-53.8-23.8-89.4-46.6-115.4h26l120.8-66h-267c-50.6 0-125.4 6.4-189.2 57.2l-0.2 0.6c-43.6 36-69.6 89-69.6 141.2 0 42.4 17.4 84.4 47.8 114.8 42.8 43.2 96.6 52.2 134.2 52.2 3 0 6 0 9-0.2-1.6 6-2.4 12.6-2.4 20.6 0 21.8 7.2 38.6 16.2 52.4-48 3.8-116.2 13-169.8 44.6-78.8 45.4-85 112-85 131.2 0 76.4 71.4 153.6 231 153.6 183.2 0 279-99.6 279-198 0-74.2-45.6-111.2-89.8-147zM233.4 279.8c0-26.8 6-47 18.6-61.8 13-15.8 36.4-26.2 58-26.2 39.8 0 65.8 30 80.8 55.2 18.4 31 29.8 72.2 29.8 107.2 0 9.8 0 40-20.4 59.6-14 13.4-37.4 22.8-57.2 22.8-41 0-67-29.4-81.4-54-20.8-35.6-28.2-76.4-28.2-102.8zM475.6 736c0 54.8-50.4 89-131.6 89-96.2 0-160.6-41.2-160.6-102.6 0-52.2 43-73.6 75.6-85 37.8-12.2 88.6-14.6 100.2-14.6 7.8 0 12.2 0 17.4 0.4 73.2 50.4 99 72.2 99 112.8z M804 284v-156h-68v156h-160v68h160v162h68v-162h156v-68z"
+                          />
+                        </svg>
+                      </Ionicon>
+                    </span>
+                    <withStyles(TouchRipple)
+                      center={true}
+                      innerRef={[Function]}
+                    >
+                      <TouchRipple
+                        center={true}
+                        classes={
+                          Object {
+                            "ripple": "MuiTouchRipple-ripple-107",
+                            "rippleFast": "MuiTouchRipple-rippleFast-109",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible-108",
+                            "root": "MuiTouchRipple-root-103",
+                            "wrapper": "MuiTouchRipple-wrapper-104",
+                            "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-105",
+                            "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-106",
+                          }
+                        }
+                      >
+                        <TransitionGroup
+                          childFactory={[Function]}
+                          className="MuiTouchRipple-root-103"
+                          component="span"
+                          enter={true}
+                          exit={true}
+                        >
+                          <span
+                            className="MuiTouchRipple-root-103"
+                          />
+                        </TransitionGroup>
+                      </TouchRipple>
+                    </withStyles(TouchRipple)>
+                  </button>
+                </ButtonBase>
+              </withStyles(ButtonBase)>
+            </IconButton>
+          </withStyles(IconButton)>
+          <withStyles(IconButton)
+            className={Object {}}
+            onClick={[Function]}
+          >
+            <IconButton
+              className={Object {}}
+              classes={
+                Object {
+                  "colorAccent": "MuiIconButton-colorAccent-93",
+                  "colorContrast": "MuiIconButton-colorContrast-94",
+                  "colorInherit": "MuiIconButton-colorInherit-96",
+                  "colorPrimary": "MuiIconButton-colorPrimary-95",
+                  "disabled": "MuiIconButton-disabled-97",
+                  "icon": "MuiIconButton-icon-99",
+                  "keyboardFocused": "MuiIconButton-keyboardFocused-100",
+                  "label": "MuiIconButton-label-98",
+                  "root": "MuiIconButton-root-92",
+                }
+              }
+              color="default"
+              disableRipple={false}
+              disabled={false}
+              onClick={[Function]}
+            >
+              <withStyles(ButtonBase)
+                centerRipple={true}
+                className="MuiIconButton-root-92"
+                disableRipple={false}
+                disabled={false}
+                keyboardFocusedClassName="MuiIconButton-keyboardFocused-100"
+                onClick={[Function]}
+              >
+                <ButtonBase
+                  centerRipple={true}
+                  className="MuiIconButton-root-92"
+                  classes={
+                    Object {
+                      "disabled": "MuiButtonBase-disabled-102",
+                      "root": "MuiButtonBase-root-101",
+                    }
+                  }
+                  disableRipple={false}
+                  disabled={false}
+                  focusRipple={false}
+                  keyboardFocusedClassName="MuiIconButton-keyboardFocused-100"
+                  onClick={[Function]}
+                  tabIndex={0}
+                  type="button"
+                >
+                  <button
+                    className="MuiButtonBase-root-101 MuiIconButton-root-92"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    role="button"
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      className="MuiIconButton-label-98"
+                    >
+                      <Ionicon
+                        beat={false}
+                        color="white"
+                        fontSize="24px"
+                        icon="ion-social-github"
+                        key=".0"
+                        rotate={false}
+                        shake={false}
+                        style={Object {}}
+                      >
+                        <svg
+                          className=""
+                          fill="white"
+                          height="24px"
+                          style={Object {}}
+                          viewBox="0 0 1024 1024"
+                          width="24px"
+                        >
+                          <path
+                            d="M512 64c-247.4 0-448 205.8-448 459.4 0 203 128.4 375 306.4 435.8 2.8 0.6 5.2 0.8 7.6 0.8 16.6 0 23-12.2 23-22.8 0-11-0.4-39.8-0.6-78.2-16.8 3.8-31.8 5.4-45.2 5.4-86.2 0-105.8-67-105.8-67-20.4-53-49.8-67.2-49.8-67.2-39-27.4-0.2-28.2 2.8-28.2 0.2 0 0.2 0 0.2 0 45 4 68.6 47.6 68.6 47.6 22.4 39.2 52.4 50.2 79.2 50.2 21 0 40-6.8 51.2-12 4-29.6 15.6-49.8 28.4-61.4-99.4-11.6-204-51-204-227 0-50.2 17.4-91.2 46-123.2-4.6-11.6-20-58.4 4.4-121.6 0 0 3.2-1 10-1 16.2 0 52.8 6.2 113.2 48.2 35.8-10.2 74-15.2 112.2-15.4 38 0.2 76.4 5.2 112.2 15.4 60.4-42 97-48.2 113.2-48.2 6.8 0 10 1 10 1 24.4 63.2 9 110 4.4 121.6 28.6 32.2 46 73.2 46 123.2 0 176.4-104.8 215.2-204.6 226.6 16 14.2 30.4 42.2 30.4 85 0 61.4-0.6 111-0.6 126 0 10.8 6.2 23 22.8 23 2.4 0 5.2-0.2 8-0.8 178.2-60.8 306.4-233 306.4-435.8 0-253.6-200.6-459.4-448-459.4z"
+                          />
+                        </svg>
+                      </Ionicon>
+                    </span>
+                    <withStyles(TouchRipple)
+                      center={true}
+                      innerRef={[Function]}
+                    >
+                      <TouchRipple
+                        center={true}
+                        classes={
+                          Object {
+                            "ripple": "MuiTouchRipple-ripple-107",
+                            "rippleFast": "MuiTouchRipple-rippleFast-109",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible-108",
+                            "root": "MuiTouchRipple-root-103",
+                            "wrapper": "MuiTouchRipple-wrapper-104",
+                            "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-105",
+                            "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-106",
+                          }
+                        }
+                      >
+                        <TransitionGroup
+                          childFactory={[Function]}
+                          className="MuiTouchRipple-root-103"
+                          component="span"
+                          enter={true}
+                          exit={true}
+                        >
+                          <span
+                            className="MuiTouchRipple-root-103"
+                          />
+                        </TransitionGroup>
+                      </TouchRipple>
+                    </withStyles(TouchRipple)>
+                  </button>
+                </ButtonBase>
+              </withStyles(ButtonBase)>
+            </IconButton>
+          </withStyles(IconButton)>
+        </div>
+      </Grid>
+    </GridWrapper>
+  </withStyles(GridWrapper)>
+</SocialIcons>
+`;
+
+exports[`<SocialIcons /> renders <SocialIcons /> 1`] = `
+<div
+  align="center"
+  className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-justify-xs-center-19"
+>
+  <button
+    className="MuiButtonBase-root-101 MuiIconButton-root-92"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiIconButton-label-98"
+    >
+      <svg
+        className=""
+        fill="white"
+        height="24px"
+        style={Object {}}
+        viewBox="0 0 1024 1024"
+        width="24px"
+      >
+        <path
+          d="M576 384v-76.2c0-34.4 7.6-51.8 61-51.8h67v-128h-111.8c-137 0-182.2 62.8-182.2 170.6v85.4h-90v128h90v384h166v-384h112.8l15.2-128h-128z"
+        />
+      </svg>
+    </span>
+    <span
+      className="MuiTouchRipple-root-103"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root-101 MuiIconButton-root-92"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiIconButton-label-98"
+    >
+      <svg
+        className=""
+        fill="white"
+        height="24px"
+        style={Object {}}
+        viewBox="0 0 1024 1024"
+        width="24px"
+      >
+        <path
+          d="M984 219c-34.8 15.4-72 25.8-111.2 30.6 40-24 70.8-62 85.2-107.2-37.4 22.2-78.8 38.4-123 47-35.4-37.8-85.8-61.4-141.4-61.4-107 0-193.6 86.8-193.6 193.8 0 15.2 1.6 30 5 44.2-161-8-303.8-85.2-399.2-202.6-16.6 28.6-26.2 62-26.2 97.4 0 67.2 34.4 126.6 86.4 161.4-32-0.8-62-9.6-88-24.2 0 0.8 0 1.6 0 2.4 0 94 66.8 172.2 155.4 190-16.2 4.4-33.4 6.8-51 6.8-12.4 0-24.6-1.2-36.4-3.6 24.6 77 96.2 133 181 134.6-66.2 52-149.8 83-240.6 83-15.6 0-31-1-46.2-2.8 85.4 55.6 187.2 87.6 296.4 87.6 356.6 0 551.4-295.4 551.4-551.6 0-8.4-0.2-16.8-0.6-25 37.8-27.4 70.6-61.4 96.6-100.4z"
+        />
+      </svg>
+    </span>
+    <span
+      className="MuiTouchRipple-root-103"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root-101 MuiIconButton-root-92"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiIconButton-label-98"
+    >
+      <svg
+        className=""
+        fill="white"
+        height="30px"
+        style={Object {}}
+        viewBox="0 0 1024 1024"
+        width="30px"
+      >
+        <path
+          d="M834.4 128h-640.8c-35 0-65.6 25.2-65.6 59.8v642.2c0 34.8 30.6 65.8 65.6 65.8h640.6c35.2 0 61.6-31.2 61.6-65.8v-642.2c0.2-34.6-26.4-59.8-61.4-59.8zM366 768h-110v-342h110v342zM314.8 374h-0.8c-35.2 0-58-26.2-58-59 0-33.4 23.4-59 59.4-59s58 25.4 58.8 59c0 32.8-22.8 59-59.4 59zM768 768h-110v-187c0-44.8-16-75.4-55.8-75.4-30.4 0-48.4 20.6-56.4 40.6-3 7.2-3.8 17-3.8 27v194.8h-110v-342h110v47.6c16-22.8 41-55.6 99.2-55.6 72.2 0 126.8 47.6 126.8 150.2v199.8z"
+        />
+      </svg>
+    </span>
+    <span
+      className="MuiTouchRipple-root-103"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root-101 MuiIconButton-root-92"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiIconButton-label-98"
+    >
+      <svg
+        className=""
+        fill="white"
+        height="24px"
+        style={Object {}}
+        viewBox="0 0 1024 1024"
+        width="24px"
+      >
+        <path
+          d="M484.2 551.2l-36.4-27.4-0.2-0.2c-11.6-9.2-20-16.6-20-29.4 0-14 10-23.6 21.8-34.8l1-0.8c40-30.4 89.4-68.6 89.4-149.2 0-53.8-23.8-89.4-46.6-115.4h26l120.8-66h-267c-50.6 0-125.4 6.4-189.2 57.2l-0.2 0.6c-43.6 36-69.6 89-69.6 141.2 0 42.4 17.4 84.4 47.8 114.8 42.8 43.2 96.6 52.2 134.2 52.2 3 0 6 0 9-0.2-1.6 6-2.4 12.6-2.4 20.6 0 21.8 7.2 38.6 16.2 52.4-48 3.8-116.2 13-169.8 44.6-78.8 45.4-85 112-85 131.2 0 76.4 71.4 153.6 231 153.6 183.2 0 279-99.6 279-198 0-74.2-45.6-111.2-89.8-147zM233.4 279.8c0-26.8 6-47 18.6-61.8 13-15.8 36.4-26.2 58-26.2 39.8 0 65.8 30 80.8 55.2 18.4 31 29.8 72.2 29.8 107.2 0 9.8 0 40-20.4 59.6-14 13.4-37.4 22.8-57.2 22.8-41 0-67-29.4-81.4-54-20.8-35.6-28.2-76.4-28.2-102.8zM475.6 736c0 54.8-50.4 89-131.6 89-96.2 0-160.6-41.2-160.6-102.6 0-52.2 43-73.6 75.6-85 37.8-12.2 88.6-14.6 100.2-14.6 7.8 0 12.2 0 17.4 0.4 73.2 50.4 99 72.2 99 112.8z M804 284v-156h-68v156h-160v68h160v162h68v-162h156v-68z"
+        />
+      </svg>
+    </span>
+    <span
+      className="MuiTouchRipple-root-103"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root-101 MuiIconButton-root-92"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiIconButton-label-98"
+    >
+      <svg
+        className=""
+        fill="white"
+        height="24px"
+        style={Object {}}
+        viewBox="0 0 1024 1024"
+        width="24px"
+      >
+        <path
+          d="M512 64c-247.4 0-448 205.8-448 459.4 0 203 128.4 375 306.4 435.8 2.8 0.6 5.2 0.8 7.6 0.8 16.6 0 23-12.2 23-22.8 0-11-0.4-39.8-0.6-78.2-16.8 3.8-31.8 5.4-45.2 5.4-86.2 0-105.8-67-105.8-67-20.4-53-49.8-67.2-49.8-67.2-39-27.4-0.2-28.2 2.8-28.2 0.2 0 0.2 0 0.2 0 45 4 68.6 47.6 68.6 47.6 22.4 39.2 52.4 50.2 79.2 50.2 21 0 40-6.8 51.2-12 4-29.6 15.6-49.8 28.4-61.4-99.4-11.6-204-51-204-227 0-50.2 17.4-91.2 46-123.2-4.6-11.6-20-58.4 4.4-121.6 0 0 3.2-1 10-1 16.2 0 52.8 6.2 113.2 48.2 35.8-10.2 74-15.2 112.2-15.4 38 0.2 76.4 5.2 112.2 15.4 60.4-42 97-48.2 113.2-48.2 6.8 0 10 1 10 1 24.4 63.2 9 110 4.4 121.6 28.6 32.2 46 73.2 46 123.2 0 176.4-104.8 215.2-204.6 226.6 16 14.2 30.4 42.2 30.4 85 0 61.4-0.6 111-0.6 126 0 10.8 6.2 23 22.8 23 2.4 0 5.2-0.2 8-0.8 178.2-60.8 306.4-233 306.4-435.8 0-253.6-200.6-459.4-448-459.4z"
+        />
+      </svg>
+    </span>
+    <span
+      className="MuiTouchRipple-root-103"
+    />
+  </button>
+</div>
+`;
+
+exports[`<SocialIcons /> renders <SocialIconsContainer /> 1`] = `
+<div
+  align="center"
+  className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-justify-xs-center-19 SocialIcons-container-2 [object Object]"
+>
+  <button
+    className="MuiButtonBase-root-101 MuiIconButton-root-92 SocialIcons-button-1 [object Object]"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiIconButton-label-98"
+    >
+      <svg
+        className=""
+        fill="white"
+        height="24px"
+        style={Object {}}
+        viewBox="0 0 1024 1024"
+        width="24px"
+      >
+        <path
+          d="M576 384v-76.2c0-34.4 7.6-51.8 61-51.8h67v-128h-111.8c-137 0-182.2 62.8-182.2 170.6v85.4h-90v128h90v384h166v-384h112.8l15.2-128h-128z"
+        />
+      </svg>
+    </span>
+    <span
+      className="MuiTouchRipple-root-103"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root-101 MuiIconButton-root-92 SocialIcons-button-1 [object Object]"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiIconButton-label-98"
+    >
+      <svg
+        className=""
+        fill="white"
+        height="24px"
+        style={Object {}}
+        viewBox="0 0 1024 1024"
+        width="24px"
+      >
+        <path
+          d="M984 219c-34.8 15.4-72 25.8-111.2 30.6 40-24 70.8-62 85.2-107.2-37.4 22.2-78.8 38.4-123 47-35.4-37.8-85.8-61.4-141.4-61.4-107 0-193.6 86.8-193.6 193.8 0 15.2 1.6 30 5 44.2-161-8-303.8-85.2-399.2-202.6-16.6 28.6-26.2 62-26.2 97.4 0 67.2 34.4 126.6 86.4 161.4-32-0.8-62-9.6-88-24.2 0 0.8 0 1.6 0 2.4 0 94 66.8 172.2 155.4 190-16.2 4.4-33.4 6.8-51 6.8-12.4 0-24.6-1.2-36.4-3.6 24.6 77 96.2 133 181 134.6-66.2 52-149.8 83-240.6 83-15.6 0-31-1-46.2-2.8 85.4 55.6 187.2 87.6 296.4 87.6 356.6 0 551.4-295.4 551.4-551.6 0-8.4-0.2-16.8-0.6-25 37.8-27.4 70.6-61.4 96.6-100.4z"
+        />
+      </svg>
+    </span>
+    <span
+      className="MuiTouchRipple-root-103"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root-101 MuiIconButton-root-92 SocialIcons-button-1 [object Object]"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiIconButton-label-98"
+    >
+      <svg
+        className=""
+        fill="white"
+        height="30px"
+        style={Object {}}
+        viewBox="0 0 1024 1024"
+        width="30px"
+      >
+        <path
+          d="M834.4 128h-640.8c-35 0-65.6 25.2-65.6 59.8v642.2c0 34.8 30.6 65.8 65.6 65.8h640.6c35.2 0 61.6-31.2 61.6-65.8v-642.2c0.2-34.6-26.4-59.8-61.4-59.8zM366 768h-110v-342h110v342zM314.8 374h-0.8c-35.2 0-58-26.2-58-59 0-33.4 23.4-59 59.4-59s58 25.4 58.8 59c0 32.8-22.8 59-59.4 59zM768 768h-110v-187c0-44.8-16-75.4-55.8-75.4-30.4 0-48.4 20.6-56.4 40.6-3 7.2-3.8 17-3.8 27v194.8h-110v-342h110v47.6c16-22.8 41-55.6 99.2-55.6 72.2 0 126.8 47.6 126.8 150.2v199.8z"
+        />
+      </svg>
+    </span>
+    <span
+      className="MuiTouchRipple-root-103"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root-101 MuiIconButton-root-92 SocialIcons-button-1 [object Object]"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiIconButton-label-98"
+    >
+      <svg
+        className=""
+        fill="white"
+        height="24px"
+        style={Object {}}
+        viewBox="0 0 1024 1024"
+        width="24px"
+      >
+        <path
+          d="M484.2 551.2l-36.4-27.4-0.2-0.2c-11.6-9.2-20-16.6-20-29.4 0-14 10-23.6 21.8-34.8l1-0.8c40-30.4 89.4-68.6 89.4-149.2 0-53.8-23.8-89.4-46.6-115.4h26l120.8-66h-267c-50.6 0-125.4 6.4-189.2 57.2l-0.2 0.6c-43.6 36-69.6 89-69.6 141.2 0 42.4 17.4 84.4 47.8 114.8 42.8 43.2 96.6 52.2 134.2 52.2 3 0 6 0 9-0.2-1.6 6-2.4 12.6-2.4 20.6 0 21.8 7.2 38.6 16.2 52.4-48 3.8-116.2 13-169.8 44.6-78.8 45.4-85 112-85 131.2 0 76.4 71.4 153.6 231 153.6 183.2 0 279-99.6 279-198 0-74.2-45.6-111.2-89.8-147zM233.4 279.8c0-26.8 6-47 18.6-61.8 13-15.8 36.4-26.2 58-26.2 39.8 0 65.8 30 80.8 55.2 18.4 31 29.8 72.2 29.8 107.2 0 9.8 0 40-20.4 59.6-14 13.4-37.4 22.8-57.2 22.8-41 0-67-29.4-81.4-54-20.8-35.6-28.2-76.4-28.2-102.8zM475.6 736c0 54.8-50.4 89-131.6 89-96.2 0-160.6-41.2-160.6-102.6 0-52.2 43-73.6 75.6-85 37.8-12.2 88.6-14.6 100.2-14.6 7.8 0 12.2 0 17.4 0.4 73.2 50.4 99 72.2 99 112.8z M804 284v-156h-68v156h-160v68h160v162h68v-162h156v-68z"
+        />
+      </svg>
+    </span>
+    <span
+      className="MuiTouchRipple-root-103"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root-101 MuiIconButton-root-92 SocialIcons-button-1 [object Object]"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiIconButton-label-98"
+    >
+      <svg
+        className=""
+        fill="white"
+        height="24px"
+        style={Object {}}
+        viewBox="0 0 1024 1024"
+        width="24px"
+      >
+        <path
+          d="M512 64c-247.4 0-448 205.8-448 459.4 0 203 128.4 375 306.4 435.8 2.8 0.6 5.2 0.8 7.6 0.8 16.6 0 23-12.2 23-22.8 0-11-0.4-39.8-0.6-78.2-16.8 3.8-31.8 5.4-45.2 5.4-86.2 0-105.8-67-105.8-67-20.4-53-49.8-67.2-49.8-67.2-39-27.4-0.2-28.2 2.8-28.2 0.2 0 0.2 0 0.2 0 45 4 68.6 47.6 68.6 47.6 22.4 39.2 52.4 50.2 79.2 50.2 21 0 40-6.8 51.2-12 4-29.6 15.6-49.8 28.4-61.4-99.4-11.6-204-51-204-227 0-50.2 17.4-91.2 46-123.2-4.6-11.6-20-58.4 4.4-121.6 0 0 3.2-1 10-1 16.2 0 52.8 6.2 113.2 48.2 35.8-10.2 74-15.2 112.2-15.4 38 0.2 76.4 5.2 112.2 15.4 60.4-42 97-48.2 113.2-48.2 6.8 0 10 1 10 1 24.4 63.2 9 110 4.4 121.6 28.6 32.2 46 73.2 46 123.2 0 176.4-104.8 215.2-204.6 226.6 16 14.2 30.4 42.2 30.4 85 0 61.4-0.6 111-0.6 126 0 10.8 6.2 23 22.8 23 2.4 0 5.2-0.2 8-0.8 178.2-60.8 306.4-233 306.4-435.8 0-253.6-200.6-459.4-448-459.4z"
+        />
+      </svg>
+    </span>
+    <span
+      className="MuiTouchRipple-root-103"
+    />
+  </button>
+</div>
+`;

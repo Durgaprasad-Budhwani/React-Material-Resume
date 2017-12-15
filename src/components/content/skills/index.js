@@ -27,7 +27,7 @@ const styles = theme => ({
     }
 });
 
-class Skilss extends PureComponent {
+export class Skills extends PureComponent {
     state = {
         skills: []
     };
@@ -77,8 +77,8 @@ class Skilss extends PureComponent {
     }
 }
 
-Skilss.propTypes = {
+Skills.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Skilss);
+export default withStyles(styles)(Skills);

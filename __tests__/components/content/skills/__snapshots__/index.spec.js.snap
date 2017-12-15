@@ -1,6 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders skill bar 1`] = `
+exports[`<Skills /> renders <Skills /> 1`] = `
+<SkillBar
+  classes={
+    Object {
+      "button": "SkillBar-button-123",
+      "container": "SkillBar-container-124",
+      "label": "SkillBar-label-121",
+      "labelContainer": "SkillBar-labelContainer-122",
+    }
+  }
+  color="primary"
+  completed="title"
+  name="abc"
+  size={6}
+/>
+`;
+
+exports[`<Skills /> renders <SkillsContainer /> 1`] = `
 <div
   align="stretch"
   className="MuiGrid-typeContainer-4 MuiGrid-direction-xs-column-6 MuiGrid-justify-xs-center-20"
@@ -12,7 +29,7 @@ exports[`renders skill bar 1`] = `
     Professional Skills
   </span>
   <div
-    className="MuiPaper-root-94 MuiPaper-shadow2-98 MuiPaper-rounded-95 Skilss-root-1"
+    className="MuiPaper-root-94 MuiPaper-shadow2-98 MuiPaper-rounded-95 Skills-root-1"
   >
     <div
       className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-25 MuiGrid-justify-xs-space-between-22 MuiGrid-grid-xs-12-40"

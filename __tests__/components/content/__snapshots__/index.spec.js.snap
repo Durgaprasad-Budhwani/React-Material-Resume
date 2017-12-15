@@ -135,7 +135,6 @@ exports[`renders content 1`] = `
                     className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-justify-xs-center-20 SocialIcons-container-137"
                   >
                     <button
-                      aria-label="Add an alarm"
                       className="MuiButtonBase-root-147 MuiIconButton-root-138 SocialIcons-button-136"
                       disabled={false}
                       onBlur={[Function]}
@@ -174,7 +173,6 @@ exports[`renders content 1`] = `
                       />
                     </button>
                     <button
-                      aria-label="Add an alarm"
                       className="MuiButtonBase-root-147 MuiIconButton-root-138 SocialIcons-button-136"
                       disabled={false}
                       onBlur={[Function]}
@@ -213,7 +211,6 @@ exports[`renders content 1`] = `
                       />
                     </button>
                     <button
-                      aria-label="Add an alarm"
                       className="MuiButtonBase-root-147 MuiIconButton-root-138 SocialIcons-button-136"
                       disabled={false}
                       onBlur={[Function]}
@@ -252,7 +249,6 @@ exports[`renders content 1`] = `
                       />
                     </button>
                     <button
-                      aria-label="Add an alarm"
                       className="MuiButtonBase-root-147 MuiIconButton-root-138 SocialIcons-button-136"
                       disabled={false}
                       onBlur={[Function]}
@@ -291,7 +287,6 @@ exports[`renders content 1`] = `
                       />
                     </button>
                     <button
-                      aria-label="Add an alarm"
                       className="MuiButtonBase-root-147 MuiIconButton-root-138 SocialIcons-button-136"
                       disabled={false}
                       onBlur={[Function]}
@@ -421,7 +416,7 @@ exports[`renders content 1`] = `
                 Professional Skills
               </span>
               <div
-                className="MuiPaper-root-104 MuiPaper-shadow2-108 MuiPaper-rounded-105 Skilss-root-179"
+                className="MuiPaper-root-104 MuiPaper-shadow2-108 MuiPaper-rounded-105 Skills-root-179"
               >
                 <div
                   className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-25 MuiGrid-justify-xs-space-between-22 MuiGrid-grid-xs-12-40"

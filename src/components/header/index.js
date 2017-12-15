@@ -66,7 +66,7 @@ const styles = theme => ({
     
 });
 
-class Header extends Component {
+export class Header extends Component {
     state = {
         position: 'static',
         navigationItemClass: true,
@@ -123,7 +123,7 @@ class Header extends Component {
                     <Toolbar>
                         <IconButton color="contrast"
                                     className={classes.hamburger}
-                                    onClick={() => this._showDrawer()}
+                                    onClick={this._showDrawer.bind(this)}
                                     aria-label="Menu">
                             <MenuIcon/>
                         </IconButton>
