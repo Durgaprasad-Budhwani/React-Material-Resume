@@ -341,6 +341,7 @@ exports[`renders content 1`] = `
                 className="MuiButtonBase-root-147 MuiButton-root-159 MuiButton-raised-166 MuiButton-raisedContrast-170 Info-button-158"
                 disabled={false}
                 onBlur={[Function]}
+                onClick={[Function]}
                 onFocus={[Function]}
                 onKeyDown={[Function]}
                 onKeyUp={[Function]}

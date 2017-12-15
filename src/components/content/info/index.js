@@ -31,13 +31,18 @@ const styles = theme => ({
 
 const content = "Hello! I am Durgaprasad Budhwani. Full Stack Developer specializing in web, desktop, mobile design and development, I maintain a healthy balance between functionality and visual impact in all my work. I believe every piece of design can be a work of art. ";
 
-class Info extends PureComponent {
+export class Info extends PureComponent {
+    _openTab(url) {
+        window.open(url, '_blank');
+    }
+    
     render () {
         const classes = this.props.classes;
         return (
             <div className={classes.container}>
                 <Button raised
                         className={classes.button}
+                        onClick={this._openTab.bind(this)}
                         color="contrast">
                     Download Resume
                 </Button>

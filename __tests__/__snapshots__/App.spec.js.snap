@@ -463,6 +463,7 @@ exports[`renders app without loading 1`] = `
                   className="MuiButtonBase-root-54 MuiButton-root-195 MuiButton-raised-202 MuiButton-raisedContrast-206 Info-button-194"
                   disabled={false}
                   onBlur={[Function]}
+                  onClick={[Function]}
                   onFocus={[Function]}
                   onKeyDown={[Function]}
                   onKeyUp={[Function]}

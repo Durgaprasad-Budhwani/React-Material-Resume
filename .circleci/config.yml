@@ -30,7 +30,11 @@ jobs:
 
       # run tests!
       - run: yarn build
-      - run: yarn run test-coveralls
+      - run:
+            name: Jest Suite
+            command: yarn run test-ci
+            environment:
+              JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
       - run: yarn run codecov
 
       - setup_remote_docker
@@ -40,4 +44,10 @@ jobs:
                 docker build -t   durgaprasadbudhwani/react-material-resume:$TAG .      # (4)
                 docker login -u $DOCKER_USER -p $DOCKER_PASS         # (5)
                 docker push durgaprasadbudhwani/react-material-resume:$TAG
+
+      - store_test_results:
+          path: reports/junit
+      - store_artifacts:
+          path: reports/junit
+
 

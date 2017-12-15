@@ -2,7 +2,7 @@
 
 exports[`<Experiences /> renders <ExperienceContainer /> 1`] = `
 <div
-  className="MuiGrid-typeContainer-5 MuiGrid-typeItem-6 MuiGrid-direction-xs-column-7 MuiGrid-justify-xs-center-21 MuiGrid-grid-xs-12-41 Experiences-container-1"
+  className="MuiGrid-typeContainer-5 MuiGrid-typeItem-6 MuiGrid-direction-xs-column-7 MuiGrid-justify-xs-center-21 MuiGrid-grid-xs-12-41 Experiences-container-1 [object Object]"
 >
   <span
     className="SectionTitle-sectionTitle-94"
@@ -17,10 +17,10 @@ exports[`<Experiences /> renders <ExperienceContainer /> 1`] = `
     }
   >
     <div
-      className="Experiences-clear-4"
+      className="Experiences-clear-4 [object Object]"
     >
       <div
-        className="TimelineBar-bar-95 Experiences-barClass-2"
+        className="TimelineBar-bar-95 Experiences-barClass-2 [object Object]"
       />
     </div>
   </div>

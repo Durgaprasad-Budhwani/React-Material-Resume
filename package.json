@@ -73,9 +73,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "docs": "process.env.PUBLIC_URL='https://durgaprasad-budhwani.github.io/React-Material-Resume/' && react-scripts build",
+    "docs": "eact-scripts build",
     "test": "jest",
-    "test-coveralls": "jest --coverage -u && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test-ci": "jest --ci --testResultsProcessor='jest-junit'",
     "eject": "react-scripts eject",
     "flow": "flow",
     "codecov": "codecov"
