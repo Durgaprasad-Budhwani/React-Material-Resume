@@ -65,7 +65,7 @@ class MapContainer extends PureComponent<void, Props, void> {
                           item
                           xs={12}>
                         <GoogleMapReact
-                            ootstrapURLKeys={{key: "AIzaSyAhuQ4MpuptjEH34y0DMqN3NX-mJgWQlIs"}}
+                            bootstrapURLKeys={{key: "AIzaSyAhuQ4MpuptjEH34y0DMqN3NX-mJgWQlIs"}}
                             defaultCenter={this.props.center}
                             defaultZoom={this.props.zoom}
                         >
