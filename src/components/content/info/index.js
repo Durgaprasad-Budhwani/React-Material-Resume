@@ -42,7 +42,7 @@ export class Info extends PureComponent {
             <div className={classes.container}>
                 <Button raised
                         className={classes.button}
-                        onClick={this._openTab.bind(this)}
+                        onClick={this._openTab.bind(this, "/Durgaprasad_Budhwani_v3C.pdf")}
                         color="contrast">
                     Download Resume
                 </Button>
