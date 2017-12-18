@@ -30,6 +30,8 @@ jobs:
 
       # run tests!
       - run: yarn build
+      - store_artifacts:
+          path: builds
       - run:
             name: Jest Suite
             command: yarn run test-ci
