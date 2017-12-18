@@ -49,6 +49,7 @@ export class Blogs extends PureComponent<void, Props, void> {
                   title={blog.title}
                   day={blog.day}
                   month={blog.month}
+                  url={blog.url}
             />
         );
     }

@@ -6,6 +6,8 @@ import Paper from 'material-ui/Paper';
 import Grid from 'material-ui/Grid';
 import {withStyles} from 'material-ui/styles';
 import PropTypes from 'prop-types';
+import Button from 'material-ui/Button';
+
 const styles = theme => ({
     blogItemImage: {
         transition: 'opacity 1s, transform 1s',
@@ -97,12 +99,17 @@ class Blog extends PureComponent<void, Props, void> {
         image: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
         day: PropTypes.string.isRequired,
-        month: PropTypes.string.isRequired
+        month: PropTypes.string.isRequired,
+        url: PropTypes.string.isRequired
     };
+    
+    _openTab (url) {
+        window.open(url, '_blank');
+    }
     
     render () {
         const {
-            classes, md, title, image, day, month
+            classes, md, title, image, day, month,url
         } = this.props;
         return (
             
@@ -112,23 +119,28 @@ class Blog extends PureComponent<void, Props, void> {
                   container
                   spacing={0}
                   md={md}
+                  style={{margin: 0, padding: 0}}
             >
-                <Paper
-                    className={classes.blogItemBox}
+                <Button
+                    onClick={this._openTab.bind(this, url)}
                 >
-                    <div className={classes.imageContainer}>
-                        <img src={image}
-                             className={classes.blogItemImage}
-                             alt={title}/>
-                    </div>
-                    <div className={classes.blogItemContent}>
-                        <time className={classes.blogItemTimeContainer}>
-                            <div className={classes.blogItemTimeDay}>{day}</div>
-                            <div className={classes.blogItemTimeMonth}>{month}</div>
-                        </time>
-                        <h3 className={classes.blogItemTitle}>{title}</h3>
-                    </div>
-                </Paper>
+                    <Paper
+                        className={classes.blogItemBox}
+                    >
+                        <div className={classes.imageContainer}>
+                            <img src={image}
+                                 className={classes.blogItemImage}
+                                 alt={title}/>
+                        </div>
+                        <div className={classes.blogItemContent}>
+                            <time className={classes.blogItemTimeContainer}>
+                                <div className={classes.blogItemTimeDay}>{day}</div>
+                                <div className={classes.blogItemTimeMonth}>{month}</div>
+                            </time>
+                            <h3 className={classes.blogItemTitle}>{title}</h3>
+                        </div>
+                    </Paper>
+                </Button>
             </Grid>
         
         )
