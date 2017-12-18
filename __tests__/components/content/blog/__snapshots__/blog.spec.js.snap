@@ -1,44 +1,151 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders blog 1`] = `
+exports[`renders <Blog /> 1`] = `
 <div
   className="MuiGrid-typeContainer-9 MuiGrid-typeItem-10 MuiGrid-direction-xs-column-11 MuiGrid-justify-xs-center-25 MuiGrid-grid-md-6-65"
+  style={
+    Object {
+      "margin": 0,
+      "padding": 0,
+    }
+  }
 >
-  <div
-    className="MuiPaper-root-98 MuiPaper-shadow2-102 MuiPaper-rounded-99 Blog-blogItemBox-2"
+  <button
+    className="MuiButtonBase-root-112 MuiButton-root-98"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+    type="button"
   >
-    <div
-      className="Blog-imageContainer-3"
+    <span
+      className="MuiButton-label-100"
     >
-      <img
-        alt="title1"
-        className="Blog-blogItemImage-1"
-        src="image1"
-      />
-    </div>
-    <div
-      className="Blog-blogItemContent-4"
-    >
-      <time
-        className="Blog-blogItemTimeContainer-5"
+      <div
+        className="MuiPaper-root-114 MuiPaper-shadow2-118 MuiPaper-rounded-115"
       >
         <div
-          className="Blog-blogItemTimeDay-6"
+          className={Object {}}
         >
-          day1
+          <img
+            alt="title1"
+            className={Object {}}
+            src="image1"
+          />
         </div>
         <div
-          className="Blog-blogItemTimeMonth-7"
+          className={Object {}}
         >
-          month1
+          <time
+            className={Object {}}
+          >
+            <div
+              className={Object {}}
+            >
+              day1
+            </div>
+            <div
+              className={Object {}}
+            >
+              month1
+            </div>
+          </time>
+          <h3
+            className={Object {}}
+          >
+            title1
+          </h3>
         </div>
-      </time>
-      <h3
-        className="Blog-blogItemTitle-8"
+      </div>
+    </span>
+    <span
+      className="MuiTouchRipple-root-141"
+    />
+  </button>
+</div>
+`;
+
+exports[`renders <BlogContainer /> 1`] = `
+<div
+  className="MuiGrid-typeContainer-9 MuiGrid-typeItem-10 MuiGrid-direction-xs-column-11 MuiGrid-justify-xs-center-25 MuiGrid-grid-md-6-65"
+  style={
+    Object {
+      "margin": 0,
+      "padding": 0,
+    }
+  }
+>
+  <button
+    className="MuiButtonBase-root-112 MuiButton-root-98"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label-100"
+    >
+      <div
+        className="MuiPaper-root-114 MuiPaper-shadow2-118 MuiPaper-rounded-115 Blog-blogItemBox-2"
       >
-        title1
-      </h3>
-    </div>
-  </div>
+        <div
+          className="Blog-imageContainer-3"
+        >
+          <img
+            alt="title1"
+            className="Blog-blogItemImage-1"
+            src="image1"
+          />
+        </div>
+        <div
+          className="Blog-blogItemContent-4"
+        >
+          <time
+            className="Blog-blogItemTimeContainer-5"
+          >
+            <div
+              className="Blog-blogItemTimeDay-6"
+            >
+              day1
+            </div>
+            <div
+              className="Blog-blogItemTimeMonth-7"
+            >
+              month1
+            </div>
+          </time>
+          <h3
+            className="Blog-blogItemTitle-8"
+          >
+            title1
+          </h3>
+        </div>
+      </div>
+    </span>
+    <span
+      className="MuiTouchRipple-root-141"
+    />
+  </button>
 </div>
 `;

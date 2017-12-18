@@ -35,6 +35,7 @@ exports[`<Blogs /> renders <Blogs /> 1`] = `
   md={6}
   month="month"
   title="title"
+  url="url"
   xs={12}
 />
 `;

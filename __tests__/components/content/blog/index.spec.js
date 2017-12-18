@@ -16,7 +16,7 @@ describe("<Blogs />", () => {
         root: {}
     };
     
-    const blog = {image: 'image', title: "title", day: "day", month: "month"};
+    const blog = {image: 'image', title: "title", day: "day", month: "month", url: "url"};
     
     afterEach(() => {
         fetchMock.restore();

@@ -92,7 +92,7 @@ type Props = {
     top: number
 }
 
-class Blog extends PureComponent<void, Props, void> {
+export class Blog extends PureComponent<void, Props, void> {
     static propTypes: Props = {
         classes: PropTypes.object.isRequired,
         md: PropTypes.number.isRequired,
