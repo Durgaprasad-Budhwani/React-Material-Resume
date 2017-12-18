@@ -76,7 +76,7 @@
     "build": "react-scripts build",
     "docs": "react-scripts build",
     "test": "jest",
-    "test-ci": "jest --ci --testResultsProcessor='jest-junit'",
+    "test-ci": "jest -u --testResultsProcessor='jest-junit'",
     "eject": "react-scripts eject",
     "flow": "flow",
     "codecov": "codecov"
