@@ -31,17 +31,21 @@ jobs:
 
       - run: npm install
 
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
       # run tests!
       - run: yarn build
 
       - store_artifacts:
           path: build
 
-      - run: yarn deploy
-
       - run: |
                 git config --global user.email $GIT_EMAIL
                 git config --global user.name $GIT_USER
+      - run: yarn deploy
 
       - run:
             name: Jest Suite
