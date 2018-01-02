@@ -74,6 +74,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "docs": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "jest",
     "test-ci": "jest -u --testResultsProcessor='jest-junit'",
     "eject": "react-scripts eject",
