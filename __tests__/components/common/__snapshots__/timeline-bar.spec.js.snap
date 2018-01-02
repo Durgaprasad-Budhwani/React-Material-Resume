@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`renders bubble 1`] = `
-<div
-  className="TimelineBar-bar-1 abc"
-/>
-`;
