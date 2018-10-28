@@ -2,7 +2,7 @@
  * Created by durgaprasad on 10/13/17.
  */
 import React from 'react';
-import {withStyles} from 'material-ui/styles';
+import {withStyles} from '@material-ui/core/styles';
 import App from './App';
 
 import './App.css';

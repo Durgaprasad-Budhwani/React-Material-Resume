@@ -3,12 +3,12 @@
  */
 // @flow
 import React, {PureComponent} from 'react';
-import Grid from 'material-ui/Grid';
-import {withStyles} from 'material-ui/styles';
+import Grid from '@material-ui/core/Grid';
+import {withStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
-import {LinearProgress} from 'material-ui/Progress';
+import LinearProgress from '@material-ui/core/LinearProgress';
 
-const styles = theme => ({
+const styles = () => ({
     label: {
         fontSize: 14,
         fontFamily: 'Open Sans'
@@ -34,6 +34,16 @@ type Props = {
     color: color
 }
 
+/**
+ * ##SkillBar example - Ref - Skills for more details
+ *```
+ *   <SkillBar
+ *       key={index}
+ *       name={skill.name}
+ *       completed={skill.completed}
+ *       />
+ *```
+ */
 class SkillBar extends PureComponent<void, Props, void> {
     static propTypes: Props = {
         classes: PropTypes.object.isRequired,
@@ -66,7 +76,7 @@ class SkillBar extends PureComponent<void, Props, void> {
                     <span className={classes.label}>{name}</span>
                     <span className={classes.label}>{`${completed}%`}</span>
                 </Grid>
-                <LinearProgress mode="determinate"
+                <LinearProgress variant="determinate"
                                 color={color}
                                 value={completed}/>
             </Grid>

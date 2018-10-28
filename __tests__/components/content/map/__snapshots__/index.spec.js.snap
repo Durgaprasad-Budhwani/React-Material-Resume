@@ -2,46 +2,46 @@
 
 exports[`renders map 1`] = `
 <div
-  className="MuiPaper-root-5 MuiPaper-shadow2-9 MuiPaper-rounded-6 MapContainer-container-1"
+  className="MuiPaper-root-5 MuiPaper-elevation2-9 MuiPaper-rounded-6 MapContainer-container-1"
 >
   <div
-    className="MuiGrid-typeContainer-32 MuiGrid-direction-xs-column-34 MapContainer-gridContainer-3"
+    className="MuiGrid-container-32 MuiGrid-direction-xs-column-35 MapContainer-gridContainer-3"
   >
     <div
-      className="MuiGrid-typeItem-33 MapContainer-contactContainer-2"
+      className="MuiGrid-item-33 MapContainer-contactContainer-2"
     >
       <div
-        className="MuiGrid-typeContainer-32 MuiGrid-typeItem-33 MuiGrid-spacing-xs-24-54 MuiGrid-direction-xs-column-34"
+        className="MuiGrid-container-32 MuiGrid-item-33 MuiGrid-spacing-xs-24-56 MuiGrid-direction-xs-column-35"
       >
         <div
           align="stretch"
-          className="MuiGrid-typeContainer-32 MuiGrid-typeItem-33 MuiGrid-spacing-xs-24-54"
+          className="MuiGrid-container-32 MuiGrid-item-33 MuiGrid-spacing-xs-24-56 MuiGrid-justify-xs-space-evenly-53"
         >
           <div
-            className="MuiGrid-typeItem-33 MuiGrid-grid-xs-12-68 MuiGrid-grid-md-3-85 ContactInfo-profileListItem-122"
+            className="MuiGrid-item-33 MuiGrid-grid-xs-12-72 MuiGrid-grid-md-3-91 ContactInfo-profileListItem-130"
           >
             Address:
           </div>
           <div
-            className="MuiGrid-typeItem-33 MuiGrid-grid-xs-12-68 MuiGrid-grid-md-9-91 ContactInfo-profileListItemValue-123"
+            className="MuiGrid-item-33 MuiGrid-grid-xs-12-72 MuiGrid-grid-md-9-97 ContactInfo-profileListItemValue-131"
           >
             Pune, India
           </div>
         </div>
         <div
           align="center"
-          className="MuiGrid-typeContainer-32 MuiGrid-typeItem-33 MuiGrid-spacing-xs-24-54 MuiGrid-justify-xs-center-48"
+          className="MuiGrid-container-32 MuiGrid-item-33 MuiGrid-spacing-xs-24-56 MuiGrid-justify-xs-center-49"
         >
           <div
-            className="MuiGrid-typeItem-33 MuiGrid-grid-xs-12-68 MuiGrid-grid-md-3-85 ContactInfo-profileListItem-122"
+            className="MuiGrid-item-33 MuiGrid-grid-xs-12-72 MuiGrid-grid-md-3-91 ContactInfo-profileListItem-130"
           >
             Email:
           </div>
           <div
-            className="MuiGrid-typeItem-33 MuiGrid-grid-xs-12-68 MuiGrid-grid-md-9-91 ContactInfo-profileListItemValue-123"
+            className="MuiGrid-item-33 MuiGrid-grid-xs-12-72 MuiGrid-grid-md-9-97 ContactInfo-profileListItemValue-131"
           >
             <a
-              className="ContactInfo-profileValueAItemValue-124"
+              className="ContactInfo-profileValueAItemValue-132"
               href="mailto:durgaprasad.budhwani@gmail.com"
             >
               durgaprasad.budhwani@gmail.com
@@ -50,18 +50,18 @@ exports[`renders map 1`] = `
         </div>
         <div
           align="center"
-          className="MuiGrid-typeContainer-32 MuiGrid-typeItem-33 MuiGrid-spacing-xs-24-54 MuiGrid-justify-xs-center-48"
+          className="MuiGrid-container-32 MuiGrid-item-33 MuiGrid-spacing-xs-24-56 MuiGrid-justify-xs-center-49"
         >
           <div
-            className="MuiGrid-typeItem-33 MuiGrid-grid-xs-12-68 MuiGrid-grid-md-3-85 ContactInfo-profileListItem-122"
+            className="MuiGrid-item-33 MuiGrid-grid-xs-12-72 MuiGrid-grid-md-3-91 ContactInfo-profileListItem-130"
           >
             Phone:
           </div>
           <div
-            className="MuiGrid-typeItem-33 MuiGrid-grid-xs-12-68 MuiGrid-grid-md-9-91 ContactInfo-profileListItemValue-123"
+            className="MuiGrid-item-33 MuiGrid-grid-xs-12-72 MuiGrid-grid-md-9-97 ContactInfo-profileListItemValue-131"
           >
             <a
-              className="ContactInfo-profileValueAItemValue-124"
+              className="ContactInfo-profileValueAItemValue-132"
               href="tel:+91-9545251359"
             >
               +91-9545251359
@@ -71,7 +71,7 @@ exports[`renders map 1`] = `
       </div>
     </div>
     <div
-      className="MuiGrid-typeItem-33 MuiGrid-grid-xs-12-68 MapContainer-mapContainer-4"
+      className="MuiGrid-item-33 MuiGrid-grid-xs-12-72 MapContainer-mapContainer-4"
     >
       <div />
     </div>

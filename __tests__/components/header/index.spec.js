@@ -5,7 +5,7 @@
 import React, {Component} from 'react';
 import HeaderContainer, {Header}  from '../../../src/components/header';
 import renderer from 'react-test-renderer';
-import {createMount} from 'material-ui/test-utils';
+import {createMount} from '@material-ui/core/test-utils';
 import toJson from 'enzyme-to-json';
 import '../../../setupTests';
 

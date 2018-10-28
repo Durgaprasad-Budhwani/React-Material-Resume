@@ -2,8 +2,8 @@
  * Created by durgaprasad on 9/15/17.
  */
 import React, {PureComponent} from 'react';
-import Grid from 'material-ui/Grid';
-import {withStyles} from 'material-ui/styles';
+import Grid from '@material-ui/core/Grid';
+import {withStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import EventContainer from '../../common/event-container';
 import Event from './event';
@@ -18,7 +18,7 @@ const styles = theme => ({
         justifyItems: 'center',
         [theme.breakpoints.down('md')]: {
             alignItems: 'stretch',
-            justifyItems: 'stretch',
+            justifyItems: 'space-evenly',
         },
     },
     barClass: {
@@ -89,6 +89,7 @@ export class Experiences extends PureComponent<void, void, State> {
     render () {
         const {classes} = this.props;
         const {experiences} = this.state;
+        console.log(experiences);
         return (
             <Grid
                 container

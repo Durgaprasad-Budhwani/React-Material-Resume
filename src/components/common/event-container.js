@@ -3,8 +3,8 @@
  */
 /* globals window */
 import React, {PureComponent} from 'react';
-import {withStyles} from 'material-ui/styles';
-import Paper from 'material-ui/Paper';
+import {withStyles} from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import {LEFT, RIGHT} from '../../utils/Constants';
@@ -130,6 +130,21 @@ type Props = {
     alignment: string
 }
 
+
+/**
+ * ##EventContainerInfo example - Ref - Education Component for more details
+ *```
+ *   <EventContainer
+ *        key={index}
+ *       alignment={index % 2 === 0 ? LEFT :RIGHT}
+ *    >
+ *        <Course name={education.description}
+ *            university={education.college}
+ *            year={education.year}
+ *        />
+ *    </EventContainer>
+ *```
+ */
 class EventContainer extends PureComponent<void, Props, void> {
     static propTypes: Props = {
         classes: PropTypes.object.isRequired,

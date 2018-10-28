@@ -2,8 +2,8 @@
  * Created by durgaprasad on 10/3/17.
  */
 import React, {PureComponent} from 'react';
-import Grid from 'material-ui/Grid';
-import {withStyles} from 'material-ui/styles';
+import Grid from '@material-ui/core/Grid';
+import {withStyles} from '@material-ui/core/styles';
 import Blog from './blog';
 import PropTypes from 'prop-types';
 import {GetBlogs} from '../../../services';

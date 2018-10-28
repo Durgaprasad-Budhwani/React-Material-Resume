@@ -2,7 +2,7 @@
 
 exports[`renders <Blog /> 1`] = `
 <div
-  className="MuiGrid-typeContainer-9 MuiGrid-typeItem-10 MuiGrid-direction-xs-column-11 MuiGrid-justify-xs-center-25 MuiGrid-grid-md-6-65"
+  className="MuiGrid-container-9 MuiGrid-item-10 MuiGrid-direction-xs-column-12 MuiGrid-justify-xs-center-26 MuiGrid-grid-md-6-71"
   style={
     Object {
       "margin": 0,
@@ -11,7 +11,7 @@ exports[`renders <Blog /> 1`] = `
   }
 >
   <button
-    className="MuiButtonBase-root-112 MuiButton-root-98"
+    className="MuiButtonBase-root-132 MuiButton-root-106 MuiButton-text-108 MuiButton-flat-111"
     disabled={false}
     onBlur={[Function]}
     onClick={[Function]}
@@ -24,15 +24,14 @@ exports[`renders <Blog /> 1`] = `
     onTouchEnd={[Function]}
     onTouchMove={[Function]}
     onTouchStart={[Function]}
-    role="button"
-    tabIndex={0}
+    tabIndex="0"
     type="button"
   >
     <span
-      className="MuiButton-label-100"
+      className="MuiButton-label-107"
     >
       <div
-        className="MuiPaper-root-114 MuiPaper-shadow2-118 MuiPaper-rounded-115"
+        className="MuiPaper-root-135 MuiPaper-elevation2-139 MuiPaper-rounded-136"
       >
         <div
           className={Object {}}
@@ -69,7 +68,7 @@ exports[`renders <Blog /> 1`] = `
       </div>
     </span>
     <span
-      className="MuiTouchRipple-root-141"
+      className="MuiTouchRipple-root-162"
     />
   </button>
 </div>
@@ -77,7 +76,7 @@ exports[`renders <Blog /> 1`] = `
 
 exports[`renders <BlogContainer /> 1`] = `
 <div
-  className="MuiGrid-typeContainer-9 MuiGrid-typeItem-10 MuiGrid-direction-xs-column-11 MuiGrid-justify-xs-center-25 MuiGrid-grid-md-6-65"
+  className="MuiGrid-container-9 MuiGrid-item-10 MuiGrid-direction-xs-column-12 MuiGrid-justify-xs-center-26 MuiGrid-grid-md-6-71"
   style={
     Object {
       "margin": 0,
@@ -86,7 +85,7 @@ exports[`renders <BlogContainer /> 1`] = `
   }
 >
   <button
-    className="MuiButtonBase-root-112 MuiButton-root-98"
+    className="MuiButtonBase-root-132 MuiButton-root-106 MuiButton-text-108 MuiButton-flat-111"
     disabled={false}
     onBlur={[Function]}
     onClick={[Function]}
@@ -99,15 +98,14 @@ exports[`renders <BlogContainer /> 1`] = `
     onTouchEnd={[Function]}
     onTouchMove={[Function]}
     onTouchStart={[Function]}
-    role="button"
-    tabIndex={0}
+    tabIndex="0"
     type="button"
   >
     <span
-      className="MuiButton-label-100"
+      className="MuiButton-label-107"
     >
       <div
-        className="MuiPaper-root-114 MuiPaper-shadow2-118 MuiPaper-rounded-115 Blog-blogItemBox-2"
+        className="MuiPaper-root-135 MuiPaper-elevation2-139 MuiPaper-rounded-136 Blog-blogItemBox-2"
       >
         <div
           className="Blog-imageContainer-3"
@@ -144,7 +142,7 @@ exports[`renders <BlogContainer /> 1`] = `
       </div>
     </span>
     <span
-      className="MuiTouchRipple-root-141"
+      className="MuiTouchRipple-root-162"
     />
   </button>
 </div>

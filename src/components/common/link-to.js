@@ -4,7 +4,7 @@
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {Link} from 'react-scroll';
-import {withStyles} from 'material-ui/styles';
+import {withStyles} from '@material-ui/core/styles';
 import classNames from 'classnames';
 
 type Props = {
@@ -62,6 +62,12 @@ const styles = theme => ({
     }
 });
 
+/**
+ * ##LinkTo example - Ref - Contact Component for more details
+ *```
+ *   <SectionTitle title='Contact Me'/>
+ *```
+ */
 export class LinkTo extends PureComponent<void, Props, void> {
     state = {
         isLinkActive: false

@@ -2,17 +2,17 @@
  * Created by durgaprasad on 8/17/17.
  */
 import React, {Component} from 'react';
-import {withStyles} from 'material-ui/styles';
+import {withStyles} from '@material-ui/core/styles';
 import classNames from 'classnames';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
-import AppBar from 'material-ui/AppBar';
-import Toolbar from 'material-ui/Toolbar';
-import IconButton from 'material-ui/IconButton';
-import MenuIcon from 'material-ui-icons/Menu';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
+import Grid from '@material-ui/core/Grid';
+import Drawer from '@material-ui/core/Drawer';
 import LinkTo from '../common/link-to';
-import Grid from 'material-ui/Grid';
-import Drawer from 'material-ui/Drawer';
 
 const styles = theme => ({
     header: {
@@ -162,7 +162,7 @@ export class Header extends Component {
                 <Drawer
                     anchor="left"
                     open={this.state.isDrawerVisible}
-                    onRequestClose={() => this._hideDrawer()}>
+                    onClose={() => this._hideDrawer()}>
                     <Grid
                         className={classes.verticalNavigation}
                         container

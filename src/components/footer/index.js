@@ -4,8 +4,8 @@
  */
 
 import React, {PureComponent} from 'react';
-import {withStyles} from 'material-ui/styles';
-import Grid from 'material-ui/Grid';
+import {withStyles} from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
 import PropTypes from 'prop-types';
 import SocialIcons from '../common/social-icons';
 

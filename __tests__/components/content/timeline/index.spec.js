@@ -35,9 +35,7 @@ describe('<Experiences />', () => {
                 classes={classes}
             />
         );
-        let instance = tree.getInstance();
         expect(tree.toJSON()).toMatchSnapshot();
-        expect.arrayContaining(instance.state.experiences);
     });
     
     it('renders <Experiences />', () => {

@@ -2,8 +2,8 @@
  * Created by durgaprasad on 10/5/17.
  */
 import React, {PureComponent} from 'react';
-import {withStyles} from 'material-ui/styles';
-import Grid from 'material-ui/Grid';
+import {withStyles} from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
 import PropTypes from 'prop-types';
 import Bubble from '../../common/bubble';
 
@@ -42,6 +42,15 @@ type Props = {
     title: string
 }
 
+/**
+ * ##Course example - Ref - About for more details
+ *```
+ *   <Course name={education.description}
+ *       university={education.college}
+ *       year={education.year}
+ *       />
+ *```
+ */
 class Course extends PureComponent<void, Props, void> {
     static propTypes: Props = {
         classes: PropTypes.object.isRequired,

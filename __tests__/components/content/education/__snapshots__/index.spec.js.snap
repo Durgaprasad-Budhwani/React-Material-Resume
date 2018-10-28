@@ -2,10 +2,10 @@
 
 exports[`<Educations /> renders <EducationContainer /> 1`] = `
 <div
-  className="MuiGrid-typeContainer-5 MuiGrid-direction-xs-column-7 Educations-container-1"
+  className="MuiGrid-container-5 MuiGrid-direction-xs-column-8 Educations-container-1"
 >
   <span
-    className="SectionTitle-sectionTitle-94"
+    className="SectionTitle-sectionTitle-102"
   >
     Education
   </span>
@@ -20,7 +20,7 @@ exports[`<Educations /> renders <EducationContainer /> 1`] = `
       className="Educations-clear-3"
     >
       <div
-        className="TimelineBar-bar-95 Educations-barClass-4"
+        className="TimelineBar-bar-103 Educations-barClass-4"
       />
     </div>
   </div>
@@ -32,24 +32,24 @@ exports[`<Educations /> renders <Educations /> 1`] = `
   alignment="RIGHT"
   classes={
     Object {
-      "arrow": "EventContainer-arrow-105",
-      "arrowLeft": "EventContainer-arrowLeft-107",
-      "arrowRight": "EventContainer-arrowRight-106",
-      "bigScreenBox": "EventContainer-bigScreenBox-101",
-      "boxLeft": "EventContainer-boxLeft-102",
-      "boxRight": "EventContainer-boxRight-103",
-      "date": "EventContainer-date-100",
-      "dot": "EventContainer-dot-104",
-      "dotLeft": "EventContainer-dotLeft-109",
-      "dotRight": "EventContainer-dotRight-108",
-      "paper": "EventContainer-paper-97",
-      "paperLeft": "EventContainer-paperLeft-98",
-      "paperRight": "EventContainer-paperRight-99",
-      "smallScreenBox": "EventContainer-smallScreenBox-96",
+      "arrow": "EventContainer-arrow-113",
+      "arrowLeft": "EventContainer-arrowLeft-115",
+      "arrowRight": "EventContainer-arrowRight-114",
+      "bigScreenBox": "EventContainer-bigScreenBox-109",
+      "boxLeft": "EventContainer-boxLeft-110",
+      "boxRight": "EventContainer-boxRight-111",
+      "date": "EventContainer-date-108",
+      "dot": "EventContainer-dot-112",
+      "dotLeft": "EventContainer-dotLeft-117",
+      "dotRight": "EventContainer-dotRight-116",
+      "paper": "EventContainer-paper-105",
+      "paperLeft": "EventContainer-paperLeft-106",
+      "paperRight": "EventContainer-paperRight-107",
+      "smallScreenBox": "EventContainer-smallScreenBox-104",
     }
   }
 >
-  <withStyles(Course)
+  <WithStyles(Course)
     name="description"
     university="college"
     year="year"

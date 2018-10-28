@@ -13,7 +13,7 @@ exports[`<Info /> renders <Info /> handle openTab event 1`] = `
   <div
     className={Object {}}
   >
-    <withStyles(Button)
+    <WithStyles(Button)
       className={Object {}}
       color="contrast"
       onClick={[Function]}
@@ -23,60 +23,79 @@ exports[`<Info /> renders <Info /> handle openTab event 1`] = `
         className={Object {}}
         classes={
           Object {
-            "colorInherit": "MuiButton-colorInherit-10",
-            "dense": "MuiButton-dense-5",
-            "disabled": "MuiButton-disabled-16",
-            "fab": "MuiButton-fab-17",
-            "flatAccent": "MuiButton-flatAccent-8",
-            "flatContrast": "MuiButton-flatContrast-9",
-            "flatPrimary": "MuiButton-flatPrimary-7",
-            "keyboardFocused": "MuiButton-keyboardFocused-12",
-            "label": "MuiButton-label-6",
-            "raised": "MuiButton-raised-11",
-            "raisedAccent": "MuiButton-raisedAccent-14",
-            "raisedContrast": "MuiButton-raisedContrast-15",
-            "raisedPrimary": "MuiButton-raisedPrimary-13",
+            "colorInherit": "MuiButton-colorInherit-25",
+            "contained": "MuiButton-contained-15",
+            "containedPrimary": "MuiButton-containedPrimary-16",
+            "containedSecondary": "MuiButton-containedSecondary-17",
+            "disabled": "MuiButton-disabled-24",
+            "extendedFab": "MuiButton-extendedFab-22",
+            "fab": "MuiButton-fab-21",
+            "flat": "MuiButton-flat-9",
+            "flatPrimary": "MuiButton-flatPrimary-10",
+            "flatSecondary": "MuiButton-flatSecondary-11",
+            "focusVisible": "MuiButton-focusVisible-23",
+            "fullWidth": "MuiButton-fullWidth-29",
+            "label": "MuiButton-label-5",
+            "mini": "MuiButton-mini-26",
+            "outlined": "MuiButton-outlined-12",
+            "outlinedPrimary": "MuiButton-outlinedPrimary-13",
+            "outlinedSecondary": "MuiButton-outlinedSecondary-14",
+            "raised": "MuiButton-raised-18",
+            "raisedPrimary": "MuiButton-raisedPrimary-19",
+            "raisedSecondary": "MuiButton-raisedSecondary-20",
             "root": "MuiButton-root-4",
+            "sizeLarge": "MuiButton-sizeLarge-28",
+            "sizeSmall": "MuiButton-sizeSmall-27",
+            "text": "MuiButton-text-6",
+            "textPrimary": "MuiButton-textPrimary-7",
+            "textSecondary": "MuiButton-textSecondary-8",
           }
         }
         color="contrast"
-        dense={false}
+        component="button"
         disableFocusRipple={false}
-        disableRipple={false}
         disabled={false}
-        fab={false}
+        fullWidth={false}
+        mini={false}
         onClick={[Function]}
         raised={true}
+        size="medium"
         type="button"
+        variant="text"
       >
-        <withStyles(ButtonBase)
-          className="MuiButton-root-4 MuiButton-raised-11 MuiButton-raisedContrast-15"
-          disableRipple={false}
+        <WithStyles(ButtonBase)
+          className="MuiButton-root-4 MuiButton-text-6 MuiButton-flat-9"
+          component="button"
           disabled={false}
           focusRipple={true}
-          keyboardFocusedClassName="MuiButton-keyboardFocused-12"
+          focusVisibleClassName="MuiButton-focusVisible-23"
           onClick={[Function]}
+          raised={true}
           type="button"
         >
           <ButtonBase
             centerRipple={false}
-            className="MuiButton-root-4 MuiButton-raised-11 MuiButton-raisedContrast-15"
+            className="MuiButton-root-4 MuiButton-text-6 MuiButton-flat-9"
             classes={
               Object {
-                "disabled": "MuiButtonBase-disabled-19",
-                "root": "MuiButtonBase-root-18",
+                "disabled": "MuiButtonBase-disabled-31",
+                "focusVisible": "MuiButtonBase-focusVisible-32",
+                "root": "MuiButtonBase-root-30",
               }
             }
+            component="button"
             disableRipple={false}
+            disableTouchRipple={false}
             disabled={false}
             focusRipple={true}
-            keyboardFocusedClassName="MuiButton-keyboardFocused-12"
+            focusVisibleClassName="MuiButton-focusVisible-23"
             onClick={[Function]}
-            tabIndex={0}
+            raised={true}
+            tabIndex="0"
             type="button"
           >
             <button
-              className="MuiButtonBase-root-18 MuiButton-root-4 MuiButton-raised-11 MuiButton-raisedContrast-15"
+              className="MuiButtonBase-root-30 MuiButton-root-4 MuiButton-text-6 MuiButton-flat-9"
               disabled={false}
               onBlur={[Function]}
               onClick={[Function]}
@@ -89,51 +108,56 @@ exports[`<Info /> renders <Info /> handle openTab event 1`] = `
               onTouchEnd={[Function]}
               onTouchMove={[Function]}
               onTouchStart={[Function]}
-              role="button"
-              tabIndex={0}
+              raised={true}
+              tabIndex="0"
               type="button"
             >
               <span
-                className="MuiButton-label-6"
+                className="MuiButton-label-5"
               >
                 Download Resume
               </span>
-              <withStyles(TouchRipple)
-                center={false}
-                innerRef={[Function]}
+              <NoSsr
+                defer={false}
+                fallback={null}
               >
-                <TouchRipple
+                <WithStyles(TouchRipple)
                   center={false}
-                  classes={
-                    Object {
-                      "ripple": "MuiTouchRipple-ripple-24",
-                      "rippleFast": "MuiTouchRipple-rippleFast-26",
-                      "rippleVisible": "MuiTouchRipple-rippleVisible-25",
-                      "root": "MuiTouchRipple-root-20",
-                      "wrapper": "MuiTouchRipple-wrapper-21",
-                      "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-22",
-                      "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-23",
-                    }
-                  }
+                  innerRef={[Function]}
                 >
-                  <TransitionGroup
-                    childFactory={[Function]}
-                    className="MuiTouchRipple-root-20"
-                    component="span"
-                    enter={true}
-                    exit={true}
+                  <TouchRipple
+                    center={false}
+                    classes={
+                      Object {
+                        "child": "MuiTouchRipple-child-37",
+                        "childLeaving": "MuiTouchRipple-childLeaving-38",
+                        "childPulsate": "MuiTouchRipple-childPulsate-39",
+                        "ripple": "MuiTouchRipple-ripple-34",
+                        "ripplePulsate": "MuiTouchRipple-ripplePulsate-36",
+                        "rippleVisible": "MuiTouchRipple-rippleVisible-35",
+                        "root": "MuiTouchRipple-root-33",
+                      }
+                    }
                   >
-                    <span
-                      className="MuiTouchRipple-root-20"
-                    />
-                  </TransitionGroup>
-                </TouchRipple>
-              </withStyles(TouchRipple)>
+                    <TransitionGroup
+                      childFactory={[Function]}
+                      className="MuiTouchRipple-root-33"
+                      component="span"
+                      enter={true}
+                      exit={true}
+                    >
+                      <span
+                        className="MuiTouchRipple-root-33"
+                      />
+                    </TransitionGroup>
+                  </TouchRipple>
+                </WithStyles(TouchRipple)>
+              </NoSsr>
             </button>
           </ButtonBase>
-        </withStyles(ButtonBase)>
+        </WithStyles(ButtonBase)>
       </Button>
-    </withStyles(Button)>
+    </WithStyles(Button)>
     <p
       className={Object {}}
     >
@@ -148,7 +172,7 @@ exports[`<Info /> renders <InfoContainer /> 1`] = `
   className="Info-container-1"
 >
   <button
-    className="MuiButtonBase-root-18 MuiButton-root-4 MuiButton-raised-11 MuiButton-raisedContrast-15 Info-button-3"
+    className="MuiButtonBase-root-30 MuiButton-root-4 MuiButton-text-6 MuiButton-flat-9 Info-button-3"
     disabled={false}
     onBlur={[Function]}
     onClick={[Function]}
@@ -161,17 +185,17 @@ exports[`<Info /> renders <InfoContainer /> 1`] = `
     onTouchEnd={[Function]}
     onTouchMove={[Function]}
     onTouchStart={[Function]}
-    role="button"
-    tabIndex={0}
+    raised={true}
+    tabIndex="0"
     type="button"
   >
     <span
-      className="MuiButton-label-6"
+      className="MuiButton-label-5"
     >
       Download Resume
     </span>
     <span
-      className="MuiTouchRipple-root-20"
+      className="MuiTouchRipple-root-33"
     />
   </button>
   <p

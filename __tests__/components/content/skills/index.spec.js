@@ -17,7 +17,7 @@ describe('<Skills />', () => {
         container: {}
     };
     
-    const skill = {name: 'abc', completed: "title"};
+    const skill = {name: 'abc', completed: 10};
     
     afterEach(() => {
         fetchMock.restore();

@@ -32,9 +32,7 @@ describe('<Educations />', () => {
             <EducationContainer
             />
         );
-        let instance = tree.getInstance();
         expect(tree.toJSON()).toMatchSnapshot();
-        expect.arrayContaining(instance.state.educations);
     });
     
     it('renders <Educations />', () => {

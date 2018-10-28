@@ -2,9 +2,9 @@
  * Created by durgaprasad on 8/29/17.
  */
 import React, {PureComponent} from 'react';
-import Grid from 'material-ui/Grid';
+import Grid from '@material-ui/core/Grid';
 import * as Scroll from 'react-scroll';
-import {withStyles} from 'material-ui/styles';
+import {withStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import Profile from './profile';
 import Info from './info';

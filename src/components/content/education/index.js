@@ -2,8 +2,8 @@
  * Created by durgaprasad on 10/5/17.
  */
 import React, {PureComponent} from 'react';
-import Grid from 'material-ui/Grid';
-import {withStyles} from 'material-ui/styles';
+import Grid from '@material-ui/core/Grid';
+import {withStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import EventContainer from '../../common/event-container';
 import Course from './course';
@@ -17,7 +17,7 @@ const styles = theme => ({
         alignItems: 'stretch',
         justifyItems: 'center',
         [theme.breakpoints.down('md')]: {
-            justifyItems: 'stretch',
+            justifyItems: 'space-evenly',
         },
     },
     relative: {

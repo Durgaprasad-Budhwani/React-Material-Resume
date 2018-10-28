@@ -4,7 +4,7 @@
  */
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
-import {withStyles} from 'material-ui/styles';
+import {withStyles} from '@material-ui/core/styles';
 
 const styles = theme => ({
     container: {
@@ -41,6 +41,12 @@ type Props = {
     classes: any
 }
 
+/**
+ * ##Bubble example - Ref - Education Component for more details
+ *```
+ *   <Bubble content={year}/>
+ *```
+ */
 class Bubble extends PureComponent<void, Props, void> {
     static propTypes = {
         content: PropTypes.string.isRequired,

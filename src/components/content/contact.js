@@ -4,8 +4,8 @@
  */
 
 import React, {PureComponent} from 'react';
-import Grid from 'material-ui/Grid';
-import {withStyles} from 'material-ui/styles';
+import Grid from '@material-ui/core/Grid';
+import {withStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import ContactForm from './contact-form';
 import Map from './map';

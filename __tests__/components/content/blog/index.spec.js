@@ -31,9 +31,7 @@ describe("<Blogs />", () => {
                 height={120}
             />
         );
-        let instance = tree.getInstance();
         expect(tree.toJSON()).toMatchSnapshot();
-        expect.arrayContaining(instance.state.blogs);
     });
     
     it('renders <Blogs />', () => {

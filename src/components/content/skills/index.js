@@ -2,10 +2,10 @@
  * Created by durgaprasad on 9/6/17.
  */
 import React, {PureComponent} from 'react';
-import Grid from 'material-ui/Grid';
-import {withStyles} from 'material-ui/styles';
+import Grid from '@material-ui/core/Grid';
+import {withStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
-import Paper from 'material-ui/Paper';
+import Paper from '@material-ui/core/Paper';
 import SkillBar from './skill-bar';
 import SectionTitle from './../../common/section-title';
 import {GetSkills} from '../../../services';

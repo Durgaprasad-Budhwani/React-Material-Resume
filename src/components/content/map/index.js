@@ -2,11 +2,11 @@
  * Created by Durgaprasad Budhwani on 10/5/2017.
  */
 import React, {PureComponent} from 'react';
-import Grid from 'material-ui/Grid';
-import {withStyles} from 'material-ui/styles';
-import ContactInfo from '../../common/contact-info';
+import Grid from '@material-ui/core/Grid';
+import {withStyles} from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
 import GoogleMapReact from 'google-map-react';
-import Paper from 'material-ui/Paper';
+import ContactInfo from '../../common/contact-info';
 
 const styles = theme => ({
     container: {

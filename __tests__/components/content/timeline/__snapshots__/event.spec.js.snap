@@ -3,7 +3,7 @@
 exports[`renders event 1`] = `
 <div
   align="center"
-  className="MuiGrid-typeContainer-5 MuiGrid-direction-xs-column-7"
+  className="MuiGrid-container-5 MuiGrid-direction-xs-column-8"
 >
   <div
     className="Event-date-1"

@@ -15,7 +15,7 @@ describe('<SocialIcons />', ()=> {
         },
         container: {
         }
-    }
+    };
     it('renders <SocialIconsContainer />', () => {
         const tree = renderer.create(<SocialIconsContainer color="white" classes={classes} />).toJSON();
         expect(tree).toMatchSnapshot();

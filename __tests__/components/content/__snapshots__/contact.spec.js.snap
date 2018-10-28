@@ -2,28 +2,28 @@
 
 exports[`renders contact 1`] = `
 <div
-  className="MuiGrid-typeContainer-3 MuiGrid-direction-xs-column-5 MuiGrid-align-items-xs-center-10 About-container-1"
+  className="MuiGrid-container-3 MuiGrid-direction-xs-column-6 MuiGrid-align-items-xs-center-11 About-container-1"
 >
   <span
-    className="SectionTitle-sectionTitle-92"
+    className="SectionTitle-sectionTitle-100"
   >
     Contact Me
   </span>
   <div
-    className="MuiGrid-typeContainer-3 MuiGrid-justify-xs-space-between-21"
+    className="MuiGrid-container-3 MuiGrid-justify-xs-space-between-22"
   >
     <div
-      className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-6-72 About-itemContainer-2"
+      className="MuiGrid-item-4 MuiGrid-grid-xs-12-43 MuiGrid-grid-lg-6-79 About-itemContainer-2"
     >
       <div
-        className="MuiPaper-root-95 MuiPaper-shadow2-99 MuiPaper-rounded-96 ContactForm-container-93"
+        className="MuiPaper-root-103 MuiPaper-elevation2-107 MuiPaper-rounded-104 ContactForm-container-101"
       >
         <form
           action="http://formspree.io/durgaprasad.budhwani@gmail.com"
           method="post"
         >
           <div
-            className="MuiGrid-typeContainer-3 MuiGrid-direction-xs-column-5 MuiGrid-justify-xs-center-19"
+            className="MuiGrid-container-3 MuiGrid-direction-xs-column-6 MuiGrid-justify-xs-center-20"
           >
             <h2
               style={
@@ -35,168 +35,129 @@ exports[`renders contact 1`] = `
               Feel free to contact me
             </h2>
             <div
-              className="MuiFormControl-root-122 MuiFormControl-marginNormal-123"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              required={true}
+              className="MuiFormControl-root-130 MuiFormControl-marginNormal-131"
             >
               <label
-                className="MuiFormLabel-root-132 MuiInputLabel-root-126 MuiInputLabel-formControl-127 MuiInputLabel-animated-130"
+                className="MuiFormLabel-root-141 MuiFormLabel-required-146 MuiInputLabel-root-134 MuiInputLabel-formControl-135 MuiInputLabel-animated-138"
                 data-shrink={false}
                 htmlFor="name"
               >
                 NAME
                 <span
-                  className=""
+                  className="MuiFormLabel-asterisk-147"
                 >
                    *
                 </span>
               </label>
               <div
-                className="MuiInput-root-136 MuiInput-formControl-137 MuiInput-inkbar-138 MuiInput-underline-142"
-                onBlur={[Function]}
-                onFocus={[Function]}
+                className="MuiInputBase-root-161 MuiInput-root-148 MuiInput-underline-152 MuiInputBase-formControl-162 MuiInput-formControl-149"
+                onClick={[Function]}
               >
                 <input
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  className="MuiInput-input-145 MuiInput-inputSingleline-148"
-                  defaultValue={undefined}
+                  aria-invalid={false}
+                  className="MuiInputBase-input-171 MuiInput-input-156"
                   disabled={false}
                   id="name"
                   name="name"
+                  onBlur={[Function]}
                   onChange={[Function]}
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
+                  onFocus={[Function]}
                   required={true}
-                  rows={undefined}
                   type="text"
-                  value={undefined}
                 />
               </div>
             </div>
             <div
-              className="MuiFormControl-root-122 MuiFormControl-marginNormal-123"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              required={true}
+              className="MuiFormControl-root-130 MuiFormControl-marginNormal-131"
             >
               <label
-                className="MuiFormLabel-root-132 MuiInputLabel-root-126 MuiInputLabel-formControl-127 MuiInputLabel-animated-130"
+                className="MuiFormLabel-root-141 MuiFormLabel-required-146 MuiInputLabel-root-134 MuiInputLabel-formControl-135 MuiInputLabel-animated-138"
                 data-shrink={false}
                 htmlFor="email"
               >
                 EMAIL
                 <span
-                  className=""
+                  className="MuiFormLabel-asterisk-147"
                 >
                    *
                 </span>
               </label>
               <div
-                className="MuiInput-root-136 MuiInput-formControl-137 MuiInput-inkbar-138 MuiInput-underline-142"
-                onBlur={[Function]}
-                onFocus={[Function]}
+                className="MuiInputBase-root-161 MuiInput-root-148 MuiInput-underline-152 MuiInputBase-formControl-162 MuiInput-formControl-149"
+                onClick={[Function]}
               >
                 <input
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  className="MuiInput-input-145 MuiInput-inputSingleline-148"
-                  defaultValue={undefined}
+                  aria-invalid={false}
+                  className="MuiInputBase-input-171 MuiInput-input-156 MuiInputBase-inputType-174 MuiInput-inputType-159"
                   disabled={false}
                   id="email"
                   name="email"
+                  onBlur={[Function]}
                   onChange={[Function]}
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
+                  onFocus={[Function]}
                   required={true}
-                  rows={undefined}
                   type="email"
-                  value={undefined}
                 />
               </div>
             </div>
             <div
-              className="MuiFormControl-root-122 MuiFormControl-marginNormal-123"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              required={true}
+              className="MuiFormControl-root-130 MuiFormControl-marginNormal-131"
             >
               <label
-                className="MuiFormLabel-root-132 MuiInputLabel-root-126 MuiInputLabel-formControl-127 MuiInputLabel-animated-130"
+                className="MuiFormLabel-root-141 MuiFormLabel-required-146 MuiInputLabel-root-134 MuiInputLabel-formControl-135 MuiInputLabel-animated-138"
                 data-shrink={false}
                 htmlFor="subject"
               >
                 SUBJECT
                 <span
-                  className=""
+                  className="MuiFormLabel-asterisk-147"
                 >
                    *
                 </span>
               </label>
               <div
-                className="MuiInput-root-136 MuiInput-formControl-137 MuiInput-inkbar-138 MuiInput-underline-142"
-                onBlur={[Function]}
-                onFocus={[Function]}
+                className="MuiInputBase-root-161 MuiInput-root-148 MuiInput-underline-152 MuiInputBase-formControl-162 MuiInput-formControl-149"
+                onClick={[Function]}
               >
                 <input
-                  autoComplete={undefined}
-                  autoFocus={undefined}
-                  className="MuiInput-input-145 MuiInput-inputSingleline-148"
-                  defaultValue={undefined}
+                  aria-invalid={false}
+                  className="MuiInputBase-input-171 MuiInput-input-156"
                   disabled={false}
                   id="subject"
                   name="subject"
+                  onBlur={[Function]}
                   onChange={[Function]}
-                  onKeyDown={undefined}
-                  onKeyUp={undefined}
-                  placeholder={undefined}
-                  readOnly={undefined}
+                  onFocus={[Function]}
                   required={true}
-                  rows={undefined}
                   type="text"
-                  value={undefined}
                 />
               </div>
             </div>
             <div
-              className="MuiFormControl-root-122 MuiFormControl-marginNormal-123"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              required={true}
+              className="MuiFormControl-root-130 MuiFormControl-marginNormal-131"
             >
               <label
-                className="MuiFormLabel-root-132 MuiInputLabel-root-126 MuiInputLabel-formControl-127 MuiInputLabel-animated-130"
+                className="MuiFormLabel-root-141 MuiFormLabel-required-146 MuiInputLabel-root-134 MuiInputLabel-formControl-135 MuiInputLabel-animated-138"
                 data-shrink={false}
                 htmlFor="message"
               >
                 MESSAGE
                 <span
-                  className=""
+                  className="MuiFormLabel-asterisk-147"
                 >
                    *
                 </span>
               </label>
               <div
-                className="MuiInput-root-136 MuiInput-formControl-137 MuiInput-inkbar-138 MuiInput-multiline-143 MuiInput-underline-142"
-                onBlur={[Function]}
-                onFocus={[Function]}
+                className="MuiInputBase-root-161 MuiInput-root-148 MuiInput-underline-152 MuiInputBase-formControl-162 MuiInput-formControl-149 MuiInputBase-multiline-169 MuiInput-multiline-154"
+                onClick={[Function]}
               >
                 <div
-                  className="MuiTextarea-root-151"
-                  style={
-                    Object {
-                      "height": 24,
-                    }
-                  }
+                  className="MuiPrivateTextarea-root-178"
                 >
                   <textarea
                     aria-hidden="true"
-                    className="MuiTextarea-shadow-153 MuiTextarea-textarea-152"
+                    className="MuiPrivateTextarea-textarea-179 MuiPrivateTextarea-shadow-180"
                     readOnly={true}
                     rows="1"
                     tabIndex={-1}
@@ -204,37 +165,34 @@ exports[`renders contact 1`] = `
                   />
                   <textarea
                     aria-hidden="true"
-                    className="MuiTextarea-shadow-153 MuiTextarea-textarea-152"
-                    defaultValue={undefined}
+                    className="MuiPrivateTextarea-textarea-179 MuiPrivateTextarea-shadow-180"
                     readOnly={true}
                     rows={1}
                     tabIndex={-1}
-                    value={undefined}
                   />
                   <textarea
-                    autoComplete={undefined}
-                    autoFocus={undefined}
-                    className="MuiTextarea-textarea-152 MuiInput-input-145 MuiInput-inputMultiline-149"
-                    defaultValue={undefined}
+                    aria-invalid={false}
+                    className="MuiPrivateTextarea-textarea-179 MuiInputBase-input-171 MuiInput-input-156 MuiInputBase-inputMultiline-173 MuiInput-inputMultiline-158"
                     disabled={false}
                     id="message"
                     name="message"
+                    onBlur={[Function]}
                     onChange={[Function]}
-                    onKeyDown={undefined}
-                    onKeyUp={undefined}
-                    placeholder={undefined}
-                    readOnly={undefined}
+                    onFocus={[Function]}
                     required={true}
                     rows={1}
-                    type="text"
-                    value={undefined}
+                    style={
+                      Object {
+                        "height": 19,
+                      }
+                    }
                   />
                 </div>
               </div>
             </div>
             <div>
               <button
-                className="MuiButtonBase-root-168 MuiButton-root-154 MuiButton-raised-161 MuiButton-raisedPrimary-163 ContactForm-button-94"
+                className="MuiButtonBase-root-207 MuiButton-root-181 MuiButton-text-183 MuiButton-textPrimary-184 MuiButton-flat-186 MuiButton-flatPrimary-187 ContactForm-button-102"
                 disabled={false}
                 onBlur={[Function]}
                 onFocus={[Function]}
@@ -246,17 +204,17 @@ exports[`renders contact 1`] = `
                 onTouchEnd={[Function]}
                 onTouchMove={[Function]}
                 onTouchStart={[Function]}
-                role="button"
-                tabIndex={0}
+                raised={true}
+                tabIndex="0"
                 type="submit"
               >
                 <span
-                  className="MuiButton-label-156"
+                  className="MuiButton-label-182"
                 >
                   SEND
                 </span>
                 <span
-                  className="MuiTouchRipple-root-170"
+                  className="MuiTouchRipple-root-218"
                 />
               </button>
             </div>
@@ -265,49 +223,49 @@ exports[`renders contact 1`] = `
       </div>
     </div>
     <div
-      className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39 MuiGrid-grid-lg-6-72 About-itemContainer-2"
+      className="MuiGrid-item-4 MuiGrid-grid-xs-12-43 MuiGrid-grid-lg-6-79 About-itemContainer-2"
     >
       <div
-        className="MuiPaper-root-95 MuiPaper-shadow2-99 MuiPaper-rounded-96 MapContainer-container-177"
+        className="MuiPaper-root-103 MuiPaper-elevation2-107 MuiPaper-rounded-104 MapContainer-container-210"
       >
         <div
-          className="MuiGrid-typeContainer-3 MuiGrid-direction-xs-column-5 MapContainer-gridContainer-179"
+          className="MuiGrid-container-3 MuiGrid-direction-xs-column-6 MapContainer-gridContainer-212"
         >
           <div
-            className="MuiGrid-typeItem-4 MapContainer-contactContainer-178"
+            className="MuiGrid-item-4 MapContainer-contactContainer-211"
           >
             <div
-              className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-24-25 MuiGrid-direction-xs-column-5"
+              className="MuiGrid-container-3 MuiGrid-item-4 MuiGrid-spacing-xs-24-27 MuiGrid-direction-xs-column-6"
             >
               <div
                 align="stretch"
-                className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-24-25"
+                className="MuiGrid-container-3 MuiGrid-item-4 MuiGrid-spacing-xs-24-27 MuiGrid-justify-xs-space-evenly-24"
               >
                 <div
-                  className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-3-56 ContactInfo-profileListItem-182"
+                  className="MuiGrid-item-4 MuiGrid-grid-xs-12-43 MuiGrid-grid-md-3-62 ContactInfo-profileListItem-215"
                 >
                   Address:
                 </div>
                 <div
-                  className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-9-62 ContactInfo-profileListItemValue-183"
+                  className="MuiGrid-item-4 MuiGrid-grid-xs-12-43 MuiGrid-grid-md-9-68 ContactInfo-profileListItemValue-216"
                 >
                   Pune, India
                 </div>
               </div>
               <div
                 align="center"
-                className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-24-25 MuiGrid-justify-xs-center-19"
+                className="MuiGrid-container-3 MuiGrid-item-4 MuiGrid-spacing-xs-24-27 MuiGrid-justify-xs-center-20"
               >
                 <div
-                  className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-3-56 ContactInfo-profileListItem-182"
+                  className="MuiGrid-item-4 MuiGrid-grid-xs-12-43 MuiGrid-grid-md-3-62 ContactInfo-profileListItem-215"
                 >
                   Email:
                 </div>
                 <div
-                  className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-9-62 ContactInfo-profileListItemValue-183"
+                  className="MuiGrid-item-4 MuiGrid-grid-xs-12-43 MuiGrid-grid-md-9-68 ContactInfo-profileListItemValue-216"
                 >
                   <a
-                    className="ContactInfo-profileValueAItemValue-184"
+                    className="ContactInfo-profileValueAItemValue-217"
                     href="mailto:durgaprasad.budhwani@gmail.com"
                   >
                     durgaprasad.budhwani@gmail.com
@@ -316,18 +274,18 @@ exports[`renders contact 1`] = `
               </div>
               <div
                 align="center"
-                className="MuiGrid-typeContainer-3 MuiGrid-typeItem-4 MuiGrid-spacing-xs-24-25 MuiGrid-justify-xs-center-19"
+                className="MuiGrid-container-3 MuiGrid-item-4 MuiGrid-spacing-xs-24-27 MuiGrid-justify-xs-center-20"
               >
                 <div
-                  className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-3-56 ContactInfo-profileListItem-182"
+                  className="MuiGrid-item-4 MuiGrid-grid-xs-12-43 MuiGrid-grid-md-3-62 ContactInfo-profileListItem-215"
                 >
                   Phone:
                 </div>
                 <div
-                  className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39 MuiGrid-grid-md-9-62 ContactInfo-profileListItemValue-183"
+                  className="MuiGrid-item-4 MuiGrid-grid-xs-12-43 MuiGrid-grid-md-9-68 ContactInfo-profileListItemValue-216"
                 >
                   <a
-                    className="ContactInfo-profileValueAItemValue-184"
+                    className="ContactInfo-profileValueAItemValue-217"
                     href="tel:+91-9545251359"
                   >
                     +91-9545251359
@@ -337,7 +295,7 @@ exports[`renders contact 1`] = `
             </div>
           </div>
           <div
-            className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39 MapContainer-mapContainer-180"
+            className="MuiGrid-item-4 MuiGrid-grid-xs-12-43 MapContainer-mapContainer-213"
           >
             <div />
           </div>

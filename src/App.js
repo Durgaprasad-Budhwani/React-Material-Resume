@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import {createMuiTheme, MuiThemeProvider} from 'material-ui/styles';
-import cyan from 'material-ui/colors/cyan';
+import {createMuiTheme, MuiThemeProvider} from '@material-ui/core/styles';
+import cyan from '@material-ui/core/colors/cyan';
+import pink from '@material-ui/core/colors/blue';
+import 'animate.css/animate.min.css';
 import Content from './components/content';
 import Footer from './components/footer';
-import pink from 'material-ui/colors/blue';
 import './App.css';
 import Header from './components/header';
-import 'animate.css/animate.min.css';
 
 import * as Scroll from 'react-scroll';
 
@@ -36,6 +36,9 @@ export default class App extends Component {
                 primary: cyan,
                 accent: pink,
                 type: 'light',
+            },
+            typography: {
+                useNextVariants: true,
             },
         });
         

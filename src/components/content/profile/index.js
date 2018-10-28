@@ -2,9 +2,9 @@
  * Created by durgaprasad on 8/30/17.
  */
 import React, {PureComponent} from 'react';
-import Grid from 'material-ui/Grid';
-import Paper from 'material-ui/Paper'
-import {withStyles} from 'material-ui/styles';
+import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper'
+import {withStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import SocialIcons from '../../common/social-icons';
 import Bubble from '../../common/bubble';
@@ -95,6 +95,7 @@ const styles = theme => ({
     }
     
 });
+
 
 class Profile extends PureComponent {
     render () {

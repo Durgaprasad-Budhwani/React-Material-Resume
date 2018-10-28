@@ -3,7 +3,7 @@
  */
 // @flow
 import React, { PureComponent } from 'react';
-import { withStyles } from 'material-ui/styles';
+import {withStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 
 const styles = theme => ({
@@ -23,6 +23,14 @@ type Props = {
   title: string
 }
 
+/**
+ * ##SectionTitle example - Ref - Header Component for more details
+ *```
+ *   <SectionTitle to="profile"
+ *      title="About"
+ *      enableNavigationItemClass={navigationItemClass}/>
+ *```
+ */
 class SectionTitle extends PureComponent<void, Props, void> {
   static propTypes: Props = {
     classes: PropTypes.object.isRequired,

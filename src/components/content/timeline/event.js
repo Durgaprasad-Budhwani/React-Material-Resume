@@ -3,8 +3,8 @@
  */
 // @flow
 import React, {PureComponent} from 'react';
-import {withStyles} from 'material-ui/styles';
-import Grid from 'material-ui/Grid';
+import {withStyles} from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
 import PropTypes from 'prop-types';
 
 const styles = theme => ({
@@ -49,6 +49,16 @@ type Props = {
     description: string,
 }
 
+/**
+ * ##Event example - Ref - Skills for more details
+ *```
+ *   <Event title={experience.title}
+ *          company={experience.company}
+ *          description={experience.description}
+ *          year={experience.year}
+ *   />
+ *```
+ */
 class Event extends PureComponent<void, Props, void> {
     static propTypes: Props = {
         classes: PropTypes.object.isRequired,

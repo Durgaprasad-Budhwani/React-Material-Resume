@@ -2,11 +2,12 @@
  * Created by durgaprasad on 9/5/17.
  */
 import React, {PureComponent} from 'react';
-import Grid from 'material-ui/Grid';
-import {withStyles} from 'material-ui/styles';
+import Grid from '@material-ui/core/Grid';
+import {withStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
-import IconButton from 'material-ui/IconButton';
-import Ionicon from 'react-ionicons';
+import IconButton from '@material-ui/core/IconButton';
+import {SocialIcon} from 'react-social-icons';
+import Ionicon from 'react-ionicons'
 
 const styles = theme => ({
     button: {
@@ -24,16 +25,16 @@ export class SocialIcons extends PureComponent {
         classes: PropTypes.object.isRequired,
         color: PropTypes.string.isRequired
     };
-    
+
     static defaultProps: Props = {
         color: 'white'
     };
-    
-    _openTab (url) {
+
+    _openTab(url) {
         window.open(url, '_blank');
     }
-    
-    render () {
+
+    render() {
         const {
             classes,
             color
@@ -45,42 +46,26 @@ export class SocialIcons extends PureComponent {
                   justify="center"
                   spacing={0}
                   className={classes.container}>
-                <IconButton className={classes.button}
-                            onClick={this._openTab.bind(this, "https://www.facebook.com/durgaprasad.budhwani")}
-                >
-                    <Ionicon icon="ion-social-facebook"
-                             fontSize="24px"
-                             color={color}>
-                    </Ionicon>
-                </IconButton>
-                <IconButton className={classes.button}
-                            onClick={this._openTab.bind(this, "https://twitter.com/DurgaprasadDP")}
-                >
-                    <Ionicon icon="ion-social-twitter"
-                             fontSize="24px"
-                             color={color}/>
-                </IconButton>
-                <IconButton className={classes.button}
-                            onClick={this._openTab.bind(this, "https://www.linkedin.com/in/durgaprasad-budhwani")}
-                >
-                    <Ionicon icon="ion-social-linkedin"
-                             fontSize="30px"
-                             color={color}/>
-                </IconButton>
-                <IconButton className={classes.button}
-                            onClick={this._openTab.bind(this, "https://plus.google.com/+DurgaprasadBudhwani")}
-                >
-                    <Ionicon icon="ion-social-googleplus"
-                             fontSize="24px"
-                             color={color}/>
-                </IconButton>
-                <IconButton className={classes.button}
-                            onClick={this._openTab.bind(this, "https://github.com/Durgaprasad-Budhwani")}
-                >
-                    <Ionicon icon="ion-social-github"
-                             fontSize="24px"
-                             color={color}/>
-                </IconButton>
+                <SocialIcon
+                    className={classes.button}
+                    url="https://www.facebook.com/durgaprasad.budhwani" fontSize="24px"
+                    color={color}/>
+                <SocialIcon
+                    className={classes.button}
+                    url="https://twitter.com/DurgaprasadDP" fontSize="24px"
+                    color={color}/>
+                <SocialIcon
+                    className={classes.button}
+                    url="https://www.linkedin.com/in/durgaprasad-budhwani" fontSize="24px"
+                    color={color}/>
+                <SocialIcon
+                    className={classes.button}
+                    url="https://plus.google.com/+DurgaprasadBudhwani" fontSize="24px"
+                    color={color}/>
+                <SocialIcon
+                    className={classes.button}
+                    url="https://github.com/Durgaprasad-Budhwani" fontSize="24px"
+                    color={color}/>
             </Grid>
         )
     }

@@ -2,11 +2,11 @@
  * Created by Durgaprasad Budhwani on 10/5/2017.
  */
 import React, {PureComponent} from 'react';
-import Grid from 'material-ui/Grid';
-import {withStyles} from 'material-ui/styles';
-import TextField from 'material-ui/TextField';
-import Paper from 'material-ui/Paper';
-import Button from 'material-ui/Button';
+import Grid from '@material-ui/core/Grid';
+import {withStyles} from '@material-ui/core/styles';
+import TextField from '@material-ui/core/TextField';
+import Paper from '@material-ui/core/Paper';
+import Button from '@material-ui/core/Button';
 
 const styles = theme => ({
     container: {
@@ -28,8 +28,15 @@ const styles = theme => ({
     },
 });
 
+/**
+ * ##ContactForm example - Ref - About for more details
+ *```
+ *    <ContactForm />
+ *```
+ */
+
 class ContactForm extends PureComponent<void, Props, void> {
-    render () {
+    render() {
         const {classes} = this.props;
         return (
             <Paper className={classes.container}>
@@ -73,7 +80,7 @@ class ContactForm extends PureComponent<void, Props, void> {
                             required
                         />
                         <div>
-                            <Button raised
+                            <Button variant="contained"
                                     color="primary"
                                     type="submit"
                                     className={classes.button}>
@@ -83,7 +90,7 @@ class ContactForm extends PureComponent<void, Props, void> {
                     </Grid>
                 </form>
             </Paper>
-        
+
         )
     }
 }

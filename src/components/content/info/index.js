@@ -3,8 +3,8 @@
  */
 
 import React, {PureComponent} from 'react';
-import Button from 'material-ui/Button';
-import {withStyles} from 'material-ui/styles';
+import Button from '@material-ui/core/Button';
+import {withStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 
 const styles = theme => ({
@@ -40,7 +40,7 @@ export class Info extends PureComponent {
         const classes = this.props.classes;
         return (
             <div className={classes.container}>
-                <Button raised
+                <Button variant="outlined"
                         className={classes.button}
                         onClick={this._openTab.bind(this, `${process.env.PUBLIC_URL}/Durgaprasad_Budhwani_v3C.pdf`)}
                         color="contrast">

@@ -3,8 +3,9 @@
  */
 
 import React, {PureComponent} from 'react';
-import Grid from 'material-ui/Grid';
-import {withStyles} from 'material-ui/styles';
+import Grid from '@material-ui/core/Grid';
+import {withStyles} from '@material-ui/core/styles';
+
 
 const styles = theme => ({
     container: {
@@ -36,6 +37,13 @@ const styles = theme => ({
     },
 });
 
+
+/**
+ * ##ContactInfo example - Ref - Map Component for more details
+ *```
+ *   <ContactInfo />
+ *```
+ */
 class ContactInfo extends PureComponent<void, Props, void> {
     render () {
         const {classes} = this.props;
@@ -48,7 +56,7 @@ class ContactInfo extends PureComponent<void, Props, void> {
                       item
                       direction="row"
                       align="stretch"
-                      justify="stretch"
+                      justify="space-evenly"
                       spacing={24}>
                     <Grid
                         className={classes.profileListItem}

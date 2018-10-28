@@ -4,14 +4,14 @@ exports[`<Skills /> renders <Skills /> 1`] = `
 <SkillBar
   classes={
     Object {
-      "button": "SkillBar-button-123",
-      "container": "SkillBar-container-124",
-      "label": "SkillBar-label-121",
-      "labelContainer": "SkillBar-labelContainer-122",
+      "button": "SkillBar-button-131",
+      "container": "SkillBar-container-132",
+      "label": "SkillBar-label-129",
+      "labelContainer": "SkillBar-labelContainer-130",
     }
   }
   color="primary"
-  completed="title"
+  completed={10}
   name="abc"
   size={6}
 />
@@ -20,19 +20,19 @@ exports[`<Skills /> renders <Skills /> 1`] = `
 exports[`<Skills /> renders <SkillsContainer /> 1`] = `
 <div
   align="stretch"
-  className="MuiGrid-typeContainer-4 MuiGrid-direction-xs-column-6 MuiGrid-justify-xs-center-20"
+  className="MuiGrid-container-4 MuiGrid-direction-xs-column-7 MuiGrid-justify-xs-center-21"
   id="skills"
 >
   <span
-    className="SectionTitle-sectionTitle-93"
+    className="SectionTitle-sectionTitle-101"
   >
     Professional Skills
   </span>
   <div
-    className="MuiPaper-root-94 MuiPaper-shadow2-98 MuiPaper-rounded-95 Skills-root-1"
+    className="MuiPaper-root-102 MuiPaper-elevation2-106 MuiPaper-rounded-103 Skills-root-1"
   >
     <div
-      className="MuiGrid-typeContainer-4 MuiGrid-typeItem-5 MuiGrid-spacing-xs-16-25 MuiGrid-justify-xs-space-between-22 MuiGrid-grid-xs-12-40"
+      className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-justify-xs-space-between-23 MuiGrid-grid-xs-12-44"
     />
   </div>
 </div>

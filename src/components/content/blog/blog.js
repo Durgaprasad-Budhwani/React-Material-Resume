@@ -2,11 +2,11 @@
  * Created by durgaprasad on 10/3/17.
  */
 import React, {PureComponent} from 'react';
-import Paper from 'material-ui/Paper';
-import Grid from 'material-ui/Grid';
-import {withStyles} from 'material-ui/styles';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+import {withStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
-import Button from 'material-ui/Button';
+import Button from '@material-ui/core/Button';
 
 const styles = theme => ({
     blogItemImage: {
@@ -92,6 +92,20 @@ type Props = {
     top: number
 }
 
+/**
+ * ##Blog example - Ref - About for more details
+ *```
+ *   <Blog md={6}
+ *       key={index}
+ *       xs={12}
+ *       image={blog.image}
+ *       title={blog.title}
+ *       day={blog.day}
+ *       month={blog.month}
+ *       url={blog.url}
+ *       />
+ *```
+ */
 export class Blog extends PureComponent<void, Props, void> {
     static propTypes: Props = {
         classes: PropTypes.object.isRequired,

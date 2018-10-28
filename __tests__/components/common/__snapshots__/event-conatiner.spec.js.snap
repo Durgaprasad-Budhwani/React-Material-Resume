@@ -15,7 +15,7 @@ exports[`renders event container for left 1`] = `
       }
     >
       <div
-        className="MuiPaper-root-15 MuiPaper-shadow2-19 MuiPaper-rounded-16 EventContainer-paper-2 EventContainer-paperLeft-3"
+        className="MuiPaper-root-15 MuiPaper-elevation2-19 MuiPaper-rounded-16 EventContainer-paper-2 EventContainer-paperLeft-3"
       >
         <span
           className="EventContainer-arrow-10 EventContainer-arrowRight-11"
@@ -27,7 +27,7 @@ exports[`renders event container for left 1`] = `
     />
   </div>
   <div
-    className="MuiPaper-root-15 MuiPaper-shadow2-19 MuiPaper-rounded-16 EventContainer-smallScreenBox-1"
+    className="MuiPaper-root-15 MuiPaper-elevation2-19 MuiPaper-rounded-16 EventContainer-smallScreenBox-1"
   />
 </div>
 `;
@@ -47,7 +47,7 @@ exports[`renders event container for right 1`] = `
       }
     >
       <div
-        className="MuiPaper-root-15 MuiPaper-shadow2-19 MuiPaper-rounded-16 EventContainer-paper-2 EventContainer-paperRight-4"
+        className="MuiPaper-root-15 MuiPaper-elevation2-19 MuiPaper-rounded-16 EventContainer-paper-2 EventContainer-paperRight-4"
       >
         <span
           className="EventContainer-arrow-10 EventContainer-arrowLeft-12"
@@ -59,7 +59,7 @@ exports[`renders event container for right 1`] = `
     />
   </div>
   <div
-    className="MuiPaper-root-15 MuiPaper-shadow2-19 MuiPaper-rounded-16 EventContainer-smallScreenBox-1"
+    className="MuiPaper-root-15 MuiPaper-elevation2-19 MuiPaper-rounded-16 EventContainer-smallScreenBox-1"
   />
 </div>
 `;

@@ -2,8 +2,8 @@
  * Created by durgaprasad on 8/17/17.
  */
 import React, {PureComponent} from 'react';
-import Grid from 'material-ui/Grid';
-import {withStyles} from 'material-ui/styles';
+import Grid from '@material-ui/core/Grid';
+import {withStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import About from './about';
 import Contact from './contact';
@@ -41,9 +41,7 @@ class Content extends PureComponent {
                       direction={"column"}
                       className={classes.padding0}
                       lg={8}>
-                    <Element name="profile">
-                        <About/>
-                    </Element>
+                    <About/>
                     <Element name="contact">
                         <Contact/>
                     </Element>
