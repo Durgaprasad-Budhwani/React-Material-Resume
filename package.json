@@ -9,6 +9,8 @@
   "license": "Apache 2.0",
   "homepage": "http://durgaprasad-budhwani.com",
   "dependencies": {
+    "@material-ui/core": "^3.3.2",
+    "@material-ui/icons": "^3.0.1",
     "animate.css": "^3.5.2",
     "babel-core": "^6.26.0",
     "babel-polyfill": "^6.26.0",
@@ -18,8 +20,6 @@
     "jss": "^9.0.0-pre.1",
     "jss-preset-default": "^4.5.0",
     "lodash.throttle": "^4.1.1",
-    "@material-ui/core": "^3.3.2",
-    "@material-ui/icons": "^3.0.1",
     "prop-types": "^15.5.10",
     "react": "^16.0.0",
     "react-animate-on-scroll": "https://github.com/Durgaprasad-Budhwani/react-animate-on-scroll.git#master",

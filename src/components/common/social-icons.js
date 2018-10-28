@@ -5,9 +5,7 @@ import React, {PureComponent} from 'react';
 import Grid from '@material-ui/core/Grid';
 import {withStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
-import IconButton from '@material-ui/core/IconButton';
 import {SocialIcon} from 'react-social-icons';
-import Ionicon from 'react-ionicons'
 
 const styles = theme => ({
     button: {

@@ -1,8 +1,4 @@
-# React Material Resume
-
-[![CircleCI](https://circleci.com/gh/Durgaprasad-Budhwani/React-Material-Resume.svg?style=svg)](https://circleci.com/gh/Durgaprasad-Budhwani/React-Material-Resume)
-
-[![codecov](https://codecov.io/gh/Durgaprasad-Budhwani/React-Material-Resume/branch/master/graph/badge.svg)](https://codecov.io/gh/Durgaprasad-Budhwani/React-Material-Resume)
+# React Material Resume [![CircleCI](https://circleci.com/gh/Durgaprasad-Budhwani/React-Material-Resume.svg?style=svg)](https://circleci.com/gh/Durgaprasad-Budhwani/React-Material-Resume) [![codecov](https://codecov.io/gh/Durgaprasad-Budhwani/React-Material-Resume/branch/master/graph/badge.svg)](https://codecov.io/gh/Durgaprasad-Budhwani/React-Material-Resume)
 
 
 A resume site build using [React](https://reactjs.org) and [Material-UI](https://material-ui.com/) that is deployed
