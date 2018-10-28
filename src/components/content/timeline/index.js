@@ -22,10 +22,10 @@ const styles = theme => ({
         },
     },
     barClass: {
-        height: 360,
+        height: 585,
         top: 80,
         [theme.breakpoints.down('md')]: {
-            height: 1040,
+            height: 1300,
             top: 20,
             zIndex: -1
         },
