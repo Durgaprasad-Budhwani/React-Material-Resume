@@ -55,7 +55,8 @@
     "react-scripts": "2.0.5",
     "react-social-icons": "^3.0.0",
     "react-test-renderer": "^16.0.0",
-    "regenerator-runtime": "^0.12.1"
+    "regenerator-runtime": "^0.12.1",
+    "serverless-sync-s3buckets": "^1.0.1"
   },
   "jest": {
     "verbose": true,
