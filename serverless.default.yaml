@@ -1,0 +1,61 @@
+# Name of service, it will be used by CloudFormation template
+service: simply-serverless-web
+
+provider:
+  name: aws
+  stage: dev  # Set the default stage used. Default is dev
+
+# Raw AWS CloudFormation goes in here.
+resources:
+  Resources:
+    ## Specifying the S3 Bucket
+    SimplyServerlessSite:
+      Type: AWS::S3::Bucket
+      Properties:
+        # Generate a name based on the stage
+        BucketName: simply-serverless-web
+        AccessControl: PublicRead
+        WebsiteConfiguration:
+          IndexDocument: index.html
+          ErrorDocument: index.html
+
+    StaticSiteS3BucketPolicy:
+      Type: AWS::S3::BucketPolicy
+      Properties:
+        Bucket:
+          Ref: SimplyServerlessSite
+        PolicyDocument:
+          Statement:
+            - Sid: PublicReadGetObject
+              Effect: Allow
+              Principal: '*'
+              Action:
+                - s3:GetObject
+              Resource:
+                Fn::Join: [
+                  "", [
+                  "arn:aws:s3:::",
+                  {
+                    "Ref": SimplyServerlessSite
+                  },
+                  "/*"
+                ]
+                ]
+
+  Outputs:
+    SimplyServerlessSiteBucketName:
+      Value:
+        Ref: SimplyServerlessSite
+    SimplyServerlessSiteURL:
+      Value:
+        Fn::GetAtt: [ "SimplyServerlessSite", "WebsiteURL" ]
+
+plugins:
+  - serverless-sync-s3buckets
+
+custom:
+  # Load our secret environment variables based on the current stage.
+  # Fallback to default if it is not in prod.
+  syncS3Buckets:
+    - bucketRef: SimplyServerlessSite
+      localDir: build
