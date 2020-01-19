@@ -809,7 +809,7 @@ exports[`renders content 1`] = `
               className="MuiPaper-root-112 MuiPaper-elevation2-116 MuiPaper-rounded-113 ContactForm-container-195"
             >
               <form
-                action="https://formspree.io/durgaprasad.budhwani@gmail.com."
+                action="https://formspree.io/durgaprasad.budhwani@gmail.com"
                 method="post"
               >
                 <div

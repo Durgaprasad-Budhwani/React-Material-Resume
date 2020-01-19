@@ -19,7 +19,7 @@ exports[`renders contact 1`] = `
         className="MuiPaper-root-103 MuiPaper-elevation2-107 MuiPaper-rounded-104 ContactForm-container-101"
       >
         <form
-          action="https://formspree.io/durgaprasad.budhwani@gmail.com."
+          action="https://formspree.io/durgaprasad.budhwani@gmail.com"
           method="post"
         >
           <div

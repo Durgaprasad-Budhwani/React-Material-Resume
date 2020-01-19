@@ -936,7 +936,7 @@ exports[`renders app without loading 1`] = `
                 className="MuiPaper-root-18 MuiPaper-elevation2-22 MuiPaper-rounded-19 ContactForm-container-250"
               >
                 <form
-                  action="https://formspree.io/durgaprasad.budhwani@gmail.com."
+                  action="https://formspree.io/durgaprasad.budhwani@gmail.com"
                   method="post"
                 >
                   <div

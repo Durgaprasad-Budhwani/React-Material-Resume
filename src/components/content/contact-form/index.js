@@ -41,7 +41,7 @@ class ContactForm extends PureComponent<void, Props, void> {
         return (
             <Paper className={classes.container}>
                 <form method="post"
-                      action="https://formspree.io/durgaprasad.budhwani@gmail.com.">
+                      action="https://formspree.io/durgaprasad.budhwani@gmail.com">
                     <Grid container
                           direction="column"
                           spacing={0}
