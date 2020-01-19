@@ -17,7 +17,7 @@ exports[`<Info /> renders <Info /> handle openTab event 1`] = `
       className={Object {}}
       color="contrast"
       onClick={[Function]}
-      raised={true}
+      variant="outlined"
     >
       <Button
         className={Object {}}
@@ -58,24 +58,22 @@ exports[`<Info /> renders <Info /> handle openTab event 1`] = `
         fullWidth={false}
         mini={false}
         onClick={[Function]}
-        raised={true}
         size="medium"
         type="button"
-        variant="text"
+        variant="outlined"
       >
         <WithStyles(ButtonBase)
-          className="MuiButton-root-4 MuiButton-text-6 MuiButton-flat-9"
+          className="MuiButton-root-4 MuiButton-outlined-12"
           component="button"
           disabled={false}
           focusRipple={true}
           focusVisibleClassName="MuiButton-focusVisible-23"
           onClick={[Function]}
-          raised={true}
           type="button"
         >
           <ButtonBase
             centerRipple={false}
-            className="MuiButton-root-4 MuiButton-text-6 MuiButton-flat-9"
+            className="MuiButton-root-4 MuiButton-outlined-12"
             classes={
               Object {
                 "disabled": "MuiButtonBase-disabled-31",
@@ -90,15 +88,15 @@ exports[`<Info /> renders <Info /> handle openTab event 1`] = `
             focusRipple={true}
             focusVisibleClassName="MuiButton-focusVisible-23"
             onClick={[Function]}
-            raised={true}
             tabIndex="0"
             type="button"
           >
             <button
-              className="MuiButtonBase-root-30 MuiButton-root-4 MuiButton-text-6 MuiButton-flat-9"
+              className="MuiButtonBase-root-30 MuiButton-root-4 MuiButton-outlined-12"
               disabled={false}
               onBlur={[Function]}
               onClick={[Function]}
+              onContextMenu={[Function]}
               onFocus={[Function]}
               onKeyDown={[Function]}
               onKeyUp={[Function]}
@@ -108,7 +106,6 @@ exports[`<Info /> renders <Info /> handle openTab event 1`] = `
               onTouchEnd={[Function]}
               onTouchMove={[Function]}
               onTouchStart={[Function]}
-              raised={true}
               tabIndex="0"
               type="button"
             >
@@ -172,10 +169,11 @@ exports[`<Info /> renders <InfoContainer /> 1`] = `
   className="Info-container-1"
 >
   <button
-    className="MuiButtonBase-root-30 MuiButton-root-4 MuiButton-text-6 MuiButton-flat-9 Info-button-3"
+    className="MuiButtonBase-root-30 MuiButton-root-4 MuiButton-outlined-12 Info-button-3"
     disabled={false}
     onBlur={[Function]}
     onClick={[Function]}
+    onContextMenu={[Function]}
     onFocus={[Function]}
     onKeyDown={[Function]}
     onKeyUp={[Function]}
@@ -185,7 +183,6 @@ exports[`<Info /> renders <InfoContainer /> 1`] = `
     onTouchEnd={[Function]}
     onTouchMove={[Function]}
     onTouchStart={[Function]}
-    raised={true}
     tabIndex="0"
     type="button"
   >

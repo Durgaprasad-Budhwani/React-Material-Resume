@@ -646,10 +646,11 @@ exports[`renders about 1`] = `
         className="Info-container-143"
       >
         <button
-          className="MuiButtonBase-root-172 MuiButton-root-146 MuiButton-text-148 MuiButton-flat-151 Info-button-145"
+          className="MuiButtonBase-root-172 MuiButton-root-146 MuiButton-outlined-154 Info-button-145"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
+          onContextMenu={[Function]}
           onFocus={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
@@ -659,7 +660,6 @@ exports[`renders about 1`] = `
           onTouchEnd={[Function]}
           onTouchMove={[Function]}
           onTouchStart={[Function]}
-          raised={true}
           tabIndex="0"
           type="button"
         >

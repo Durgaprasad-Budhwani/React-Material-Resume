@@ -19,17 +19,17 @@ exports[`renders skill bar 1`] = `
     </span>
   </div>
   <div
-    className="MuiLinearProgress-root-102 MuiLinearProgress-colorPrimary-103"
-    mode="determinate"
+    aria-valuenow={60}
+    className="MuiLinearProgress-root-102 MuiLinearProgress-colorPrimary-103 MuiLinearProgress-determinate-105"
     role="progressbar"
   >
     <div
-      className="MuiLinearProgress-bar-110 MuiLinearProgress-barColorPrimary-111 MuiLinearProgress-bar1Indeterminate-113"
-      style={Object {}}
-    />
-    <div
-      className="MuiLinearProgress-bar-110 MuiLinearProgress-barColorPrimary-111 MuiLinearProgress-bar2Indeterminate-116"
-      style={Object {}}
+      className="MuiLinearProgress-bar-112 MuiLinearProgress-barColorPrimary-113 MuiLinearProgress-bar1Determinate-116"
+      style={
+        Object {
+          "transform": "scaleX(0.6)",
+        }
+      }
     />
   </div>
 </div>

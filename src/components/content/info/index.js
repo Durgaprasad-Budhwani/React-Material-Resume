@@ -35,14 +35,14 @@ export class Info extends PureComponent {
     _openTab(url) {
         window.open(url, '_blank');
     }
-    
+
     render () {
         const classes = this.props.classes;
         return (
             <div className={classes.container}>
                 <Button variant="outlined"
                         className={classes.button}
-                        onClick={this._openTab.bind(this, `${process.env.PUBLIC_URL}/Durgaprasad_Budhwani_v3G.pdf`)}
+                        onClick={this._openTab.bind(this, `${process.env.PUBLIC_URL}/Durgaprasad_Budhwani.pdf`)}
                         color="contrast">
                     Download Resume
                 </Button>

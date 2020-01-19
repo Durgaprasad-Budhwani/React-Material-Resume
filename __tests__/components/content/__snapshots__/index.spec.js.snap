@@ -7,787 +7,785 @@ exports[`renders content 1`] = `
   <div
     className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-direction-xs-column-7 MuiGrid-grid-xs-12-44 MuiGrid-grid-sm-12-58 MuiGrid-grid-md-8-68 MuiGrid-grid-lg-8-82 Content-padding0-3"
   >
-    <div>
+    <div
+      className="MuiGrid-container-4 About-about-101"
+    >
       <div
-        className="MuiGrid-container-4 About-about-101"
+        className="MuiGrid-item-5 MuiGrid-grid-xs-12-44"
       >
-        <div
-          className="MuiGrid-item-5 MuiGrid-grid-xs-12-44"
-        >
-          <div>
+        <div>
+          <div
+            className="MuiPaper-root-112 MuiPaper-elevation2-116 MuiPaper-rounded-113 Profile-container-103"
+          >
             <div
-              className="MuiPaper-root-112 MuiPaper-elevation2-116 MuiPaper-rounded-113 Profile-container-103"
+              className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-direction-xs-column-7"
             >
               <div
-                className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-direction-xs-column-7"
+                className="MuiGrid-container-4 MuiGrid-item-5 Profile-profile-104"
               >
                 <div
-                  className="MuiGrid-container-4 MuiGrid-item-5 Profile-profile-104"
+                  className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-lg-5-79"
                 >
-                  <div
-                    className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-lg-5-79"
-                  >
-                    <img
-                      alt="Durgaprasad Budhwani"
-                      className="Profile-profilePhoto-105"
-                      src="profile.jpeg"
-                    />
-                  </div>
-                  <div
-                    className="MuiGrid-item-5 MuiGrid-grid-xs-1-33"
+                  <img
+                    alt="Durgaprasad Budhwani"
+                    className="Profile-profilePhoto-105"
+                    src="profile.jpeg"
                   />
-                  <div
-                    align="flex-start"
-                    className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-direction-xs-column-7 MuiGrid-grid-xs-12-44 MuiGrid-grid-lg-6-80"
-                  >
-                    <div
-                      className="MuiGrid-item-5 Profile-profileInfo-106"
-                    >
-                      <div>
-                        <span
-                          className="Bubble-container-139"
-                        >
-                          Hello
-                        </span>
-                      </div>
-                      <h1
-                        className="Profile-profileTitle-108"
-                      >
-                        <span
-                          className="Profile-profileTitleStart-109"
-                        >
-                          I'm
-                        </span>
-                         Durgaprasad Budhwani
-                      </h1>
-                      <h2
-                        className="Profile-profilePosition-110"
-                      >
-                        Full Stack Developer
-                      </h2>
-                    </div>
-                    <div
-                      className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-spacing-xs-24-28 MuiGrid-direction-xs-column-7"
-                    >
-                      <div
-                        align="stretch"
-                        className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-spacing-xs-24-28 MuiGrid-justify-xs-space-evenly-25"
-                      >
-                        <div
-                          className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-md-3-63 ContactInfo-profileListItem-141"
-                        >
-                          Address:
-                        </div>
-                        <div
-                          className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-md-9-69 ContactInfo-profileListItemValue-142"
-                        >
-                          Pune, India
-                        </div>
-                      </div>
-                      <div
-                        align="center"
-                        className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-spacing-xs-24-28 MuiGrid-justify-xs-center-21"
-                      >
-                        <div
-                          className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-md-3-63 ContactInfo-profileListItem-141"
-                        >
-                          Email:
-                        </div>
-                        <div
-                          className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-md-9-69 ContactInfo-profileListItemValue-142"
-                        >
-                          <a
-                            className="ContactInfo-profileValueAItemValue-143"
-                            href="mailto:durgaprasad.budhwani@gmail.com"
-                          >
-                            durgaprasad.budhwani@gmail.com
-                          </a>
-                        </div>
-                      </div>
-                      <div
-                        align="center"
-                        className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-spacing-xs-24-28 MuiGrid-justify-xs-center-21"
-                      >
-                        <div
-                          className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-md-3-63 ContactInfo-profileListItem-141"
-                        >
-                          Phone:
-                        </div>
-                        <div
-                          className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-md-9-69 ContactInfo-profileListItemValue-142"
-                        >
-                          <a
-                            className="ContactInfo-profileValueAItemValue-143"
-                            href="tel:+91-9545251359"
-                          >
-                            +91-9545251359
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <div
-                  className="Profile-profileSocial-111"
-                >
-                  <div
-                    align="center"
-                    className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-justify-xs-center-21 SocialIcons-container-145"
-                  >
-                    <a
-                      aria-label="facebook"
-                      className="social-icon SocialIcons-button-144"
-                      fontSize="24px"
-                      href="https://www.facebook.com/durgaprasad.budhwani"
-                      rel="noopener"
-                      style={
-                        Object {
-                          "display": "inline-block",
-                          "height": "50px",
-                          "overflow": "hidden",
-                          "position": "relative",
-                          "verticalAlign": "middle",
-                          "width": "50px",
-                        }
-                      }
-                      target="_blank"
-                    >
-                      <div
-                        className="social-container"
-                        style={
-                          Object {
-                            "height": "100%",
-                            "left": 0,
-                            "position": "absolute",
-                            "top": 0,
-                            "width": "100%",
-                          }
-                        }
-                      >
-                        <svg
-                          className="social-svg"
-                          style={
-                            Object {
-                              "borderRadius": "50%",
-                              "fillRule": "evenodd",
-                              "height": "100%",
-                              "left": 0,
-                              "position": "absolute",
-                              "top": 0,
-                              "width": "100%",
-                            }
-                          }
-                          viewBox="0 0 64 64"
-                        >
-                          <g
-                            className="social-svg-background"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "transparent",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <circle
-                              cx="32"
-                              cy="32"
-                              r="31"
-                            />
-                          </g>
-                          <g
-                            className="social-svg-icon"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "transparent",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <path
-                              d="M34.1,47V33.3h4.6l0.7-5.3h-5.3v-3.4c0-1.5,0.4-2.6,2.6-2.6l2.8,0v-4.8c-0.5-0.1-2.2-0.2-4.1-0.2 c-4.1,0-6.9,2.5-6.9,7V28H24v5.3h4.6V47H34.1z"
-                            />
-                          </g>
-                          <g
-                            className="social-svg-mask"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "white",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <path
-                              d="M0,0v64h64V0H0z M39.6,22l-2.8,0c-2.2,0-2.6,1.1-2.6,2.6V28h5.3l-0.7,5.3h-4.6V47h-5.5V33.3H24V28h4.6V24 c0-4.6,2.8-7,6.9-7c2,0,3.6,0.1,4.1,0.2V22z"
-                            />
-                          </g>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      aria-label="twitter"
-                      className="social-icon SocialIcons-button-144"
-                      fontSize="24px"
-                      href="https://twitter.com/DurgaprasadDP"
-                      rel="noopener"
-                      style={
-                        Object {
-                          "display": "inline-block",
-                          "height": "50px",
-                          "overflow": "hidden",
-                          "position": "relative",
-                          "verticalAlign": "middle",
-                          "width": "50px",
-                        }
-                      }
-                      target="_blank"
-                    >
-                      <div
-                        className="social-container"
-                        style={
-                          Object {
-                            "height": "100%",
-                            "left": 0,
-                            "position": "absolute",
-                            "top": 0,
-                            "width": "100%",
-                          }
-                        }
-                      >
-                        <svg
-                          className="social-svg"
-                          style={
-                            Object {
-                              "borderRadius": "50%",
-                              "fillRule": "evenodd",
-                              "height": "100%",
-                              "left": 0,
-                              "position": "absolute",
-                              "top": 0,
-                              "width": "100%",
-                            }
-                          }
-                          viewBox="0 0 64 64"
-                        >
-                          <g
-                            className="social-svg-background"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "transparent",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <circle
-                              cx="32"
-                              cy="32"
-                              r="31"
-                            />
-                          </g>
-                          <g
-                            className="social-svg-icon"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "transparent",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <path
-                              d="M48,22.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6 C41.7,19.8,40,19,38.2,19c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5c-5.5-0.3-10.3-2.9-13.5-6.9c-0.6,1-0.9,2.1-0.9,3.3 c0,2.3,1.2,4.3,2.9,5.5c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1c2.9,1.9,6.4,2.9,10.1,2.9c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C46,24.5,47.1,23.4,48,22.1z"
-                            />
-                          </g>
-                          <g
-                            className="social-svg-mask"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "white",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <path
-                              d="M0,0v64h64V0H0z M44.7,25.5c0,0.3,0,0.6,0,0.8C44.7,35,38.1,45,26.1,45c-3.7,0-7.2-1.1-10.1-2.9 c0.5,0.1,1,0.1,1.6,0.1c3.1,0,5.9-1,8.2-2.8c-2.9-0.1-5.3-2-6.1-4.6c0.4,0.1,0.8,0.1,1.2,0.1c0.6,0,1.2-0.1,1.7-0.2 c-3-0.6-5.3-3.3-5.3-6.4c0,0,0-0.1,0-0.1c0.9,0.5,1.9,0.8,3,0.8c-1.8-1.2-2.9-3.2-2.9-5.5c0-1.2,0.3-2.3,0.9-3.3 c3.2,4,8.1,6.6,13.5,6.9c-0.1-0.5-0.2-1-0.2-1.5c0-3.6,2.9-6.6,6.6-6.6c1.9,0,3.6,0.8,4.8,2.1c1.5-0.3,2.9-0.8,4.2-1.6 c-0.5,1.5-1.5,2.8-2.9,3.6c1.3-0.2,2.6-0.5,3.8-1C47.1,23.4,46,24.5,44.7,25.5z"
-                            />
-                          </g>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      aria-label="linkedin"
-                      className="social-icon SocialIcons-button-144"
-                      fontSize="24px"
-                      href="https://www.linkedin.com/in/durgaprasad-budhwani"
-                      rel="noopener"
-                      style={
-                        Object {
-                          "display": "inline-block",
-                          "height": "50px",
-                          "overflow": "hidden",
-                          "position": "relative",
-                          "verticalAlign": "middle",
-                          "width": "50px",
-                        }
-                      }
-                      target="_blank"
-                    >
-                      <div
-                        className="social-container"
-                        style={
-                          Object {
-                            "height": "100%",
-                            "left": 0,
-                            "position": "absolute",
-                            "top": 0,
-                            "width": "100%",
-                          }
-                        }
-                      >
-                        <svg
-                          className="social-svg"
-                          style={
-                            Object {
-                              "borderRadius": "50%",
-                              "fillRule": "evenodd",
-                              "height": "100%",
-                              "left": 0,
-                              "position": "absolute",
-                              "top": 0,
-                              "width": "100%",
-                            }
-                          }
-                          viewBox="0 0 64 64"
-                        >
-                          <g
-                            className="social-svg-background"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "transparent",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <circle
-                              cx="32"
-                              cy="32"
-                              r="31"
-                            />
-                          </g>
-                          <g
-                            className="social-svg-icon"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "transparent",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <path
-                              d="M20.4,44h5.4V26.6h-5.4V44z M23.1,18c-1.7,0-3.1,1.4-3.1,3.1c0,1.7,1.4,3.1,3.1,3.1 c1.7,0,3.1-1.4,3.1-3.1C26.2,19.4,24.8,18,23.1,18z M39.5,26.2c-2.6,0-4.4,1.4-5.1,2.8h-0.1v-2.4h-5.2V44h5.4v-8.6 c0-2.3,0.4-4.5,3.2-4.5c2.8,0,2.8,2.6,2.8,4.6V44H46v-9.5C46,29.8,45,26.2,39.5,26.2z"
-                            />
-                          </g>
-                          <g
-                            className="social-svg-mask"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "white",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <path
-                              d="M0,0v64h64V0H0z M25.8,44h-5.4V26.6h5.4V44z M23.1,24.3c-1.7,0-3.1-1.4-3.1-3.1c0-1.7,1.4-3.1,3.1-3.1 c1.7,0,3.1,1.4,3.1,3.1C26.2,22.9,24.8,24.3,23.1,24.3z M46,44h-5.4v-8.4c0-2,0-4.6-2.8-4.6c-2.8,0-3.2,2.2-3.2,4.5V44h-5.4V26.6 h5.2V29h0.1c0.7-1.4,2.5-2.8,5.1-2.8c5.5,0,6.5,3.6,6.5,8.3V44z"
-                            />
-                          </g>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      aria-label="google"
-                      className="social-icon SocialIcons-button-144"
-                      fontSize="24px"
-                      href="https://plus.google.com/+DurgaprasadBudhwani"
-                      rel="noopener"
-                      style={
-                        Object {
-                          "display": "inline-block",
-                          "height": "50px",
-                          "overflow": "hidden",
-                          "position": "relative",
-                          "verticalAlign": "middle",
-                          "width": "50px",
-                        }
-                      }
-                      target="_blank"
-                    >
-                      <div
-                        className="social-container"
-                        style={
-                          Object {
-                            "height": "100%",
-                            "left": 0,
-                            "position": "absolute",
-                            "top": 0,
-                            "width": "100%",
-                          }
-                        }
-                      >
-                        <svg
-                          className="social-svg"
-                          style={
-                            Object {
-                              "borderRadius": "50%",
-                              "fillRule": "evenodd",
-                              "height": "100%",
-                              "left": 0,
-                              "position": "absolute",
-                              "top": 0,
-                              "width": "100%",
-                            }
-                          }
-                          viewBox="0 0 64 64"
-                        >
-                          <g
-                            className="social-svg-background"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "transparent",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <circle
-                              cx="32"
-                              cy="32"
-                              r="31"
-                            />
-                          </g>
-                          <g
-                            className="social-svg-icon"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "transparent",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <path
-                              d="M35.4,17h-8c-1.1,0-2.2,0.1-3.4,0.4 c-1.2,0.3-2.4,0.9-3.5,1.8c-1.7,1.6-2.5,3.4-2.5,5.4c0,1.6,0.6,3.1,1.8,4.3c1.1,1.3,2.7,2,4.9,2c0.4,0,0.8,0,1.3-0.1 c-0.1,0.2-0.2,0.4-0.2,0.7c-0.1,0.2-0.2,0.5-0.2,0.9c0,0.6,0.1,1.1,0.4,1.5c0.2,0.4,0.5,0.8,0.8,1.2c-0.9,0-2.1,0.1-3.5,0.4 c-1.4,0.2-2.8,0.7-4.1,1.5c-1.2,0.7-1.9,1.5-2.4,2.4c-0.5,0.9-0.7,1.7-0.7,2.5c0,1.5,0.7,2.8,2.1,3.9c1.4,1.2,3.5,1.8,6.3,1.8 c3.3-0.1,5.9-0.9,7.7-2.4c1.7-1.5,2.6-3.2,2.6-5.2c0-1.4-0.3-2.5-0.9-3.3c-0.6-0.8-1.4-1.6-2.2-2.3l-1.4-1.1 c-0.2-0.2-0.4-0.4-0.6-0.7c-0.2-0.3-0.4-0.6-0.4-1c0-0.4,0.1-0.8,0.4-1.1c0.2-0.3,0.4-0.6,0.7-0.8c0.4-0.4,0.8-0.7,1.2-1.1 c0.3-0.4,0.6-0.7,0.9-1.2c0.6-0.9,0.9-2,0.9-3.4c0-0.8-0.1-1.5-0.3-2.1c-0.2-0.6-0.5-1.1-0.7-1.5c-0.3-0.5-0.6-0.8-0.9-1.2 c-0.3-0.3-0.6-0.5-0.8-0.7H33L35.4,17z M31,38.9c0.7,0.8,1,1.6,1,2.7c0,1.3-0.5,2.3-1.5,3.1c-1,0.8-2.4,1.2-4.3,1.3 c-2.1,0-3.8-0.5-5-1.4c-1.3-0.9-1.9-2.1-1.9-3.5c0-0.7,0.1-1.3,0.4-1.8c0.3-0.5,0.6-0.9,0.9-1.2c0.4-0.3,0.8-0.6,1.1-0.7 c0.4-0.2,0.7-0.3,0.9-0.4c0.9-0.3,1.7-0.5,2.5-0.6c0.8-0.1,1.4-0.1,1.6-0.1c0.3,0,0.6,0,0.9,0C29.2,37.3,30.3,38.2,31,38.9z  M29.7,27.1c-0.1,0.5-0.3,1.1-0.7,1.6c-0.7,0.7-1.6,1.1-2.6,1.1c-0.8,0-1.6-0.3-2.2-0.8c-0.6-0.5-1.2-1.1-1.6-1.9 c-0.8-1.6-1.3-3.1-1.3-4.5c0-1.1,0.3-2.1,0.9-3c0.7-0.9,1.6-1.3,2.7-1.3c0.8,0,1.5,0.3,2.2,0.7c0.6,0.5,1.1,1.1,1.5,1.9 c0.8,1.6,1.2,3.2,1.2,4.8C29.8,26.1,29.8,26.5,29.7,27.1z M43.7,29.5v-4.3h-2.5v4.3H37V32h4.2v4.2h2.5V32H48v-2.5H43.7z"
-                            />
-                          </g>
-                          <g
-                            className="social-svg-mask"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "white",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <path
-                              d="M0,0v64h64V0H0z M31.3,19.1c0.3,0.3,0.6,0.7,0.9,1.2c0.3,0.4,0.5,0.9,0.7,1.5c0.2,0.6,0.3,1.3,0.3,2.1 c0,1.4-0.3,2.6-0.9,3.4c-0.3,0.4-0.6,0.8-0.9,1.2c-0.4,0.4-0.8,0.7-1.2,1.1c-0.2,0.2-0.5,0.5-0.7,0.8c-0.2,0.3-0.4,0.7-0.4,1.1 c0,0.4,0.1,0.8,0.4,1c0.2,0.3,0.4,0.5,0.6,0.7l1.4,1.1c0.8,0.7,1.6,1.5,2.2,2.3c0.6,0.8,0.9,2,0.9,3.3c0,1.9-0.9,3.7-2.6,5.2 c-1.8,1.6-4.3,2.4-7.7,2.4c-2.8,0-4.9-0.6-6.3-1.8c-1.4-1.1-2.1-2.4-2.1-3.9c0-0.7,0.2-1.6,0.7-2.5c0.4-0.9,1.2-1.7,2.4-2.4 c1.3-0.7,2.7-1.2,4.1-1.5c1.4-0.2,2.6-0.3,3.5-0.4c-0.3-0.4-0.5-0.8-0.8-1.2c-0.3-0.4-0.4-0.9-0.4-1.5c0-0.4,0-0.6,0.2-0.9 c0.1-0.2,0.2-0.5,0.2-0.7c-0.5,0.1-0.9,0.1-1.3,0.1c-2.1,0-3.8-0.7-4.9-2c-1.2-1.2-1.8-2.7-1.8-4.3c0-2,0.8-3.8,2.5-5.4 c1.1-0.9,2.3-1.6,3.5-1.8c1.2-0.2,2.3-0.4,3.4-0.4h8L33,18.4h-2.5C30.7,18.6,31,18.8,31.3,19.1z M48,32h-4.3v4.2h-2.5V32H37v-2.5 h4.2v-4.3h2.5v4.3H48V32z M27.1,19.1c-0.6-0.5-1.4-0.7-2.2-0.7c-1.1,0-2,0.5-2.7,1.3c-0.6,0.9-0.9,1.9-0.9,3c0,1.5,0.4,3,1.3,4.5 c0.4,0.7,0.9,1.4,1.6,1.9c0.6,0.5,1.4,0.8,2.2,0.8c1.1,0,1.9-0.4,2.6-1.1c0.3-0.5,0.6-1,0.7-1.6c0.1-0.5,0.1-1,0.1-1.4 c0-1.6-0.4-3.2-1.2-4.8C28.2,20.2,27.7,19.5,27.1,19.1z M26.9,36.2c-0.2,0-0.7,0-1.6,0.1c-0.8,0.1-1.7,0.3-2.5,0.6 c-0.2,0.1-0.5,0.2-0.9,0.4c-0.4,0.2-0.7,0.4-1.1,0.7c-0.4,0.3-0.7,0.7-0.9,1.2c-0.3,0.5-0.4,1.1-0.4,1.8c0,1.4,0.6,2.6,1.9,3.5 c1.2,0.9,2.9,1.4,5,1.4c1.9,0,3.3-0.4,4.3-1.3c1-0.8,1.5-1.8,1.5-3.1c0-1-0.3-1.9-1-2.7c-0.7-0.7-1.8-1.6-3.3-2.6 C27.5,36.2,27.2,36.2,26.9,36.2z"
-                            />
-                          </g>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      aria-label="github"
-                      className="social-icon SocialIcons-button-144"
-                      fontSize="24px"
-                      href="https://github.com/Durgaprasad-Budhwani"
-                      rel="noopener"
-                      style={
-                        Object {
-                          "display": "inline-block",
-                          "height": "50px",
-                          "overflow": "hidden",
-                          "position": "relative",
-                          "verticalAlign": "middle",
-                          "width": "50px",
-                        }
-                      }
-                      target="_blank"
-                    >
-                      <div
-                        className="social-container"
-                        style={
-                          Object {
-                            "height": "100%",
-                            "left": 0,
-                            "position": "absolute",
-                            "top": 0,
-                            "width": "100%",
-                          }
-                        }
-                      >
-                        <svg
-                          className="social-svg"
-                          style={
-                            Object {
-                              "borderRadius": "50%",
-                              "fillRule": "evenodd",
-                              "height": "100%",
-                              "left": 0,
-                              "position": "absolute",
-                              "top": 0,
-                              "width": "100%",
-                            }
-                          }
-                          viewBox="0 0 64 64"
-                        >
-                          <g
-                            className="social-svg-background"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "transparent",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <circle
-                              cx="32"
-                              cy="32"
-                              r="31"
-                            />
-                          </g>
-                          <g
-                            className="social-svg-icon"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "transparent",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <path
-                              d="M32,16c-8.8,0-16,7.2-16,16c0,7.1,4.6,13.1,10.9,15.2 c0.8,0.1,1.1-0.3,1.1-0.8c0-0.4,0-1.4,0-2.7c-4.5,1-5.4-2.1-5.4-2.1c-0.7-1.8-1.8-2.3-1.8-2.3c-1.5-1,0.1-1,0.1-1 c1.6,0.1,2.5,1.6,2.5,1.6c1.4,2.4,3.7,1.7,4.7,1.3c0.1-1,0.6-1.7,1-2.1c-3.6-0.4-7.3-1.8-7.3-7.9c0-1.7,0.6-3.2,1.6-4.3 c-0.2-0.4-0.7-2,0.2-4.2c0,0,1.3-0.4,4.4,1.6c1.3-0.4,2.6-0.5,4-0.5c1.4,0,2.7,0.2,4,0.5c3.1-2.1,4.4-1.6,4.4-1.6 c0.9,2.2,0.3,3.8,0.2,4.2c1,1.1,1.6,2.5,1.6,4.3c0,6.1-3.7,7.5-7.3,7.9c0.6,0.5,1.1,1.5,1.1,3c0,2.1,0,3.9,0,4.4 c0,0.4,0.3,0.9,1.1,0.8C43.4,45.1,48,39.1,48,32C48,23.2,40.8,16,32,16z"
-                            />
-                          </g>
-                          <g
-                            className="social-svg-mask"
-                            style={
-                              Object {
-                                "MozTransition": "fill 170ms ease-in-out",
-                                "OTransition": "fill 170ms ease-in-out",
-                                "WebkitTransition": "fill 170ms ease-in-out",
-                                "fill": "white",
-                                "msTransition": "fill 170ms ease-in-out",
-                                "transition": "fill 170ms ease-in-out",
-                              }
-                            }
-                          >
-                            <path
-                              d="M0,0v64h64V0H0z M37.1,47.2c-0.8,0.2-1.1-0.3-1.1-0.8c0-0.5,0-2.3,0-4.4c0-1.5-0.5-2.5-1.1-3 c3.6-0.4,7.3-1.7,7.3-7.9c0-1.7-0.6-3.2-1.6-4.3c0.2-0.4,0.7-2-0.2-4.2c0,0-1.3-0.4-4.4,1.6c-1.3-0.4-2.6-0.5-4-0.5 c-1.4,0-2.7,0.2-4,0.5c-3.1-2.1-4.4-1.6-4.4-1.6c-0.9,2.2-0.3,3.8-0.2,4.2c-1,1.1-1.6,2.5-1.6,4.3c0,6.1,3.7,7.5,7.3,7.9 c-0.5,0.4-0.9,1.1-1,2.1c-0.9,0.4-3.2,1.1-4.7-1.3c0,0-0.8-1.5-2.5-1.6c0,0-1.6,0-0.1,1c0,0,1,0.5,1.8,2.3c0,0,0.9,3.1,5.4,2.1 c0,1.3,0,2.3,0,2.7c0,0.4-0.3,0.9-1.1,0.8C20.6,45.1,16,39.1,16,32c0-8.8,7.2-16,16-16c8.8,0,16,7.2,16,16 C48,39.1,43.4,45.1,37.1,47.2z"
-                            />
-                          </g>
-                        </svg>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="MuiGrid-item-5 MuiGrid-grid-xs-12-44"
-        >
-          <div>
-            <div
-              className="Info-container-146"
-            >
-              <button
-                className="MuiButtonBase-root-175 MuiButton-root-149 MuiButton-text-151 MuiButton-flat-154 Info-button-148"
-                disabled={false}
-                onBlur={[Function]}
-                onClick={[Function]}
-                onFocus={[Function]}
-                onKeyDown={[Function]}
-                onKeyUp={[Function]}
-                onMouseDown={[Function]}
-                onMouseLeave={[Function]}
-                onMouseUp={[Function]}
-                onTouchEnd={[Function]}
-                onTouchMove={[Function]}
-                onTouchStart={[Function]}
-                raised={true}
-                tabIndex="0"
-                type="button"
-              >
-                <span
-                  className="MuiButton-label-150"
-                >
-                  Download Resume
-                </span>
-                <span
-                  className="MuiTouchRipple-root-252"
+                  className="MuiGrid-item-5 MuiGrid-grid-xs-1-33"
                 />
-              </button>
-              <p
-                className="Info-info-147"
-              >
-                Hello! I am Durgaprasad Budhwani. Full Stack Developer specializing in web, desktop, mobile design and development, I maintain a healthy balance between functionality and visual impact in all my work. I believe every piece of design can be a work of art. 
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          className="MuiGrid-item-5 MuiGrid-grid-xs-12-44"
-        >
-          <div>
-            <div
-              className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-direction-xs-column-7 MuiGrid-justify-xs-center-21 MuiGrid-grid-xs-12-44 Experiences-container-178"
-            >
-              <span
-                className="SectionTitle-sectionTitle-182"
-              >
-                Work Experience
-              </span>
-              <div
-                style={
-                  Object {
-                    "position": "relative",
-                  }
-                }
-              >
                 <div
-                  className="Experiences-clear-181"
+                  align="flex-start"
+                  className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-direction-xs-column-7 MuiGrid-grid-xs-12-44 MuiGrid-grid-lg-6-80"
                 >
                   <div
-                    className="TimelineBar-bar-183 Experiences-barClass-179"
-                  />
+                    className="MuiGrid-item-5 Profile-profileInfo-106"
+                  >
+                    <div>
+                      <span
+                        className="Bubble-container-139"
+                      >
+                        Hello
+                      </span>
+                    </div>
+                    <h1
+                      className="Profile-profileTitle-108"
+                    >
+                      <span
+                        className="Profile-profileTitleStart-109"
+                      >
+                        I'm
+                      </span>
+                       Durgaprasad Budhwani
+                    </h1>
+                    <h2
+                      className="Profile-profilePosition-110"
+                    >
+                      Full Stack Developer
+                    </h2>
+                  </div>
+                  <div
+                    className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-spacing-xs-24-28 MuiGrid-direction-xs-column-7"
+                  >
+                    <div
+                      align="stretch"
+                      className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-spacing-xs-24-28 MuiGrid-justify-xs-space-evenly-25"
+                    >
+                      <div
+                        className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-md-3-63 ContactInfo-profileListItem-141"
+                      >
+                        Address:
+                      </div>
+                      <div
+                        className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-md-9-69 ContactInfo-profileListItemValue-142"
+                      >
+                        Pune, India
+                      </div>
+                    </div>
+                    <div
+                      align="center"
+                      className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-spacing-xs-24-28 MuiGrid-justify-xs-center-21"
+                    >
+                      <div
+                        className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-md-3-63 ContactInfo-profileListItem-141"
+                      >
+                        Email:
+                      </div>
+                      <div
+                        className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-md-9-69 ContactInfo-profileListItemValue-142"
+                      >
+                        <a
+                          className="ContactInfo-profileValueAItemValue-143"
+                          href="mailto:durgaprasad.budhwani@gmail.com"
+                        >
+                          durgaprasad.budhwani@gmail.com
+                        </a>
+                      </div>
+                    </div>
+                    <div
+                      align="center"
+                      className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-spacing-xs-24-28 MuiGrid-justify-xs-center-21"
+                    >
+                      <div
+                        className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-md-3-63 ContactInfo-profileListItem-141"
+                      >
+                        Phone:
+                      </div>
+                      <div
+                        className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-md-9-69 ContactInfo-profileListItemValue-142"
+                      >
+                        <a
+                          className="ContactInfo-profileValueAItemValue-143"
+                          href="tel:+91-9545251359"
+                        >
+                          +91-9545251359
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="Profile-profileSocial-111"
+              >
+                <div
+                  align="center"
+                  className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-justify-xs-center-21 SocialIcons-container-145"
+                >
+                  <a
+                    aria-label="facebook"
+                    className="social-icon SocialIcons-button-144"
+                    fontSize="24px"
+                    href="https://www.facebook.com/durgaprasad.budhwani"
+                    rel="noopener"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "height": "50px",
+                        "overflow": "hidden",
+                        "position": "relative",
+                        "verticalAlign": "middle",
+                        "width": "50px",
+                      }
+                    }
+                    target="_blank"
+                  >
+                    <div
+                      className="social-container"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "left": 0,
+                          "position": "absolute",
+                          "top": 0,
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <svg
+                        className="social-svg"
+                        style={
+                          Object {
+                            "borderRadius": "50%",
+                            "fillRule": "evenodd",
+                            "height": "100%",
+                            "left": 0,
+                            "position": "absolute",
+                            "top": 0,
+                            "width": "100%",
+                          }
+                        }
+                        viewBox="0 0 64 64"
+                      >
+                        <g
+                          className="social-svg-background"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "transparent",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <circle
+                            cx="32"
+                            cy="32"
+                            r="31"
+                          />
+                        </g>
+                        <g
+                          className="social-svg-icon"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "transparent",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <path
+                            d="M34.1,47V33.3h4.6l0.7-5.3h-5.3v-3.4c0-1.5,0.4-2.6,2.6-2.6l2.8,0v-4.8c-0.5-0.1-2.2-0.2-4.1-0.2 c-4.1,0-6.9,2.5-6.9,7V28H24v5.3h4.6V47H34.1z"
+                          />
+                        </g>
+                        <g
+                          className="social-svg-mask"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "white",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <path
+                            d="M0,0v64h64V0H0z M39.6,22l-2.8,0c-2.2,0-2.6,1.1-2.6,2.6V28h5.3l-0.7,5.3h-4.6V47h-5.5V33.3H24V28h4.6V24 c0-4.6,2.8-7,6.9-7c2,0,3.6,0.1,4.1,0.2V22z"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                  </a>
+                  <a
+                    aria-label="twitter"
+                    className="social-icon SocialIcons-button-144"
+                    fontSize="24px"
+                    href="https://twitter.com/DurgaprasadDP"
+                    rel="noopener"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "height": "50px",
+                        "overflow": "hidden",
+                        "position": "relative",
+                        "verticalAlign": "middle",
+                        "width": "50px",
+                      }
+                    }
+                    target="_blank"
+                  >
+                    <div
+                      className="social-container"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "left": 0,
+                          "position": "absolute",
+                          "top": 0,
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <svg
+                        className="social-svg"
+                        style={
+                          Object {
+                            "borderRadius": "50%",
+                            "fillRule": "evenodd",
+                            "height": "100%",
+                            "left": 0,
+                            "position": "absolute",
+                            "top": 0,
+                            "width": "100%",
+                          }
+                        }
+                        viewBox="0 0 64 64"
+                      >
+                        <g
+                          className="social-svg-background"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "transparent",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <circle
+                            cx="32"
+                            cy="32"
+                            r="31"
+                          />
+                        </g>
+                        <g
+                          className="social-svg-icon"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "transparent",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <path
+                            d="M48,22.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6 C41.7,19.8,40,19,38.2,19c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5c-5.5-0.3-10.3-2.9-13.5-6.9c-0.6,1-0.9,2.1-0.9,3.3 c0,2.3,1.2,4.3,2.9,5.5c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1c2.9,1.9,6.4,2.9,10.1,2.9c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C46,24.5,47.1,23.4,48,22.1z"
+                          />
+                        </g>
+                        <g
+                          className="social-svg-mask"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "white",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <path
+                            d="M0,0v64h64V0H0z M44.7,25.5c0,0.3,0,0.6,0,0.8C44.7,35,38.1,45,26.1,45c-3.7,0-7.2-1.1-10.1-2.9 c0.5,0.1,1,0.1,1.6,0.1c3.1,0,5.9-1,8.2-2.8c-2.9-0.1-5.3-2-6.1-4.6c0.4,0.1,0.8,0.1,1.2,0.1c0.6,0,1.2-0.1,1.7-0.2 c-3-0.6-5.3-3.3-5.3-6.4c0,0,0-0.1,0-0.1c0.9,0.5,1.9,0.8,3,0.8c-1.8-1.2-2.9-3.2-2.9-5.5c0-1.2,0.3-2.3,0.9-3.3 c3.2,4,8.1,6.6,13.5,6.9c-0.1-0.5-0.2-1-0.2-1.5c0-3.6,2.9-6.6,6.6-6.6c1.9,0,3.6,0.8,4.8,2.1c1.5-0.3,2.9-0.8,4.2-1.6 c-0.5,1.5-1.5,2.8-2.9,3.6c1.3-0.2,2.6-0.5,3.8-1C47.1,23.4,46,24.5,44.7,25.5z"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                  </a>
+                  <a
+                    aria-label="linkedin"
+                    className="social-icon SocialIcons-button-144"
+                    fontSize="24px"
+                    href="https://www.linkedin.com/in/durgaprasad-budhwani"
+                    rel="noopener"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "height": "50px",
+                        "overflow": "hidden",
+                        "position": "relative",
+                        "verticalAlign": "middle",
+                        "width": "50px",
+                      }
+                    }
+                    target="_blank"
+                  >
+                    <div
+                      className="social-container"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "left": 0,
+                          "position": "absolute",
+                          "top": 0,
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <svg
+                        className="social-svg"
+                        style={
+                          Object {
+                            "borderRadius": "50%",
+                            "fillRule": "evenodd",
+                            "height": "100%",
+                            "left": 0,
+                            "position": "absolute",
+                            "top": 0,
+                            "width": "100%",
+                          }
+                        }
+                        viewBox="0 0 64 64"
+                      >
+                        <g
+                          className="social-svg-background"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "transparent",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <circle
+                            cx="32"
+                            cy="32"
+                            r="31"
+                          />
+                        </g>
+                        <g
+                          className="social-svg-icon"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "transparent",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <path
+                            d="M20.4,44h5.4V26.6h-5.4V44z M23.1,18c-1.7,0-3.1,1.4-3.1,3.1c0,1.7,1.4,3.1,3.1,3.1 c1.7,0,3.1-1.4,3.1-3.1C26.2,19.4,24.8,18,23.1,18z M39.5,26.2c-2.6,0-4.4,1.4-5.1,2.8h-0.1v-2.4h-5.2V44h5.4v-8.6 c0-2.3,0.4-4.5,3.2-4.5c2.8,0,2.8,2.6,2.8,4.6V44H46v-9.5C46,29.8,45,26.2,39.5,26.2z"
+                          />
+                        </g>
+                        <g
+                          className="social-svg-mask"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "white",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <path
+                            d="M0,0v64h64V0H0z M25.8,44h-5.4V26.6h5.4V44z M23.1,24.3c-1.7,0-3.1-1.4-3.1-3.1c0-1.7,1.4-3.1,3.1-3.1 c1.7,0,3.1,1.4,3.1,3.1C26.2,22.9,24.8,24.3,23.1,24.3z M46,44h-5.4v-8.4c0-2,0-4.6-2.8-4.6c-2.8,0-3.2,2.2-3.2,4.5V44h-5.4V26.6 h5.2V29h0.1c0.7-1.4,2.5-2.8,5.1-2.8c5.5,0,6.5,3.6,6.5,8.3V44z"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                  </a>
+                  <a
+                    aria-label="google"
+                    className="social-icon SocialIcons-button-144"
+                    fontSize="24px"
+                    href="https://plus.google.com/+DurgaprasadBudhwani"
+                    rel="noopener"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "height": "50px",
+                        "overflow": "hidden",
+                        "position": "relative",
+                        "verticalAlign": "middle",
+                        "width": "50px",
+                      }
+                    }
+                    target="_blank"
+                  >
+                    <div
+                      className="social-container"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "left": 0,
+                          "position": "absolute",
+                          "top": 0,
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <svg
+                        className="social-svg"
+                        style={
+                          Object {
+                            "borderRadius": "50%",
+                            "fillRule": "evenodd",
+                            "height": "100%",
+                            "left": 0,
+                            "position": "absolute",
+                            "top": 0,
+                            "width": "100%",
+                          }
+                        }
+                        viewBox="0 0 64 64"
+                      >
+                        <g
+                          className="social-svg-background"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "transparent",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <circle
+                            cx="32"
+                            cy="32"
+                            r="31"
+                          />
+                        </g>
+                        <g
+                          className="social-svg-icon"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "transparent",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <path
+                            d="M35.4,17h-8c-1.1,0-2.2,0.1-3.4,0.4 c-1.2,0.3-2.4,0.9-3.5,1.8c-1.7,1.6-2.5,3.4-2.5,5.4c0,1.6,0.6,3.1,1.8,4.3c1.1,1.3,2.7,2,4.9,2c0.4,0,0.8,0,1.3-0.1 c-0.1,0.2-0.2,0.4-0.2,0.7c-0.1,0.2-0.2,0.5-0.2,0.9c0,0.6,0.1,1.1,0.4,1.5c0.2,0.4,0.5,0.8,0.8,1.2c-0.9,0-2.1,0.1-3.5,0.4 c-1.4,0.2-2.8,0.7-4.1,1.5c-1.2,0.7-1.9,1.5-2.4,2.4c-0.5,0.9-0.7,1.7-0.7,2.5c0,1.5,0.7,2.8,2.1,3.9c1.4,1.2,3.5,1.8,6.3,1.8 c3.3-0.1,5.9-0.9,7.7-2.4c1.7-1.5,2.6-3.2,2.6-5.2c0-1.4-0.3-2.5-0.9-3.3c-0.6-0.8-1.4-1.6-2.2-2.3l-1.4-1.1 c-0.2-0.2-0.4-0.4-0.6-0.7c-0.2-0.3-0.4-0.6-0.4-1c0-0.4,0.1-0.8,0.4-1.1c0.2-0.3,0.4-0.6,0.7-0.8c0.4-0.4,0.8-0.7,1.2-1.1 c0.3-0.4,0.6-0.7,0.9-1.2c0.6-0.9,0.9-2,0.9-3.4c0-0.8-0.1-1.5-0.3-2.1c-0.2-0.6-0.5-1.1-0.7-1.5c-0.3-0.5-0.6-0.8-0.9-1.2 c-0.3-0.3-0.6-0.5-0.8-0.7H33L35.4,17z M31,38.9c0.7,0.8,1,1.6,1,2.7c0,1.3-0.5,2.3-1.5,3.1c-1,0.8-2.4,1.2-4.3,1.3 c-2.1,0-3.8-0.5-5-1.4c-1.3-0.9-1.9-2.1-1.9-3.5c0-0.7,0.1-1.3,0.4-1.8c0.3-0.5,0.6-0.9,0.9-1.2c0.4-0.3,0.8-0.6,1.1-0.7 c0.4-0.2,0.7-0.3,0.9-0.4c0.9-0.3,1.7-0.5,2.5-0.6c0.8-0.1,1.4-0.1,1.6-0.1c0.3,0,0.6,0,0.9,0C29.2,37.3,30.3,38.2,31,38.9z  M29.7,27.1c-0.1,0.5-0.3,1.1-0.7,1.6c-0.7,0.7-1.6,1.1-2.6,1.1c-0.8,0-1.6-0.3-2.2-0.8c-0.6-0.5-1.2-1.1-1.6-1.9 c-0.8-1.6-1.3-3.1-1.3-4.5c0-1.1,0.3-2.1,0.9-3c0.7-0.9,1.6-1.3,2.7-1.3c0.8,0,1.5,0.3,2.2,0.7c0.6,0.5,1.1,1.1,1.5,1.9 c0.8,1.6,1.2,3.2,1.2,4.8C29.8,26.1,29.8,26.5,29.7,27.1z M43.7,29.5v-4.3h-2.5v4.3H37V32h4.2v4.2h2.5V32H48v-2.5H43.7z"
+                          />
+                        </g>
+                        <g
+                          className="social-svg-mask"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "white",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <path
+                            d="M0,0v64h64V0H0z M31.3,19.1c0.3,0.3,0.6,0.7,0.9,1.2c0.3,0.4,0.5,0.9,0.7,1.5c0.2,0.6,0.3,1.3,0.3,2.1 c0,1.4-0.3,2.6-0.9,3.4c-0.3,0.4-0.6,0.8-0.9,1.2c-0.4,0.4-0.8,0.7-1.2,1.1c-0.2,0.2-0.5,0.5-0.7,0.8c-0.2,0.3-0.4,0.7-0.4,1.1 c0,0.4,0.1,0.8,0.4,1c0.2,0.3,0.4,0.5,0.6,0.7l1.4,1.1c0.8,0.7,1.6,1.5,2.2,2.3c0.6,0.8,0.9,2,0.9,3.3c0,1.9-0.9,3.7-2.6,5.2 c-1.8,1.6-4.3,2.4-7.7,2.4c-2.8,0-4.9-0.6-6.3-1.8c-1.4-1.1-2.1-2.4-2.1-3.9c0-0.7,0.2-1.6,0.7-2.5c0.4-0.9,1.2-1.7,2.4-2.4 c1.3-0.7,2.7-1.2,4.1-1.5c1.4-0.2,2.6-0.3,3.5-0.4c-0.3-0.4-0.5-0.8-0.8-1.2c-0.3-0.4-0.4-0.9-0.4-1.5c0-0.4,0-0.6,0.2-0.9 c0.1-0.2,0.2-0.5,0.2-0.7c-0.5,0.1-0.9,0.1-1.3,0.1c-2.1,0-3.8-0.7-4.9-2c-1.2-1.2-1.8-2.7-1.8-4.3c0-2,0.8-3.8,2.5-5.4 c1.1-0.9,2.3-1.6,3.5-1.8c1.2-0.2,2.3-0.4,3.4-0.4h8L33,18.4h-2.5C30.7,18.6,31,18.8,31.3,19.1z M48,32h-4.3v4.2h-2.5V32H37v-2.5 h4.2v-4.3h2.5v4.3H48V32z M27.1,19.1c-0.6-0.5-1.4-0.7-2.2-0.7c-1.1,0-2,0.5-2.7,1.3c-0.6,0.9-0.9,1.9-0.9,3c0,1.5,0.4,3,1.3,4.5 c0.4,0.7,0.9,1.4,1.6,1.9c0.6,0.5,1.4,0.8,2.2,0.8c1.1,0,1.9-0.4,2.6-1.1c0.3-0.5,0.6-1,0.7-1.6c0.1-0.5,0.1-1,0.1-1.4 c0-1.6-0.4-3.2-1.2-4.8C28.2,20.2,27.7,19.5,27.1,19.1z M26.9,36.2c-0.2,0-0.7,0-1.6,0.1c-0.8,0.1-1.7,0.3-2.5,0.6 c-0.2,0.1-0.5,0.2-0.9,0.4c-0.4,0.2-0.7,0.4-1.1,0.7c-0.4,0.3-0.7,0.7-0.9,1.2c-0.3,0.5-0.4,1.1-0.4,1.8c0,1.4,0.6,2.6,1.9,3.5 c1.2,0.9,2.9,1.4,5,1.4c1.9,0,3.3-0.4,4.3-1.3c1-0.8,1.5-1.8,1.5-3.1c0-1-0.3-1.9-1-2.7c-0.7-0.7-1.8-1.6-3.3-2.6 C27.5,36.2,27.2,36.2,26.9,36.2z"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                  </a>
+                  <a
+                    aria-label="github"
+                    className="social-icon SocialIcons-button-144"
+                    fontSize="24px"
+                    href="https://github.com/Durgaprasad-Budhwani"
+                    rel="noopener"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "height": "50px",
+                        "overflow": "hidden",
+                        "position": "relative",
+                        "verticalAlign": "middle",
+                        "width": "50px",
+                      }
+                    }
+                    target="_blank"
+                  >
+                    <div
+                      className="social-container"
+                      style={
+                        Object {
+                          "height": "100%",
+                          "left": 0,
+                          "position": "absolute",
+                          "top": 0,
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <svg
+                        className="social-svg"
+                        style={
+                          Object {
+                            "borderRadius": "50%",
+                            "fillRule": "evenodd",
+                            "height": "100%",
+                            "left": 0,
+                            "position": "absolute",
+                            "top": 0,
+                            "width": "100%",
+                          }
+                        }
+                        viewBox="0 0 64 64"
+                      >
+                        <g
+                          className="social-svg-background"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "transparent",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <circle
+                            cx="32"
+                            cy="32"
+                            r="31"
+                          />
+                        </g>
+                        <g
+                          className="social-svg-icon"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "transparent",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <path
+                            d="M32,16c-8.8,0-16,7.2-16,16c0,7.1,4.6,13.1,10.9,15.2 c0.8,0.1,1.1-0.3,1.1-0.8c0-0.4,0-1.4,0-2.7c-4.5,1-5.4-2.1-5.4-2.1c-0.7-1.8-1.8-2.3-1.8-2.3c-1.5-1,0.1-1,0.1-1 c1.6,0.1,2.5,1.6,2.5,1.6c1.4,2.4,3.7,1.7,4.7,1.3c0.1-1,0.6-1.7,1-2.1c-3.6-0.4-7.3-1.8-7.3-7.9c0-1.7,0.6-3.2,1.6-4.3 c-0.2-0.4-0.7-2,0.2-4.2c0,0,1.3-0.4,4.4,1.6c1.3-0.4,2.6-0.5,4-0.5c1.4,0,2.7,0.2,4,0.5c3.1-2.1,4.4-1.6,4.4-1.6 c0.9,2.2,0.3,3.8,0.2,4.2c1,1.1,1.6,2.5,1.6,4.3c0,6.1-3.7,7.5-7.3,7.9c0.6,0.5,1.1,1.5,1.1,3c0,2.1,0,3.9,0,4.4 c0,0.4,0.3,0.9,1.1,0.8C43.4,45.1,48,39.1,48,32C48,23.2,40.8,16,32,16z"
+                          />
+                        </g>
+                        <g
+                          className="social-svg-mask"
+                          style={
+                            Object {
+                              "MozTransition": "fill 170ms ease-in-out",
+                              "OTransition": "fill 170ms ease-in-out",
+                              "WebkitTransition": "fill 170ms ease-in-out",
+                              "fill": "white",
+                              "msTransition": "fill 170ms ease-in-out",
+                              "transition": "fill 170ms ease-in-out",
+                            }
+                          }
+                        >
+                          <path
+                            d="M0,0v64h64V0H0z M37.1,47.2c-0.8,0.2-1.1-0.3-1.1-0.8c0-0.5,0-2.3,0-4.4c0-1.5-0.5-2.5-1.1-3 c3.6-0.4,7.3-1.7,7.3-7.9c0-1.7-0.6-3.2-1.6-4.3c0.2-0.4,0.7-2-0.2-4.2c0,0-1.3-0.4-4.4,1.6c-1.3-0.4-2.6-0.5-4-0.5 c-1.4,0-2.7,0.2-4,0.5c-3.1-2.1-4.4-1.6-4.4-1.6c-0.9,2.2-0.3,3.8-0.2,4.2c-1,1.1-1.6,2.5-1.6,4.3c0,6.1,3.7,7.5,7.3,7.9 c-0.5,0.4-0.9,1.1-1,2.1c-0.9,0.4-3.2,1.1-4.7-1.3c0,0-0.8-1.5-2.5-1.6c0,0-1.6,0-0.1,1c0,0,1,0.5,1.8,2.3c0,0,0.9,3.1,5.4,2.1 c0,1.3,0,2.3,0,2.7c0,0.4-0.3,0.9-1.1,0.8C20.6,45.1,16,39.1,16,32c0-8.8,7.2-16,16-16c8.8,0,16,7.2,16,16 C48,39.1,43.4,45.1,37.1,47.2z"
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div
-          className="MuiGrid-item-5 MuiGrid-grid-xs-12-44"
-        >
-          <div>
-            <div
-              align="stretch"
-              className="MuiGrid-container-4 MuiGrid-direction-xs-column-7 MuiGrid-justify-xs-center-21"
-              id="skills"
+      </div>
+      <div
+        className="MuiGrid-item-5 MuiGrid-grid-xs-12-44"
+      >
+        <div>
+          <div
+            className="Info-container-146"
+          >
+            <button
+              className="MuiButtonBase-root-175 MuiButton-root-149 MuiButton-outlined-157 Info-button-148"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
+              type="button"
             >
               <span
-                className="SectionTitle-sectionTitle-182"
+                className="MuiButton-label-150"
               >
-                Professional Skills
+                Download Resume
               </span>
+              <span
+                className="MuiTouchRipple-root-256"
+              />
+            </button>
+            <p
+              className="Info-info-147"
+            >
+              Hello! I am Durgaprasad Budhwani. Full Stack Developer specializing in web, desktop, mobile design and development, I maintain a healthy balance between functionality and visual impact in all my work. I believe every piece of design can be a work of art. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-5 MuiGrid-grid-xs-12-44"
+      >
+        <div>
+          <div
+            className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-direction-xs-column-7 MuiGrid-justify-xs-center-21 MuiGrid-grid-xs-12-44 Experiences-container-178"
+          >
+            <span
+              className="SectionTitle-sectionTitle-182"
+            >
+              Work Experience
+            </span>
+            <div
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            >
               <div
-                className="MuiPaper-root-112 MuiPaper-elevation2-116 MuiPaper-rounded-113 Skills-root-184"
+                className="Experiences-clear-181"
               >
                 <div
-                  className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-justify-xs-space-between-23 MuiGrid-grid-xs-12-44"
+                  className="TimelineBar-bar-183 Experiences-barClass-179"
                 />
               </div>
             </div>
           </div>
         </div>
-        <div
-          className="MuiGrid-item-5 MuiGrid-grid-xs-12-44"
-        >
-          <div>
-            <div
-              className="MuiGrid-container-4 MuiGrid-direction-xs-column-7 Educations-container-187"
+      </div>
+      <div
+        className="MuiGrid-item-5 MuiGrid-grid-xs-12-44"
+      >
+        <div>
+          <div
+            align="stretch"
+            className="MuiGrid-container-4 MuiGrid-direction-xs-column-7 MuiGrid-justify-xs-center-21"
+            id="skills"
+          >
+            <span
+              className="SectionTitle-sectionTitle-182"
             >
-              <span
-                className="SectionTitle-sectionTitle-182"
-              >
-                Education
-              </span>
-              <div
-                style={
-                  Object {
-                    "position": "relative",
-                  }
-                }
-              >
-                <div
-                  className="Educations-clear-189"
-                >
-                  <div
-                    className="TimelineBar-bar-183 Educations-barClass-190"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="MuiGrid-item-5 MuiGrid-grid-xs-12-44"
-        >
-          <div>
+              Professional Skills
+            </span>
             <div
-              className=""
+              className="MuiPaper-root-112 MuiPaper-elevation2-116 MuiPaper-rounded-113 Skills-root-184"
             >
-              <span
-                className="SectionTitle-sectionTitle-182"
-              >
-                Articles
-              </span>
               <div
-                align="stretch"
                 className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-justify-xs-space-between-23 MuiGrid-grid-xs-12-44"
               />
             </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-5 MuiGrid-grid-xs-12-44"
+      >
+        <div>
+          <div
+            className="MuiGrid-container-4 MuiGrid-direction-xs-column-7 Educations-container-187"
+          >
+            <span
+              className="SectionTitle-sectionTitle-182"
+            >
+              Education
+            </span>
+            <div
+              style={
+                Object {
+                  "position": "relative",
+                }
+              }
+            >
+              <div
+                className="Educations-clear-189"
+              >
+                <div
+                  className="TimelineBar-bar-183 Educations-barClass-190"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-item-5 MuiGrid-grid-xs-12-44"
+      >
+        <div>
+          <div
+            className=""
+          >
+            <span
+              className="SectionTitle-sectionTitle-182"
+            >
+              Articles
+            </span>
+            <div
+              align="stretch"
+              className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-justify-xs-space-between-23 MuiGrid-grid-xs-12-44"
+            />
           </div>
         </div>
       </div>
@@ -811,7 +809,7 @@ exports[`renders content 1`] = `
               className="MuiPaper-root-112 MuiPaper-elevation2-116 MuiPaper-rounded-113 ContactForm-container-195"
             >
               <form
-                action="http://formspree.io/durgaprasad.budhwani@gmail.com"
+                action="https://formspree.io/durgaprasad.budhwani@gmail.com."
                 method="post"
               >
                 <div
@@ -830,24 +828,24 @@ exports[`renders content 1`] = `
                     className="MuiFormControl-root-197 MuiFormControl-marginNormal-198"
                   >
                     <label
-                      className="MuiFormLabel-root-208 MuiFormLabel-required-213 MuiInputLabel-root-201 MuiInputLabel-formControl-202 MuiInputLabel-animated-205"
+                      className="MuiFormLabel-root-212 MuiFormLabel-required-217 MuiInputLabel-required-205 MuiInputLabel-root-201 MuiInputLabel-formControl-206 MuiInputLabel-animated-209"
                       data-shrink={false}
                       htmlFor="name"
                     >
                       NAME
                       <span
-                        className="MuiFormLabel-asterisk-214"
+                        className="MuiFormLabel-asterisk-218"
                       >
                          *
                       </span>
                     </label>
                     <div
-                      className="MuiInputBase-root-228 MuiInput-root-215 MuiInput-underline-219 MuiInputBase-formControl-229 MuiInput-formControl-216"
+                      className="MuiInputBase-root-232 MuiInput-root-219 MuiInput-underline-223 MuiInputBase-formControl-233 MuiInput-formControl-220"
                       onClick={[Function]}
                     >
                       <input
                         aria-invalid={false}
-                        className="MuiInputBase-input-238 MuiInput-input-223"
+                        className="MuiInputBase-input-242 MuiInput-input-227"
                         disabled={false}
                         id="name"
                         name="name"
@@ -863,24 +861,24 @@ exports[`renders content 1`] = `
                     className="MuiFormControl-root-197 MuiFormControl-marginNormal-198"
                   >
                     <label
-                      className="MuiFormLabel-root-208 MuiFormLabel-required-213 MuiInputLabel-root-201 MuiInputLabel-formControl-202 MuiInputLabel-animated-205"
+                      className="MuiFormLabel-root-212 MuiFormLabel-required-217 MuiInputLabel-required-205 MuiInputLabel-root-201 MuiInputLabel-formControl-206 MuiInputLabel-animated-209"
                       data-shrink={false}
                       htmlFor="email"
                     >
                       EMAIL
                       <span
-                        className="MuiFormLabel-asterisk-214"
+                        className="MuiFormLabel-asterisk-218"
                       >
                          *
                       </span>
                     </label>
                     <div
-                      className="MuiInputBase-root-228 MuiInput-root-215 MuiInput-underline-219 MuiInputBase-formControl-229 MuiInput-formControl-216"
+                      className="MuiInputBase-root-232 MuiInput-root-219 MuiInput-underline-223 MuiInputBase-formControl-233 MuiInput-formControl-220"
                       onClick={[Function]}
                     >
                       <input
                         aria-invalid={false}
-                        className="MuiInputBase-input-238 MuiInput-input-223 MuiInputBase-inputType-241 MuiInput-inputType-226"
+                        className="MuiInputBase-input-242 MuiInput-input-227 MuiInputBase-inputType-245 MuiInput-inputType-230"
                         disabled={false}
                         id="email"
                         name="email"
@@ -896,24 +894,24 @@ exports[`renders content 1`] = `
                     className="MuiFormControl-root-197 MuiFormControl-marginNormal-198"
                   >
                     <label
-                      className="MuiFormLabel-root-208 MuiFormLabel-required-213 MuiInputLabel-root-201 MuiInputLabel-formControl-202 MuiInputLabel-animated-205"
+                      className="MuiFormLabel-root-212 MuiFormLabel-required-217 MuiInputLabel-required-205 MuiInputLabel-root-201 MuiInputLabel-formControl-206 MuiInputLabel-animated-209"
                       data-shrink={false}
                       htmlFor="subject"
                     >
                       SUBJECT
                       <span
-                        className="MuiFormLabel-asterisk-214"
+                        className="MuiFormLabel-asterisk-218"
                       >
                          *
                       </span>
                     </label>
                     <div
-                      className="MuiInputBase-root-228 MuiInput-root-215 MuiInput-underline-219 MuiInputBase-formControl-229 MuiInput-formControl-216"
+                      className="MuiInputBase-root-232 MuiInput-root-219 MuiInput-underline-223 MuiInputBase-formControl-233 MuiInput-formControl-220"
                       onClick={[Function]}
                     >
                       <input
                         aria-invalid={false}
-                        className="MuiInputBase-input-238 MuiInput-input-223"
+                        className="MuiInputBase-input-242 MuiInput-input-227"
                         disabled={false}
                         id="subject"
                         name="subject"
@@ -929,27 +927,27 @@ exports[`renders content 1`] = `
                     className="MuiFormControl-root-197 MuiFormControl-marginNormal-198"
                   >
                     <label
-                      className="MuiFormLabel-root-208 MuiFormLabel-required-213 MuiInputLabel-root-201 MuiInputLabel-formControl-202 MuiInputLabel-animated-205"
+                      className="MuiFormLabel-root-212 MuiFormLabel-required-217 MuiInputLabel-required-205 MuiInputLabel-root-201 MuiInputLabel-formControl-206 MuiInputLabel-animated-209"
                       data-shrink={false}
                       htmlFor="message"
                     >
                       MESSAGE
                       <span
-                        className="MuiFormLabel-asterisk-214"
+                        className="MuiFormLabel-asterisk-218"
                       >
                          *
                       </span>
                     </label>
                     <div
-                      className="MuiInputBase-root-228 MuiInput-root-215 MuiInput-underline-219 MuiInputBase-formControl-229 MuiInput-formControl-216 MuiInputBase-multiline-236 MuiInput-multiline-221"
+                      className="MuiInputBase-root-232 MuiInput-root-219 MuiInput-underline-223 MuiInputBase-formControl-233 MuiInput-formControl-220 MuiInputBase-multiline-240 MuiInput-multiline-225"
                       onClick={[Function]}
                     >
                       <div
-                        className="MuiPrivateTextarea-root-245"
+                        className="MuiPrivateTextarea-root-249"
                       >
                         <textarea
                           aria-hidden="true"
-                          className="MuiPrivateTextarea-textarea-246 MuiPrivateTextarea-shadow-247"
+                          className="MuiPrivateTextarea-textarea-250 MuiPrivateTextarea-shadow-251"
                           readOnly={true}
                           rows="1"
                           tabIndex={-1}
@@ -957,14 +955,14 @@ exports[`renders content 1`] = `
                         />
                         <textarea
                           aria-hidden="true"
-                          className="MuiPrivateTextarea-textarea-246 MuiPrivateTextarea-shadow-247"
+                          className="MuiPrivateTextarea-textarea-250 MuiPrivateTextarea-shadow-251"
                           readOnly={true}
                           rows={1}
                           tabIndex={-1}
                         />
                         <textarea
                           aria-invalid={false}
-                          className="MuiPrivateTextarea-textarea-246 MuiInputBase-input-238 MuiInput-input-223 MuiInputBase-inputMultiline-240 MuiInput-inputMultiline-225"
+                          className="MuiPrivateTextarea-textarea-250 MuiInputBase-input-242 MuiInput-input-227 MuiInputBase-inputMultiline-244 MuiInput-inputMultiline-229"
                           disabled={false}
                           id="message"
                           name="message"
@@ -984,9 +982,10 @@ exports[`renders content 1`] = `
                   </div>
                   <div>
                     <button
-                      className="MuiButtonBase-root-175 MuiButton-root-149 MuiButton-text-151 MuiButton-textPrimary-152 MuiButton-flat-154 MuiButton-flatPrimary-155 ContactForm-button-196"
+                      className="MuiButtonBase-root-175 MuiButton-root-149 MuiButton-contained-160 MuiButton-containedPrimary-161 MuiButton-raised-163 MuiButton-raisedPrimary-164 ContactForm-button-196"
                       disabled={false}
                       onBlur={[Function]}
+                      onContextMenu={[Function]}
                       onFocus={[Function]}
                       onKeyDown={[Function]}
                       onKeyUp={[Function]}
@@ -996,7 +995,6 @@ exports[`renders content 1`] = `
                       onTouchEnd={[Function]}
                       onTouchMove={[Function]}
                       onTouchStart={[Function]}
-                      raised={true}
                       tabIndex="0"
                       type="submit"
                     >
@@ -1006,7 +1004,7 @@ exports[`renders content 1`] = `
                         SEND
                       </span>
                       <span
-                        className="MuiTouchRipple-root-252"
+                        className="MuiTouchRipple-root-256"
                       />
                     </button>
                   </div>
@@ -1018,13 +1016,13 @@ exports[`renders content 1`] = `
             className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MuiGrid-grid-lg-6-80 About-itemContainer-194"
           >
             <div
-              className="MuiPaper-root-112 MuiPaper-elevation2-116 MuiPaper-rounded-113 MapContainer-container-248"
+              className="MuiPaper-root-112 MuiPaper-elevation2-116 MuiPaper-rounded-113 MapContainer-container-252"
             >
               <div
-                className="MuiGrid-container-4 MuiGrid-direction-xs-column-7 MapContainer-gridContainer-250"
+                className="MuiGrid-container-4 MuiGrid-direction-xs-column-7 MapContainer-gridContainer-254"
               >
                 <div
-                  className="MuiGrid-item-5 MapContainer-contactContainer-249"
+                  className="MuiGrid-item-5 MapContainer-contactContainer-253"
                 >
                   <div
                     className="MuiGrid-container-4 MuiGrid-item-5 MuiGrid-spacing-xs-24-28 MuiGrid-direction-xs-column-7"
@@ -1087,7 +1085,7 @@ exports[`renders content 1`] = `
                   </div>
                 </div>
                 <div
-                  className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MapContainer-mapContainer-251"
+                  className="MuiGrid-item-5 MuiGrid-grid-xs-12-44 MapContainer-mapContainer-255"
                 >
                   <div />
                 </div>
