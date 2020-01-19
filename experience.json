@@ -1,6 +1,12 @@
 [
   {
-    "year": "Jan 2018 - present",
+    "year": "Feb 2019 - present",
+    "company": "Aula Education",
+    "title": "Full Stack Golang, NodeJs, React Developer at Aula Education",
+    "description": "Responsible for developing the web application in ReactJs with Redux, Golang and AWS Lambda."
+  },
+  {
+    "year": "Jan 2018 - Feb 2019",
     "company": "Tech 9",
     "title": "Full Stack Golang, .NET, React Developer / Architect / AWS Certified Developer at Tech9",
     "description": "Responsible for developing the web application in ReactJs with Redux, Golang and AWS Lambda."
