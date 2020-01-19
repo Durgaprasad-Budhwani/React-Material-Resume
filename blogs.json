@@ -26,5 +26,12 @@
     "url": "https://medium.com/@durgaprasadbudhwani/azure-cosmos-db-build-a-mongodb-api-console-app-with-golang-and-the-azure-portal-e0ba56d03295",
     "day": "26",
     "month": "May"
+  },
+  {
+    "title": "Step by step guide to deploy Golang Application on Azure Web App",
+    "image": "https://media.licdn.com/media/gcrc/dms/image/C4E12AQH3GL0t09R4Xw/article-cover_image-shrink_720_1280/0?e=2125267200&v=beta&t=Nq05spEKRsrxqnwGKa6XEOPTTCvnJr1id6qBgumr2KM",
+    "url": "https://medium.com/@durgaprasadbudhwani/step-by-step-guide-to-deploy-golang-application-on-azure-web-app-46ba3befb4c0",
+    "day": "18",
+    "month": "Dec"
   }
 ]
